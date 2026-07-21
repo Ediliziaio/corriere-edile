@@ -1,0 +1,114 @@
+"use client";
+
+import Link from "next/link";
+import { Facebook, Linkedin, Instagram, Twitter, Cookie } from "lucide-react";
+import { CATEGORIES } from "@/data/articles";
+import { categoryUrl } from "@/lib/categories";
+import { reopenCookiePreferences } from "@/lib/consent";
+
+export default function Footer() {
+  return (
+    <footer className="bg-navy-900 text-navy-100">
+      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-12 md:grid-cols-4">
+        {/* Brand + descrizione */}
+        <div className="space-y-4">
+          <Link href="/" aria-label="Corriere Edile — homepage">
+            <img
+              src="/logo.png"
+              alt="Corriere Edile — il portale delle costruzioni"
+              className="h-12 w-auto rounded bg-white p-1"
+              width={180}
+              height={60}
+            />
+          </Link>
+          <p className="text-sm leading-relaxed text-navy-200">
+            Il quotidiano digitale per imprese edili, artigiani, serramentisti e professionisti delle
+            costruzioni. Notizie, norme e bonus, spiegati da chi il cantiere lo vive.
+          </p>
+          <div className="flex gap-3" aria-label="Social Corriere Edile">
+            {[Facebook, Linkedin, Instagram, Twitter].map((Icon, i) => (
+              <a key={i} href="#" aria-label="Seguici sui social" className="hover:text-gold-500">
+                <Icon className="h-5 w-5" />
+              </a>
+            ))}
+          </div>
+        </div>
+
+        {/* Sezioni */}
+        <nav aria-label="Sezioni del sito">
+          <h2 className="mb-3 font-serif text-lg font-bold text-white">Sezioni</h2>
+          <ul className="grid grid-cols-1 gap-1.5 text-sm">
+            {CATEGORIES.map((c) => (
+              <li key={c}>
+                <Link href={categoryUrl(c)} className="hover:text-gold-500">{c}</Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
+        {/* Info legali */}
+        <nav aria-label="Informazioni">
+          <h2 className="mb-3 font-serif text-lg font-bold text-white">La testata</h2>
+          <ul className="space-y-1.5 text-sm">
+            <li><Link href="/chi-siamo" className="hover:text-gold-500">Chi siamo</Link></li>
+            <li><Link href="/chi-siamo" className="hover:text-gold-500">Redazione</Link></li>
+            <li><Link href="/contatti" className="hover:text-gold-500">Contatti</Link></li>
+            <li><Link href="/contatti" className="hover:text-gold-500">Pubblicità</Link></li>
+            <li><Link href="/privacy-policy" className="hover:text-gold-500">Privacy Policy</Link></li>
+            <li><Link href="/cookie-policy" className="hover:text-gold-500">Cookie Policy</Link></li>
+            <li><Link href="/termini" className="hover:text-gold-500">Termini e condizioni</Link></li>
+            <li>
+              <button
+                type="button"
+                onClick={reopenCookiePreferences}
+                className="inline-flex items-center gap-1.5 hover:text-gold-500"
+              >
+                <Cookie className="h-3.5 w-3.5" aria-hidden="true" /> Gestisci cookie
+              </button>
+            </li>
+            <li>
+              <Link href="/seo-blueprint" className="text-gold-500 hover:underline">
+                SEO Blueprint ↗
+              </Link>
+            </li>
+          </ul>
+        </nav>
+
+        {/* Newsletter mini-form */}
+        <div>
+          <h2 className="mb-3 font-serif text-lg font-bold text-white">Newsletter del cantiere</h2>
+          <p className="mb-3 text-sm text-navy-200">
+            Ogni mattina alle 7: norme, bonus e appalti nella tua casella.
+          </p>
+          <form
+            className="flex gap-2"
+            aria-label="Iscrizione newsletter"
+            onSubmit={(e) => e.preventDefault()}
+          >
+            <label htmlFor="footer-email" className="sr-only">La tua email</label>
+            <input
+              id="footer-email"
+              type="email"
+              required
+              placeholder="La tua email"
+              className="w-full rounded-md border border-navy-700 bg-navy-800 px-3 py-2 text-sm text-white placeholder:text-navy-200/60 focus:border-gold-500 focus:outline-none"
+            />
+            <button
+              type="submit"
+              className="shrink-0 rounded-md bg-gold-500 px-4 py-2 text-sm font-bold text-navy-900 hover:bg-gold-600"
+            >
+              Iscriviti
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div className="border-t border-navy-800">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-4 text-xs text-navy-200 sm:flex-row">
+          <p>© 2026 Corriere Edile S.r.l. — P.IVA 01234567890</p>
+          <p>Testata giornalistica registrata presso il Tribunale di Milano n. 123/2026</p>
+        </div>
+      </div>
+    </footer>
+  );
+}

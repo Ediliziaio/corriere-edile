@@ -1,0 +1,13 @@
+{
+  "name": "Corriere Edile",
+  "short_name": "Corriere Edile",
+  "description": "Notizie, normativa e bonus per il mondo delle costruzioni",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#16345C",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
