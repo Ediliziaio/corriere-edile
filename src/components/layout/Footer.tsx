@@ -105,8 +105,11 @@ export default function Footer() {
 
       <div className="border-t border-navy-800">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-4 text-xs text-navy-200 sm:flex-row">
-          <p>© 2026 Corriere Edile S.r.l. — P.IVA 01234567890</p>
-          <p>Testata giornalistica registrata presso il Tribunale di Milano n. 123/2026</p>
+          <p>© 2026 Corriere Edile — Editore: Domus Group S.r.l.</p>
+          <p>
+            Via Aurelio Saffi 29, 20123 Milano · P.IVA 13132010961 · Cap. soc. € 20.000,00 · PEC:{" "}
+            domusgroupsrl@legalmail.it
+          </p>
         </div>
       </div>
     </footer>

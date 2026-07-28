@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import ArticleView from "@/components/ArticleView";
-import { SITE, jsonLd } from "@/lib/site";
+import { SITE, jsonLd, absUrl } from "@/lib/site";
 import { categoryUrl } from "@/lib/categories";
 import { ALL_ARTICLES, getArticleBySlug } from "@/data/fullArticles";
 
@@ -28,7 +28,7 @@ export async function generateMetadata({
     alternates: { canonical: url },
     openGraph: {
       type: "article",
-      url: `${SITE.url}${url}`,
+      url: absUrl(url),
       title: article.metaTitle,
       description: article.metaDescription,
       publishedTime: article.published,
@@ -36,7 +36,7 @@ export async function generateMetadata({
       section: article.category,
       tags: article.tags,
       authors: [article.author.name],
-      images: [{ url: article.image, width: 1200, height: 675, alt: article.imageAlt }],
+      images: [{ url: article.image, width: 1200, height: 630, alt: article.imageAlt }],
     },
     twitter: {
       card: "summary_large_image",
@@ -56,7 +56,8 @@ export default async function ArticlePage({
   const article = getArticleBySlug(slug);
   if (!article) notFound();
 
-  const url = `${SITE.url}/articolo/${article.slug}`;
+  // Sempre con trailing slash: deve combaciare esattamente con il rel=canonical
+  const url = absUrl(`/articolo/${article.slug}`);
   const imageAbs = `${SITE.url}${article.image}`;
 
   /*
@@ -83,22 +84,20 @@ export default async function ArticlePage({
         jobTitle: article.author.role,
         description: article.author.bio,
       },
-      publisher: {
-        "@type": "NewsMediaOrganization",
-        name: SITE.name,
-        logo: { "@type": "ImageObject", url: SITE.logo },
-      },
+      // Riferimento all'entità Organization globale (@id) invece di ridichiararla:
+      // consolida i segnali dell'editore su un'unica entità nel knowledge graph.
+      publisher: { "@id": `${SITE.url}/#organization` },
     },
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: SITE.url },
+        { "@type": "ListItem", position: 1, name: "Home", item: absUrl("/") },
         {
           "@type": "ListItem",
           position: 2,
           name: article.category,
-          item: `${SITE.url}${categoryUrl(article.category)}`,
+          item: absUrl(categoryUrl(article.category)),
         },
         { "@type": "ListItem", position: 3, name: article.title, item: url },
       ],

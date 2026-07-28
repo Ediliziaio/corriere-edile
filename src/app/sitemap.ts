@@ -26,7 +26,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "privacy-policy", priority: 0.3 },
     { path: "cookie-policy", priority: 0.3 },
     { path: "termini", priority: 0.3 },
-    { path: "seo-blueprint", priority: 0.2 },
   ].map((p) => ({
     url: `${SITE.url}/${p.path}/`,
     lastModified: new Date("2026-07-21"),

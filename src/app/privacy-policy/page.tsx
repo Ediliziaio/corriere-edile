@@ -13,23 +13,27 @@ export default function PrivacyPolicy() {
   return (
     <LegalPage title="Privacy Policy" updated="21 luglio 2026">
       <PlaceholderNote>
-        i dati societari riportati in questa pagina (ragione sociale, P.IVA, recapiti, DPO) sono
-        dimostrativi e vanno sostituiti con quelli reali prima della pubblicazione.
+        gli indirizzi email operativi (privacy@, dpo@) e l'eventuale nomina del DPO vanno confermati
+        e allineati al dominio reale prima della pubblicazione.
       </PlaceholderNote>
 
       <LegalSection id="titolare" title="1. Titolare del trattamento">
         <p>
-          Il Titolare del trattamento dei dati personali è <strong>Corriere Edile S.r.l.</strong>,
-          P.IVA 00000000000, con sede legale in Via dei Cantieri 1, 20121 Milano (MI), Italia.
+          Il Titolare del trattamento dei dati personali è <strong>Domus Group S.r.l.</strong>,
+          P.IVA 13132010961, con sede legale in Via Aurelio Saffi 29, 20123 Milano (MI), Italia. PEC:{" "}
+          <a href="mailto:domusgroupsrl@legalmail.it" className="font-medium text-navy underline decoration-gold-500 underline-offset-2 hover:text-gold-600">
+            domusgroupsrl@legalmail.it
+          </a>
+          .
         </p>
         <p>
           Per qualsiasi richiesta relativa alla privacy è possibile scrivere a{" "}
-          <a href="mailto:privacy@corriereadile.it" className="font-medium text-navy underline decoration-gold-500 underline-offset-2 hover:text-gold-600">
-            privacy@corriereadile.it
+          <a href="mailto:privacy@corrieredile.it" className="font-medium text-navy underline decoration-gold-500 underline-offset-2 hover:text-gold-600">
+            privacy@corrieredile.it
           </a>
           . Il Data Protection Officer (DPO), ove nominato, è raggiungibile all'indirizzo{" "}
-          <a href="mailto:dpo@corriereadile.it" className="font-medium text-navy underline decoration-gold-500 underline-offset-2 hover:text-gold-600">
-            dpo@corriereadile.it
+          <a href="mailto:dpo@corrieredile.it" className="font-medium text-navy underline decoration-gold-500 underline-offset-2 hover:text-gold-600">
+            dpo@corrieredile.it
           </a>
           .
         </p>
@@ -121,8 +125,8 @@ export default function PrivacyPolicy() {
         </ul>
         <p>
           Le richieste possono essere inviate a{" "}
-          <a href="mailto:privacy@corriereadile.it" className="font-medium text-navy underline decoration-gold-500 underline-offset-2 hover:text-gold-600">
-            privacy@corriereadile.it
+          <a href="mailto:privacy@corrieredile.it" className="font-medium text-navy underline decoration-gold-500 underline-offset-2 hover:text-gold-600">
+            privacy@corrieredile.it
           </a>
           . Hai inoltre diritto di proporre reclamo al Garante per la protezione dei dati personali
           (<a href="https://www.garanteprivacy.it" target="_blank" rel="noopener" className="font-medium text-navy underline decoration-gold-500 underline-offset-2 hover:text-gold-600">

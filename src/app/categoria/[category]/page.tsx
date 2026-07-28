@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronRight } from "lucide-react";
 import ArticleCard, { articleUrl } from "@/components/ArticleCard";
-import { SITE, jsonLd } from "@/lib/site";
+import { SITE, jsonLd, absUrl } from "@/lib/site";
 import { getArticlesByCategory } from "@/data/fullArticles";
 import { CATEGORY_LIST, getCategoryBySlug } from "@/lib/categories";
 
@@ -32,7 +32,7 @@ export async function generateMetadata({
     alternates: { canonical: `/categoria/${category.slug}` },
     openGraph: {
       type: "website",
-      url: `${SITE.url}/categoria/${category.slug}`,
+      url: absUrl(`/categoria/${category.slug}`),
       title: `${category.name} | Corriere Edile`,
       description: category.description,
       images: [{ url: "/images/og-default.jpg", width: 1200, height: 630 }],
@@ -50,7 +50,8 @@ export default async function CategoryPage({
   if (!category) notFound();
 
   const articles = getArticlesByCategory(category.name);
-  const canonical = `${SITE.url}/categoria/${category.slug}`;
+  // Con trailing slash: identico al rel=canonical emesso dai metadata
+  const canonical = absUrl(`/categoria/${category.slug}`);
 
   // CollectionPage + ItemList: la griglia diventa eleggibile per caroselli/sitelinks in SERP
   const jsonLdBlocks = [
@@ -61,7 +62,7 @@ export default async function CategoryPage({
       description: category.description,
       url: canonical,
       inLanguage: "it-IT",
-      isPartOf: { "@type": "WebSite", name: SITE.name, url: SITE.url },
+      isPartOf: { "@id": `${SITE.url}/#website` },
     },
     {
       "@context": "https://schema.org",
@@ -69,7 +70,7 @@ export default async function CategoryPage({
       itemListElement: articles.map((a, i) => ({
         "@type": "ListItem",
         position: i + 1,
-        url: `${SITE.url}${articleUrl(a.slug)}`,
+        url: absUrl(articleUrl(a.slug)),
         name: a.title,
       })),
     },
@@ -77,7 +78,7 @@ export default async function CategoryPage({
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: SITE.url },
+        { "@type": "ListItem", position: 1, name: "Home", item: absUrl("/") },
         { "@type": "ListItem", position: 2, name: category.name, item: canonical },
       ],
     },

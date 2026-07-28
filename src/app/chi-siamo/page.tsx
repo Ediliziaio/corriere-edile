@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import LegalPage, { LegalSection, PlaceholderNote } from "@/components/legal/LegalPage";
-import { SITE, jsonLd } from "@/lib/site";
+import { SITE, jsonLd, absUrl } from "@/lib/site";
 import { ALL_ARTICLES, type ArticleAuthor } from "@/data/fullArticles";
 
 export const metadata: Metadata = {
@@ -30,12 +30,13 @@ const ABOUT_JSONLD = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
   name: "Chi siamo — Corriere Edile",
-  url: `${SITE.url}/chi-siamo`,
+  url: absUrl("/chi-siamo"),
   inLanguage: "it-IT",
   mainEntity: {
     "@type": "NewsMediaOrganization",
     name: SITE.name,
-    url: SITE.url,
+    "@id": `${SITE.url}/#organization`,
+    url: absUrl("/"),
     logo: { "@type": "ImageObject", url: SITE.logo },
   },
 };
@@ -106,8 +107,8 @@ export default function ChiSiamo() {
         <LegalSection id="contatti-redazione" title="Contatti della redazione">
           <p>
             Per segnalazioni, comunicati stampa e proposte di collaborazione:{" "}
-            <a href="mailto:redazione@corriereadile.it" className="font-medium text-navy underline decoration-gold-500 underline-offset-2 hover:text-gold-600">
-              redazione@corriereadile.it
+            <a href="mailto:redazione@corrieredile.it" className="font-medium text-navy underline decoration-gold-500 underline-offset-2 hover:text-gold-600">
+              redazione@corrieredile.it
             </a>
             . Per tutti gli altri contatti usa la{" "}
             <Link href="/contatti" className="font-medium text-navy underline decoration-gold-500 underline-offset-2 hover:text-gold-600">
@@ -121,7 +122,7 @@ export default function ChiSiamo() {
           </PlaceholderNote>
           <p className="flex items-center gap-2 text-sm text-muted-foreground">
             <Mail className="h-4 w-4 text-gold-600" aria-hidden="true" />
-            Corriere Edile S.r.l. — Via dei Cantieri 1, 20121 Milano (placeholder)
+            Domus Group S.r.l. — Via Aurelio Saffi 29, 20123 Milano
           </p>
         </LegalSection>
       </LegalPage>

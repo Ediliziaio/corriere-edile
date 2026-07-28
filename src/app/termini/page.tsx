@@ -19,8 +19,8 @@ export default function Termini() {
 
       <LegalSection id="oggetto" title="1. Oggetto">
         <p>
-          I presenti termini regolano l'utilizzo del sito corriereadile.it (di seguito "il Sito"),
-          edito da <strong>Corriere Edile S.r.l.</strong> (placeholder). Accedendo al Sito l'utente
+          I presenti termini regolano l'utilizzo del sito corrieredile.it (di seguito "il Sito"),
+          edito da <strong>Domus Group S.r.l.</strong>. Accedendo al Sito l'utente
           accetta integralmente questi termini; in caso di mancata accettazione è invitato a non
           utilizzare il Sito.
         </p>
@@ -44,7 +44,7 @@ export default function Termini() {
       <LegalSection id="proprieta-intellettuale" title="3. Proprietà intellettuale">
         <p>
           Testi, grafiche, copertine editoriali, logo e impaginazione del Sito sono di titolarità di
-          Corriere Edile S.r.l. o dei rispettivi licenzianti e sono protetti dalla normativa sul
+          Domus Group S.r.l. o dei rispettivi licenzianti e sono protetti dalla normativa sul
           diritto d'autore. È vietata la riproduzione, anche parziale, senza autorizzazione scritta,
           salvo il diritto di breve citazione con indicazione della fonte e link all'articolo
           originale.
@@ -53,7 +53,7 @@ export default function Termini() {
 
       <LegalSection id="responsabilita" title="4. Limitazione di responsabilità">
         <p>
-          Corriere Edile S.r.l. non risponde di danni diretti o indiretti derivanti dall'uso delle
+          Domus Group S.r.l. non risponde di danni diretti o indiretti derivanti dall'uso delle
           informazioni pubblicate, da errori od omissioni nei contenuti, né del contenuto dei siti
           esterni raggiungibili tramite link, che sono forniti come riferimento e non implicano
           alcuna approvazione o controllo.

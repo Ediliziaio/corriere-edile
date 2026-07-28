@@ -32,8 +32,8 @@ export default function Contatti() {
               <Mail className="mt-0.5 h-5 w-5 shrink-0 text-gold-600" aria-hidden="true" />
               <div>
                 <p className="font-semibold text-navy-800">Redazione</p>
-                <a href="mailto:redazione@corriereadile.it" className="text-navy underline decoration-gold-500 underline-offset-2 hover:text-gold-600">
-                  redazione@corriereadile.it
+                <a href="mailto:redazione@corrieredile.it" className="text-navy underline decoration-gold-500 underline-offset-2 hover:text-gold-600">
+                  redazione@corrieredile.it
                 </a>
               </div>
             </li>
@@ -41,8 +41,8 @@ export default function Contatti() {
               <Mail className="mt-0.5 h-5 w-5 shrink-0 text-gold-600" aria-hidden="true" />
               <div>
                 <p className="font-semibold text-navy-800">Pubblicità e partnership</p>
-                <a href="mailto:pubblicita@corriereadile.it" className="text-navy underline decoration-gold-500 underline-offset-2 hover:text-gold-600">
-                  pubblicita@corriereadile.it
+                <a href="mailto:pubblicita@corrieredile.it" className="text-navy underline decoration-gold-500 underline-offset-2 hover:text-gold-600">
+                  pubblicita@corrieredile.it
                 </a>
               </div>
             </li>
@@ -58,16 +58,16 @@ export default function Contatti() {
               <div>
                 <p className="font-semibold text-navy-800">Sede</p>
                 <p className="text-muted-foreground">
-                  Corriere Edile S.r.l.
+                  Domus Group S.r.l.
                   <br />
-                  Via dei Cantieri 1, 20121 Milano (MI)
+                  Via Aurelio Saffi 29, 20123 Milano (MI)
                 </p>
               </div>
             </li>
           </ul>
           <div className="mt-5">
             <PlaceholderNote>
-              email, telefono e indirizzo sono dimostrativi e vanno sostituiti con i recapiti reali.
+              gli indirizzi email e il telefono sono dimostrativi e vanno sostituiti con i recapiti reali.
             </PlaceholderNote>
           </div>
         </aside>
@@ -79,8 +79,8 @@ export default function Contatti() {
             La redazione legge tutte le segnalazioni. Le richieste di correzione sui contenuti sono
             valutate con priorità; le proposte commerciali ricevono risposta entro 2 giorni
             lavorativi. Per urgenze normative o legali scrivere a{" "}
-            <a href="mailto:privacy@corriereadile.it" className="font-medium text-navy underline decoration-gold-500 underline-offset-2 hover:text-gold-600">
-              privacy@corriereadile.it
+            <a href="mailto:privacy@corrieredile.it" className="font-medium text-navy underline decoration-gold-500 underline-offset-2 hover:text-gold-600">
+              privacy@corrieredile.it
             </a>
             .
           </p>

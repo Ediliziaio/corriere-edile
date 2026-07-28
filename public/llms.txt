@@ -1,0 +1,45 @@
+# Corriere Edile
+
+> Portale italiano di informazione professionale per il settore delle costruzioni:
+> normativa edilizia, bonus e detrazioni fiscali, mercato, prodotti e cantieri.
+> Rivolto a imprese edili, artigiani, serramentisti, progettisti e professionisti tecnici.
+
+Editore: Domus Group S.r.l. — Via Aurelio Saffi 29, 20123 Milano (MI), Italia
+P.IVA 13132010961 — PEC domusgroupsrl@legalmail.it
+Sito: https://www.corrieredile.it/
+Lingua: it-IT
+
+Nota: Corriere Edile è una testata digitale di informazione professionale.
+I contenuti su normativa e fiscalità hanno scopo informativo e non sostituiscono
+il parere di un professionista abilitato.
+
+## Sezioni editoriali
+
+- [Attualità](https://www.corrieredile.it/categoria/attualita/): notizie e tendenze del settore costruzioni
+- [Normativa](https://www.corrieredile.it/categoria/normativa/): norme, decreti e direttive per l'edilizia italiana
+- [Bonus & Fisco](https://www.corrieredile.it/categoria/bonus-fisco/): detrazioni, incentivi e agevolazioni fiscali
+- [Mercato](https://www.corrieredile.it/categoria/mercato/): dati, prezzi dei materiali e previsioni di settore
+- [Prodotti & Materiali](https://www.corrieredile.it/categoria/prodotti-materiali/): serramenti, isolanti, impianti
+- [Progetti](https://www.corrieredile.it/categoria/progetti/): ristrutturazioni, efficienza energetica, costi al mq
+- [Cantieri](https://www.corrieredile.it/categoria/cantieri/): sicurezza, posa in opera, organizzazione del lavoro
+- [Eventi & Fiere](https://www.corrieredile.it/categoria/eventi-fiere/): fiere e appuntamenti della filiera
+
+## Guide di riferimento
+
+- [Bonus edilizi 2026: guida completa](https://www.corrieredile.it/articolo/bonus-edilizi-2026-guida-completa/): aliquote, massimali, adempimenti
+- [CILA, SCIA e permesso di costruire 2026](https://www.corrieredile.it/articolo/cila-scia-permessi-2026-guida-pratiche/): quale pratica serve per ogni intervento
+- [Conto Termico 3.0](https://www.corrieredile.it/articolo/conto-termico-3-0-guida-incentivi/): incentivi per imprese e condomini
+- [Direttiva Case Green](https://www.corrieredile.it/articolo/direttiva-case-green-2026-cosa-cambia/): obblighi e scadenze
+- [Salva Casa](https://www.corrieredile.it/articolo/salva-casa-sanatoria-irregolarita-edilizie/): sanatoria delle irregolarità edilizie
+- [Sicurezza in cantiere 2026](https://www.corrieredile.it/articolo/sicurezza-cantieri-2026-nuove-regole/): patente a crediti e adempimenti
+- [Ristrutturare casa nel 2026](https://www.corrieredile.it/articolo/ristrutturare-casa-2026-costi-guida/): costi al metro quadro e tempi
+- [Cappotto termico 2026](https://www.corrieredile.it/articolo/cappotto-termico-2026-costi-materiali/): costi, materiali e detrazioni
+- [Posa serramenti UNI 11673](https://www.corrieredile.it/articolo/posa-in-opera-serramenti-uni-11673/): livelli di posa e prescrizioni
+- [BIM obbligatorio 2026](https://www.corrieredile.it/articolo/bim-obbligatorio-2026-appalti/): soglie e documenti in gara
+
+## Risorse
+
+- [Sitemap XML](https://www.corrieredile.it/sitemap.xml)
+- [Feed RSS](https://www.corrieredile.it/feed.xml)
+- [Chi siamo e redazione](https://www.corrieredile.it/chi-siamo/)
+- [Contatti](https://www.corrieredile.it/contatti/)

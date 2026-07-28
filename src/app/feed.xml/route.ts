@@ -24,7 +24,7 @@ export function GET() {
       <description>${escapeXml(stripMarkdown(a.metaDescription))}</description>
       <pubDate>${new Date(a.published).toUTCString()}</pubDate>
       <category>${escapeXml(a.category)}</category>
-      <author>redazione@corriereadile.it (${escapeXml(a.author.name)})</author>
+      <author>redazione@corrieredile.it (${escapeXml(a.author.name)})</author>
       <enclosure url="${SITE.url}${a.image}" type="image/jpeg" />
     </item>`;
   }).join("\n");

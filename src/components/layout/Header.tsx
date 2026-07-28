@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Facebook, Linkedin, Instagram, Twitter, Search, Menu, X, Zap } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { CATEGORIES } from "@/data/articles";
 import { FEATURED_ARTICLE } from "@/data/fullArticles";
 import { articleUrl } from "@/components/ArticleCard";
@@ -28,6 +28,10 @@ function italianDate() {
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [query, setQuery] = useState("");
+  // Data "edizione di oggi": ricalcolata nel browser dopo il mount, così non
+  // resta congelata al giorno della build (il sito è SSG/export statico).
+  const [today, setToday] = useState(italianDate);
+  useEffect(() => setToday(italianDate()), []);
   const router = useRouter();
 
   const submitSearch = (e: React.FormEvent) => {
@@ -44,9 +48,9 @@ export default function Header() {
       {/* Utility bar: data edizione + link servizio */}
       <div className="bg-navy-900 text-navy-100">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-1.5 text-xs">
-          <p className="capitalize">
+          <p className="capitalize" suppressHydrationWarning>
             <span className="sr-only">Data di oggi: </span>
-            {italianDate()} <span className="mx-2 hidden sm:inline">·</span>
+            {today} <span className="mx-2 hidden sm:inline">·</span>
             <span className="hidden text-gold-500 sm:inline">Edizione di oggi</span>
           </p>
           <nav aria-label="Servizi utente" className="flex items-center gap-4">

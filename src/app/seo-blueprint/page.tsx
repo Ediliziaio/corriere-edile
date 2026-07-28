@@ -95,7 +95,7 @@ export default function SeoBlueprint() {
             <Code>/sitemap.xml</Code> e dichiarata in <Code>robots.txt</Code>.
           </p>
           <div className="overflow-x-auto rounded-lg border border-border bg-muted p-5 font-mono text-[13px] leading-relaxed text-navy-800">
-            <pre>{`corriereadile.it/
+            <pre>{`corrieredile.it/
 ├── / (homepage)
 ├── /categoria/{slug}            ← 8 hub editoriali (SSG)
 │   └── attualita, normativa, bonus-fisco, mercato,
