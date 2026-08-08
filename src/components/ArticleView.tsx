@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { getAuthorByName, authorUrl } from "@/lib/authors";
 import {
   ChevronRight,
   Clock,
@@ -219,6 +220,8 @@ export default function ArticleView({ article }: { article: FullArticle }) {
   const prevArticle = idx >= 0 ? ALL_ARTICLES[idx + 1] : undefined; // più vecchio
   const nextArticle = idx > 0 ? ALL_ARTICLES[idx - 1] : undefined; // più recente
 
+  const authorProfile = getAuthorByName(article.author.name);
+
   return (
     <>
       {/* Barra progresso lettura + torna su (solo pagine articolo) */}
@@ -267,7 +270,18 @@ export default function ArticleView({ article }: { article: FullArticle }) {
                 </div>
                 <div className="text-sm">
                   <p className="font-semibold text-navy-800">
-                    di <span itemProp="author">{article.author.name}</span>
+                    di{" "}
+                    {authorProfile ? (
+                      <Link
+                        href={authorUrl(authorProfile.slug)}
+                        itemProp="author"
+                        className="underline decoration-gold-500 underline-offset-2 hover:text-gold-600"
+                      >
+                        {article.author.name}
+                      </Link>
+                    ) : (
+                      <span itemProp="author">{article.author.name}</span>
+                    )}
                   </p>
                   <p className="text-xs text-muted-foreground">{article.author.role}</p>
                   <p className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
@@ -441,9 +455,27 @@ export default function ArticleView({ article }: { article: FullArticle }) {
                 {initials(article.author.name)}
               </div>
               <div>
-                <p className="font-serif text-lg font-bold text-navy-800">{article.author.name}</p>
+                <p className="font-serif text-lg font-bold text-navy-800">
+                  {authorProfile ? (
+                    <Link href={authorUrl(authorProfile.slug)} className="hover:text-gold-600 hover:underline">
+                      {article.author.name}
+                    </Link>
+                  ) : (
+                    article.author.name
+                  )}
+                </p>
                 <p className="text-sm font-semibold text-gold-600">{article.author.role}</p>
                 <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{article.author.bio}</p>
+                {authorProfile && (
+                  <p className="mt-3 text-sm">
+                    <Link
+                      href={authorUrl(authorProfile.slug)}
+                      className="font-semibold text-navy underline decoration-gold-500 underline-offset-2 hover:text-gold-600"
+                    >
+                      Tutti gli articoli di {article.author.name} →
+                    </Link>
+                  </p>
+                )}
               </div>
             </aside>
 

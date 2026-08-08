@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import ArticleView from "@/components/ArticleView";
 import { SITE, jsonLd, absUrl } from "@/lib/site";
+import { getAuthorByName, authorUrl, authorId } from "@/lib/authors";
 import { categoryUrl } from "@/lib/categories";
 import { ALL_ARTICLES, getArticleBySlug } from "@/data/fullArticles";
 
@@ -56,6 +57,7 @@ export default async function ArticlePage({
   const article = getArticleBySlug(slug);
   if (!article) notFound();
 
+  const authorProfile = getAuthorByName(article.author.name);
   // Sempre con trailing slash: deve combaciare esattamente con il rel=canonical
   const url = absUrl(`/articolo/${article.slug}`);
   const imageAbs = `${SITE.url}${article.image}`;
@@ -78,12 +80,28 @@ export default async function ArticlePage({
       articleSection: article.category,
       keywords: article.keywords.join(", "),
       mainEntityOfPage: { "@type": "WebPage", "@id": url },
-      author: {
-        "@type": "Person",
-        name: article.author.name,
-        jobTitle: article.author.role,
-        description: article.author.bio,
-      },
+      /*
+        author come entità con @id e url verso /autore/<slug>/: è ciò che
+        permette a Google di consolidare la firma su una persona reale e
+        verificabile invece che su una stringa di testo. Requisito di fatto
+        per i contenuti YMYL (fisco, detrazioni, normativa).
+      */
+      author: authorProfile
+        ? {
+            "@type": "Person",
+            "@id": authorId(authorProfile.slug),
+            name: authorProfile.name,
+            url: absUrl(authorUrl(authorProfile.slug)),
+            jobTitle: authorProfile.role,
+            description: authorProfile.bio,
+            knowsAbout: authorProfile.expertise,
+          }
+        : {
+            "@type": "Person",
+            name: article.author.name,
+            jobTitle: article.author.role,
+            description: article.author.bio,
+          },
       // Riferimento all'entità Organization globale (@id) invece di ridichiararla:
       // consolida i segnali dell'editore su un'unica entità nel knowledge graph.
       publisher: { "@id": `${SITE.url}/#organization` },

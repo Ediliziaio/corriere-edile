@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Mail } from "lucide-react";
 import LegalPage, { LegalSection, PlaceholderNote } from "@/components/legal/LegalPage";
 import { SITE, jsonLd, absUrl } from "@/lib/site";
+import { AUTHORS, authorUrl } from "@/lib/authors";
 import { ALL_ARTICLES, type ArticleAuthor } from "@/data/fullArticles";
 
 export const metadata: Metadata = {
@@ -63,7 +64,7 @@ export default function ChiSiamo() {
 
         <LegalSection id="redazione" title="La redazione">
           <div className="grid gap-4 sm:grid-cols-2">
-            {authors.map((a) => (
+            {AUTHORS.map((a) => (
               <article key={a.name} className="flex gap-4 rounded-lg border border-border bg-white p-5">
                 <div
                   aria-hidden="true"
@@ -72,9 +73,21 @@ export default function ChiSiamo() {
                   {initials(a.name)}
                 </div>
                 <div>
-                  <h3 className="font-serif text-base font-bold text-navy-800">{a.name}</h3>
+                  <h3 className="font-serif text-base font-bold text-navy-800">
+                    <Link href={authorUrl(a.slug)} className="hover:text-gold-600 hover:underline">
+                      {a.name}
+                    </Link>
+                  </h3>
                   <p className="text-sm font-semibold text-gold-600">{a.role}</p>
                   <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">{a.bio}</p>
+                  <p className="mt-2 text-sm">
+                    <Link
+                      href={authorUrl(a.slug)}
+                      className="font-semibold text-navy underline decoration-gold-500 underline-offset-2 hover:text-gold-600"
+                    >
+                      Profilo e articoli →
+                    </Link>
+                  </p>
                 </div>
               </article>
             ))}
