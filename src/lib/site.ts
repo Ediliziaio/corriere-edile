@@ -4,7 +4,7 @@ export const SITE = {
   url: "https://www.corrieredile.it",
   logo: "https://www.corrieredile.it/logo.png",
   description:
-    "Testata tecnica per chi lavora in cantiere: normativa, adempimenti, posa a regola d'arte, prezzi dei materiali e fiere di settore. Per imprese edili, serramentisti, direttori lavori e progettisti.",
+    "Testata tecnica su normativa e adempimenti dell'edilizia: permessi CILA e SCIA, marcatura CE dei materiali, norme di sicurezza, gare d'appalto e posa a regola d'arte. Per imprese edili, serramentisti, direttori lavori e progettisti.",
 };
 
 /**

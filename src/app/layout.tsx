@@ -25,7 +25,7 @@ const sourceSans = Source_Sans_3({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "Corriere Edile | Normativa, adempimenti e tecnica di cantiere",
+    default: "Corriere Edile | Normativa, permessi e adempimenti in edilizia",
     template: "%s | Corriere Edile",
   },
   description: SITE.description,
@@ -39,16 +39,16 @@ export const metadata: Metadata = {
     type: "website",
     siteName: SITE.name,
     locale: "it_IT",
-    title: "Corriere Edile | Normativa, adempimenti e tecnica di cantiere",
+    title: "Corriere Edile | Normativa, permessi e adempimenti in edilizia",
     description:
-      "Come si applicano le norme in cantiere: adempimenti, posa a regola d'arte, prezzi dei materiali, gare d'appalto e fiere di settore.",
+      "Normativa applicata all'edilizia: permessi CILA e SCIA, marcatura CE dei materiali, norme di sicurezza, gare d'appalto e posa a regola d'arte.",
     url: SITE.url,
     images: [{ url: "/images/og-default.jpg", width: 1200, height: 630, alt: "Corriere Edile — il portale delle costruzioni" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Corriere Edile | La tecnica del cantiere",
-    description: "Normativa applicata, adempimenti e posa a regola d'arte per imprese edili, serramentisti e progettisti.",
+    title: "Corriere Edile | Normativa e adempimenti in edilizia",
+    description: "Permessi, marcatura CE, norme di sicurezza e adempimenti per imprese edili, serramentisti e progettisti.",
     images: ["/images/og-default.jpg"],
   },
   icons: {
