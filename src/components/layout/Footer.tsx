@@ -44,6 +44,11 @@ export default function Footer() {
               </li>
             ))}
             <li>
+              <Link href="/norme-tecniche" className="font-semibold text-gold-500 hover:underline">
+                Indice norme tecniche
+              </Link>
+            </li>
+            <li>
               <Link href="/fiere-edilizia" className="font-semibold text-gold-500 hover:underline">
                 Calendario fiere
               </Link>

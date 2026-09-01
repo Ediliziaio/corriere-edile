@@ -103,6 +103,14 @@ export default function Archivio() {
           <ul className="flex flex-wrap gap-2">
             <li>
               <Link
+                href="/norme-tecniche"
+                className="inline-block rounded-full border border-gold-500 bg-gold-50 px-4 py-1.5 text-sm font-bold text-navy-800 hover:bg-gold-100"
+              >
+                📘 Indice norme tecniche
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/fiere-edilizia"
                 className="inline-block rounded-full border border-gold-500 bg-gold-50 px-4 py-1.5 text-sm font-bold text-navy-800 hover:bg-gold-100"
               >

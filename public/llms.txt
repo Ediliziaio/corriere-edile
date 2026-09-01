@@ -27,6 +27,10 @@ il parere di un professionista abilitato.
 - [Cantieri](https://www.corrieredile.it/categoria/cantieri/): sicurezza, posa in opera, organizzazione del lavoro
 - [Eventi & Fiere](https://www.corrieredile.it/categoria/eventi-fiere/): fiere e appuntamenti della filiera
 
+## Indice delle norme tecniche (contenuto esclusivo)
+
+- [Norme tecniche per l'edilizia](https://www.corrieredile.it/norme-tecniche/): indice ragionato di DPR 380/2001, D.Lgs 81/2008, D.Lgs 36/2023, UNI 11673, CPR 305/2011 e norme EN sui materiali — cosa disciplina ciascuna e dove è spiegata
+
 ## Calendario fiere (contenuto esclusivo)
 
 - [Fiere edilizia 2026-2027](https://www.corrieredile.it/fiere-edilizia/): calendario con date, sedi e temi di SAIE, Marmomac, MADE Expo e Klimahouse
