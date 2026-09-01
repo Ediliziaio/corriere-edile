@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SITE, jsonLd, absUrl } from "@/lib/site";
 import { Mail, MapPin, Phone } from "lucide-react";
 import LegalPage, { LegalSection, PlaceholderNote } from "@/components/legal/LegalPage";
 import ContactForm from "@/components/ContactForm";
@@ -10,8 +11,64 @@ export const metadata: Metadata = {
   alternates: { canonical: "/contatti" },
 };
 
+
+/*
+  ContactPage + punti di contatto tipizzati: completa l'entita' editore
+  (redazione, pubblicita', privacy) e la rende leggibile ai motori generativi
+  quando qualcuno chiede "come contattare Corriere Edile".
+*/
+const CONTACT_JSONLD = [
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    url: absUrl("/contatti"),
+    inLanguage: "it-IT",
+    isPartOf: { "@id": `${SITE.url}/#website` },
+    about: { "@id": `${SITE.url}/#organization` },
+    mainEntity: {
+      "@id": `${SITE.url}/#organization`,
+      contactPoint: [
+        {
+          "@type": "ContactPoint",
+          contactType: "editorial",
+          name: "Redazione",
+          email: "redazione@corrieredile.it",
+          availableLanguage: ["it"],
+          areaServed: "IT",
+        },
+        {
+          "@type": "ContactPoint",
+          contactType: "sales",
+          name: "Pubblicità e partnership",
+          email: "pubblicita@corrieredile.it",
+          availableLanguage: ["it"],
+          areaServed: "IT",
+        },
+        {
+          "@type": "ContactPoint",
+          contactType: "customer support",
+          name: "Privacy e dati personali",
+          email: "privacy@corrieredile.it",
+          availableLanguage: ["it"],
+          areaServed: "IT",
+        },
+      ],
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: absUrl("/") },
+      { "@type": "ListItem", position: 2, name: "Contatti", item: absUrl("/contatti") },
+    ],
+  },
+];
+
 export default function Contatti() {
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(CONTACT_JSONLD) }} />
     <LegalPage title="Contatti">
       <div className="grid gap-8 md:grid-cols-5">
         {/* ===== Form contatti (submit simulato) ===== */}
@@ -87,5 +144,6 @@ export default function Contatti() {
         </LegalSection>
       </div>
     </LegalPage>
+    </>
   );
 }

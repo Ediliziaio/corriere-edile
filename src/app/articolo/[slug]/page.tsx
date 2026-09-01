@@ -81,6 +81,16 @@ export default async function ArticlePage({
       keywords: article.keywords.join(", "),
       mainEntityOfPage: { "@type": "WebPage", "@id": url },
       /*
+        speakable: indica le porzioni pensate per essere lette ad alta voce
+        dagli assistenti vocali. Puntiamo al titolo, al box "In sintesi"
+        (risposta diretta) e alle FAQ: sono i blocchi answer-first, gia'
+        autoconsistenti, che un motore generativo puo' citare senza contesto.
+      */
+      speakable: {
+        "@type": "SpeakableSpecification",
+        cssSelector: ["h1", "#in-sintesi-box", "#faq-articolo"],
+      },
+      /*
         author come entità con @id e url verso /autore/<slug>/: è ciò che
         permette a Google di consolidare la firma su una persona reale e
         verificabile invece che su una stringa di testo. Requisito di fatto

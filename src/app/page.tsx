@@ -4,7 +4,7 @@ import AdSlot from "@/components/AdSlot";
 import ArticleCard, { CategoryChip, ArticleMeta, articleUrl, webpSrc } from "@/components/ArticleCard";
 import { MostRead, NewsletterBox } from "@/components/Sidebar";
 import FaqItem from "@/components/FaqAccordion";
-import { jsonLd } from "@/lib/site";
+import { jsonLd, absUrl } from "@/lib/site";
 import { categoryUrl } from "@/lib/categories";
 import { HOME_FAQS } from "@/data/articles";
 import {
@@ -18,6 +18,27 @@ import {
   per rich results e per l'estrazione da parte di answer engine / AI Overview (AEO/GEO).
   Title/description/canonical della home ereditati dal layout (metadata default).
 */
+/*
+  ItemList della home: dichiara esplicitamente l'ordine editoriale delle
+  ultime notizie. Serve a Google per capire quale contenuto e' primario in
+  homepage e ai motori generativi per estrarre "cosa c'e' di nuovo" sul sito.
+*/
+function homeItemList(items: { slug: string; title: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Ultime notizie — Corriere Edile",
+    itemListOrder: "https://schema.org/ItemListOrderDescending",
+    numberOfItems: items.length,
+    itemListElement: items.map((a, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: absUrl(`/articolo/${a.slug}`),
+      name: a.title,
+    })),
+  };
+}
+
 const FAQ_JSONLD = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -44,7 +65,10 @@ export default function Home() {
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(FAQ_JSONLD) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLd([FAQ_JSONLD, homeItemList(latest)]) }}
+      />
 
       {/* ============ HERO: In Evidenza ============ */}
       <section aria-labelledby="in-evidenza" className="mx-auto max-w-7xl px-4 pt-6">

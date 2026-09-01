@@ -344,6 +344,7 @@ export default function ArticleView({ article }: { article: FullArticle }) {
               anche a chi (umano o AI) legge solo l'inizio del contenuto.
             */}
             <section
+              id="in-sintesi-box"
               aria-labelledby="in-sintesi"
               className="mt-6 rounded-lg border-l-4 border-gold-500 bg-gold-50 p-5"
             >

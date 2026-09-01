@@ -43,7 +43,20 @@ export async function generateMetadata({
       url: absUrl(authorUrl(author.slug)),
       title: `${author.name} — ${author.role} | Corriere Edile`,
       description: author.bio.slice(0, 200),
-      images: [{ url: "/images/og-default.jpg", width: 1200, height: 630 }],
+      images: [
+        {
+          url: `/images/og/autore-${author.slug}.jpg`,
+          width: 1200,
+          height: 630,
+          alt: `${author.name} — ${author.role}`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${author.name} — ${author.role}`,
+      description: author.bio.slice(0, 200),
+      images: [`/images/og/autore-${author.slug}.jpg`],
     },
   };
 }
