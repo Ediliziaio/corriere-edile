@@ -32,6 +32,9 @@ export interface Fiera {
   /** Testo mostrato all'utente quando la data non e' al giorno */
   dateLabel: string;
   focus: string;
+  /** Approfondimento tecnico collegato: cosa valutare davvero in fiera */
+  guideSlug?: string;
+  guideLabel?: string;
 }
 
 export const FIERE: Fiera[] = [
@@ -46,6 +49,8 @@ export const FIERE: Fiera[] = [
     precision: "day",
     dateLabel: "22–25 settembre 2026",
     focus: "Pietra naturale, lavorazione e applicazioni in architettura ed edilizia.",
+    guideSlug: "pietra-naturale-cantiere-marcatura-ce-spessori",
+    guideLabel: "Guida tecnica: marcatura CE, spessori e ancoraggi",
   },
   {
     name: "SAIE 2026",

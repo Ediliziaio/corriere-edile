@@ -8,6 +8,7 @@ import { ARTICLES_01_10 } from "./articles-01-10";
 import { ARTICLES_11_20 } from "./articles-11-20";
 import { ARTICLES_21_26 } from "./articles-21-26";
 import { ARTICLES_27_32 } from "./articles-27-32";
+import { ARTICLES_33_40 } from "./articles-33-40";
 
 export * from "./types";
 
@@ -17,6 +18,7 @@ export const ALL_ARTICLES: FullArticle[] = [
   ...ARTICLES_11_20,
   ...ARTICLES_21_26,
   ...ARTICLES_27_32,
+  ...ARTICLES_33_40,
 ].sort((a, b) => new Date(b.published).getTime() - new Date(a.published).getTime());
 
 /** Articolo in evidenza: il più recente in assoluto. */

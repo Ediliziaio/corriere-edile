@@ -20,7 +20,9 @@ def text_len(region: str) -> int:
     return total
 
 results = []
-for f in ["articles-01-10.ts", "articles-11-20.ts", "articles-21-26.ts", "articles-27-32.ts"]:
+# tutte le raccolte, cosi' i nuovi file non restano fuori dal controllo
+import glob as _glob, os as _os
+for f in sorted(_os.path.basename(x) for x in _glob.glob(str(BASE / "articles-*.ts"))):
     text = (BASE / f).read_text(encoding="utf-8")
     for block in re.split(r'(?=^    slug: ")', text, flags=re.M):
         if not block.startswith('    slug: "'):

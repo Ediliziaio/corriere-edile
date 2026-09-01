@@ -101,6 +101,16 @@ export default function FiereEdilizia() {
               </Link>
             </p>
           )}
+          {f.guideSlug && (
+            <p className="mt-2 rounded-md border-l-4 border-gold-500 bg-gold-50 px-3 py-2 text-sm">
+              <Link
+                href={`/articolo/${f.guideSlug}/`}
+                className="font-semibold text-navy-900 hover:text-gold-600 hover:underline"
+              >
+                {f.guideLabel ?? "Approfondimento tecnico"} →
+              </Link>
+            </p>
+          )}
         </div>
       </article>
     );
