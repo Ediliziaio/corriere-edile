@@ -3,6 +3,225 @@ import type { FullArticle } from "./types";
 /** Articoli pubblicati dal settembre 2026 in avanti. */
 export const ARTICLES_33_40: FullArticle[] = [
   {
+    slug: "marcatura-ce-prodotti-costruzione-dop",
+    category: "Normativa",
+    title:
+      "Marcatura CE dei prodotti da costruzione: cosa dice davvero la DoP e cosa rischia chi non la conserva",
+    metaTitle: "Marcatura CE prodotti da costruzione: la DoP in cantiere",
+    metaDescription:
+      "Regolamento CPR 305/2011: cos'è la Dichiarazione di Prestazione, chi la rilascia, i sistemi AVCP, gli obblighi di impresa e distributore e le sanzioni del D.Lgs 106/2017.",
+    keywords: [
+      "marcatura CE prodotti da costruzione",
+      "dichiarazione di prestazione DoP",
+      "regolamento CPR 305/2011",
+      "sistemi AVCP",
+      "D.Lgs 106/2017 sanzioni",
+    ],
+    subtitle:
+      "La marcatura CE su un prodotto da costruzione non certifica che sia buono: dichiara che le sue prestazioni sono state misurate con un metodo condiviso. Capire questa differenza è ciò che separa un capitolato solido da una contestazione in collaudo.",
+    excerpt:
+      "Cos'è la Dichiarazione di Prestazione, come si legge, quali sistemi di verifica esistono e quali documenti l'impresa deve conservare in cantiere per non rispondere in proprio.",
+    published: "2026-09-01T14:00:00+02:00",
+    updated: "2026-09-01T14:00:00+02:00",
+    readingTime: 12,
+    author: {
+      name: "Federico Salvetti",
+      role: "Redattore Prodotti & Materiali tecnici",
+      bio: "Ingegnere dei materiali, scrive di serramenti, involucro edilizio e tecnologie per l'efficienza energetica. Ha lavorato in laboratori di prova e uffici tecnici, e valuta i prodotti sulla base di prestazioni dichiarate, certificazioni e comportamento reale in opera.",
+    },
+    image: "/images/articoli/marcatura-ce-prodotti-costruzione-dop.jpg",
+    imageAlt:
+      "Documentazione tecnica di prodotto da costruzione con marcatura CE e Dichiarazione di Prestazione",
+    imageCaption:
+      "La marcatura CE attesta come le prestazioni sono state misurate, non che il prodotto sia adatto al tuo impiego: quello lo decide il progetto.",
+    summary: [
+      "La marcatura CE dei prodotti da costruzione non è un marchio di qualità: attesta che le caratteristiche essenziali sono state determinate secondo una norma armonizzata e dichiarate dal fabbricante.",
+      "Il documento che conta è la Dichiarazione di Prestazione (DoP), prevista dal Regolamento (UE) 305/2011: senza DoP il prodotto non può essere legittimamente immesso sul mercato per quell'uso.",
+      "Il livello di controllo cambia con il sistema AVCP (1+, 1, 2+, 3, 4): solo nei sistemi più severi interviene un organismo notificato sul prodotto o sul processo di fabbrica.",
+      "Adeguatezza all'uso e conformità sono cose diverse: la DoP dice quanto vale una prestazione, il progettista decide se quel valore basta per quell'opera.",
+      "In Italia le violazioni sono sanzionate dal D.Lgs 106/2017 e riguardano anche distributori e importatori, non solo il fabbricante.",
+    ],
+    body: [
+      {
+        type: "p",
+        text: "In cantiere la marcatura CE viene trattata come un timbro che mette al riparo: se il prodotto ce l'ha, si posa. È una semplificazione che regge finché non arriva una contestazione, perché la marcatura CE non dice che il prodotto è buono né che è adatto a quell'opera. Dice una cosa più limitata e più precisa: che le sue caratteristiche essenziali sono state misurate secondo un metodo condiviso in Europa, e che il fabbricante se ne assume la responsabilità dichiarandole.",
+      },
+      {
+        type: "p",
+        text: "La differenza sembra teorica, ma diventa concretissima quando un direttore lavori chiede la documentazione di un lotto, o quando in collaudo si scopre che il prodotto posato dichiarava prestazioni inferiori a quelle di capitolato.",
+      },
+      {
+        type: "h2",
+        text: "1. Cosa attesta la marcatura CE e cosa no",
+        id: "cosa-attesta",
+      },
+      {
+        type: "p",
+        text: "Il quadro è fissato dal Regolamento (UE) 305/2011, noto come CPR (Construction Products Regulation), che dal 2013 ha sostituito la vecchia Direttiva 89/106/CEE. Il CPR non stabilisce quanto deve essere resistente un mattone: stabilisce come quella resistenza va misurata e dichiarata, lasciando ai singoli Stati e ai progettisti il compito di decidere quale valore serve.",
+      },
+      {
+        type: "list",
+        items: [
+          "Attesta che le caratteristiche essenziali del prodotto sono state determinate secondo la norma armonizzata applicabile.",
+          "Attesta che il fabbricante ha redatto la Dichiarazione di Prestazione e se ne assume la responsabilità.",
+          "NON attesta che il prodotto sia di qualità superiore a un altro con la stessa marcatura.",
+          "NON attesta che il prodotto sia adatto all'opera specifica: quella valutazione è del progettista.",
+          "NON sostituisce le verifiche di posa: un prodotto conforme montato male non è un'opera conforme.",
+        ],
+      },
+      {
+        type: "quote",
+        text: "Due prodotti marcati CE possono avere prestazioni molto diverse. La marcatura garantisce che siano confrontabili, non che siano equivalenti.",
+      },
+      {
+        type: "h2",
+        text: "2. La Dichiarazione di Prestazione: il documento che conta",
+        id: "dop",
+      },
+      {
+        type: "p",
+        text: "La DoP è il cuore del sistema. Redigerla è condizione per apporre la marcatura CE, e il fabbricante deve renderla disponibile in copia cartacea o elettronica; la normativa europea ammette anche la messa a disposizione su sito web, a determinate condizioni. Chi acquista ha diritto di ottenerla.",
+      },
+      {
+        type: "p",
+        text: "Gli elementi che vanno letti per primi, quando arriva una DoP:",
+      },
+      {
+        type: "list",
+        items: [
+          "Codice di identificazione unico del prodotto-tipo e riferimento del lotto: serve a collegare la dichiarazione al materiale realmente consegnato.",
+          "Uso o usi previsti secondo la norma armonizzata: è il punto in cui si verifica se il prodotto è documentato per l'impiego che se ne vuole fare.",
+          "Norma armonizzata di riferimento: deve essere coerente con la destinazione d'uso, non semplicemente «presente».",
+          "Caratteristiche essenziali con le prestazioni dichiarate: i numeri che finiscono in capitolato.",
+          "La dicitura NPD (Nessuna Prestazione Determinata) dove il fabbricante non dichiara nulla: se compare su una caratteristica che serve al progetto, quel prodotto non è utilizzabile per quello scopo.",
+          "Sistema di valutazione e verifica applicato e, dove previsto, l'organismo notificato intervenuto.",
+        ],
+      },
+      {
+        type: "p",
+        text: "L'NPD è la voce che genera più equivoci. Non è un difetto né un'irregolarità: è una scelta legittima del fabbricante di non dichiarare una prestazione, spesso perché non rilevante nel mercato di destinazione. Diventa un problema solo quando riguarda proprio la caratteristica su cui si regge il progetto.",
+      },
+      {
+        type: "h2",
+        text: "3. I sistemi AVCP: quanto controllo c'è davvero dietro",
+        id: "sistemi-avcp",
+      },
+      {
+        type: "p",
+        text: "Non tutti i prodotti marcati CE hanno lo stesso livello di verifica alle spalle. Il CPR prevede cinque sistemi di valutazione e verifica della costanza della prestazione, scelti in base alla criticità del prodotto per la sicurezza. È l'informazione che dice quanto peso ha davvero quella dichiarazione.",
+      },
+      {
+        type: "table",
+        caption: "Sistemi AVCP previsti dal CPR, dal più severo al meno severo",
+        head: ["Sistema", "Chi verifica", "Impiego tipico"],
+        rows: [
+          ["1+", "Organismo notificato: certificazione del prodotto, ispezione della fabbrica e prove a campione sul mercato", "Prodotti critici per la sicurezza strutturale o antincendio"],
+          ["1", "Organismo notificato: certificazione del prodotto e sorveglianza del controllo di produzione", "Prodotti con rilevanza strutturale o di sicurezza"],
+          ["2+", "Organismo notificato sul controllo di produzione in fabbrica; prove a carico del fabbricante", "Molti prodotti strutturali e da involucro"],
+          ["3", "Laboratorio notificato per le prove iniziali di tipo; il resto è del fabbricante", "Prodotti con caratteristiche da determinare con prova"],
+          ["4", "Interamente a carico del fabbricante", "Prodotti a basso rischio"],
+        ],
+      },
+      {
+        type: "p",
+        text: "Leggere il sistema AVCP prima di accettare una fornitura evita l'errore più comune in fase di acquisto: dare per scontato che dietro ogni marcatura CE ci sia un ente terzo. Nel sistema 4 non c'è.",
+      },
+      {
+        type: "h2",
+        text: "4. Chi risponde: fabbricante, importatore, distributore, impresa",
+        id: "responsabilita",
+      },
+      {
+        type: "p",
+        text: "Il CPR distribuisce obblighi lungo tutta la filiera, e questo è il punto che le imprese sottovalutano di più.",
+      },
+      {
+        type: "list",
+        items: [
+          "Il fabbricante redige la DoP, appone la marcatura CE e conserva la documentazione tecnica per il periodo previsto.",
+          "L'importatore che introduce nel mercato UE un prodotto extraeuropeo verifica che il fabbricante abbia adempiuto e risponde in proprio se immette prodotti privi dei requisiti.",
+          "Il distributore deve accertarsi che il prodotto rechi la marcatura CE e sia accompagnato dai documenti richiesti, e non può fornire ciò che sa non conforme.",
+          "Chi immette un prodotto con il proprio nome o marchio assume gli obblighi del fabbricante, anche se non lo ha materialmente prodotto.",
+          "L'impresa esecutrice non è un semplice utilizzatore: deve poter dimostrare cosa ha posato, quindi raccogliere e conservare DoP e documenti di trasporto collegati ai lotti.",
+        ],
+      },
+      {
+        type: "p",
+        text: "In Italia l'apparato sanzionatorio per le violazioni del CPR è stabilito dal D.Lgs 106/2017, che prevede sanzioni amministrative e, nei casi più gravi, penali, riferite anche a distributori e importatori. Non è materia che riguarda solo chi fabbrica.",
+      },
+      {
+        type: "h2",
+        text: "5. Cosa conservare in cantiere, in pratica",
+        id: "cosa-conservare",
+      },
+      {
+        type: "p",
+        text: "La regola operativa è semplice: al momento del collaudo deve essere possibile ricostruire, per ogni prodotto rilevante, cosa è stato posato e con quali prestazioni dichiarate. Il fascicolo minimo:",
+      },
+      {
+        type: "list",
+        items: [
+          "DoP di ciascun prodotto rilevante, riferita alla norma coerente con l'impiego.",
+          "Documenti di trasporto e riferimenti di lotto che permettano di collegare la DoP al materiale effettivamente consegnato.",
+          "Schede tecniche e istruzioni di posa del fabbricante, che spesso condizionano la validità delle prestazioni dichiarate.",
+          "Eventuali rapporti di prova richiamati, quando il capitolato impone valori specifici.",
+          "Per i prodotti non coperti da norma armonizzata, la Valutazione Tecnica Europea (ETA) se il fabbricante ha scelto quella strada.",
+        ],
+      },
+      {
+        type: "p",
+        text: "Raccogliere questi documenti alla consegna costa pochi minuti. Ricostruirli due anni dopo, con un fornitore cambiato e un lotto esaurito, spesso è impossibile: ed è esattamente il momento in cui servono.",
+      },
+      {
+        type: "h2",
+        text: "6. Il quadro europeo si sta muovendo",
+        id: "nuovo-cpr",
+      },
+      {
+        type: "p",
+        text: "Il Regolamento (UE) 305/2011 è stato oggetto di una revisione complessiva a livello europeo, con un nuovo regolamento sui prodotti da costruzione adottato a fine 2024 e destinato a subentrare attraverso un periodo di transizione lungo. Nel frattempo i prodotti coperti dalle norme armonizzate esistenti continuano a seguire il quadro consolidato descritto qui.",
+      },
+      {
+        type: "p",
+        text: "Per un'impresa la conseguenza pratica è una sola: le DoP raccolte oggi restano valide, ma nei prossimi anni conviene verificare periodicamente che la norma richiamata in capitolato non sia stata sostituita. Un capitolato che cita una norma ritirata è un capitolato che invecchia male.",
+      },
+    ],
+    faqs: [
+      {
+        q: "La marcatura CE garantisce che un prodotto da costruzione sia di qualità?",
+        a: "No. La marcatura CE attesta che le caratteristiche essenziali del prodotto sono state determinate secondo la norma armonizzata applicabile e dichiarate dal fabbricante nella Dichiarazione di Prestazione. Due prodotti marcati CE possono avere prestazioni molto diverse: la marcatura li rende confrontabili, non equivalenti. L'adeguatezza all'opera specifica è una valutazione del progettista.",
+      },
+      {
+        q: "Cos'è la DoP e chi deve rilasciarla?",
+        a: "La Dichiarazione di Prestazione è il documento previsto dal Regolamento (UE) 305/2011 con cui il fabbricante dichiara le prestazioni delle caratteristiche essenziali del prodotto e se ne assume la responsabilità. La redige il fabbricante, ed è condizione per apporre la marcatura CE. Chi acquista ha diritto di ottenerla, in forma cartacea o elettronica.",
+      },
+      {
+        q: "Cosa significa NPD in una Dichiarazione di Prestazione?",
+        a: "NPD sta per Nessuna Prestazione Determinata e indica che il fabbricante non dichiara alcun valore per quella caratteristica. Non è un'irregolarità: è una scelta legittima. Diventa un problema quando riguarda proprio la caratteristica su cui si basa il progetto, perché in quel caso il prodotto non risulta documentato per quell'impiego.",
+      },
+      {
+        q: "Cosa sono i sistemi AVCP 1+, 1, 2+, 3 e 4?",
+        a: "Sono i cinque sistemi di valutazione e verifica della costanza della prestazione previsti dal CPR, ordinati per severità. Nel sistema 1+ un organismo notificato certifica il prodotto, ispeziona la fabbrica ed esegue prove a campione; nel sistema 4 tutte le verifiche sono a carico del fabbricante, senza intervento di enti terzi. Il sistema applicato è indicato nella DoP.",
+      },
+      {
+        q: "Quali documenti deve conservare l'impresa che posa il prodotto?",
+        a: "Le Dichiarazioni di Prestazione dei prodotti rilevanti, i documenti di trasporto con i riferimenti di lotto che li collegano al materiale consegnato, le schede tecniche e le istruzioni di posa del fabbricante, e gli eventuali rapporti di prova richiamati dal capitolato. Servono a dimostrare in collaudo cosa è stato effettivamente posato.",
+      },
+    ],
+    tags: [
+      "marcatura CE",
+      "CPR 305/2011",
+      "Dichiarazione di Prestazione",
+      "capitolato",
+      "materiali da costruzione",
+    ],
+    related: [
+      "pietra-naturale-cantiere-marcatura-ce-spessori",
+      "posa-in-opera-serramenti-uni-11673",
+      "migliori-materiali-isolanti-2026",
+    ],
+  },
+  {
     slug: "pietra-naturale-cantiere-marcatura-ce-spessori",
     category: "Prodotti & Materiali",
     title:
