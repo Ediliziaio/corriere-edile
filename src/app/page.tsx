@@ -74,7 +74,7 @@ export default function Home() {
       {/* ============ HERO: In Evidenza ============ */}
       <section aria-labelledby="in-evidenza" className="mx-auto max-w-7xl px-4 pt-6">
         <h1 id="in-evidenza" className="sr-only">
-          Corriere Edile — le notizie in evidenza sul mondo delle costruzioni
+          Corriere Edile: normativa, adempimenti e tecnica di cantiere
         </h1>
         <div className="grid gap-6 lg:grid-cols-3">
           {/* Articolo principale */}
