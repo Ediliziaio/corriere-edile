@@ -5,7 +5,7 @@ export const ARTICLES_11_20: FullArticle[] = [
     slug: "ristrutturare-casa-2026-costi-guida",
     category: "Progetti",
     title: "Ristrutturare casa nel 2026: costi al metro quadro, tempi e errori da evitare",
-    metaTitle: "Ristrutturare casa 2026: costi al mq, tempi e errori",
+    metaTitle: "Ristrutturazione 2026: prezzi al mq per il preventivo",
     metaDescription: "Ristrutturare casa nel 2026: costi reali al metro quadro, tempi di cantiere, bonus ed errori da evitare. La guida completa con tabelle aggiornate.",
     keywords: ["ristrutturare casa 2026", "costi ristrutturazione al mq", "ristrutturazione chiavi in mano", "bonus ristrutturazioni 2026", "tempi ristrutturazione appartamento"],
     subtitle: "Dai 900 ai 1.400 euro al metro quadro per una ristrutturazione completa: cosa incide davvero sul preventivo, come cambiano i tempi con il costo dei materiali e quali incentivi restano validi nel 2026.",
@@ -82,7 +82,7 @@ export const ARTICLES_11_20: FullArticle[] = [
     slug: "migliori-imprese-costruzioni-italia-2026",
     category: "Mercato",
     title: "Le migliori imprese di costruzioni in Italia nel 2026: classifica e analisi del settore",
-    metaTitle: "Migliori imprese di costruzioni in Italia 2026",
+    metaTitle: "Imprese di costruzioni 2026: fatturati, backlog e strategie",
     metaDescription: "Classifica 2026 delle migliori imprese di costruzioni italiane: fatturati, commesse e strategie di Webuild, Pizzarotti, CMB, ICMQ e altri grandi gruppi.",
     keywords: ["migliori imprese costruzioni italia", "classifica costruttori italiani 2026", "webuild fatturato", "grandi imprese edili", "mercato costruzioni 2026"],
     subtitle: "Webuild conferma la leadership spinta dalle grandi opere, ma il tessuto di cooperative e imprese general contractor regge il mercato: fatturati, backlog e strategie dei principali gruppi italiani.",
@@ -91,7 +91,7 @@ export const ARTICLES_11_20: FullArticle[] = [
     updated: "2026-07-05T10:20:00+02:00",
     readingTime: 12,
     author: {
-      name: "Giulia Ferraro",
+      name: "Chiara Bonomi",
       role: "Redattrice Mercato & Imprese",
       bio: "Giornalista economica, da otto anni analizza bilanci, commesse e dinamiche competitive del settore costruzioni. Per Corriere Edile cura classifiche, report di mercato e interviste ai vertici delle imprese."
     },
@@ -160,7 +160,7 @@ export const ARTICLES_11_20: FullArticle[] = [
     updated: "2026-07-06T15:30:00+02:00",
     readingTime: 10,
     author: {
-      name: "Luca Marchetti",
+      name: "Federico Salvetti",
       role: "Redattore Prodotti & Materiali tecnici",
       bio: "Tecnico dei materiali da costruzione, ha maturato esperienza pluriennale in laboratori di prova su serramenti e involucro edilizio. Scrive di norme di prodotto, posa in opera e prestazioni dei componenti."
     },
@@ -230,7 +230,7 @@ export const ARTICLES_11_20: FullArticle[] = [
     updated: "2026-07-08T16:00:00+02:00",
     readingTime: 10,
     author: {
-      name: "Marco Bertelli",
+      name: "Alberto Rinaldi",
       role: "Caporedattore Normativa & Fisco",
       bio: "Giornalista tecnico con vent'anni di esperienza su normativa edilizia e contenzioso tecnico-legale. Coordina per Corriere Edile l'analisi di decreti, circolari e giurisprudenza che incidono su imprese e progettisti."
     },
@@ -298,7 +298,7 @@ export const ARTICLES_11_20: FullArticle[] = [
     updated: "2026-07-10T14:10:00+02:00",
     readingTime: 9,
     author: {
-      name: "Giulia Ferraro",
+      name: "Chiara Bonomi",
       role: "Redattrice Mercato & Imprese",
       bio: "Giornalista economica, da otto anni analizza bilanci, commesse e dinamiche competitive del settore costruzioni. Per Corriere Edile cura classifiche, report di mercato e interviste ai vertici delle imprese."
     },
@@ -361,7 +361,7 @@ export const ARTICLES_11_20: FullArticle[] = [
     slug: "case-prefabbricate-legno-2026",
     category: "Progetti",
     title: "Case prefabbricate in legno 2026: costi, vantaggi e migliori soluzioni sul mercato",
-    metaTitle: "Case prefabbricate in legno 2026: costi e vantaggi",
+    metaTitle: "Case in legno 2026: costi al mq, tempi e requisiti tecnici",
     metaDescription: "Case prefabbricate in legno 2026: costi al mq, tecnologie a telaio e X-Lam, tempi di costruzione e vantaggi reali. La guida per scegliere senza errori.",
     keywords: ["case prefabbricate in legno", "costi case legno 2026", "case xlam prezzi", "casa in legno chiavi in mano", "bioedilizia prefabbricata"],
     subtitle: "Tra 1.500 e 2.500 euro al metro quadro chiavi in mano, tempi di cantiere dimezzati e prestazioni energetiche da standard nZEB: come funziona davvero il mercato delle case in legno nel 2026.",
@@ -370,7 +370,7 @@ export const ARTICLES_11_20: FullArticle[] = [
     updated: "2026-07-13T09:40:00+02:00",
     readingTime: 11,
     author: {
-      name: "Luca Marchetti",
+      name: "Federico Salvetti",
       role: "Redattore Prodotti & Materiali tecnici",
       bio: "Tecnico dei materiali da costruzione, ha maturato esperienza pluriennale in laboratori di prova su serramenti e involucro edilizio. Scrive di norme di prodotto, posa in opera e prestazioni dei componenti."
     },
@@ -437,7 +437,7 @@ export const ARTICLES_11_20: FullArticle[] = [
     updated: "2026-07-14T18:20:00+02:00",
     readingTime: 12,
     author: {
-      name: "Marco Bertelli",
+      name: "Alberto Rinaldi",
       role: "Caporedattore Normativa & Fisco",
       bio: "Giornalista tecnico con vent'anni di esperienza su normativa edilizia e contenzioso tecnico-legale. Coordina per Corriere Edile l'analisi di decreti, circolari e giurisprudenza che incidono su imprese e progettisti."
     },
@@ -495,7 +495,7 @@ export const ARTICLES_11_20: FullArticle[] = [
     slug: "intelligenza-artificiale-cantieri-2026",
     category: "Attualità",
     title: "Intelligenza artificiale nei cantieri edili: come l'AI sta cambiando il lavoro delle imprese",
-    metaTitle: "Intelligenza artificiale nei cantieri edili nel 2026",
+    metaTitle: "AI in cantiere: dove funziona davvero per le imprese edili",
     metaDescription: "AI nei cantieri edili 2026: computi automatici, sicurezza, BIM e gestione documentale. Come le imprese italiane usano davvero l'intelligenza artificiale.",
     keywords: ["intelligenza artificiale edilizia", "AI cantieri edili", "computo metrico AI", "sicurezza cantiere AI", "digitalizzazione imprese edili"],
     subtitle: "Dal computo metrico generato in minuti al controllo video della sicurezza, dai chatbot documentali alla manutenzione predittiva: dove l'intelligenza artificiale produce risultati misurabili e dove invece è ancora promessa.",
@@ -561,7 +561,7 @@ export const ARTICLES_11_20: FullArticle[] = [
     slug: "rigenerazione-urbana-2026-progetti",
     category: "Attualità",
     title: "Rigenerazione urbana 2026: i progetti che stanno trasformando le città italiane",
-    metaTitle: "Rigenerazione urbana 2026: i progetti nelle città",
+    metaTitle: "Rigenerazione urbana 2026: opere e opportunità di commessa",
     metaDescription: "Rigenerazione urbana 2026: i progetti che trasformano Milano, Roma, Bologna, Napoli e le altre città italiane. Investimenti e opportunità per le imprese.",
     keywords: ["rigenerazione urbana 2026", "progetti rigenerazione città italiane", "ex scalo farini milano", "consumo di suolo zero", "riqualificazione aree dismesse"],
     subtitle: "Dagli ex scali ferroviari milanesi alle periferie di Roma e Napoli, passando per Bologna e Torino: mappa dei grandi programmi di rigenerazione attivi nel 2026 e di cosa significano per la filiera delle costruzioni.",
@@ -570,7 +570,7 @@ export const ARTICLES_11_20: FullArticle[] = [
     updated: "2026-07-19T11:00:00+02:00",
     readingTime: 11,
     author: {
-      name: "Giulia Ferraro",
+      name: "Chiara Bonomi",
       role: "Redattrice Mercato & Imprese",
       bio: "Giornalista economica, da otto anni analizza bilanci, commesse e dinamiche competitive del settore costruzioni. Per Corriere Edile cura classifiche, report di mercato e interviste ai vertici delle imprese."
     },
@@ -628,7 +628,7 @@ export const ARTICLES_11_20: FullArticle[] = [
     slug: "efficienza-energetica-condomini-2026",
     category: "Progetti",
     title: "Efficienza energetica nei condomini: gli interventi che aumentano il valore degli immobili",
-    metaTitle: "Efficienza energetica condomini 2026: interventi",
+    metaTitle: "Riqualificare un condominio: iter, delibere e costi 2026",
     metaDescription: "Efficienza energetica nei condomini 2026: cappotto, centrale termica, fotovoltaico e valore immobiliare. Costi, delibere e incentivi per amministratori.",
     keywords: ["efficienza energetica condomini", "riqualificazione energetica condominio", "cappotto termico condominio costi", "centrale termica condominiale", "valore immobili classe energetica"],
     subtitle: "Gli edifici in classe F e G valgono fino al 25% in meno sul mercato: quanto costa riqualificare un condominio nel 2026, come si delibera e quali incentivi restano dopo l'era Superbonus.",
@@ -637,7 +637,7 @@ export const ARTICLES_11_20: FullArticle[] = [
     updated: "2026-07-21T15:45:00+02:00",
     readingTime: 11,
     author: {
-      name: "Marco Bertelli",
+      name: "Alberto Rinaldi",
       role: "Caporedattore Normativa & Fisco",
       bio: "Giornalista tecnico con vent'anni di esperienza su normativa edilizia e contenzioso tecnico-legale. Coordina per Corriere Edile l'analisi di decreti, circolari e giurisprudenza che incidono su imprese e progettisti."
     },

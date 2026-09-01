@@ -22,8 +22,8 @@ export default function Footer() {
             />
           </Link>
           <p className="text-sm leading-relaxed text-navy-200">
-            Il quotidiano digitale per imprese edili, artigiani, serramentisti e professionisti delle
-            costruzioni. Notizie, norme e bonus, spiegati da chi il cantiere lo vive.
+            La testata tecnica di chi il cantiere lo vive: norme spiegate come si applicano,
+            adempimenti, posa a regola d'arte e prezzi reali dei materiali.
           </p>
           <div className="flex gap-3" aria-label="Social Corriere Edile">
             {[Facebook, Linkedin, Instagram, Twitter].map((Icon, i) => (
@@ -43,6 +43,11 @@ export default function Footer() {
                 <Link href={categoryUrl(c)} className="hover:text-gold-500">{c}</Link>
               </li>
             ))}
+            <li>
+              <Link href="/fiere-edilizia" className="font-semibold text-gold-500 hover:underline">
+                Calendario fiere
+              </Link>
+            </li>
           </ul>
         </nav>
 

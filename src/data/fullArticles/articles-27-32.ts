@@ -14,7 +14,7 @@ export const ARTICLES_27_32: FullArticle[] = [
     updated: "2026-07-08T16:30:00+02:00",
     readingTime: 9,
     author: {
-      name: "Giulia Ferraro",
+      name: "Chiara Bonomi",
       role: "Redattrice Mercato & Imprese",
       bio: "Giornalista economica, da otto anni analizza bilanci, commesse e dinamiche competitive del settore costruzioni. Per Corriere Edile cura classifiche, report di mercato e interviste ai vertici delle imprese."
     },
@@ -71,7 +71,7 @@ export const ARTICLES_27_32: FullArticle[] = [
     slug: "conto-termico-3-0-guida-incentivi",
     category: "Bonus & Fisco",
     title: "Conto Termico 3.0: la guida agli incentivi 2026 per imprese e condomini",
-    metaTitle: "Conto Termico 3.0: guida incentivi 2026",
+    metaTitle: "Conto Termico 3.0: requisiti e accesso per le imprese",
     metaDescription: "Conto Termico 3.0: incentivi diretti fino al 65% per pompe di calore, solare e riqualificazioni. Chi può accedere, aliquote, massimali e domanda GSE.",
     keywords: ["conto termico 3.0", "incentivi GSE 2026", "conto termico pompe di calore", "incentivi riqualificazione energetica", "conto termico condomini"],
     subtitle: "In vigore dal 2025, il nuovo Conto Termico eroga incentivi diretti — non detrazioni — fino al 65% della spesa per pompe di calore, solare termico, isolamento e rinnovabili, con procedure semplificate per piccoli Comuni, scuole e condomini.",
@@ -80,7 +80,7 @@ export const ARTICLES_27_32: FullArticle[] = [
     updated: "2026-07-11T10:15:00+02:00",
     readingTime: 11,
     author: {
-      name: "Marco Bertelli",
+      name: "Alberto Rinaldi",
       role: "Caporedattore Normativa & Fisco",
       bio: "Giornalista tecnico con vent'anni di esperienza su normativa edilizia e contenzioso tecnico-legale. Coordina per Corriere Edile l'analisi di decreti, circolari e giurisprudenza che incidono su imprese e progettisti."
     },
@@ -142,7 +142,7 @@ export const ARTICLES_27_32: FullArticle[] = [
     slug: "migliori-materiali-isolanti-2026",
     category: "Prodotti & Materiali",
     title: "I migliori materiali isolanti del 2026: EPS, lana di roccia, sughero e fibra di legno a confronto",
-    metaTitle: "Migliori materiali isolanti 2026 a confronto",
+    metaTitle: "Isolanti 2026: conduttività e criteri di scelta tecnica",
     metaDescription: "EPS, XPS, lana di roccia, sughero e fibra di legno a confronto: conduttività λ, costi al mq, pregi e limiti. La guida 2026 per scegliere l'isolante giusto.",
     keywords: ["migliori materiali isolanti 2026", "confronto isolanti termici", "conduttività termica lambda", "costo cappotto al mq", "EPS lana di roccia sughero fibra di legno"],
     subtitle: "Conduttività tra 0,031 e 0,045 W/mK, costi da 8 a 45 euro al mq per 10 cm, reazione al fuoco e sfasamento estivo: come scegliere davvero l'isolante tra sintetici, minerali e naturali.",
@@ -151,7 +151,7 @@ export const ARTICLES_27_32: FullArticle[] = [
     updated: "2026-07-13T17:00:00+02:00",
     readingTime: 10,
     author: {
-      name: "Luca Marchetti",
+      name: "Federico Salvetti",
       role: "Redattore Prodotti & Materiali tecnici",
       bio: "Tecnico dei materiali da costruzione, ha maturato esperienza pluriennale in laboratori di prova su serramenti e involucro edilizio. Scrive di norme di prodotto, posa in opera e prestazioni dei componenti."
     },
@@ -213,7 +213,7 @@ export const ARTICLES_27_32: FullArticle[] = [
     slug: "salva-casa-sanatoria-irregolarita-edilizie",
     category: "Normativa",
     title: "Salva Casa: la sanatoria delle irregolarità edilizie, cosa sapere nel 2026",
-    metaTitle: "Salva Casa 2026: sanatoria irregolarità edilizie",
+    metaTitle: "Salva Casa: sanatoria e pratiche per imprese e tecnici",
     metaDescription: "Decreto Salva Casa (DL 69/2024): stato legittimo, difformità minori sanabili e tolleranze. Cosa si può sanare nel 2026 e cosa resta abuso.",
     keywords: ["salva casa sanatoria", "decreto salva casa DL 69/2024", "stato legittimo immobile", "difformità minori edilizia", "sanatoria edilizia 2026"],
     subtitle: "Stato legittimo, tolleranze costruttive al 2%, difformità parziali e procedure semplificate: cosa il decreto Salva Casa ha davvero cambiato — e dove finisce il perimetro delle irregolarità sanabili.",
@@ -222,7 +222,7 @@ export const ARTICLES_27_32: FullArticle[] = [
     updated: "2026-07-16T09:20:00+02:00",
     readingTime: 12,
     author: {
-      name: "Marco Bertelli",
+      name: "Alberto Rinaldi",
       role: "Caporedattore Normativa & Fisco",
       bio: "Giornalista tecnico con vent'anni di esperienza su normativa edilizia e contenzioso tecnico-legale. Coordina per Corriere Edile l'analisi di decreti, circolari e giurisprudenza che incidono su imprese e progettisti."
     },
@@ -281,7 +281,7 @@ export const ARTICLES_27_32: FullArticle[] = [
     slug: "mercato-immobiliare-2026-compravendite",
     category: "Mercato",
     title: "Mercato immobiliare 2026: compravendite, prezzi e ristrutturazioni, i numeri del settore",
-    metaTitle: "Mercato immobiliare 2026: i numeri del settore",
+    metaTitle: "Mercato immobiliare 2026: dati per orientare le commesse",
     metaDescription: "Mercato immobiliare 2026: compravendite oltre 740mila, prezzi in crescita del 2-4%, ristrutturazioni in calo fisiologico. I dati OMI e le previsioni.",
     keywords: ["mercato immobiliare 2026", "compravendite immobiliari italia", "prezzi case 2026", "dati OMI 2026", "ristrutturazioni mercato edile"],
     subtitle: "Le compravendite residenziali viaggiano verso le 740-760mila unità annue, i prezzi salgono del 2-4% nelle città trainanti e il comparto delle ristrutturazioni si ridimensiona dopo gli anni dei bonus: la fotografia del settore a metà 2026.",
@@ -290,7 +290,7 @@ export const ARTICLES_27_32: FullArticle[] = [
     updated: "2026-07-19T11:30:00+02:00",
     readingTime: 11,
     author: {
-      name: "Giulia Ferraro",
+      name: "Chiara Bonomi",
       role: "Redattrice Mercato & Imprese",
       bio: "Giornalista economica, da otto anni analizza bilanci, commesse e dinamiche competitive del settore costruzioni. Per Corriere Edile cura classifiche, report di mercato e interviste ai vertici delle imprese."
     },

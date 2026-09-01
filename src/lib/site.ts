@@ -4,7 +4,7 @@ export const SITE = {
   url: "https://www.corrieredile.it",
   logo: "https://www.corrieredile.it/logo.png",
   description:
-    "Il portale di informazione per imprese edili, artigiani, serramentisti e professionisti delle costruzioni.",
+    "Testata tecnica per chi lavora in cantiere: normativa, adempimenti, posa a regola d'arte, prezzi dei materiali e fiere di settore. Per imprese edili, serramentisti, direttori lavori e progettisti.",
 };
 
 /**

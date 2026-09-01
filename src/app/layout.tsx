@@ -24,7 +24,7 @@ const sourceSans = Source_Sans_3({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "Corriere Edile | Notizie, normativa e bonus per il mondo delle costruzioni",
+    default: "Corriere Edile | Normativa, adempimenti e tecnica di cantiere",
     template: "%s | Corriere Edile",
   },
   description: SITE.description,
@@ -38,16 +38,16 @@ export const metadata: Metadata = {
     type: "website",
     siteName: SITE.name,
     locale: "it_IT",
-    title: "Corriere Edile | Notizie, normativa e bonus per il mondo delle costruzioni",
+    title: "Corriere Edile | Normativa, adempimenti e tecnica di cantiere",
     description:
-      "Attualità, normativa, bonus edilizi, mercato e prodotti per imprese edili, artigiani e professionisti delle costruzioni.",
+      "Come si applicano le norme in cantiere: adempimenti, posa a regola d'arte, prezzi dei materiali, gare d'appalto e fiere di settore.",
     url: SITE.url,
     images: [{ url: "/images/og-default.jpg", width: 1200, height: 630, alt: "Corriere Edile — il portale delle costruzioni" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Corriere Edile | Il portale delle costruzioni",
-    description: "Notizie, normativa e bonus per imprese edili, artigiani, serramentisti e progettisti.",
+    title: "Corriere Edile | La tecnica del cantiere",
+    description: "Normativa applicata, adempimenti e posa a regola d'arte per imprese edili, serramentisti e progettisti.",
     images: ["/images/og-default.jpg"],
   },
   icons: {

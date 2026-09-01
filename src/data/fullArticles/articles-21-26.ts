@@ -5,7 +5,7 @@ export const ARTICLES_21_26: FullArticle[] = [
     slug: "edilizia-2026-carenza-manodopera-cantieri",
     category: "Attualità",
     title: "Edilizia 2026: la carenza di manodopera frena i cantieri italiani",
-    metaTitle: "Carenza manodopera edilizia 2026: i cantieri rallentano",
+    metaTitle: "Manodopera edile 2026: impatto sui tempi di cantiere",
     metaDescription: "Carenza di manodopera in edilizia nel 2026: mancano fino a 300.000 addetti. Dati ANCE, cause e soluzioni concrete per le imprese di costruzione.",
     keywords: ["carenza manodopera edilizia 2026", "operai edili mancanti", "assunzioni costruzioni", "formazione cantiere", "decreto flussi edilizia"],
     subtitle: "Dai carpentieri ai posatori specializzati: mancano fino a 300.000 addetti e i tempi di cantiere si allungano. Cause, dati e strategie concrete per le imprese",
@@ -14,7 +14,7 @@ export const ARTICLES_21_26: FullArticle[] = [
     updated: "2026-07-08T08:30:00+02:00",
     readingTime: 12,
     author: {
-      name: "Giulia Ferraro",
+      name: "Chiara Bonomi",
       role: "Redattrice Mercato & Imprese",
       bio: "Giornalista economica, da otto anni analizza bilanci, commesse e dinamiche competitive del settore costruzioni. Per Corriere Edile cura classifiche, report di mercato e interviste ai vertici delle imprese."
     },
@@ -80,7 +80,7 @@ export const ARTICLES_21_26: FullArticle[] = [
     updated: "2026-07-11T08:00:00+02:00",
     readingTime: 11,
     author: {
-      name: "Luca Marchetti",
+      name: "Federico Salvetti",
       role: "Redattore Prodotti & Materiali tecnici",
       bio: "Ingegnere dei materiali, scrive di serramenti, involucro edilizio e tecnologie per l'efficienza energetica. Ha lavorato in laboratori di prova e uffici tecnici di produttori di sistemi per l'involucro."
     },
@@ -144,7 +144,7 @@ export const ARTICLES_21_26: FullArticle[] = [
     updated: "2026-07-13T08:30:00+02:00",
     readingTime: 12,
     author: {
-      name: "Marco Bertelli",
+      name: "Alberto Rinaldi",
       role: "Caporedattore Normativa & Fisco",
       bio: "Giornalista edile con oltre quindici anni di esperienza, segue fisco agevolato e normativa tecnica per le principali testate di settore. Ha curato guide operative su Superbonus, contabilizzazione e appalti pubblici."
     },
@@ -275,7 +275,7 @@ export const ARTICLES_21_26: FullArticle[] = [
     updated: "2026-07-17T08:00:00+02:00",
     readingTime: 10,
     author: {
-      name: "Luca Marchetti",
+      name: "Federico Salvetti",
       role: "Redattore Prodotti & Materiali tecnici",
       bio: "Ingegnere dei materiali, scrive di serramenti, involucro edilizio e tecnologie per l'efficienza energetica. Ha lavorato in laboratori di prova e uffici tecnici di produttori di sistemi per l'involucro."
     },
@@ -339,7 +339,7 @@ export const ARTICLES_21_26: FullArticle[] = [
     updated: "2026-07-21T08:30:00+02:00",
     readingTime: 10,
     author: {
-      name: "Giulia Ferraro",
+      name: "Chiara Bonomi",
       role: "Redattrice Mercato & Imprese",
       bio: "Giornalista economica, da otto anni analizza bilanci, commesse e dinamiche competitive del settore costruzioni. Per Corriere Edile cura classifiche, report di mercato e interviste ai vertici delle imprese."
     },

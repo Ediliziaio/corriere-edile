@@ -101,6 +101,14 @@ export default function Archivio() {
             Le sezioni
           </h2>
           <ul className="flex flex-wrap gap-2">
+            <li>
+              <Link
+                href="/fiere-edilizia"
+                className="inline-block rounded-full border border-gold-500 bg-gold-50 px-4 py-1.5 text-sm font-bold text-navy-800 hover:bg-gold-100"
+              >
+                📅 Calendario fiere
+              </Link>
+            </li>
             {CATEGORY_LIST.map((c) => (
               <li key={c.slug}>
                 <Link

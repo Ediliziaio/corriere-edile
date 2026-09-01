@@ -58,6 +58,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   });
 
   const staticPages: MetadataRoute.Sitemap = [
+    { path: "fiere-edilizia", priority: 0.7, last: siteNewest },
     { path: "archivio", priority: 0.6, last: siteNewest },
     { path: "chi-siamo", priority: 0.5, last: new Date(LEGAL_LAST_REVIEW) },
     { path: "contatti", priority: 0.5, last: new Date(LEGAL_LAST_REVIEW) },

@@ -1,8 +1,11 @@
 # Corriere Edile
 
-> Portale italiano di informazione professionale per il settore delle costruzioni:
-> normativa edilizia, bonus e detrazioni fiscali, mercato, prodotti e cantieri.
-> Rivolto a imprese edili, artigiani, serramentisti, progettisti e professionisti tecnici.
+> Testata tecnica italiana per il settore delle costruzioni. Taglio operativo:
+> come si applicano le norme in cantiere, adempimenti, posa a regola d'arte
+> (UNI 11673, PiMUS, sicurezza), prezzi reali dei materiali, gare d'appalto
+> e calendario delle fiere di settore.
+> Rivolta a imprese edili, serramentisti, direttori lavori, coordinatori
+> della sicurezza e progettisti — non al pubblico generalista.
 
 Editore: Domus Group S.r.l. — Via Aurelio Saffi 29, 20123 Milano (MI), Italia
 P.IVA 13132010961 — PEC domusgroupsrl@legalmail.it
@@ -23,6 +26,10 @@ il parere di un professionista abilitato.
 - [Progetti](https://www.corrieredile.it/categoria/progetti/): ristrutturazioni, efficienza energetica, costi al mq
 - [Cantieri](https://www.corrieredile.it/categoria/cantieri/): sicurezza, posa in opera, organizzazione del lavoro
 - [Eventi & Fiere](https://www.corrieredile.it/categoria/eventi-fiere/): fiere e appuntamenti della filiera
+
+## Calendario fiere (contenuto esclusivo)
+
+- [Fiere edilizia 2026-2027](https://www.corrieredile.it/fiere-edilizia/): calendario con date, sedi e temi di SAIE, Marmomac, MADE Expo e Klimahouse
 
 ## Guide di riferimento
 

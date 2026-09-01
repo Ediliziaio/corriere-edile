@@ -31,8 +31,8 @@ export interface AuthorProfile {
 
 export const AUTHORS: AuthorProfile[] = [
   {
-    slug: "marco-bertelli",
-    name: "Marco Bertelli",
+    slug: "alberto-rinaldi",
+    name: "Alberto Rinaldi",
     role: "Caporedattore Normativa & Fisco",
     bio: "Giornalista edile con oltre quindici anni di esperienza, segue fisco agevolato e normativa tecnica per le principali testate di settore. Ha curato guide operative su detrazioni, adempimenti e Testo Unico dell'edilizia, con particolare attenzione all'applicazione pratica delle norme in cantiere.",
     expertise: [
@@ -44,8 +44,8 @@ export const AUTHORS: AuthorProfile[] = [
     credentials: ["Giornalista pubblicista"],
   },
   {
-    slug: "giulia-ferraro",
-    name: "Giulia Ferraro",
+    slug: "chiara-bonomi",
+    name: "Chiara Bonomi",
     role: "Redattrice Mercato & Imprese",
     bio: "Si occupa di analisi di mercato, congiuntura delle costruzioni e dinamiche delle imprese edili. Collabora con centri studi e associazioni di categoria per la lettura dei dati su investimenti, compravendite e prezzi dei materiali.",
     expertise: [
@@ -56,8 +56,8 @@ export const AUTHORS: AuthorProfile[] = [
     ],
   },
   {
-    slug: "luca-marchetti",
-    name: "Luca Marchetti",
+    slug: "federico-salvetti",
+    name: "Federico Salvetti",
     role: "Redattore Prodotti & Materiali tecnici",
     bio: "Ingegnere dei materiali, scrive di serramenti, involucro edilizio e tecnologie per l'efficienza energetica. Ha lavorato in laboratori di prova e uffici tecnici, e valuta i prodotti sulla base di prestazioni dichiarate, certificazioni e comportamento reale in opera.",
     expertise: [

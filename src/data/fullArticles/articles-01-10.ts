@@ -5,7 +5,7 @@ export const ARTICLES_01_10: FullArticle[] = [
     slug: "bonus-edilizi-2026-guida-completa",
     category: "Bonus & Fisco",
     title: "Bonus edilizi 2026: la guida completa per imprese, artigiani e professionisti",
-    metaTitle: "Bonus edilizi 2026: guida completa a detrazioni e aliquote",
+    metaTitle: "Bonus edilizi 2026: adempimenti e aliquote per le imprese",
     metaDescription: "Bonus edilizi 2026: aliquote 50% e 36%, massimali, Conto termico 3.0 e adempimenti. La guida per imprese, artigiani e professionisti.",
     keywords: ["bonus edilizi 2026", "detrazioni ristrutturazioni 2026", "ecobonus 2026", "conto termico 3.0", "bonus casa 2026"],
     subtitle: "Aliquote, massimali, adempimenti e scadenze: tutto quello che serve sapere per pianificare i cantieri del 2026 senza errori",
@@ -14,7 +14,7 @@ export const ARTICLES_01_10: FullArticle[] = [
     updated: "2026-07-02T08:30:00+02:00",
     readingTime: 12,
     author: {
-      name: "Marco Bertelli",
+      name: "Alberto Rinaldi",
       role: "Caporedattore Normativa & Fisco",
       bio: "Giornalista edile con oltre quindici anni di esperienza, segue fisco agevolato e normativa tecnica per le principali testate di settore. Ha curato guide operative su Superbonus, contabilizzazione e appalti pubblici."
     },
@@ -86,7 +86,7 @@ export const ARTICLES_01_10: FullArticle[] = [
     updated: "2026-07-05T09:00:00+02:00",
     readingTime: 11,
     author: {
-      name: "Luca Marchetti",
+      name: "Federico Salvetti",
       role: "Redattore Prodotti & Materiali tecnici",
       bio: "Ingegnere dei materiali, scrive di serramenti, involucro edilizio e tecnologie per l'efficienza energetica. Ha lavorato in laboratori di prova e uffici tecnici di produttori di sistemi per l'involucro."
     },
@@ -142,7 +142,7 @@ export const ARTICLES_01_10: FullArticle[] = [
     slug: "direttiva-case-green-2026-cosa-cambia",
     category: "Normativa",
     title: "Direttiva Case Green: cosa cambia dal 2026 per edifici, imprese e proprietari",
-    metaTitle: "Direttiva Case Green 2026: cosa cambia per gli edifici",
+    metaTitle: "Direttiva Case Green: obblighi 2026 per imprese e tecnici",
     metaDescription: "Direttiva Case Green: recepimento 2026, edifici a emissioni zero, riqualificazione del patrimonio e obbligo solare. Cosa cambia per imprese e proprietari.",
     keywords: ["direttiva case green 2026", "direttiva UE 2024/1275", "edifici a emissioni zero", "riqualificazione energetica edifici", "recepimento EPBD Italia"],
     subtitle: "Dal recepimento nazionale alla traiettoria di riqualificazione del patrimonio: le scadenze, gli obblighi e le opportunità per la filiera delle costruzioni",
@@ -151,7 +151,7 @@ export const ARTICLES_01_10: FullArticle[] = [
     updated: "2026-07-06T08:00:00+02:00",
     readingTime: 12,
     author: {
-      name: "Marco Bertelli",
+      name: "Alberto Rinaldi",
       role: "Caporedattore Normativa & Fisco",
       bio: "Giornalista edile con oltre quindici anni di esperienza, segue fisco agevolato e normativa tecnica per le principali testate di settore. Ha curato guide operative su Superbonus, contabilizzazione e appalti pubblici."
     },
@@ -218,7 +218,7 @@ export const ARTICLES_01_10: FullArticle[] = [
     updated: "2026-07-09T07:45:00+02:00",
     readingTime: 11,
     author: {
-      name: "Giulia Ferraro",
+      name: "Chiara Bonomi",
       role: "Redattrice Mercato & Imprese",
       bio: "Si occupa di analisi di mercato, congiuntura delle costruzioni e dinamiche delle imprese edili. Collabora con centri studi e associazioni di categoria per l'interpretazione dei dati di settore."
     },
@@ -275,7 +275,7 @@ export const ARTICLES_01_10: FullArticle[] = [
     slug: "prezzi-materiali-costruzione-2026",
     category: "Mercato",
     title: "Prezzi dei materiali da costruzione nel 2026: andamento di cemento, acciaio, laterizi e legno",
-    metaTitle: "Prezzi materiali da costruzione 2026: l'andamento",
+    metaTitle: "Prezzi materiali 2026: difendere il margine di commessa",
     metaDescription: "Prezzi dei materiali da costruzione nel 2026: cemento, acciaio, laterizi, legno e isolanti. Andamento, previsioni e strategie di acquisto per le imprese.",
     keywords: ["prezzi materiali da costruzione 2026", "prezzo cemento 2026", "prezzo acciaio edilizia", "costo materiali edili", "andamento prezzi costruzioni"],
     subtitle: "Dopo gli shock del 2021-2022 i listini si sono stabilizzati su livelli più alti: ecco l'andamento reale dei principali materiali e le strategie per difendere i margini di cantiere",
@@ -284,7 +284,7 @@ export const ARTICLES_01_10: FullArticle[] = [
     updated: "2026-07-10T08:15:00+02:00",
     readingTime: 10,
     author: {
-      name: "Giulia Ferraro",
+      name: "Chiara Bonomi",
       role: "Redattrice Mercato & Imprese",
       bio: "Si occupa di analisi di mercato, congiuntura delle costruzioni e dinamiche delle imprese edili. Collabora con centri studi e associazioni di categoria per l'interpretazione dei dati di settore."
     },
@@ -343,7 +343,7 @@ export const ARTICLES_01_10: FullArticle[] = [
     slug: "sicurezza-cantieri-2026-nuove-regole",
     category: "Cantieri",
     title: "Sicurezza in cantiere 2026: le nuove regole che ogni impresa deve conoscere",
-    metaTitle: "Sicurezza in cantiere 2026: le nuove regole",
+    metaTitle: "Sicurezza cantiere 2026: patente a crediti e adempimenti",
     metaDescription: "Sicurezza in cantiere 2026: ponteggi, patente a crediti, formazione e controlli. Le nuove regole del Testo Unico che ogni impresa edile deve conoscere.",
     keywords: ["sicurezza in cantiere 2026", "nuove regole sicurezza edilizia", "patente a crediti edilizia", "ponteggi normativa 2026", "D.Lgs 81/08 aggiornamenti"],
     subtitle: "Dalla patente a crediti per le imprese alle nuove prescrizioni sui ponteggi, fino ai controlli rafforzati: la mappa operativa degli adempimenti per il 2026",
@@ -408,7 +408,7 @@ export const ARTICLES_01_10: FullArticle[] = [
     slug: "cappotto-termico-2026-costi-materiali",
     category: "Prodotti & Materiali",
     title: "Cappotto termico 2026: costi, materiali migliori e detrazioni disponibili",
-    metaTitle: "Cappotto termico 2026: costi, materiali e detrazioni",
+    metaTitle: "Cappotto termico 2026: costi al mq, spessori e posa",
     metaDescription: "Cappotto termico 2026: costi al mq, confronto tra EPS, lana di roccia e materiali naturali, spessori e detrazioni ecobonus. La guida completa.",
     keywords: ["cappotto termico 2026", "costo cappotto termico al mq", "migliori materiali isolanti", "ecobonus cappotto", "isolamento a cappotto prezzi"],
     subtitle: "Prezzi reali al metro quadro, confronto tra i materiali isolanti, spessori corretti e detrazioni 2026: tutto quello che serve per progettare e vendere un cappotto termico",
@@ -417,7 +417,7 @@ export const ARTICLES_01_10: FullArticle[] = [
     updated: "2026-07-14T08:00:00+02:00",
     readingTime: 10,
     author: {
-      name: "Luca Marchetti",
+      name: "Federico Salvetti",
       role: "Redattore Prodotti & Materiali tecnici",
       bio: "Ingegnere dei materiali, scrive di serramenti, involucro edilizio e tecnologie per l'efficienza energetica. Ha lavorato in laboratori di prova e uffici tecnici di produttori di sistemi per l'involucro."
     },
@@ -473,7 +473,7 @@ export const ARTICLES_01_10: FullArticle[] = [
     slug: "fotovoltaico-edilizia-2026-incentivi",
     category: "Bonus & Fisco",
     title: "Fotovoltaico in edilizia 2026: incentivi, obblighi e opportunità per le imprese",
-    metaTitle: "Fotovoltaico edilizia 2026: incentivi e obblighi",
+    metaTitle: "Fotovoltaico 2026: obbligo solare e iter per le imprese",
     metaDescription: "Fotovoltaico in edilizia 2026: detrazioni, Conto termico, obbligo solare Case Green e comunità energetiche. Incentivi e opportunità per le imprese.",
     keywords: ["fotovoltaico 2026 incentivi", "obbligo fotovoltaico nuovi edifici", "detrazione fotovoltaico 2026", "comunità energetiche", "direttiva case green solare"],
     subtitle: "Detrazioni, obbligo solare progressivo, comunità energetiche e prezzi degli impianti: perché il fotovoltaico è diventato una voce stabile dell'offerta delle imprese edili",
@@ -482,7 +482,7 @@ export const ARTICLES_01_10: FullArticle[] = [
     updated: "2026-07-16T08:45:00+02:00",
     readingTime: 10,
     author: {
-      name: "Marco Bertelli",
+      name: "Alberto Rinaldi",
       role: "Caporedattore Normativa & Fisco",
       bio: "Giornalista edile con oltre quindici anni di esperienza, segue fisco agevolato e normativa tecnica per le principali testate di settore. Ha curato guide operative su Superbonus, contabilizzazione e appalti pubblici."
     },
@@ -538,7 +538,7 @@ export const ARTICLES_01_10: FullArticle[] = [
     slug: "bim-obbligatorio-2026-appalti",
     category: "Normativa",
     title: "BIM obbligatorio 2026: cosa devono fare imprese e professionisti negli appalti",
-    metaTitle: "BIM obbligatorio 2026: regole per gli appalti",
+    metaTitle: "BIM obbligatorio 2026: cosa serve in gara d'appalto",
     metaDescription: "BIM obbligatorio 2026 negli appalti pubblici: soglie, scadenze, figure professionali e costi di adeguamento. Cosa devono fare imprese e progettisti.",
     keywords: ["BIM obbligatorio 2026", "BIM appalti pubblici", "decreto BIM MIT", "UNI 11337", "capitolato informativo"],
     subtitle: "Le soglie di obbligo dal 2026, i documenti richiesti in gara, le figure professionali e i costi reali di adeguamento: la guida operativa per non restare fuori dagli appalti",
@@ -605,7 +605,7 @@ export const ARTICLES_01_10: FullArticle[] = [
     slug: "pompe-calore-2026-migliori-modelli",
     category: "Prodotti & Materiali",
     title: "Pompe di calore 2026: i migliori modelli per la riqualificazione degli edifici",
-    metaTitle: "Pompe di calore 2026: i migliori modelli e prezzi",
+    metaTitle: "Pompe di calore 2026: dimensionamento, SCOP e posa",
     metaDescription: "Pompe di calore 2026: migliori modelli aria-acqua, prezzi installati, SCOP, refrigeranti R290 e incentivi Conto termico 3.0 ed ecobonus. La guida completa.",
     keywords: ["pompe di calore 2026", "migliori pompe di calore aria acqua", "prezzo pompa di calore installata", "conto termico pompe di calore", "pompa di calore R290"],
     subtitle: "Aria-acqua con refrigerante naturale, SCOP oltre 4,5 e integrazione con fotovoltaico: la selezione dei modelli e le regole di dimensionamento per la riqualificazione del 2026",
@@ -614,7 +614,7 @@ export const ARTICLES_01_10: FullArticle[] = [
     updated: "2026-07-21T08:30:00+02:00",
     readingTime: 10,
     author: {
-      name: "Luca Marchetti",
+      name: "Federico Salvetti",
       role: "Redattore Prodotti & Materiali tecnici",
       bio: "Ingegnere dei materiali, scrive di serramenti, involucro edilizio e tecnologie per l'efficienza energetica. Ha lavorato in laboratori di prova e uffici tecnici di produttori di sistemi per l'involucro."
     },
