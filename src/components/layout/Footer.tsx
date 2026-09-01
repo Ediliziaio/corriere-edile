@@ -52,6 +52,7 @@ export default function Footer() {
           <ul className="space-y-1.5 text-sm">
             <li><Link href="/chi-siamo" className="hover:text-gold-500">Chi siamo</Link></li>
             <li><Link href="/chi-siamo" className="hover:text-gold-500">Redazione</Link></li>
+            <li><Link href="/archivio" className="hover:text-gold-500">Archivio articoli</Link></li>
             <li><Link href="/contatti" className="hover:text-gold-500">Contatti</Link></li>
             <li><Link href="/contatti" className="hover:text-gold-500">Pubblicità</Link></li>
             <li><Link href="/privacy-policy" className="hover:text-gold-500">Privacy Policy</Link></li>
