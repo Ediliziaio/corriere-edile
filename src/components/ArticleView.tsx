@@ -15,6 +15,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import AdSlot from "@/components/AdSlot";
+import { EIC_INFEED, EIC_BOX } from "@/lib/adv";
 import { MostRead } from "@/components/Sidebar";
 import ReadingProgress from "@/components/ReadingProgress";
 import FaqItem from "@/components/FaqAccordion";
@@ -55,7 +56,7 @@ function ArticleBody({ blocks, promo }: { blocks: Block[]; promo?: { slug: strin
       h2Seen += 1;
       if (h2Seen === 3 && !adInserted) {
         adInserted = true;
-        out.push(<AdSlot key="ad-inarticle" format="infeed" id="article_infeed_1" className="my-8" />);
+        out.push(<AdSlot key="ad-inarticle" format="infeed" id="article_infeed_1" className="my-8" creative={EIC_INFEED("article_infeed_1")} />);
       }
       if (h2Seen === 4 && !promoInserted && promo) {
         promoInserted = true;
@@ -169,7 +170,7 @@ function ArticleBody({ blocks, promo }: { blocks: Block[]; promo?: { slug: strin
   // Fallback: se l'articolo ha meno di 3 h2, l'annuncio va a metà corpo
   if (!adInserted) {
     const mid = Math.max(1, Math.floor(out.length / 2));
-    out.splice(mid, 0, <AdSlot key="ad-inarticle" format="infeed" id="article_infeed_1" className="my-8" />);
+    out.splice(mid, 0, <AdSlot key="ad-inarticle" format="infeed" id="article_infeed_1" className="my-8" creative={EIC_INFEED("article_infeed_1")} />);
   }
 
   return <div className="mt-8 space-y-6 text-[17px] leading-relaxed text-foreground">{out}</div>;
@@ -531,7 +532,7 @@ export default function ArticleView({ article }: { article: FullArticle }) {
 
           {/* ============ Sidebar sticky ============ */}
           <aside aria-label="Contenuti correlati" className="space-y-6 lg:sticky lg:top-20 lg:self-start">
-            <AdSlot format="mpu" id="article_mpu_sidebar" />
+            <AdSlot format="mpu" id="article_mpu_sidebar" creative={EIC_BOX("article_mpu_sidebar")} />
             <MostRead />
           </aside>
         </div>

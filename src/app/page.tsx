@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { HelpCircle } from "lucide-react";
 import AdSlot from "@/components/AdSlot";
+import { EIC_WIDE, EIC_BOX, EIC_INFEED, EIC_STRIP } from "@/lib/adv";
 import ArticleCard, { CategoryChip, ArticleMeta, articleUrl, webpSrc } from "@/components/ArticleCard";
 import { MostRead, NewsletterBox } from "@/components/Sidebar";
 import FaqItem from "@/components/FaqAccordion";
@@ -133,7 +134,13 @@ export default function Home() {
       </section>
 
       {/* AD: billboard dopo l'hero */}
-      <AdSlot format="billboard" id="home_billboard_top" className="my-8 px-4" />
+      <AdSlot
+        format="billboard"
+        id="home_billboard_top"
+        className="my-8 px-4"
+        creative={EIC_WIDE("home_billboard_top")}
+        creativeMobile={EIC_INFEED("home_billboard_top")}
+      />
 
       {/* ============ Ultime Notizie + Sidebar ============ */}
       <section aria-labelledby="ultime-notizie" className="mx-auto max-w-7xl px-4 py-4">
@@ -155,10 +162,10 @@ export default function Home() {
           </div>
 
           <aside aria-label="Contenuti correlati" className="space-y-6">
-            <AdSlot format="mpu" id="home_mpu_sidebar" />
+            <AdSlot format="mpu" id="home_mpu_sidebar" creative={EIC_BOX("home_mpu_sidebar")} />
             <MostRead />
             <NewsletterBox />
-            <AdSlot format="halfpage" id="home_halfpage_sidebar" />
+            <AdSlot format="halfpage" id="home_halfpage_sidebar" creative={EIC_INFEED("home_halfpage_sidebar")} />
           </aside>
         </div>
       </section>
@@ -256,7 +263,13 @@ export default function Home() {
       </section>
 
       {/* AD: leaderboard prima del footer */}
-      <AdSlot format="leaderboard" id="home_leaderboard_footer" className="mb-8 px-4" />
+      <AdSlot
+        format="leaderboard"
+        id="home_leaderboard_footer"
+        className="mb-8 px-4"
+        creative={EIC_STRIP("home_leaderboard_footer")}
+        creativeMobile={EIC_BOX("home_leaderboard_footer")}
+      />
     </>
   );
 }
