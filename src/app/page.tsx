@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { HelpCircle } from "lucide-react";
 import AdSlot from "@/components/AdSlot";
-import { EIC_WIDE, EIC_BOX, EIC_INFEED, EIC_STRIP } from "@/lib/adv";
+import { EIC_WIDE, EIC_BOX, EIC_INFEED, EIC_STRIP, EIC_HALFPAGE } from "@/lib/adv";
 import ArticleCard, { CategoryChip, ArticleMeta, articleUrl, webpSrc } from "@/components/ArticleCard";
 import { MostRead, NewsletterBox } from "@/components/Sidebar";
 import FaqItem from "@/components/FaqAccordion";
@@ -165,7 +165,7 @@ export default function Home() {
             <AdSlot format="mpu" id="home_mpu_sidebar" creative={EIC_BOX("home_mpu_sidebar")} />
             <MostRead />
             <NewsletterBox />
-            <AdSlot format="halfpage" id="home_halfpage_sidebar" creative={EIC_INFEED("home_halfpage_sidebar")} />
+            <AdSlot format="halfpage" id="home_halfpage_sidebar" creative={EIC_HALFPAGE("home_halfpage_sidebar")} />
           </aside>
         </div>
       </section>

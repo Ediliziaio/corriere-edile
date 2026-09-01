@@ -66,6 +66,15 @@ export const EIC_BOX = (slot: string): Creative => ({
   href: eicHref(slot),
 });
 
+/** Half Page IAB 300x600 verticale — sidebar. Gia' a dimensione di resa. */
+export const EIC_HALFPAGE = (slot: string): Creative => ({
+  base: "eic-halfpage",
+  width: 300,
+  height: 600,
+  alt: ALT,
+  href: eicHref(slot),
+});
+
 /** Formato in-feed, per l'inserimento a meta' articolo. */
 export const EIC_INFEED = (slot: string): Creative => ({
   base: "eic-infeed",
