@@ -3,6 +3,7 @@ import { Playfair_Display, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 import { SITE, GLOBAL_JSONLD, jsonLd } from "@/lib/site";
 import Header from "@/components/layout/Header";
+import { italianDate } from "@/lib/dateIt";
 import Footer from "@/components/layout/Footer";
 import CookieBanner from "@/components/CookieBanner";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -76,7 +77,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           Salta al contenuto principale
         </a>
         <ScrollToTop />
-        <Header />
+        <Header buildDate={italianDate()} />
         <main id="main-content" className="flex-1">{children}</main>
         <Footer />
         {/* Banner consenso cookie GDPR — globale, persistito in localStorage */}

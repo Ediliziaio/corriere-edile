@@ -8,6 +8,7 @@ import { CATEGORIES } from "@/data/articles";
 import { FEATURED_ARTICLE } from "@/data/fullArticles";
 import { articleUrl } from "@/components/ArticleCard";
 import { categoryUrl } from "@/lib/categories";
+import { italianDate } from "@/lib/dateIt";
 
 const SOCIALS = [
   { Icon: Facebook, label: "Facebook" },
@@ -16,22 +17,31 @@ const SOCIALS = [
   { Icon: Twitter, label: "X / Twitter" },
 ];
 
-function italianDate() {
-  return new Intl.DateTimeFormat("it-IT", {
-    weekday: "long",
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  }).format(new Date());
-}
-
-export default function Header() {
+export default function Header({ buildDate }: { buildDate: string }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [query, setQuery] = useState("");
-  // Data "edizione di oggi": ricalcolata nel browser dopo il mount, così non
-  // resta congelata al giorno della build (il sito è SSG/export statico).
-  const [today, setToday] = useState(italianDate);
-  useEffect(() => setToday(italianDate()), []);
+  /*
+    Data "edizione di oggi" su sito SSG (output: "export").
+
+    L'HTML statico contiene per forza la data del build: `buildDate` arriva
+    come prop dal layout (server) proprio per questo. Il primo render del
+    client usa lo stesso valore, quindi l'idratazione combacia; poi l'effect
+    valorizza `clientDate` con la data reale del visitatore e, poiche' il
+    valore CAMBIA, React aggiorna davvero il nodo.
+
+    Nota: inizializzare lo stato gia' con italianDate() non funziona. In quel
+    caso il render di idratazione produce gia' la data corretta e il
+    successivo setState scrive lo stesso valore: React salta l'aggiornamento
+    del DOM e a schermo resta la data del build.
+
+    suppressHydrationWarning e' corretto qui: la differenza tra la data del
+    build e quella del visitatore e' voluta, non un bug da segnalare. Non
+    ostacola l'aggiornamento, perche' questo avviene con un re-render
+    successivo all'idratazione e non con la riconciliazione iniziale.
+  */
+  const [clientDate, setClientDate] = useState<string | null>(null);
+  useEffect(() => setClientDate(italianDate()), []);
+  const today = clientDate ?? buildDate;
   const router = useRouter();
 
   const submitSearch = (e: React.FormEvent) => {

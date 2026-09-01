@@ -28,3 +28,4 @@ dist-ssr
 out
 *.tsbuildinfo
 next-env.d.ts
+.datetest
