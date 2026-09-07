@@ -77,32 +77,23 @@ export default function Footer() {
           </ul>
         </nav>
 
-        {/* Newsletter mini-form */}
+        {/* Contatti diretti al posto della newsletter.
+            Il blocco precedente prometteva un invio "ogni mattina alle 7" e
+            raccoglieva indirizzi email senza alcun servizio dietro: una
+            promessa che il sito non puo' mantenere e una raccolta di dati
+            personali priva di finalita'. Torna quando la newsletter esiste. */}
         <div>
-          <h2 className="mb-3 font-serif text-lg font-bold text-white">Newsletter del cantiere</h2>
+          <h2 className="mb-3 font-serif text-lg font-bold text-white">Scrivi alla redazione</h2>
           <p className="mb-3 text-sm text-navy-200">
-            Ogni mattina alle 7: norme, bonus e appalti nella tua casella.
+            Segnalazioni su norme e adempimenti, correzioni, comunicati stampa e proposte di
+            approfondimento tecnico.
           </p>
-          <form
-            className="flex gap-2"
-            aria-label="Iscrizione newsletter"
-            onSubmit={(e) => e.preventDefault()}
+          <a
+            href="mailto:redazione@corrieredile.it"
+            className="inline-block rounded-md bg-gold-500 px-4 py-2 text-sm font-bold text-navy-900 hover:bg-gold-600"
           >
-            <label htmlFor="footer-email" className="sr-only">La tua email</label>
-            <input
-              id="footer-email"
-              type="email"
-              required
-              placeholder="La tua email"
-              className="w-full rounded-md border border-navy-700 bg-navy-800 px-3 py-2 text-sm text-white placeholder:text-navy-200/60 focus:border-gold-500 focus:outline-none"
-            />
-            <button
-              type="submit"
-              className="shrink-0 rounded-md bg-gold-500 px-4 py-2 text-sm font-bold text-navy-900 hover:bg-gold-600"
-            >
-              Iscriviti
-            </button>
-          </form>
+            redazione@corrieredile.it
+          </a>
         </div>
       </div>
 

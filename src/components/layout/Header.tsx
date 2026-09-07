@@ -57,7 +57,7 @@ export default function Header({ buildDate }: { buildDate: string }) {
             <span className="hidden text-gold-500 sm:inline">Edizione di oggi</span>
           </p>
           <nav aria-label="Servizi utente" className="flex items-center gap-4">
-            <a href="#newsletter" className="hover:text-gold-500">Newsletter</a>
+            <Link href="/contatti" className="hover:text-gold-500">Contatti</Link>
             <Link
               href="/archivio"
               className="rounded bg-gold-500 px-2.5 py-0.5 font-semibold text-navy-900 hover:bg-gold-600"
