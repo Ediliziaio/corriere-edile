@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   description:
     "Informativa sul trattamento dei dati personali di Corriere Edile ai sensi del GDPR (UE) 2016/679: dati raccolti, finalità, basi giuridiche, cookie e diritti degli interessati.",
   alternates: { canonical: "/privacy-policy" },
+  // Boilerplate legale: nessun valore di ricerca. Resta linkata e raggiungibile
+  // (serve a utenti e conformita'), ma fuori dall'indice per non figurare tra
+  // le pagine "scansionate e non indicizzate" mascherando il dato reale.
+  robots: { index: false, follow: true },
 };
 
 export default function PrivacyPolicy() {

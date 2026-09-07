@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   description:
     "Termini e condizioni d'uso del sito Corriere Edile: proprietà intellettuale, natura informativa dei contenuti e limitazione di responsabilità.",
   alternates: { canonical: "/termini" },
+  // Boilerplate legale: nessun valore di ricerca. Resta linkata e raggiungibile
+  // (serve a utenti e conformita'), ma fuori dall'indice per non figurare tra
+  // le pagine "scansionate e non indicizzate" mascherando il dato reale.
+  robots: { index: false, follow: true },
 };
 
 export default function Termini() {

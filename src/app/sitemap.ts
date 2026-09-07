@@ -63,9 +63,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "archivio", priority: 0.6, last: siteNewest },
     { path: "chi-siamo", priority: 0.5, last: new Date(LEGAL_LAST_REVIEW) },
     { path: "contatti", priority: 0.5, last: new Date(LEGAL_LAST_REVIEW) },
-    { path: "privacy-policy", priority: 0.3, last: new Date(LEGAL_LAST_REVIEW) },
-    { path: "cookie-policy", priority: 0.3, last: new Date(LEGAL_LAST_REVIEW) },
-    { path: "termini", priority: 0.3, last: new Date(LEGAL_LAST_REVIEW) },
   ].map((p) => ({
     url: `${SITE.url}/${p.path}/`,
     lastModified: p.last,

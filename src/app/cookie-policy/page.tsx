@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   description:
     "Cookie Policy di Corriere Edile: cosa sono i cookie, categorie utilizzate (tecnici, analitici, marketing), durata e come gestire o revocare il consenso.",
   alternates: { canonical: "/cookie-policy" },
+  // Boilerplate legale: nessun valore di ricerca. Resta linkata e raggiungibile
+  // (serve a utenti e conformita'), ma fuori dall'indice per non figurare tra
+  // le pagine "scansionate e non indicizzate" mascherando il dato reale.
+  robots: { index: false, follow: true },
 };
 
 const COOKIE_TABLE = [
