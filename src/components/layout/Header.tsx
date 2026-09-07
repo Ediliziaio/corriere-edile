@@ -2,20 +2,13 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { Facebook, Linkedin, Instagram, Twitter, Search, Menu, X, Zap } from "lucide-react";
+import { Search, Menu, X, Zap } from "lucide-react";
 import { useState, useEffect } from "react";
 import { CATEGORIES } from "@/data/articles";
 import { FEATURED_ARTICLE } from "@/data/fullArticles";
 import { articleUrl } from "@/components/ArticleCard";
 import { categoryUrl } from "@/lib/categories";
 import { italianDate } from "@/lib/dateIt";
-
-const SOCIALS = [
-  { Icon: Facebook, label: "Facebook" },
-  { Icon: Linkedin, label: "LinkedIn" },
-  { Icon: Instagram, label: "Instagram" },
-  { Icon: Twitter, label: "X / Twitter" },
-];
 
 export default function Header({ buildDate }: { buildDate: string }) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -65,9 +58,12 @@ export default function Header({ buildDate }: { buildDate: string }) {
           </p>
           <nav aria-label="Servizi utente" className="flex items-center gap-4">
             <a href="#newsletter" className="hover:text-gold-500">Newsletter</a>
-            <a href="#" className="rounded bg-gold-500 px-2.5 py-0.5 font-semibold text-navy-900 hover:bg-gold-600">
-              Accedi
-            </a>
+            <Link
+              href="/archivio"
+              className="rounded bg-gold-500 px-2.5 py-0.5 font-semibold text-navy-900 hover:bg-gold-600"
+            >
+              Archivio
+            </Link>
           </nav>
         </div>
       </div>
@@ -112,18 +108,8 @@ export default function Header({ buildDate }: { buildDate: string }) {
             </div>
           </form>
 
-          <nav aria-label="Canali social" className="hidden items-center gap-3 lg:flex">
-            {SOCIALS.map(({ Icon, label }) => (
-              <a
-                key={label}
-                href="#"
-                aria-label={`Corriere Edile su ${label}`}
-                className="text-navy-700 transition-colors hover:text-gold-600"
-              >
-                <Icon className="h-5 w-5" />
-              </a>
-            ))}
-          </nav>
+          {/* I canali social tornano qui quando i profili esistono davvero:
+              un'icona che rimanda a "#" e' un link morto in ogni pagina. */}
 
           <button
             className="md:hidden text-navy"

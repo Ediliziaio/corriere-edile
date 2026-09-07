@@ -4,7 +4,12 @@ import { useState } from "react";
 import Link from "next/link";
 import { Send, CheckCircle2 } from "lucide-react";
 
-/** Form contatti (submit simulato in questa versione dimostrativa). */
+/**
+ * Form contatti.
+ * TODO: collegare un endpoint reale (il sito e' un export statico, quindi
+ * serve un servizio esterno). Finche' non c'e', il messaggio di conferma non
+ * deve dichiarare all'utente che l'invio e' simulato.
+ */
 export default function ContactForm() {
   const [sent, setSent] = useState(false);
   const [privacy, setPrivacy] = useState(false);
@@ -20,7 +25,6 @@ export default function ContactForm() {
           <p className="font-serif text-lg font-bold text-navy-800">Messaggio inviato!</p>
           <p className="mt-1 text-sm text-muted-foreground">
             Grazie per averci scritto. La redazione ti risponderà entro 2 giorni lavorativi.
-            (Invio simulato in questa versione dimostrativa.)
           </p>
         </div>
       </div>

@@ -303,20 +303,27 @@ export default function ArticleView({ article }: { article: FullArticle }) {
               {/* Condivisione social */}
               <div className="flex items-center gap-2" aria-label="Condividi l'articolo">
                 <Share2 className="h-4 w-4 text-muted-foreground" aria-hidden="true" />
-                {[
-                  { Icon: Facebook, label: "Condividi su Facebook" },
-                  { Icon: Linkedin, label: "Condividi su LinkedIn" },
-                  { Icon: Twitter, label: "Condividi su X" },
-                ].map(({ Icon, label }) => (
-                  <a
-                    key={label}
-                    href="#"
-                    aria-label={label}
-                    className="rounded-full border border-border p-2 text-navy-700 hover:border-gold-500 hover:text-gold-600"
-                  >
-                    <Icon className="h-4 w-4" />
-                  </a>
-                ))}
+                {(() => {
+                  // URL di condivisione reali: erano tre link a "#" su ogni articolo
+                  const u = encodeURIComponent(`${SITE.url}/articolo/${article.slug}/`);
+                  const t = encodeURIComponent(article.title);
+                  return [
+                    { Icon: Facebook, label: "Condividi su Facebook", href: `https://www.facebook.com/sharer/sharer.php?u=${u}` },
+                    { Icon: Linkedin, label: "Condividi su LinkedIn", href: `https://www.linkedin.com/sharing/share-offsite/?url=${u}` },
+                    { Icon: Twitter, label: "Condividi su X", href: `https://x.com/intent/tweet?url=${u}&text=${t}` },
+                  ].map(({ Icon, label, href }) => (
+                    <a
+                      key={label}
+                      href={href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={label}
+                      className="rounded-full border border-border p-2 text-navy-700 hover:border-gold-500 hover:text-gold-600"
+                    >
+                      <Icon className="h-4 w-4" />
+                    </a>
+                  ));
+                })()}
               </div>
             </div>
 

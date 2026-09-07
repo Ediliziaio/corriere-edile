@@ -53,10 +53,20 @@ export function LegalSection({ id, title, children }: { id?: string; title: stri
 }
 
 /** Box placeholder da personalizzare prima della messa online */
+/**
+ * Promemoria redazionale, visibile SOLO in sviluppo.
+ *
+ * In produzione non deve renderizzare nulla: un sito che dichiara ai propri
+ * visitatori "placeholder da personalizzare... prima della pubblicazione"
+ * sta scrivendo nero su bianco di non essere pubblicato. Su chi-siamo,
+ * contatti e pagine legali — cioe' proprio quelle con cui si valuta
+ * l'affidabilita' di un editore — e' il peggior segnale possibile.
+ */
 export function PlaceholderNote({ children }: { children: ReactNode }) {
+  if (process.env.NODE_ENV === "production") return null;
   return (
     <p className="rounded-md border border-dashed border-gold-600 bg-gold-50 px-3 py-2 text-sm text-navy-800">
-      <strong className="font-semibold">Placeholder da personalizzare:</strong> {children}
+      <strong className="font-semibold">Nota redazione (solo in sviluppo):</strong> {children}
     </p>
   );
 }

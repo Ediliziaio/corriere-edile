@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { SITE, jsonLd, absUrl } from "@/lib/site";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import LegalPage, { LegalSection, PlaceholderNote } from "@/components/legal/LegalPage";
 import ContactForm from "@/components/ContactForm";
 
@@ -101,13 +101,6 @@ export default function Contatti() {
                 <a href="mailto:pubblicita@corrieredile.it" className="text-navy underline decoration-gold-500 underline-offset-2 hover:text-gold-600">
                   pubblicita@corrieredile.it
                 </a>
-              </div>
-            </li>
-            <li className="flex items-start gap-3">
-              <Phone className="mt-0.5 h-5 w-5 shrink-0 text-gold-600" aria-hidden="true" />
-              <div>
-                <p className="font-semibold text-navy-800">Telefono</p>
-                <p className="text-muted-foreground">+39 02 0000 0000</p>
               </div>
             </li>
             <li className="flex items-start gap-3">

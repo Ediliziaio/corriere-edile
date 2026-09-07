@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Facebook, Linkedin, Instagram, Twitter, Cookie } from "lucide-react";
+import { Cookie } from "lucide-react";
 import { CATEGORIES } from "@/data/articles";
 import { categoryUrl } from "@/lib/categories";
 import { reopenCookiePreferences } from "@/lib/consent";
@@ -25,13 +25,8 @@ export default function Footer() {
             La testata tecnica di chi il cantiere lo vive: norme spiegate come si applicano,
             adempimenti, posa a regola d'arte e prezzi reali dei materiali.
           </p>
-          <div className="flex gap-3" aria-label="Social Corriere Edile">
-            {[Facebook, Linkedin, Instagram, Twitter].map((Icon, i) => (
-              <a key={i} href="#" aria-label="Seguici sui social" className="hover:text-gold-500">
-                <Icon className="h-5 w-5" />
-              </a>
-            ))}
-          </div>
+          {/* Nessuna icona social finche' i profili non esistono: erano quattro
+              link morti ripetuti su ogni pagina del sito. */}
         </div>
 
         {/* Sezioni */}
@@ -76,11 +71,6 @@ export default function Footer() {
               >
                 <Cookie className="h-3.5 w-3.5" aria-hidden="true" /> Gestisci cookie
               </button>
-            </li>
-            <li>
-              <Link href="/seo-blueprint" className="text-gold-500 hover:underline">
-                SEO Blueprint ↗
-              </Link>
             </li>
           </ul>
         </nav>
