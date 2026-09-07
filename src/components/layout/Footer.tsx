@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Cookie } from "lucide-react";
 import { CATEGORIES } from "@/data/articles";
 import { categoryUrl } from "@/lib/categories";
-import { reopenCookiePreferences } from "@/lib/consent";
+import { reopenCookiePreferences, TRACKING_ATTIVO } from "@/lib/consent";
 
 export default function Footer() {
   return (
@@ -63,15 +63,17 @@ export default function Footer() {
             <li><Link href="/privacy-policy" className="hover:text-gold-500">Privacy Policy</Link></li>
             <li><Link href="/cookie-policy" className="hover:text-gold-500">Cookie Policy</Link></li>
             <li><Link href="/termini" className="hover:text-gold-500">Termini e condizioni</Link></li>
-            <li>
-              <button
-                type="button"
-                onClick={reopenCookiePreferences}
-                className="inline-flex items-center gap-1.5 hover:text-gold-500"
-              >
-                <Cookie className="h-3.5 w-3.5" aria-hidden="true" /> Gestisci cookie
-              </button>
-            </li>
+            {TRACKING_ATTIVO && (
+              <li>
+                <button
+                  type="button"
+                  onClick={reopenCookiePreferences}
+                  className="inline-flex items-center gap-1.5 hover:text-gold-500"
+                >
+                  <Cookie className="h-3.5 w-3.5" aria-hidden="true" /> Gestisci cookie
+                </button>
+              </li>
+            )}
           </ul>
         </nav>
 

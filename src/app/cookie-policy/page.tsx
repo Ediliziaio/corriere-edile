@@ -13,32 +13,27 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
 };
 
+/*
+  La tabella deve elencare cio' che il sito installa DAVVERO.
+  Oggi l'unico dato memorizzato e' la preferenza di consenso in localStorage:
+  nessun Google Analytics, nessun pixel, nessun ad server. Dichiarare cookie
+  inesistenti non e' un dettaglio: un'informativa deve descrivere i trattamenti
+  effettivi, e un elenco con la parola "placeholder" accanto ai nomi dice al
+  lettore che la pagina non e' finita.
+  Quando si attiva analytics o pubblicita': portare TRACKING_ATTIVO a true in
+  src/lib/consent.ts e aggiungere qui le categorie con nomi e durate reali.
+*/
 const COOKIE_TABLE = [
   {
     category: "Tecnici / necessari",
     purpose:
-      "Funzionamento del sito, sicurezza, memorizzazione delle preferenze di consenso. Non richiedono consenso.",
+      "Funzionamento del sito e memorizzazione delle preferenze. Non richiedono consenso ai sensi dell'art. 122 del Codice privacy.",
     examples: [
-      { name: "ce-cookie-consent", duration: "12 mesi", note: "Salva la scelta espressa nel banner cookie (localStorage)" },
-      { name: "Preferenze di sessione", duration: "sessione", note: "Mantengono lo stato di navigazione" },
-    ],
-  },
-  {
-    category: "Analitici",
-    purpose:
-      "Statistiche aggregate sull'utilizzo del sito per migliorare contenuti e navigazione. Installati solo con consenso.",
-    examples: [
-      { name: "_ga, _ga_* (placeholder)", duration: "24 mesi", note: "Google Analytics 4 — misurazione visite anonimizzata" },
-      { name: "_gid (placeholder)", duration: "24 ore", note: "Google Analytics — distinzione sessioni" },
-    ],
-  },
-  {
-    category: "Profilazione / marketing",
-    purpose:
-      "Personalizzazione degli annunci negli slot pubblicitari e misurazione delle campagne. Installati solo con consenso.",
-    examples: [
-      { name: "Slot pubblicitari (placeholder)", duration: "variabile", note: "Ad server — frequenza e pertinenza degli annunci" },
-      { name: "Pixel di misurazione (placeholder)", duration: "variabile", note: "Conversioni campagne di settore edile" },
+      {
+        name: "ce-cookie-consent",
+        duration: "12 mesi",
+        note: "Salva l'eventuale scelta espressa sulle preferenze (localStorage, nessun dato personale)",
+      },
     ],
   },
 ];
@@ -92,7 +87,22 @@ export default function CookiePolicy() {
         </div>
       </LegalSection>
 
-      <LegalSection id="gestione-consenso" title="3. Come gestire o revocare il consenso">
+      <LegalSection id="non-attivi" title="3. Cookie analitici e di profilazione">
+        <p>
+          <strong>Questo sito non utilizza attualmente cookie analitici né di profilazione.</strong>{" "}
+          Non sono installati strumenti di statistica (come Google Analytics), pixel di
+          tracciamento o ad server di terze parti. Non viene quindi richiesto alcun consenso,
+          perché non ci sono trattamenti che lo richiedano.
+        </p>
+        <p>
+          Nel momento in cui dovessimo attivare strumenti di misurazione o pubblicità, questa
+          pagina verrà aggiornata con nomi, finalità e durata di ciascun cookie{" "}
+          <em>prima</em> della loro installazione, e comparirà il banner per esprimere o negare
+          il consenso.
+        </p>
+      </LegalSection>
+
+      <LegalSection id="gestione-consenso" title="4. Come gestire o revocare il consenso">
         <p>
           Puoi modificare in qualsiasi momento le preferenze espresse al primo accesso, riaprendo il
           pannello di gestione del consenso:
@@ -106,7 +116,7 @@ export default function CookiePolicy() {
         </p>
       </LegalSection>
 
-      <LegalSection id="browser" title="4. Gestione dei cookie dal browser">
+      <LegalSection id="browser" title="5. Gestione dei cookie dal browser">
         <p>Ogni browser consente di bloccare o eliminare i cookie dalle impostazioni:</p>
         <ul className="list-disc space-y-1.5 pl-6 marker:text-gold-600">
           <li>
@@ -136,7 +146,7 @@ export default function CookiePolicy() {
         </p>
       </LegalSection>
 
-      <LegalSection id="aggiornamenti" title="5. Aggiornamenti della Cookie Policy">
+      <LegalSection id="aggiornamenti" title="6. Aggiornamenti della Cookie Policy">
         <p>
           Questa pagina può essere aggiornata in seguito all'introduzione di nuovi strumenti o a
           modifiche normative. In caso di modifiche sostanziali, il banner del consenso verrà

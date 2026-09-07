@@ -8,6 +8,7 @@ import {
   saveConsent,
   reopenCookiePreferences,
   REOPEN_CONSENT_EVENT,
+  TRACKING_ATTIVO,
 } from "@/lib/consent";
 
 /**
@@ -58,6 +59,9 @@ function ConsentToggle({ label, description, checked, disabled, onChange }: Togg
 }
 
 export default function CookieBanner() {
+  // Nessuno strumento soggetto a consenso: niente banner. Vedi TRACKING_ATTIVO.
+  if (!TRACKING_ATTIVO) return null;
+
   const [visible, setVisible] = useState(false);
   const [customizing, setCustomizing] = useState(false);
   const [analytics, setAnalytics] = useState(false);
