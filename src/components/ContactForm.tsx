@@ -1,18 +1,46 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type FormEvent } from "react";
 import Link from "next/link";
 import { Send, CheckCircle2 } from "lucide-react";
+import { inviaLead } from "@/lib/eicLead";
+import { EIC_FORM_ID } from "@/lib/site";
 
 /**
  * Form contatti.
- * TODO: collegare un endpoint reale (il sito e' un export statico, quindi
- * serve un servizio esterno). Finche' non c'e', il messaggio di conferma non
- * deve dichiarare all'utente che l'invio e' simulato.
+ * Il sito e' un export statico: l'invio va al CRM di Edilizia in Cloud, che
+ * crea il contatto con la campagna di provenienza (UTM, gclid, fbclid).
+ * La conferma compare solo quando il CRM ha accettato; se l'invio fallisce il
+ * form resta com'e', con i dati gia' scritti, e si puo' riprovare.
  */
 export default function ContactForm() {
   const [sent, setSent] = useState(false);
   const [privacy, setPrivacy] = useState(false);
+  const [invio, setInvio] = useState(false);
+  const [errore, setErrore] = useState(false);
+
+  async function onSubmit(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    if (invio) return;
+    const fd = new FormData(e.currentTarget);
+    const campo = (k: string) => String(fd.get(k) ?? "").trim();
+    setInvio(true);
+    setErrore(false);
+    try {
+      await inviaLead(EIC_FORM_ID, {
+        nome: campo("nome"),
+        email: campo("email"),
+        azienda: campo("azienda"),
+        messaggio: campo("messaggio"),
+        tipo: "contatto",
+      });
+      setSent(true);
+    } catch {
+      setErrore(true);
+    } finally {
+      setInvio(false);
+    }
+  }
 
   if (sent) {
     return (
@@ -35,10 +63,8 @@ export default function ContactForm() {
     <form
       className="mt-4 space-y-4"
       aria-label="Modulo di contatto"
-      onSubmit={(e) => {
-        e.preventDefault();
-        setSent(true);
-      }}
+      aria-busy={invio}
+      onSubmit={onSubmit}
     >
       <div className="grid gap-4 sm:grid-cols-2">
         <div>
@@ -109,11 +135,17 @@ export default function ContactForm() {
           e acconsento al trattamento dei miei dati per la risposta alla richiesta. *
         </label>
       </div>
+      {errore && (
+        <p role="alert" className="text-sm font-semibold text-destructive">
+          Invio non riuscito. Riprova tra poco.
+        </p>
+      )}
       <button
         type="submit"
-        className="inline-flex items-center gap-2 rounded-md bg-gold-500 px-6 py-3 text-sm font-bold text-navy-900 hover:bg-gold-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-navy"
+        disabled={invio}
+        className="inline-flex items-center gap-2 rounded-md bg-gold-500 px-6 py-3 text-sm font-bold text-navy-900 hover:bg-gold-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-navy disabled:cursor-not-allowed disabled:opacity-60"
       >
-        <Send className="h-4 w-4" aria-hidden="true" /> Invia messaggio
+        <Send className="h-4 w-4" aria-hidden="true" /> {invio ? "Invio in corso…" : "Invia messaggio"}
       </button>
     </form>
   );

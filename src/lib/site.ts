@@ -8,6 +8,14 @@ export const SITE = {
 };
 
 /**
+ * Form del CRM di Edilizia in Cloud che riceve i contatti del sito.
+ * Tutti i moduli (contatti, newsletter, pubblicità) scrivono qui e si
+ * distinguono per il campo `tipo`. Unico punto da cambiare se il form viene
+ * sostituito nel CRM.
+ */
+export const EIC_FORM_ID = "00dbef0b-c482-48c1-a26c-e90324de5bf7";
+
+/**
  * URL assoluto canonico. Garantisce SEMPRE il trailing slash, coerente con
  * `trailingSlash: true` in next.config e con il rel=canonical delle pagine.
  * Va usato in ogni JSON-LD/og:url: emettere la variante senza slash fa

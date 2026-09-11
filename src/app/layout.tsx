@@ -7,6 +7,7 @@ import { italianDate } from "@/lib/dateIt";
 import Footer from "@/components/layout/Footer";
 import CookieBanner from "@/components/CookieBanner";
 import ScrollToTop from "@/components/ScrollToTop";
+import SalvaCampagna from "@/components/SalvaCampagna";
 
 // Font editoriali via next/font (self-hosted, zero layout shift)
 const playfair = Playfair_Display({
@@ -77,6 +78,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           Salta al contenuto principale
         </a>
         <ScrollToTop />
+        {/* Parametri di campagna (UTM, gclid, fbclid) salvati per i form */}
+        <SalvaCampagna />
         <Header buildDate={italianDate()} />
         <main id="main-content" className="flex-1">{children}</main>
         <Footer />

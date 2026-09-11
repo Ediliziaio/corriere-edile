@@ -71,7 +71,7 @@ export default function Contatti() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(CONTACT_JSONLD) }} />
     <LegalPage title="Contatti">
       <div className="grid gap-8 md:grid-cols-5">
-        {/* ===== Form contatti (submit simulato) ===== */}
+        {/* ===== Form contatti (invio al CRM Edilizia in Cloud) ===== */}
         <section aria-labelledby="form-contatti" className="md:col-span-3">
           <h2 id="form-contatti" className="border-l-4 border-gold-500 pl-3 font-serif text-xl font-bold text-navy-800">
             Scrivici
