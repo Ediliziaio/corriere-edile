@@ -341,9 +341,11 @@ export default function ArticleView({ article }: { article: FullArticle }) {
                   className="aspect-[16/9] w-full rounded-lg object-cover"
                 />
               </picture>
-              <figcaption className="mt-2 text-xs text-muted-foreground">
-                {article.imageCaption} <span className="italic">Grafica: Corriere Edile</span>
-              </figcaption>
+              {article.imageCaption && (
+                <figcaption className="mt-2 text-xs text-muted-foreground">
+                  {article.imageCaption} <span className="italic">Grafica: Corriere Edile</span>
+                </figcaption>
+              )}
             </figure>
 
             {/*
@@ -351,23 +353,25 @@ export default function ArticleView({ article }: { article: FullArticle }) {
               le key takeaway in apertura danno una risposta completa e citabile
               anche a chi (umano o AI) legge solo l'inizio del contenuto.
             */}
-            <section
-              id="in-sintesi-box"
-              aria-labelledby="in-sintesi"
-              className="mt-6 rounded-lg border-l-4 border-gold-500 bg-gold-50 p-5"
-            >
-              <h2 id="in-sintesi" className="font-serif text-lg font-bold text-navy-800">
-                In sintesi
-              </h2>
-              <ul className="mt-3 space-y-2">
-                {article.summary.map((s, i) => (
-                  <li key={i} className="flex gap-2 text-sm leading-relaxed text-navy-900">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-gold-600" aria-hidden="true" />
-                    {renderRichText(s)}
-                  </li>
-                ))}
-              </ul>
-            </section>
+            {article.summary.length > 0 && (
+              <section
+                id="in-sintesi-box"
+                aria-labelledby="in-sintesi"
+                className="mt-6 rounded-lg border-l-4 border-gold-500 bg-gold-50 p-5"
+              >
+                <h2 id="in-sintesi" className="font-serif text-lg font-bold text-navy-800">
+                  In sintesi
+                </h2>
+                <ul className="mt-3 space-y-2">
+                  {article.summary.map((s, i) => (
+                    <li key={i} className="flex gap-2 text-sm leading-relaxed text-navy-900">
+                      <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-gold-600" aria-hidden="true" />
+                      {renderRichText(s)}
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
 
             {/* Indice con anchor link — UX + jump links in SERP */}
             <nav aria-labelledby="indice" className="mt-6 rounded-lg border border-border bg-muted p-5">
