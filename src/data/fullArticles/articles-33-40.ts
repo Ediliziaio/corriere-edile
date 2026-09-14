@@ -569,7 +569,7 @@ export const ARTICLES_33_40: FullArticle[] = [
       },
       {
         type: "p",
-        text: "Arnold Koci, founder di Clientium e autore de La macchina degli appuntamenti, lo riassume così: «Il capitolato è la fine della storia, non l’inizio. Quando esce, chi lo ha scritto ha già due o tre nomi in testa. Il momento giusto per farsi conoscere è sei mesi prima, quando in azienda hanno appena deciso di spendere e non hanno ancora deciso con chi»."
+        text: "[Arnold Koci](https://www.arnoldkoci.com), founder di [Clientium](https://www.clientium.it) e autore de La macchina degli appuntamenti, lo riassume così: «Il capitolato è la fine della storia, non l’inizio. Quando esce, chi lo ha scritto ha già due o tre nomi in testa. Il momento giusto per farsi conoscere è sei mesi prima, quando in azienda hanno appena deciso di spendere e non hanno ancora deciso con chi»."
       },
       {
         type: "h2",
