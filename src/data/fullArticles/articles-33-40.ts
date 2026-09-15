@@ -655,4 +655,230 @@ export const ARTICLES_33_40: FullArticle[] = [
       "bim-obbligatorio-2026-appalti"
     ]
   },
+  {
+    slug: "varianti-corso-opera-riserve",
+    category: "Normativa",
+    title: "Varianti in corso d’opera e riserve: come si documentano perché reggano in giudizio",
+    metaTitle: "Varianti in corso d’opera: come documentarle bene",
+    metaDescription: "Ordini di servizio, riserve e maggiori oneri: come si documentano le varianti in corso d’opera perché l’impresa venga pagata anche in giudizio.",
+    keywords: [
+      "varianti in corso d’opera appalto privato",
+      "contenzioso appalto privato"
+    ],
+    subtitle: "Ordini di servizio, riserve e maggiori oneri: come si documentano le varianti in corso d’opera perché l’impresa venga pagata anche in giudizio.",
+    excerpt: "Ordini di servizio, riserve e maggiori oneri: come si documentano le varianti in corso d’opera perché l’impresa venga pagata anche in giudizio.",
+    published: "2026-09-15T10:00:00+02:00",
+    updated: "2026-09-15T10:00:00+02:00",
+    readingTime: 6,
+    author: {
+      name: "Avv. Armando Rossi",
+      role: "Avvocato del Foro di Napoli",
+      bio: "Avvocato del Foro di Napoli, si occupa di diritto dell’edilizia e degli appalti privati. Assiste imprese di costruzioni, artigiani e committenti in materia di contratti d’appalto, recupero crediti, difetti costruttivi e contenzioso di cantiere. Scrive su edilizialegale.it."
+    },
+    image: "/images/articoli/varianti-corso-opera-riserve.jpg",
+    imageAlt: "Varianti in corso d’opera e riserve: come si documentano perché reggano in giudizio",
+    imageCaption: "",
+    summary: [],
+    body: [
+      {
+        type: "p",
+        text: "Una variante in corso d’opera è una modifica del progetto decisa dopo la firma del contratto. Succede in quasi tutti i cantieri. Il problema non è la variante: è che quasi nessuno la mette per iscritto mentre accade. Al saldo, la discussione sulle varianti in corso d’opera nell’appalto privato finisce su un terreno dove vince chi ha le carte, non chi ha ragione."
+      },
+      {
+        type: "h2",
+        text: "Varianti in corso d’opera nell’appalto privato: cosa dicono gli articoli 1659, 1660 e 1661",
+        id: "varianti-in-corso-dopera-nellappalto-privato-cosa-dicono-gli"
+      },
+      {
+        type: "p",
+        text: "Testi integrali su [Normattiva](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262)."
+      },
+      {
+        type: "p",
+        text: "**Articolo 1659** — l’appaltatore non può apportare variazioni alle modalità convenute dell’opera se il committente non le ha autorizzate, e l’autorizzazione «si deve provare per iscritto». Il terzo comma è quello che le imprese dimenticano: anche se autorizzate, nell’appalto «a corpo» variazioni e aggiunte non danno diritto a compenso, salvo diversa pattuizione."
+      },
+      {
+        type: "p",
+        text: "**Articolo 1660** — se per eseguire l’opera a regola d’arte è necessario variare il progetto e le parti non si accordano, è il giudice a determinare le variazioni e il prezzo. Se l’importo supera il sesto del prezzo complessivo convenuto l’appaltatore può recedere, con un’equa indennità; se le variazioni sono di notevole entità recede il committente, con un equo indennizzo."
+      },
+      {
+        type: "p",
+        text: "**Articolo 1661** — il committente può imporre variazioni purché non superino il sesto del prezzo complessivo convenuto, e l’appaltatore ha diritto al compenso per i maggiori lavori anche a prezzo determinato globalmente. Il secondo comma gli toglie questo potere se le variazioni, pur sotto il sesto, importano notevoli modificazioni della natura dell’opera o dei quantitativi nelle singole categorie di lavori."
+      },
+      {
+        type: "p",
+        text: "Due precisazioni. Il sesto dell’articolo 1661 limita il potere del committente, non il compenso dell’impresa: oltre quella soglia l’appaltatore non è tenuto a eseguire. E il rincaro dei materiali non è una variante: l’articolo 1664 ammette la revisione del prezzo solo se, per circostanze imprevedibili, il costo di materiali o manodopera varia oltre il decimo del prezzo convenuto — e solo per l’eccedenza."
+      },
+      {
+        type: "h2",
+        text: "Variante richiesta dal committente e variante necessaria: due regimi diversi",
+        id: "variante-richiesta-dal-committente-e-variante-necessaria-due"
+      },
+      {
+        type: "p",
+        text: "La differenza che decide la causa non è tecnica: è chi ha voluto la modifica."
+      },
+      {
+        type: "p",
+        text: "Se la ordina il committente (articolo 1661), l’impresa esegue un ordine, e l’orientamento prevalente della Cassazione ammette la prova di quell’ordine con ogni mezzo, presunzioni comprese: la casistica è nella [guida ANCE sulle varianti negli appalti privati](https://ance.it/wp-content/uploads/allegati/Guida_alla_gestione_varianti_appalti_privati_RASSEGNA_GIURISPUDENZA.pdf). Se la propone l’impresa (articolo 1659), serve l’autorizzazione del committente, da provare per iscritto: testimonianze e ricostruzioni a posteriori reggono molto meno."
+      },
+      {
+        type: "p",
+        text: "La variante necessaria dell’articolo 1660 è un terzo caso: non l’ha voluta nessuno, la impone l’opera — un solaio che si rivela non portante, una fondazione da riprendere. Anche qui vale solo ciò che l’impresa ha documentato mentre il fatto accadeva."
+      },
+      {
+        type: "h2",
+        text: "La catena documentale: cosa serve davvero nel contenzioso appalto privato",
+        id: "la-catena-documentale-cosa-serve-davvero-nel-contenzioso-app"
+      },
+      {
+        type: "p",
+        text: "Ogni modifica deve lasciare una traccia scritta, datata, controfirmata."
+      },
+      {
+        type: "table",
+        head: [
+          "Documento",
+          "Chi lo firma",
+          "Quando",
+          "A cosa serve in giudizio"
+        ],
+        rows: [
+          [
+            "Ordine di servizio",
+            "Direzione lavori e impresa",
+            "Prima di eseguire",
+            "Attribuisce la variante al committente"
+          ],
+          [
+            "Autorizzazione scritta",
+            "Committente",
+            "Prima di eseguire, se la propone l’impresa",
+            "È la prova richiesta dall’articolo 1659"
+          ],
+          [
+            "Perizia di variante e nuovi prezzi",
+            "Progettista o direzione lavori, accettata dal committente",
+            "Appena la modifica è definita",
+            "Chiude in anticipo la lite sul quanto"
+          ],
+          [
+            "Verbale di sospensione",
+            "Direzione lavori e impresa",
+            "Il giorno del fermo",
+            "Data, causa, durata: base dei maggiori oneri"
+          ],
+          [
+            "Contabilità dei lavori (libretto misure, SAL)",
+            "Direzione lavori e impresa",
+            "A ogni avanzamento",
+            "Misura l’eseguito; firmarla senza annotazioni indebolisce la pretesa"
+          ],
+          [
+            "Contestazione via PEC",
+            "Impresa",
+            "Entro pochi giorni dal fatto",
+            "Data certa della pretesa: è la «riserva» del privato"
+          ]
+        ]
+      },
+      {
+        type: "p",
+        text: "Due documenti pesano più degli altri. L’ordine di servizio — la disposizione scritta con cui la direzione lavori impartisce all’impresa un’istruzione esecutiva — sposta la paternità della modifica: se firmato e datato, la variante non è iniziativa dell’impresa ma ordine della committenza, con un regime di prova più favorevole. Il verbale di sospensione — l’atto che registra data, causa e durata del fermo — aggancia i maggiori oneri a un fatto verificabile, non a una stima fatta mesi dopo. Su come questi atti si concatenano nel contenzioso appalto privato, e su come si tengono insieme riserve e varianti in corso d’opera lungo tutto il cantiere, è utile [la guida sulle varianti in corso d’opera di Edilizia Legale](https://www.edilizialegale.it/guide/varianti-in-corso-opera)."
+      },
+      {
+        type: "h2",
+        text: "Le riserve nell’appalto privato: quando e come si iscrivono",
+        id: "le-riserve-nellappalto-privato-quando-e-come-si-iscrivono"
+      },
+      {
+        type: "p",
+        text: "Chi cerca in rete «varianti in corso d’opera appalto privato» trova quasi sempre pagine su riserve, registro di contabilità e decadenze. Sono regole vere, ma di un altro mondo."
+      },
+      {
+        type: "p",
+        text: "La riserva, in senso tecnico, è un istituto degli appalti **pubblici**. L’articolo 115 del [Codice dei contratti pubblici](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36) (d.lgs. 36/2023) e l’articolo 7 del suo Allegato II.14 impongono di iscrivere le pretese economiche sul primo atto contabile idoneo e nel registro di contabilità, a pena di decadenza; quelle non confermate nel conto finale si intendono rinunciate."
+      },
+      {
+        type: "p",
+        text: "Nell’appalto privato quel meccanismo non esiste: nessun registro imposto dalla legge, nessun termine di decadenza, nessuna direzione lavori con poteri certificativi pubblicistici. Chi aspetta il registro per «iscrivere riserva» attende un documento che nessuno produrrà."
+      },
+      {
+        type: "p",
+        text: "Tacere, però, non è indifferente. La funzione che la riserva svolge nel pubblico — fissare data e contenuto della pretesa mentre i fatti accadono — nel privato si ottiene altrimenti: annotazione sul SAL prima di firmarlo, PEC al committente, verbale controfirmato. Sono contestazioni contrattuali, non riserve in senso tecnico, ma il valore probatorio è quello. Chi firma avanzamenti per mesi senza una riga e solleva la questione solo al saldo si presenta con un comportamento difficile da spiegare."
+      },
+      {
+        type: "p",
+        text: "Un’eccezione: se il contratto richiama un capitolato che riproduce le regole della contabilità dei lavori pubblici, quelle regole vincolano le parti come clausole contrattuali, decadenze comprese."
+      },
+      {
+        type: "h2",
+        text: "Gli errori che fanno perdere il diritto al compenso per i maggiori oneri",
+        id: "gli-errori-che-fanno-perdere-il-diritto-al-compenso-per-i-ma"
+      },
+      {
+        type: "list",
+        items: [
+          "**Eseguire su ordine verbale e fatturare alla fine.** L’onere di provare il titolo del maggior compenso grava sull’impresa.",
+          "**Firmare SAL e contabilità senza annotazioni.** La firma liscia vale come accettazione dell’eseguito.",
+          "**Documentare solo verso il direttore dei lavori.** È il professionista di fiducia della committenza, ma non per questo ha il potere di impegnarla: la contestazione va indirizzata anche al committente.",
+          "**Confondere maggiori lavori e maggiori oneri.** I primi si provano con perizia di variante e nuovi prezzi; i secondi — fermi, interferenze, tempi allungati — con verbali di sospensione e cronoprogramma.",
+          "**Dimenticare il prezzo nell’appalto a corpo.** L’autorizzazione non è un accordo sul compenso: servono entrambi."
+        ]
+      },
+      {
+        type: "p",
+        text: "Va detto il rovescio: se le carte non ci sono e l’importo è modesto, una transazione vale più di una causa. Il contenzioso appalto privato si vince con i documenti prodotti in cantiere."
+      },
+      {
+        type: "h2",
+        text: "Checklist di cantiere: cosa produrre ogni volta che il progetto cambia",
+        id: "checklist-di-cantiere-cosa-produrre-ogni-volta-che-il-proget"
+      },
+      {
+        type: "list",
+        items: [
+          "**Ordine di servizio scritto** prima di eseguire la modifica.",
+          "**Verificare chi ha voluto la variante**: da questo dipende il regime di prova.",
+          "**Quantificare subito** con perizia di variante, e far sottoscrivere il prezzo oltre alla variante: nell’appalto a corpo è decisivo.",
+          "**Verbalizzare ogni sospensione** il giorno stesso, con data, causa e firme.",
+          "**Annotare sul SAL** ciò che non si accetta, prima di firmarlo, e mandarne PEC al committente entro pochi giorni.",
+          "**Archiviare per fatto**: ogni variante in una cartella con tutti i suoi atti."
+        ]
+      },
+      {
+        type: "p",
+        text: "Una variante documentata mentre accade è un credito; la stessa variante ricostruita a fine lavori è una pretesa da dimostrare. La differenza si gioca in cantiere, con un foglio firmato."
+      },
+      {
+        type: "p",
+        text: "Il contenuto di questo articolo ha carattere informativo generale, non costituisce parere legale e non sostituisce l’esame del caso concreto."
+      }
+    ],
+    faqs: [
+      {
+        q: "Una variante concordata a voce con il committente è esigibile?",
+        a: "In termini generali, dipende da chi l’ha voluta. Se l’ha ordinata il committente, l’orientamento prevalente ammette la prova dell’ordine con ogni mezzo, presunzioni comprese. Se l’ha proposta l’impresa, l’articolo 1659 vuole che l’autorizzazione sia provata per iscritto: il solo accordo verbale è molto più fragile."
+      },
+      {
+        q: "Quanto pesa la contabilità dei lavori in un contenzioso appalto privato?",
+        a: "Molto, anche se nel privato non è imposta dalla legge. In generale, libretto delle misure e stati di avanzamento firmati da entrambe le parti fissano quantità e tempi mentre i lavori procedono: sono la base su cui un consulente tecnico ricostruirà l’eseguito. Una firma priva di annotazioni pesa contro chi l’ha apposta."
+      },
+      {
+        q: "Posso rifiutare una variante che supera il sesto del prezzo?",
+        a: "In linea generale sì. L’articolo 1661 consente al committente di imporre variazioni solo entro il sesto del prezzo complessivo convenuto: oltre quella soglia l’appaltatore non è tenuto a eseguirle. Se decide comunque di farlo, conviene formalizzare l’accordo sui nuovi prezzi prima di iniziare."
+      }
+    ],
+    tags: [
+      "varianti in corso d’opera appalto privato",
+      "contenzioso appalto privato",
+      "appalto privato",
+      "riserve"
+    ],
+    related: [
+      "cila-scia-permessi-2026-guida-pratiche",
+      "salva-casa-sanatoria-irregolarita-edilizie",
+      "posa-in-opera-serramenti-uni-11673"
+    ]
+  },
 ];
