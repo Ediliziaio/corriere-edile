@@ -110,7 +110,7 @@ export default async function ArticlePage({
             "@type": "Person",
             name: article.author.name,
             jobTitle: article.author.role,
-            description: article.author.bio,
+            description: article.author.bio.replace(/\[([^\]]+)\]\([^)]*\)/g, "$1"),
           },
       // Riferimento all'entità Organization globale (@id) invece di ridichiararla:
       // consolida i segnali dell'editore su un'unica entità nel knowledge graph.

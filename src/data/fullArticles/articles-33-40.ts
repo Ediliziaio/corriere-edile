@@ -672,8 +672,8 @@ export const ARTICLES_33_40: FullArticle[] = [
     readingTime: 6,
     author: {
       name: "Avv. Armando Rossi",
-      role: "Avvocato del Foro di Napoli",
-      bio: "Avvocato del Foro di Napoli, si occupa di diritto dell’edilizia e degli appalti privati. Assiste imprese di costruzioni, artigiani e committenti in materia di contratti d’appalto, recupero crediti, difetti costruttivi e contenzioso di cantiere. Scrive su edilizialegale.it."
+      role: "Avvocato massimo esperto in Edilizia Legale",
+      bio: "Avvocato massimo esperto in [Edilizia Legale](https://www.edilizialegale.it), si occupa di diritto dell’edilizia e degli appalti privati. Assiste imprese di costruzioni, artigiani e committenti in materia di contratti d’appalto, recupero crediti, difetti costruttivi e contenzioso di cantiere. Scrive su [edilizialegale.it](https://www.edilizialegale.it)."
     },
     image: "/images/articoli/varianti-corso-opera-riserve.jpg",
     imageAlt: "Varianti in corso d’opera e riserve: come si documentano perché reggano in giudizio",

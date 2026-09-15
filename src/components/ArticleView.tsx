@@ -478,7 +478,7 @@ export default function ArticleView({ article }: { article: FullArticle }) {
                   )}
                 </p>
                 <p className="text-sm font-semibold text-gold-600">{article.author.role}</p>
-                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{article.author.bio}</p>
+                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{renderRichText(article.author.bio)}</p>
                 {authorProfile && (
                   <p className="mt-3 text-sm">
                     <Link
