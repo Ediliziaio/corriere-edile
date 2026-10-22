@@ -52,7 +52,7 @@ export function renderRichText(text: string): ReactNode {
       );
     } else {
       parts.push(
-        <a key={key++} href={url} target="_blank" rel={title === "sponsored" ? "sponsored noopener" : "noopener"} className={EXTERNAL_CLS}>
+        <a key={key++} href={url} target="_blank" rel={title === "sponsored" ? "sponsored nofollow noopener noreferrer" : "noopener"} className={EXTERNAL_CLS}>
           {label}
         </a>
       );

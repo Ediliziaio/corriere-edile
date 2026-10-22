@@ -48,7 +48,7 @@ export default function Header({ buildDate }: { buildDate: string }) {
 
   return (
     <header className="w-full">
-      <nav aria-label="Guide e speciali" style={{display:"flex",justifyContent:"center",flexWrap:"wrap",gap:"20px",padding:"8px 16px",background:"#f5f5f2",color:"#263c42",fontSize:"13px",borderBottom:"1px solid #dce1df"}}><a href="/guide-pratiche/">Guide pratiche</a><a href="/speciali-aziende/">Speciali aziende · contenuti sponsorizzati</a></nav>
+
       {/* Utility bar: data edizione + link servizio */}
       <div className="bg-navy-900 text-navy-100">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-1.5 text-xs">

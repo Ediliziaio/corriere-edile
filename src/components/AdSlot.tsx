@@ -10,7 +10,7 @@ import type { Creative } from "@/lib/adv";
  * 2. Lo spazio e' riservato con il rapporto d'aspetto NATIVO della
  *    creativita' (aspect-ratio + width/height), quindi zero layout shift
  *    e zero ritagli sul testo del banner.
- * 3. Il link e' sempre rel="sponsored noopener": obbligatorio per Google sui
+ * 3. Il link e' sempre rel="sponsored nofollow noopener noreferrer": obbligatorio per Google sui
  *    link pubblicitari, altrimenti un link commerciale ripetuto su tutte le
  *    pagine viene letto come schema di link.
  * 4. `creativeMobile` permette di servire una creativita' diversa sotto i
@@ -33,7 +33,7 @@ function Banner({ c, className = "" }: { c: Creative; className?: string }) {
     <a
       href={c.href}
       target="_blank"
-      rel="sponsored noopener"
+      rel="sponsored nofollow noopener noreferrer"
       className={`block overflow-hidden rounded-md ${className}`}
     >
       <picture>

@@ -29,6 +29,8 @@ export interface ArticleAuthor {
 }
 
 export interface FullArticle {
+  /** Paid editorial feature; always visibly disclosed. */
+  sponsor?: string | null;
   slug: string;
   /** Una delle categorie di CATEGORIES in src/data/articles.ts */
   category: string;

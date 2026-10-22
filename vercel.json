@@ -4,43 +4,108 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(), interest-cohort=()" },
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
-        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        }
       ]
     },
     {
       "source": "/images/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=2592000, stale-while-revalidate=86400" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000, stale-while-revalidate=86400"
+        }
       ]
     },
     {
       "source": "/(.*).(png|ico|webmanifest|svg)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=2592000, stale-while-revalidate=86400" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000, stale-while-revalidate=86400"
+        }
       ]
     },
     {
       "source": "/_next/static/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     },
     {
       "source": "/sitemap.xml",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=3600" },
-        { "key": "Content-Type", "value": "application/xml; charset=utf-8" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/xml; charset=utf-8"
+        }
       ]
     },
     {
       "source": "/feed.xml",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=3600" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
       ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/guide-pratiche/risega-muro-significato-rilievo-ristrutturazione",
+      "destination": "/articolo/risega-muro-significato-rilievo-ristrutturazione/",
+      "permanent": true
+    },
+    {
+      "source": "/speciali-aziende/renova-solution-coordinare-accessi-e-decisioni-nei-lavori-di-casa",
+      "destination": "/articolo/renova-solution-coordinare-accessi-e-decisioni-nei-lavori-di-casa/",
+      "permanent": true
+    },
+    {
+      "source": "/speciali-aziende/innovasol-inserire-la-climatizzazione-nel-progetto-di-ristrutturazione",
+      "destination": "/articolo/innovasol-inserire-la-climatizzazione-nel-progetto-di-ristrutturazione/",
+      "permanent": true
+    },
+    {
+      "source": "/speciali-aziende/green-energy-group-progettare-la-ricarica-pensando-allimmobile",
+      "destination": "/articolo/green-energy-group-progettare-la-ricarica-pensando-allimmobile/",
+      "permanent": true
+    },
+    {
+      "source": "/guide-pratiche",
+      "destination": "/categoria/cantieri/",
+      "permanent": true
+    },
+    {
+      "source": "/speciali-aziende",
+      "destination": "/categoria/cantieri/",
+      "permanent": true
     }
   ]
 }

@@ -60,7 +60,8 @@ export default function ArticleCard({ article, priority = false }: { article: Fu
       </Link>
       <div className="flex flex-1 flex-col gap-2 p-4">
         <CategoryChip label={article.category} />
-        <h3 className="font-serif text-lg font-bold leading-snug text-navy-800 group-hover:text-navy">
+        {article.sponsor && <p className="mb-1 font-sans text-[10px] font-bold uppercase tracking-wide">Contenuto sponsorizzato · {article.sponsor}</p>}
+          <h3 className="font-serif text-lg font-bold leading-snug text-navy-800 group-hover:text-navy">
           <Link href={url} className="hover:underline">
             {article.title}
           </Link>

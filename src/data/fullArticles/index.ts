@@ -1,3 +1,4 @@
+import { editorialNative } from "./editorial-native";
 /**
  * Indice dati articoli completi — Corriere Edile
  * Unisce le quattro raccolte in ALL_ARTICLES (ordinati per data pubblicazione desc)
@@ -14,6 +15,7 @@ export * from "./types";
 
 /** Tutti gli articoli, dal più recente al più vecchio (per `published`). */
 export const ALL_ARTICLES: FullArticle[] = [
+  ...editorialNative,
   ...ARTICLES_01_10,
   ...ARTICLES_11_20,
   ...ARTICLES_21_26,

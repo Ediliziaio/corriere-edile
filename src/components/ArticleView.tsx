@@ -255,6 +255,7 @@ export default function ArticleView({ article }: { article: FullArticle }) {
               {article.category}
             </span>
 
+            {article.sponsor && <p className="my-3 font-sans text-xs font-bold uppercase tracking-wide" role="note">Contenuto sponsorizzato · {article.sponsor}</p>}
             <h1 itemProp="headline" className="mt-3 font-serif text-3xl font-bold leading-tight text-navy-900 sm:text-4xl">
               {article.title}
             </h1>
