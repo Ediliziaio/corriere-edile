@@ -71,7 +71,8 @@ export default async function ArticlePage({
     {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
-      headline: article.title,
+      ...(article.sponsor ? { sponsor: { "@type": "Organization", name: article.sponsor } } : {}),
+    headline: article.title,
       description: article.metaDescription,
       image: [imageAbs],
       datePublished: article.published,

@@ -4,7 +4,7 @@ export const editorialNative: FullArticle[] = [
     "slug": "risega-muro-significato-rilievo-ristrutturazione",
     "category": "Cantieri",
     "title": "Risega del muro: cos’è e cosa verificare prima dei lavori",
-    "metaTitle": "Risega del muro: cos’è e cosa verificare prima dei lavori",
+    "metaTitle": "Risega del muro: significato e rilievo in ristrutturazione",
     "metaDescription": "Come riconoscere nel rilievo un cambio di spessore della muratura, documentarlo e portarlo al tecnico prima di progettare finiture o interventi.",
     "keywords": [
       "risega muro"
@@ -12,8 +12,8 @@ export const editorialNative: FullArticle[] = [
     "subtitle": "Come riconoscere nel rilievo un cambio di spessore della muratura, documentarlo e portarlo al tecnico prima di progettare finiture o interventi.",
     "excerpt": "Come riconoscere nel rilievo un cambio di spessore della muratura, documentarlo e portarlo al tecnico prima di progettare finiture o interventi.",
     "published": "2026-10-22T07:18:01Z",
-    "updated": "2026-10-22T07:18:01Z",
-    "readingTime": 3,
+    "updated": "2026-10-22T08:54:30Z",
+    "readingTime": 5,
     "author": {
       "name": "Redazione Corriere Edile",
       "role": "Redazione",
@@ -54,6 +54,10 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "table",
+        "head": [
+          "Informazione",
+          "A cosa serve nel confronto"
+        ],
         "rows": [
           [
             "Posizione",
@@ -75,10 +79,6 @@ export const editorialNative: FullArticle[] = [
             "Documenti storici",
             "Ricostruire, quando possibile, trasformazioni e configurazioni precedenti"
           ]
-        ],
-        "head": [
-          "Informazione",
-          "A cosa serve nel confronto"
         ]
       },
       {
@@ -122,6 +122,24 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "h2",
+        "id": "approfondimento-0",
+        "text": "Una fotografia deve avere un riferimento"
+      },
+      {
+        "type": "p",
+        "text": "Per descrivere una risega, abbina una vista d'insieme al dettaglio e indica il punto dell'immobile a cui si riferiscono. Se aggiungi un'annotazione, distingui ciò che osservi da ciò che stai ipotizzando. Una misura indicativa o una fotografia non permettono da sole di ricostruire caratteristiche e funzione dell'elemento. La documentazione iniziale serve a porre una domanda comprensibile al professionista, non a determinare quali interventi siano possibili."
+      },
+      {
+        "type": "h2",
+        "id": "approfondimento-2",
+        "text": "Collegare il rilievo alla decisione da prendere"
+      },
+      {
+        "type": "p",
+        "text": "Spiega perché l'elemento interessa il progetto: disposizione degli arredi, raccordo di una finitura, passaggio o altra esigenza. Il contesto aiuta a capire quali informazioni siano necessarie per il confronto. Mantieni separata la descrizione dell'esistente dalla soluzione desiderata e conserva gli elaborati aggiornati del progetto quando disponibili. Non dedurre dalla sola forma visibile se una parte possa essere modificata: le verifiche pertinenti dipendono dal caso concreto e dai soggetti competenti coinvolti nell'intervento."
+      },
+      {
+        "type": "h2",
         "id": "fonti",
         "text": "Fonti e riferimenti"
       },
@@ -130,6 +148,18 @@ export const editorialNative: FullArticle[] = [
         "items": [
           "[Treccani — Voce risega](https://www.treccani.it/vocabolario/risega/)",
           "[Gazzetta Ufficiale — D.M. 17 gennaio 2018, Norme Tecniche per le Costruzioni](https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.codiceRedazionale=18A00716&atto.dataPubblicazioneGazzetta=2018-02-20)"
+        ]
+      },
+      {
+        "type": "h2",
+        "id": "letture-correlate",
+        "text": "Approfondimenti nella testata"
+      },
+      {
+        "type": "list",
+        "items": [
+          "[Ristrutturare casa nel 2026: costi al metro quadro, tempi e errori da evitare](/articolo/ristrutturare-casa-2026-costi-guida/)",
+          "[CILA, SCIA e permesso di costruire nel 2026: la guida alle pratiche edilizie](/articolo/cila-scia-permessi-2026-guida-pratiche/)"
         ]
       }
     ],
@@ -145,19 +175,30 @@ export const editorialNative: FullArticle[] = [
       {
         "q": "Basta misurare lo spessore per sapere se il muro è portante?",
         "a": "No. Non usare una misura isolata come criterio per autorizzare modifiche."
+      },
+      {
+        "q": "Una risega visibile si può modificare liberamente?",
+        "a": "La forma osservabile non consente questa conclusione. Chiarisci l'esigenza con il professionista e svolgi le verifiche pertinenti prima di decidere interventi sull'elemento."
+      },
+      {
+        "q": "Come invio una foto utile per il primo confronto?",
+        "a": "Includi una vista d'insieme, il dettaglio e il riferimento all'ambiente. Segnala come indicative eventuali annotazioni non derivanti da un rilievo verificato."
       }
     ],
     "tags": [
       "Cantieri"
     ],
-    "related": [],
+    "related": [
+      "ristrutturare-casa-2026-costi-guida",
+      "cila-scia-permessi-2026-guida-pratiche"
+    ],
     "sponsor": null
   },
   {
     "slug": "renova-solution-coordinare-accessi-e-decisioni-nei-lavori-di-casa",
     "category": "Cantieri",
     "title": "Renova Solution: coordinare accessi e decisioni nei lavori di casa",
-    "metaTitle": "Renova Solution: coordinare accessi e decisioni nei lavori di ca",
+    "metaTitle": "Renova Solution: organizzare i lavori in casa",
     "metaDescription": "Abitazione occupata, consegne e scelte da confermare: come impostare la richiesta per conoscere i servizi Renova Solution.",
     "keywords": [
       "Renova Solution: coordinare accessi e decisioni nei lavori di casa"
@@ -165,8 +206,8 @@ export const editorialNative: FullArticle[] = [
     "subtitle": "Contenuto sponsorizzato · Renova Solution. Abitazione occupata, consegne e scelte da confermare: come impostare la richiesta per conoscere i servizi Renova Solution.",
     "excerpt": "Contenuto sponsorizzato · Renova Solution. Abitazione occupata, consegne e scelte da confermare: come impostare la richiesta per conoscere i servizi Renova Solution.",
     "published": "2026-10-22T07:18:01Z",
-    "updated": "2026-10-22T07:18:01Z",
-    "readingTime": 2,
+    "updated": "2026-10-22T08:54:30Z",
+    "readingTime": 5,
     "author": {
       "name": "Redazione Corriere Edile",
       "role": "Redazione",
@@ -232,26 +273,115 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "h2",
+        "id": "approfondimento-0",
+        "text": "Gli accessi sono parte dell'organizzazione"
+      },
+      {
+        "type": "p",
+        "text": "Prima delle date di esecuzione, chiarisci come si entra nell'immobile e come si raggiungono le aree di lavoro. Annota chi apre, dove possono sostare i materiali e quali passaggi devono restare disponibili. Una consegna può essere puntuale ma inutilizzabile se nessuno può riceverla o manca lo spazio previsto. Nel confronto con Renova Solution, questi dati aiutano a distinguere un programma operativo da un semplice elenco di giornate. Non occorre inventare vincoli: occorre rendere visibili quelli già noti."
+      },
+      {
+        "type": "h2",
+        "id": "approfondimento-2",
+        "text": "Una decisione deve arrivare alla persona giusta"
+      },
+      {
+        "type": "p",
+        "text": "Per ogni scelta aperta stabilisci un referente e una data entro cui rispondere. La richiesta di confermare un accessorio non dovrebbe perdersi in una conversazione che contiene anche fotografie, appuntamenti e altre domande. Riporta la decisione nel documento di progetto e rendila riconoscibile per chi deve eseguire l'attività. Non è necessario moltiplicare i canali: un riepilogo breve e condiviso è spesso più utile di molti messaggi privi di una conclusione esplicita."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Evento",
+          "Informazioni da chiarire"
+        ],
+        "rows": [
+          [
+            "Sopralluogo",
+            "Referente presente e ambienti accessibili"
+          ],
+          [
+            "Consegna",
+            "Persona che riceve e spazio disponibile"
+          ],
+          [
+            "Variazione",
+            "Descrizione, effetti da valutare e approvazione"
+          ],
+          [
+            "Riconsegna",
+            "Verifica degli ambienti e osservazioni residue"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "id": "approfondimento-5",
+        "text": "Esempio: un condominio con spazi condivisi"
+      },
+      {
+        "type": "p",
+        "text": "In un edificio condominiale, ingresso e percorsi possono essere utilizzati da altri residenti durante i lavori. Prima di fissare movimentazioni o consegne, chiedi quali informazioni debbano essere condivise e con chi. Segnala eventuali comunicazioni o regole già ricevute, senza presentarle come autorizzazioni che non possiedi. Questo esempio non descrive un cantiere dell'azienda: mostra perché l'organizzazione della casa deve tenere conto anche degli spazi esterni alla singola stanza interessata dall'intervento."
+      },
+      {
+        "type": "h2",
+        "id": "approfondimento-7",
+        "text": "Le osservazioni vanno chiuse, non soltanto raccolte"
+      },
+      {
+        "type": "p",
+        "text": "Alla fine di un passaggio, prepara un elenco breve di elementi verificati e questioni rimaste. Per ogni punto indica chi deve dare risposta e quale informazione manca. Non confondere una richiesta di chiarimento con una nuova lavorazione già approvata. Una buona riconsegna organizzativa lascia chiaro che cosa è stato completato, quali documenti sono stati ricevuti e quale confronto deve ancora avvenire. È lo stesso metodo utile quando si coordinano forniture e servizi differenti."
+      },
+      {
+        "type": "h2",
         "id": "informazioni-azienda",
         "text": "Informazioni e contatti"
       },
       {
         "type": "p",
         "text": "[Conosci i servizi Renova Solution nel Nordest](https://www.renovasolution.it/ \"sponsored\")"
+      },
+      {
+        "type": "h2",
+        "id": "letture-correlate",
+        "text": "Approfondimenti nella testata"
+      },
+      {
+        "type": "list",
+        "items": [
+          "[Ristrutturare casa nel 2026: costi al metro quadro, tempi e errori da evitare](/articolo/ristrutturare-casa-2026-costi-guida/)",
+          "[Varianti in corso d’opera e riserve: come si documentano perché reggano in giudizio](/articolo/varianti-corso-opera-riserve/)"
+        ]
       }
     ],
-    "faqs": [],
+    "faqs": [
+      {
+        "q": "Chi deve ricevere i materiali?",
+        "a": "Va individuato nel programma del singolo lavoro. Chiedi che siano chiari referente, accesso e luogo di deposito: non presumere che la presenza di qualcuno nell'immobile equivalga a una consegna organizzata."
+      },
+      {
+        "q": "Come evito approvazioni ambigue in chat?",
+        "a": "Riferisci la conferma a un documento o a una descrizione precisa e datata. Se il messaggio contiene più alternative, indica esplicitamente quale hai scelto."
+      },
+      {
+        "q": "È utile un verbale per ogni telefonata?",
+        "a": "Serve soprattutto un riepilogo delle decisioni che cambiano il lavoro. Evita burocrazia aggiuntiva su scambi puramente informativi, ma conserva gli accordi necessari per procedere."
+      }
+    ],
     "tags": [
       "Cantieri"
     ],
-    "related": [],
+    "related": [
+      "ristrutturare-casa-2026-costi-guida",
+      "varianti-corso-opera-riserve"
+    ],
     "sponsor": "Renova Solution"
   },
   {
     "slug": "innovasol-inserire-la-climatizzazione-nel-progetto-di-ristrutturazione",
     "category": "Progetti",
     "title": "Innovasol: inserire la climatizzazione nel progetto di ristrutturazione",
-    "metaTitle": "Innovasol: inserire la climatizzazione nel progetto di ristruttu",
+    "metaTitle": "Innovasol: climatizzazione nella ristrutturazione",
     "metaDescription": "Finiture, arredi e passaggi da confermare: come coordinare la richiesta di climatizzazione con i lavori previsti nell’immobile.",
     "keywords": [
       "Innovasol: inserire la climatizzazione nel progetto di ristrutturazione"
@@ -259,8 +389,8 @@ export const editorialNative: FullArticle[] = [
     "subtitle": "Contenuto sponsorizzato · Innovasol. Finiture, arredi e passaggi da confermare: come coordinare la richiesta di climatizzazione con i lavori previsti nell’immobile.",
     "excerpt": "Contenuto sponsorizzato · Innovasol. Finiture, arredi e passaggi da confermare: come coordinare la richiesta di climatizzazione con i lavori previsti nell’immobile.",
     "published": "2026-10-22T07:18:01Z",
-    "updated": "2026-10-22T07:18:01Z",
-    "readingTime": 2,
+    "updated": "2026-10-22T08:54:30Z",
+    "readingTime": 4,
     "author": {
       "name": "Redazione Corriere Edile",
       "role": "Redazione",
@@ -326,26 +456,111 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "h2",
+        "id": "approfondimento-0",
+        "text": "Inserire l'impianto nella sequenza del cantiere"
+      },
+      {
+        "type": "p",
+        "text": "La climatizzazione va discussa anche in rapporto alle lavorazioni previste negli ambienti. Se pareti, soffitti o finiture devono cambiare, porta queste informazioni al confronto prima di chiudere la soluzione. La domanda organizzativa è quali decisioni servano prima di completare le superfici, non quale apparecchio comprare immediatamente. La pianificazione dovrebbe permettere di individuare i punti di contatto tra chi segue il progetto edile e chi valuta il sistema proposto."
+      },
+      {
+        "type": "h2",
+        "id": "approfondimento-2",
+        "text": "La scheda delle interfacce tra professionisti"
+      },
+      {
+        "type": "p",
+        "text": "Prepara un elenco di passaggi, spazi e componenti che richiedono un accordo tra attività differenti. Per ogni punto annota chi deve dare le informazioni e chi deve riceverle. Una fotografia con una freccia può aiutare a porre una domanda, ma non equivale a una soluzione verificata. Se una posizione cambia, chiedi quali altre parti del programma ne risentano. Il confronto con Innovasol può così partire da un contesto di ristrutturazione riconoscibile."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Interfaccia",
+          "Decisione da rendere esplicita"
+        ],
+        "rows": [
+          [
+            "Pareti e passaggi",
+            "Cosa verificare prima delle chiusure"
+          ],
+          [
+            "Arredi e componenti",
+            "Ingombri da coordinare"
+          ],
+          [
+            "Esecuzione e consegna",
+            "Chi prepara le condizioni per la fase successiva"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "id": "approfondimento-5",
+        "text": "Un esempio: una disposizione degli arredi ancora aperta"
+      },
+      {
+        "type": "p",
+        "text": "Se la posizione dei mobili principali non è stata decisa, segnalalo nella richiesta di climatizzazione. Una soluzione discussa su una disposizione provvisoria potrebbe dover essere rivalutata quando il progetto cambia. Non è necessario rinviare ogni confronto, ma occorre sapere quali conclusioni siano già stabili e quali dipendano da altre scelte. Questo esempio organizzativo non attribuisce una configurazione standard all'azienda: aiuta a leggere le dipendenze del singolo intervento."
+      },
+      {
+        "type": "h2",
+        "id": "approfondimento-7",
+        "text": "Chiarire cosa sarà visibile e cosa sarà documentato"
+      },
+      {
+        "type": "p",
+        "text": "Quando valuti la proposta, chiedi come verranno descritti i componenti, le attività accessorie e i documenti della configurazione consegnata. Conserva gli aggiornamenti del progetto pertinenti e le istruzioni ricevute. Se alcune verifiche avvengono prima che le superfici vengano chiuse, domanda quale documentazione possa essere utile conservare. La continuità delle informazioni aiuta anche nelle richieste successive, evitando che chi gestisce l'immobile debba ricostruire i lavori soltanto dai ricordi."
+      },
+      {
+        "type": "h2",
         "id": "informazioni-azienda",
         "text": "Informazioni e contatti"
       },
       {
         "type": "p",
         "text": "[Approfondisci la climatizzazione con Innovasol](https://innovasol.it/impianti-climatizzazione-sicilia/ \"sponsored\")"
+      },
+      {
+        "type": "h2",
+        "id": "letture-correlate",
+        "text": "Approfondimenti nella testata"
+      },
+      {
+        "type": "list",
+        "items": [
+          "[Pompe di calore 2026: i migliori modelli per la riqualificazione degli edifici](/articolo/pompe-calore-2026-migliori-modelli/)",
+          "[Ristrutturare casa nel 2026: costi al metro quadro, tempi e errori da evitare](/articolo/ristrutturare-casa-2026-costi-guida/)"
+        ]
       }
     ],
-    "faqs": [],
+    "faqs": [
+      {
+        "q": "Quando parlo della climatizzazione durante una ristrutturazione?",
+        "a": "Porta il tema nel confronto quando si discutono gli interventi negli ambienti. Chiedi quali decisioni siano necessarie prima delle lavorazioni che potrebbero limitarne le alternative."
+      },
+      {
+        "q": "Chi coordina i collegamenti con le opere edili?",
+        "a": "Il programma del singolo lavoro deve identificare referenti e interfacce. Non presumere che un'attività venga gestita da un soggetto diverso senza che il perimetro sia stato chiarito."
+      },
+      {
+        "q": "Posso cambiare idea sulla disposizione dei mobili?",
+        "a": "Segnala la modifica prima delle attività che dipendono dalla disposizione. Chiedi quali verifiche o decisioni vadano riprese, mantenendo chiara la versione aggiornata del progetto."
+      }
+    ],
     "tags": [
       "Progetti"
     ],
-    "related": [],
+    "related": [
+      "pompe-calore-2026-migliori-modelli",
+      "ristrutturare-casa-2026-costi-guida"
+    ],
     "sponsor": "Innovasol"
   },
   {
     "slug": "green-energy-group-progettare-la-ricarica-pensando-allimmobile",
     "category": "Prodotti & Materiali",
     "title": "Green Energy Group: progettare la ricarica pensando all’immobile",
-    "metaTitle": "Green Energy Group: progettare la ricarica pensando all’immobile",
+    "metaTitle": "Green Energy Group: ricarica elettrica nell’immobile",
     "metaDescription": "Posizione del veicolo, uso del parcheggio e documenti disponibili: le informazioni per conoscere la proposta di ricarica Green Energy Group.",
     "keywords": [
       "Green Energy Group: progettare la ricarica pensando all’immobile"
@@ -353,8 +568,8 @@ export const editorialNative: FullArticle[] = [
     "subtitle": "Contenuto sponsorizzato · Green Energy Group. Posizione del veicolo, uso del parcheggio e documenti disponibili: le informazioni per conoscere la proposta di ricarica Green Energy Group.",
     "excerpt": "Contenuto sponsorizzato · Green Energy Group. Posizione del veicolo, uso del parcheggio e documenti disponibili: le informazioni per conoscere la proposta di ricarica Green Energy Group.",
     "published": "2026-10-22T07:18:01Z",
-    "updated": "2026-10-22T07:18:01Z",
-    "readingTime": 2,
+    "updated": "2026-10-22T08:54:30Z",
+    "readingTime": 4,
     "author": {
       "name": "Redazione Corriere Edile",
       "role": "Redazione",
@@ -420,19 +635,104 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "h2",
+        "id": "approfondimento-0",
+        "text": "La prima informazione è come viene usato il parcheggio"
+      },
+      {
+        "type": "p",
+        "text": "Indica chi utilizzerà il punto di ricarica, quando il mezzo è normalmente presente e quali spostamenti deve poter effettuare dopo la sosta. Se l'area è condivisa, segnala quali informazioni possiedi sulla sua gestione, senza presumere autorizzazioni non verificate. La pagina Green Energy Group dedicata alle colonnine presenta soluzioni di ricarica: per discutere un progetto specifico occorre però rendere riconoscibili condizioni dell'immobile ed esigenze degli utilizzatori."
+      },
+      {
+        "type": "h2",
+        "id": "approfondimento-2",
+        "text": "Collegare la richiesta agli altri usi dell'edificio"
+      },
+      {
+        "type": "p",
+        "text": "Raccogli documenti disponibili e descrivi quali utilizzi coincidono con la possibile ricarica. Non scegliere una potenza soltanto in base a un valore visto in una scheda commerciale. Chiedi quali verifiche siano pertinenti all'impianto e come verrà valutata la gestione delle richieste contemporanee. Una proposta leggibile distingue informazioni osservate, condizioni da accertare e funzioni comprese nella soluzione. I limiti non devono essere ricostruiti dall'utilizzatore dopo l'installazione."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Elemento del progetto",
+          "Informazione da discutere"
+        ],
+        "rows": [
+          [
+            "Sosta del veicolo",
+            "Orari e disponibilità richiesta alla partenza"
+          ],
+          [
+            "Area di installazione",
+            "Accessi, percorso e condizioni da verificare"
+          ],
+          [
+            "Edificio",
+            "Altri utilizzi e documenti disponibili"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "id": "approfondimento-5",
+        "text": "Un esempio: il mezzo rientra quando la casa è occupata"
+      },
+      {
+        "type": "p",
+        "text": "Se il veicolo viene collegato al rientro della famiglia, la richiesta si inserisce in un momento in cui possono essere attivi altri utilizzi. Non è un motivo per ricavare da soli una configurazione: è uno scenario da descrivere a chi segue la valutazione. Chiedi quali modalità siano previste e come vengano comprese dall'utilizzatore. L'esempio è organizzativo e non rappresenta una prestazione garantita o una regola valida per ogni impianto domestico."
+      },
+      {
+        "type": "h2",
+        "id": "approfondimento-7",
+        "text": "Chiarire comandi, accessi e documenti"
+      },
+      {
+        "type": "p",
+        "text": "Prima di approvare, domanda come verrà avviata o gestita la ricarica nella configurazione proposta e chi potrà utilizzare le funzioni previste. Se sono presenti servizi digitali, chiarisci le modalità di consegna degli accessi autorizzati. Conserva identificativi e istruzioni con i riferimenti per l'assistenza. La semplicità non consiste soltanto nel collegare il mezzo: consiste nel poter capire il comportamento del sistema e formulare una richiesta precisa quando qualcosa richiede un chiarimento."
+      },
+      {
+        "type": "h2",
         "id": "informazioni-azienda",
         "text": "Informazioni e contatti"
       },
       {
         "type": "p",
         "text": "[Conosci le soluzioni di ricarica Green Energy Group](https://greenenergygroup.it/colonnine-di-ricarica/ \"sponsored\")"
+      },
+      {
+        "type": "h2",
+        "id": "letture-correlate",
+        "text": "Approfondimenti nella testata"
+      },
+      {
+        "type": "list",
+        "items": [
+          "[Fotovoltaico in edilizia 2026: incentivi, obblighi e opportunità per le imprese](/articolo/fotovoltaico-edilizia-2026-incentivi/)",
+          "[Efficienza energetica nei condomini: gli interventi che aumentano il valore degli immobili](/articolo/efficienza-energetica-condomini-2026/)"
+        ]
       }
     ],
-    "faqs": [],
+    "faqs": [
+      {
+        "q": "Posso scegliere una colonnina dal solo valore di potenza?",
+        "a": "Quel valore non descrive da solo il progetto dell'immobile. Condividi esigenze e condizioni disponibili e chiedi le verifiche pertinenti alla configurazione e all'impianto."
+      },
+      {
+        "q": "Come descrivo un parcheggio condiviso?",
+        "a": "Indica come viene utilizzato e quali informazioni o documenti possiedi. Mantieni visibili le questioni organizzative o autorizzative ancora da verificare con i soggetti pertinenti."
+      },
+      {
+        "q": "La ricarica richiede sempre un'app?",
+        "a": "Dipende dalla soluzione proposta. Chiedi quali comandi e modalità di accesso siano compresi e come verranno spiegati e consegnati agli utilizzatori autorizzati."
+      }
+    ],
     "tags": [
       "Prodotti & Materiali"
     ],
-    "related": [],
+    "related": [
+      "fotovoltaico-edilizia-2026-incentivi",
+      "efficienza-energetica-condomini-2026"
+    ],
     "sponsor": "Green Energy Group"
   }
 ];
