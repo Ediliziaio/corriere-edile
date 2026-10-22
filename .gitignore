@@ -29,3 +29,4 @@ out
 *.tsbuildinfo
 next-env.d.ts
 .datetest
+/editorial/drafts/

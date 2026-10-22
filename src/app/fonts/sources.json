@@ -1,0 +1,38 @@
+[
+  {
+    "family": "Playfair Display",
+    "style": "italic",
+    "weight": "400 900",
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7.woff2",
+    "file": "PlayfairDisplay-latin-italic.woff2",
+    "subset": "latin",
+    "sha256": "54af24bd0f911f0fd7399d5445ea2023ff501d6a69f2d728f1213072f977ab14"
+  },
+  {
+    "family": "Playfair Display",
+    "style": "normal",
+    "weight": "400 900",
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2",
+    "file": "PlayfairDisplay-latin-normal.woff2",
+    "subset": "latin",
+    "sha256": "e0c764a8e9e1cce92163c55bac4b2ad6cd4cf8c696ce2289ab5c41565e65b7e2"
+  },
+  {
+    "family": "Source Sans 3",
+    "style": "italic",
+    "weight": "200 900",
+    "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpMtKy2OAdR1K-IwhWudF-R3woqZ-LY.woff2",
+    "file": "SourceSans3-latin-italic.woff2",
+    "subset": "latin",
+    "sha256": "5fbc14d56cea35e60596c72ca969b349443c6a536f74e11748eed8b3a396e61d"
+  },
+  {
+    "family": "Source Sans 3",
+    "style": "normal",
+    "weight": "200 900",
+    "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpStKy2OAdR1K-IwhWudF-R3w8aZQ.woff2",
+    "file": "SourceSans3-latin-normal.woff2",
+    "subset": "latin",
+    "sha256": "19143dca075972bc84e3fd9eab7416dd40cc565dccb2435a044bdfabe060c7d5"
+  }
+]

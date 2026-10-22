@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Source_Sans_3 } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { SITE, GLOBAL_JSONLD, jsonLd } from "@/lib/site";
 import Header from "@/components/layout/Header";
@@ -9,17 +9,22 @@ import CookieBanner from "@/components/CookieBanner";
 import ScrollToTop from "@/components/ScrollToTop";
 import SalvaCampagna from "@/components/SalvaCampagna";
 
-// Font editoriali via next/font (self-hosted, zero layout shift)
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  weight: ["400", "600", "700", "800"],
-  style: ["normal", "italic"],
+// Same editorial fonts, bundled locally: builds never fetch Google Fonts.
+const playfair = localFont({
+  src: [
+    { path: "./fonts/PlayfairDisplay-latin-normal.woff2", weight: "400 900", style: "normal" },
+    { path: "./fonts/PlayfairDisplay-latin-italic.woff2", weight: "400 900", style: "italic" },
+  ],
+  display: "swap",
+  adjustFontFallback: "Times New Roman",
   variable: "--font-serif",
 });
-const sourceSans = Source_Sans_3({
-  subsets: ["latin"],
-  weight: ["300", "400", "600", "700"],
-  style: ["normal", "italic"],
+const sourceSans = localFont({
+  src: [
+    { path: "./fonts/SourceSans3-latin-normal.woff2", weight: "200 900", style: "normal" },
+    { path: "./fonts/SourceSans3-latin-italic.woff2", weight: "200 900", style: "italic" },
+  ],
+  display: "swap",
   variable: "--font-sans",
 });
 

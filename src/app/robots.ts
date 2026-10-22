@@ -41,7 +41,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/cerca"],
       })),
     ],
-    sitemap: `${SITE.url}/sitemap.xml`,
+    sitemap: [`${SITE.url}/sitemap.xml`, `${SITE.url}/sitemap-editorial.xml`],
     host: SITE.url,
   };
 }
