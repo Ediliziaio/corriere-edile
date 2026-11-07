@@ -71,6 +71,14 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: jsonLd([FAQ_JSONLD, homeItemList(latest)]) }}
       />
 
+
+      <section id="percorsi-tematici-seo" aria-labelledby="percorsi-tematici-titolo" className="mx-auto max-w-7xl px-4 py-8">
+        <div className="rounded-xl border border-neutral-200 bg-neutral-50 p-5 sm:p-7">
+          <h2 id="percorsi-tematici-titolo" className="text-2xl font-bold text-neutral-950">Percorsi per imprese e professionisti</h2>
+          <p className="mt-3 max-w-4xl text-neutral-700 leading-relaxed">Scegli l’ambito della decisione che devi affrontare: regole, organizzazione del lavoro o mercato. Ogni percorso raccoglie gli approfondimenti della relativa sezione.</p>
+          <ul className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3"><li><a href="/categoria/normativa/" className="font-bold text-neutral-950 underline underline-offset-4">Normativa e adempimenti</a><p className="mt-2 text-sm text-neutral-700 leading-relaxed">Individua le guide pertinenti al lavoro e verifica le fonti richiamate.</p></li><li><a href="/categoria/cantieri/" className="font-bold text-neutral-950 underline underline-offset-4">Cantiere e organizzazione</a><p className="mt-2 text-sm text-neutral-700 leading-relaxed">Consulta gli approfondimenti su lavorazioni, processi e gestione operativa.</p></li><li><a href="/categoria/mercato/" className="font-bold text-neutral-950 underline underline-offset-4">Mercato delle costruzioni</a><p className="mt-2 text-sm text-neutral-700 leading-relaxed">Segui analisi e notizie sul settore senza confondere dati osservati e previsioni.</p></li></ul>
+        </div>
+      </section>
       {/* ============ HERO: In Evidenza ============ */}
       <section aria-labelledby="in-evidenza" className="mx-auto max-w-7xl px-4 pt-6">
         <h1 id="in-evidenza" className="sr-only">
