@@ -45,10 +45,10 @@ export async function generateMetadata({
       description: author.bio.slice(0, 200),
       images: [
         {
-          url: `/images/og/autore-${author.slug}.jpg`,
+          url: "/images/og-default.jpg",
           width: 1200,
           height: 630,
-          alt: `${author.name} — ${author.role}`,
+          alt: "Corriere Edile — archivio degli articoli",
         },
       ],
     },
@@ -56,7 +56,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: `${author.name} — ${author.role}`,
       description: author.bio.slice(0, 200),
-      images: [`/images/og/autore-${author.slug}.jpg`],
+      images: ["/images/og-default.jpg"],
     },
   };
 }
