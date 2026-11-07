@@ -1,5 +1,237 @@
 import type { FullArticle } from "./types";
 export const editorialNative: FullArticle[] = [
+{
+  "slug": "richiesta-offerta-fornitori-edili-documenti",
+  "title": "Richiesta di offerta ai fornitori edili: i documenti per ricevere risposte confrontabili",
+  "metaTitle": "Richiesta offerta fornitori edili: guida operativa",
+  "metaDescription": "Prepara una richiesta di offerta per fornitori edili: codici, quantità, consegne, alternative e revisioni. Esempio di matrice delle risposte.",
+  "category": "Cantieri",
+  "keywords": [
+    "richiesta offerta fornitori edili"
+  ],
+  "subtitle": "Prepara una richiesta di offerta per fornitori edili: codici, quantità, consegne, alternative e revisioni. Esempio di matrice delle risposte.",
+  "excerpt": "Prepara una richiesta di offerta per fornitori edili: codici, quantità, consegne, alternative e revisioni. Esempio di matrice delle risposte.",
+  "published": "2026-11-07T08:00:00+01:00",
+  "updated": "2026-11-07T08:00:00+01:00",
+  "readingTime": 7,
+  "author": {
+    "name": "Redazione Corriere Edile",
+    "role": "Redazione",
+    "bio": "La redazione di Corriere Edile."
+  },
+  "image": "/images/articoli/richiesta-offerta-fornitori-edili-documenti.jpg",
+  "imageAlt": "Schema illustrativo: Richiesta offerta fornitori edili: guida operativa",
+  "imageCaption": "Schema illustrativo della richiesta di offerta.",
+  "summary": [
+    "Definisci la stessa base documentale per tutti i fornitori.",
+    "Separa alternative, esclusioni e servizi di consegna.",
+    "Collega la decisione alla revisione effettivamente confermata."
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Una richiesta di offerta ai fornitori edili non serve soltanto a ottenere un prezzo. Deve mettere più interlocutori nelle condizioni di rispondere alla stessa domanda. Se quantità, prodotto, consegna e allegati cambiano da una mail all’altra, il confronto finale può risultare ordinato nel foglio e incoerente nella sostanza."
+    },
+    {
+      "type": "p",
+      "text": "Questa guida propone un fascicolo minimo per raccogliere risposte leggibili. È un metodo organizzativo per l’acquisto, da adattare al progetto e alle procedure applicabili. Non sostituisce specifiche tecniche, contratti o regole di una particolare procedura di affidamento."
+    },
+    {
+      "type": "h2",
+      "text": "Definire il risultato della richiesta",
+      "id": "definire-il-risultato-della-richiesta"
+    },
+    {
+      "type": "p",
+      "text": "Prima di compilare le righe, chiarisci che cosa vuoi ottenere: una prima indicazione economica, un’offerta su specifica definita oppure il confronto fra alternative. Comunica questo stato ai destinatari. Un prezzo orientativo e una proposta completa non dovrebbero essere trattati come risposte equivalenti."
+    },
+    {
+      "type": "p",
+      "text": "Indica il referente che raccoglie i chiarimenti e il termine entro cui servono le risposte. Se una domanda modifica il perimetro, aggiorna il fascicolo comune invece di lasciare l’informazione in una conversazione privata con un solo fornitore."
+    },
+    {
+      "type": "p",
+      "text": "Il risultato atteso deve essere riconoscibile anche a chi riceve la richiesta internamente, dopo un inoltro. Inserisci oggetto, commessa e revisione nei documenti principali, evitando che il contesto dipenda soltanto dal testo della prima mail."
+    },
+    {
+      "type": "h2",
+      "text": "Identificare prodotto e prestazione richiesta",
+      "id": "identificare-prodotto-e-prestazione-richiesta"
+    },
+    {
+      "type": "p",
+      "text": "Quando il progetto prevede un prodotto specifico, riporta denominazione e codice completo. Quando la richiesta è prestazionale, collega la specifica predisposta dal tecnico e chiarisci come devono essere presentate le eventuali proposte. Non sostituire una specifica con una foto trovata online."
+    },
+    {
+      "type": "p",
+      "text": "I codici aiutano a riconoscere gli articoli. La documentazione [GS1 sul GTIN](https://gs1it.org/assistenza/standard-specifiche/gtin/) descrive un sistema di identificazione dei prodotti. Un identificativo, però, non è da solo una certificazione di qualità o di idoneità al progetto: serve comunque verificare la documentazione pertinente."
+    },
+    {
+      "type": "p",
+      "text": "Chiedi che le alternative siano separate dalla risposta di base. Devono essere riconoscibili codice, caratteristica diversa e documenti allegati. Una sostituzione non evidenziata può far sembrare più conveniente un’offerta che riguarda un prodotto differente."
+    },
+    {
+      "type": "h2",
+      "text": "Quantità e unità senza interpretazioni",
+      "id": "quantit-e-unit-senza-interpretazioni"
+    },
+    {
+      "type": "p",
+      "text": "Associa ogni quantità a un’unità di misura e a una base di calcolo. Pezzi, confezioni, metri lineari e metri quadrati non sono intercambiabili. Se un fornitore quota per confezione, chiedi che sia chiara la relazione con l’unità utilizzata nella richiesta."
+    },
+    {
+      "type": "p",
+      "text": "Distingui quantità da fornire, quantità stimate e opzioni. Se il fabbisogno non è ancora definito, dichiaralo: un numero provvisorio può essere utile per una prima valutazione, ma non deve diventare una certezza soltanto perché compare in una tabella."
+    },
+    {
+      "type": "p",
+      "text": "Inserisci una riga separata per gli elementi accessori richiesti. Non dare per scontato che un prodotto principale comprenda tutti i componenti necessari al sistema. La verifica tecnica dell’insieme resta collegata al progetto e alle indicazioni dei soggetti competenti."
+    },
+    {
+      "type": "h2",
+      "text": "Consegna, accesso e organizzazione del cantiere",
+      "id": "consegna-accesso-e-organizzazione-del-cantiere"
+    },
+    {
+      "type": "p",
+      "text": "Il luogo di consegna deve essere riconoscibile e accompagnato dalle informazioni organizzative già disponibili. Distingui il trasporto fino all’indirizzo dalle eventuali attività successive: scarico, movimentazione e collocazione non devono essere confusi in una parola generica."
+    },
+    {
+      "type": "p",
+      "text": "Comunica le finestre temporali richieste e chiedi di indicare disponibilità e condizioni. Se è prevista una consegna frazionata, descrivi le fasi senza supporre che abbia lo stesso costo e le stesse modalità di un’unica spedizione."
+    },
+    {
+      "type": "p",
+      "text": "Le condizioni di accesso vanno verificate con chi gestisce il cantiere. Non trasformare il modulo di acquisto in un’istruzione operativa improvvisata: deve rinviare all’organizzazione prevista e rendere visibili i chiarimenti ancora necessari."
+    },
+    {
+      "type": "h2",
+      "text": "Il fascicolo da inviare a tutti i fornitori",
+      "id": "il-fascicolo-da-inviare-a-tutti-i-fornitori"
+    },
+    {
+      "type": "p",
+      "text": "Prepara un elenco degli allegati con numero di revisione. Il fornitore deve poter dichiarare su quali documenti ha costruito la risposta. Se un file viene aggiornato, trasmetti un riepilogo della modifica e indica quale versione supera."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Richiesta",
+          "Oggetto, commessa e referente",
+          "Stato della richiesta chiaro"
+        ],
+        [
+          "Elenco forniture",
+          "Codici, unità e quantità",
+          "Nessuna unità ambigua"
+        ],
+        [
+          "Specifiche",
+          "Requisiti e riferimenti tecnici",
+          "Revisione riconoscibile"
+        ],
+        [
+          "Consegne",
+          "Luogo e fasi richieste",
+          "Distinzione fra servizi"
+        ],
+        [
+          "Modulo risposta",
+          "Prezzi, esclusioni e alternative",
+          "Stessa struttura per tutti"
+        ],
+        [
+          "Elenco allegati",
+          "Nome e versione dei file",
+          "Nessun documento superato"
+        ]
+      ],
+      "head": [
+        "Documento",
+        "Contenuto minimo",
+        "Controllo prima dell’invio"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Non appesantire il fascicolo con file irrilevanti o contraddittori. Se una tavola contiene informazioni non pertinenti alla richiesta, chiedi al tecnico come renderne chiaro il perimetro, senza alterare autonomamente l’elaborato."
+    },
+    {
+      "type": "h2",
+      "text": "Un esempio illustrativo di risposta confrontabile",
+      "id": "un-esempio-illustrativo-di-risposta-confrontabile"
+    },
+    {
+      "type": "p",
+      "text": "Immagina una fornitura suddivisa in due fasi. Il fornitore A indica un prezzo unitario e una consegna unica; il fornitore B include due consegne ma propone un codice alternativo. Il totale più basso non permette ancora di scegliere, perché cambiano due elementi della richiesta."
+    },
+    {
+      "type": "p",
+      "text": "La matrice di confronto deve riportare queste differenze. Chiedi ad A le condizioni per la seconda consegna e a B di identificare separatamente l’alternativa. Poi ricostruisci una configurazione comune, mantenendo le proposte opzionali in una sezione distinta."
+    },
+    {
+      "type": "p",
+      "text": "L’esempio non assegna un vantaggio a un fornitore e non contiene prezzi di mercato. Mostra il passaggio da “quanto costa?” a “quale fornitura, con quali condizioni, sto confrontando?”. È questo passaggio che rende utilizzabile il lavoro di raccolta delle offerte."
+    },
+    {
+      "type": "h2",
+      "text": "Leggere esclusioni e condizioni economiche",
+      "id": "leggere-esclusioni-e-condizioni-economiche"
+    },
+    {
+      "type": "p",
+      "text": "Riporta validità dell’offerta, componenti economiche indicate e condizioni che potrebbero modificare il totale. Mantieni separate le voci secondo la struttura dei documenti ricevuti. Non sommare importi con basi diverse senza aver chiarito come sono espressi."
+    },
+    {
+      "type": "p",
+      "text": "Un’esclusione deve essere letta rispetto al fabbisogno complessivo. Se un servizio necessario non è compreso, serve capire chi lo svolgerà e quale altro documento lo copre. Non basta togliere la riga dal confronto perché non compare nell’offerta selezionata."
+    },
+    {
+      "type": "p",
+      "text": "Conserva la risposta originale e annota le rettifiche confermate. Un chiarimento telefonico può essere registrato come punto da formalizzare; non riscrivere l’offerta del fornitore come se la tua sintesi fosse già la sua proposta aggiornata."
+    },
+    {
+      "type": "h2",
+      "text": "Chiudere il confronto con una decisione ricostruibile",
+      "id": "chiudere-il-confronto-con-una-decisione-ricostruibile"
+    },
+    {
+      "type": "p",
+      "text": "La scelta deve collegare configurazione, condizioni e documenti. Prepara un riepilogo dei punti risolti e di quelli ancora aperti, indicando chi deve chiuderli prima dell’ordine. Il confronto economico non deve cancellare le verifiche tecniche necessarie."
+    },
+    {
+      "type": "p",
+      "text": "Per seguire altri aspetti organizzativi puoi consultare la sezione [cantieri](/categoria/cantieri/); per il contesto delle forniture, la sezione [mercato](/categoria/mercato/). Gli approfondimenti editoriali offrono un orientamento, mentre la decisione deve rimanere legata ai documenti della tua commessa."
+    },
+    {
+      "type": "p",
+      "text": "Dopo l’ordine, mantieni il collegamento con la richiesta iniziale. Se durante la consegna emerge una differenza, sarà possibile capire quale codice, quantità e revisione erano stati confermati. La qualità del fascicolo si vede soprattutto quando un’informazione deve essere recuperata da chi non ha seguito tutte le conversazioni."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Devo chiedere sempre lo stesso marchio a tutti?",
+      "a": "Dipende dalla specifica e dal progetto. Se sono ammesse alternative, chiedi che siano separate dalla risposta di base e corredate dai documenti necessari alla valutazione tecnica. Non considerarle equivalenti senza verifica."
+    },
+    {
+      "q": "Come tratto una quantità ancora provvisoria?",
+      "a": "Identificala come stima e indica da quale documento deriva. Chiedi di chiarire come l’offerta si riferisce a quella base, senza presentare il numero come fabbisogno già confermato."
+    },
+    {
+      "q": "Il codice prodotto basta a scegliere il fornitore?",
+      "a": "No. Aiuta a identificare l’articolo, ma restano da verificare configurazione, documenti, condizioni economiche e consegna. La scelta riguarda una fornitura completa, non soltanto una stringa di caratteri."
+    }
+  ],
+  "tags": [
+    "fornitori",
+    "acquisti",
+    "cantieri"
+  ],
+  "related": [
+    "risega-muro-significato-rilievo-ristrutturazione"
+  ]
+},
   {
     "slug": "risega-muro-significato-rilievo-ristrutturazione",
     "category": "Cantieri",
