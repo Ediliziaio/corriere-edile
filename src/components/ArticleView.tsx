@@ -391,10 +391,10 @@ export default function ArticleView({ article }: { article: FullArticle }) {
             </nav>
 
             {/* Corpo del testo: renderer blocchi con gerarchia H2/H3 pulita */}
-            <ArticleBody
+            <div data-editorial-body><ArticleBody
               blocks={article.body}
               promo={related[0] ? { slug: related[0].slug, title: related[0].title } : undefined}
-            />
+            /></div>
 
             {/*
               Box "Fonti e aziende citate" — generato automaticamente dai link

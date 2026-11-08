@@ -1,491 +1,662 @@
 import type { FullArticle } from "./types";
 export const editorialNative: FullArticle[] = [
-{
-  "slug": "registro-chiarimenti-progetto-edile",
-  "title": "Registro dei chiarimenti di progetto: tenere insieme domande, revisioni e risposte",
-  "metaTitle": "Chiarimenti progetto edile: registro pratico",
-  "metaDescription": "Organizza i chiarimenti di progetto con riferimenti, revisioni, risposte e punti aperti. Un registro per rendere ricostruibili i passaggi.",
-  "category": "Cantieri",
-  "keywords": [
-    "chiarimenti progetto edile"
-  ],
-  "subtitle": "Organizza i chiarimenti di progetto con riferimenti, revisioni, risposte e punti aperti. Un registro per rendere ricostruibili i passaggi.",
-  "excerpt": "Organizza i chiarimenti di progetto con riferimenti, revisioni, risposte e punti aperti. Un registro per rendere ricostruibili i passaggi.",
-  "published": "2026-11-08",
-  "updated": "2026-11-08",
-  "readingTime": 7,
-  "author": {
-    "name": "Redazione Corriere Edile",
-    "role": "Redazione",
-    "bio": "La redazione di Corriere Edile."
-  },
-  "image": "/images/articoli/registro-chiarimenti-progetto-edile.jpg",
-  "imageAlt": "Schema illustrativo: Chiarimenti progetto edile: registro pratico",
-  "imageCaption": "Schema illustrativo della gestione dei chiarimenti di progetto.",
-  "summary": [
-    "Collega ogni domanda a un riferimento e a una revisione.",
-    "Mantieni distinti richiesta, risposta e decisione.",
-    "Verifica come il riscontro incide sulle attività successive."
-  ],
-  "body": [
-    {
-      "type": "p",
-      "text": "Una domanda sul progetto nasce durante un sopralluogo, riceve una risposta in una mail e viene ripresa in riunione con parole diverse. Quando arriva il momento di eseguire il lavoro, può diventare difficile capire quale revisione sia stata considerata e quale decisione sia stata effettivamente comunicata. Un registro dei chiarimenti di progetto serve a rendere ricostruibile questo percorso."
+  {
+    "slug": "registro-chiarimenti-progetto-edile",
+    "title": "Registro dei chiarimenti di progetto: tenere insieme domande, revisioni e risposte",
+    "metaTitle": "Chiarimenti progetto edile: registro pratico",
+    "metaDescription": "Organizza i chiarimenti di progetto con riferimenti, revisioni, risposte e punti aperti. Un registro per rendere ricostruibili i passaggi.",
+    "category": "Cantieri",
+    "keywords": [
+      "chiarimenti progetto edile"
+    ],
+    "subtitle": "Organizza i chiarimenti di progetto con riferimenti, revisioni, risposte e punti aperti. Un registro per rendere ricostruibili i passaggi.",
+    "excerpt": "Organizza i chiarimenti di progetto con riferimenti, revisioni, risposte e punti aperti. Un registro per rendere ricostruibili i passaggi.",
+    "published": "2026-11-08",
+    "updated": "2026-11-08",
+    "readingTime": 12,
+    "author": {
+      "name": "Redazione Corriere Edile",
+      "role": "Redazione",
+      "bio": "La redazione di Corriere Edile."
     },
-    {
-      "type": "p",
-      "text": "Il registro non sostituisce elaborati, approvazioni o comunicazioni previste dal progetto. È un supporto organizzativo: collega domanda, riferimento, risposta e passaggio successivo. La sua utilità dipende dalla chiarezza degli stati e dalla possibilità di risalire ai documenti pertinenti."
-    },
-    {
-      "type": "h2",
-      "text": "Formulare una domanda riconoscibile",
-      "id": "formulare-una-domanda-riconoscibile"
-    },
-    {
-      "type": "p",
-      "text": "Ogni richiesta dovrebbe descrivere un punto preciso. “Verificare il dettaglio” non aiuta chi deve rispondere se mancano luogo, elaborato e questione da chiarire. Indica il riferimento e spiega quale informazione non riesci a ricavare dai documenti disponibili."
-    },
-    {
-      "type": "p",
-      "text": "Quando una questione contiene più domande indipendenti, valuta se dividerla. Una risposta completa sul materiale potrebbe non chiudere un dubbio sulla geometria o sulla sequenza delle opere. Il registro deve permettere di distinguere i passaggi senza moltiplicare inutilmente le righe."
-    },
-    {
-      "type": "p",
-      "text": "Mantieni un titolo breve e una descrizione sufficiente. Il titolo aiuta a cercare il tema; la descrizione conserva il contesto che altrimenti resterebbe nella memoria di chi ha formulato la richiesta."
-    },
-    {
-      "type": "h2",
-      "text": "Collegare la revisione dell’elaborato",
-      "id": "collegare-la-revisione-dell-elaborato"
-    },
-    {
-      "type": "p",
-      "text": "Numero e revisione del disegno sono parte della domanda. Una risposta riferita a una tavola superata può essere letta male quando il registro viene consultato insieme alla versione attuale. Conserva quindi il riferimento effettivamente utilizzato al momento della richiesta."
-    },
-    {
-      "type": "p",
-      "text": "Se il progetto cambia durante l’analisi, non sostituire silenziosamente l’allegato iniziale. Aggiungi la nuova versione e indica quale relazione abbia con il punto aperto. Il referente dovrà chiarire se la domanda resti pertinente o richieda una formulazione aggiornata."
-    },
-    {
-      "type": "p",
-      "text": "Questo collegamento è utile anche quando utilizzi un modello digitale. Identificativo dell’elemento, punto di vista e revisione del modello devono essere riconoscibili secondo il sistema del progetto, senza trasformare una schermata isolata in un riferimento autosufficiente."
-    },
-    {
-      "type": "h2",
-      "text": "Distinguere richiesta, risposta e decisione",
-      "id": "distinguere-richiesta-risposta-e-decisione"
-    },
-    {
-      "type": "p",
-      "text": "Una risposta può spiegare un’informazione senza costituire una decisione esecutiva o una modifica approvata. Il registro deve mantenere distinguibili questi passaggi e rimandare alle procedure previste per ciascuno. Non attribuire automaticamente a una mail un effetto che richiede altri riscontri."
-    },
-    {
-      "type": "p",
-      "text": "Usa campi separati per la risposta ricevuta e per il passaggio successivo. Se la risposta richiede un aggiornamento del documento, indica dove verrà pubblicata la revisione e chi deve verificarne la disponibilità ai soggetti interessati."
-    },
-    {
-      "type": "p",
-      "text": "Quando un chiarimento può incidere su quantità, tempi o fornitura, registra l’esigenza di valutazione con i referenti competenti. Il registro non deve calcolare o accettare autonomamente conseguenze economiche che non siano state definite nei documenti pertinenti."
-    },
-    {
-      "type": "h2",
-      "text": "Una struttura minima del registro",
-      "id": "una-struttura-minima-del-registro"
-    },
-    {
-      "type": "p",
-      "text": "Assegna un identificativo stabile a ogni punto. Aggiungi origine della richiesta, riferimento, destinatario e stato. La struttura deve permettere a un’altra persona di ricostruire il percorso senza aprire tutte le conversazioni del gruppo."
-    },
-    {
-      "type": "table",
-      "rows": [
-        [
-          "Identificativo",
-          "Codice della richiesta",
-          "Posso ritrovarla senza il titolo?"
+    "image": "/images/articoli/registro-chiarimenti-progetto-edile.jpg",
+    "imageAlt": "Schema illustrativo: Chiarimenti progetto edile: registro pratico",
+    "imageCaption": "Schema illustrativo della gestione dei chiarimenti di progetto.",
+    "summary": [
+      "Collega ogni domanda a un riferimento e a una revisione.",
+      "Mantieni distinti richiesta, risposta e decisione.",
+      "Verifica come il riscontro incide sulle attività successive."
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "Una domanda sul progetto nasce durante un sopralluogo, riceve una risposta in una mail e viene ripresa in riunione con parole diverse. Quando arriva il momento di eseguire il lavoro, può diventare difficile capire quale revisione sia stata considerata e quale decisione sia stata effettivamente comunicata. Un registro dei chiarimenti di progetto serve a rendere ricostruibile questo percorso."
+      },
+      {
+        "type": "p",
+        "text": "Il registro non sostituisce elaborati, approvazioni o comunicazioni previste dal progetto. È un supporto organizzativo: collega domanda, riferimento, risposta e passaggio successivo. La sua utilità dipende dalla chiarezza degli stati e dalla possibilità di risalire ai documenti pertinenti."
+      },
+      {
+        "type": "h2",
+        "text": "Formulare una domanda riconoscibile",
+        "id": "formulare-una-domanda-riconoscibile"
+      },
+      {
+        "type": "p",
+        "text": "Ogni richiesta dovrebbe descrivere un punto preciso. “Verificare il dettaglio” non aiuta chi deve rispondere se mancano luogo, elaborato e questione da chiarire. Indica il riferimento e spiega quale informazione non riesci a ricavare dai documenti disponibili."
+      },
+      {
+        "type": "p",
+        "text": "Quando una questione contiene più domande indipendenti, valuta se dividerla. Una risposta completa sul materiale potrebbe non chiudere un dubbio sulla geometria o sulla sequenza delle opere. Il registro deve permettere di distinguere i passaggi senza moltiplicare inutilmente le righe."
+      },
+      {
+        "type": "p",
+        "text": "Mantieni un titolo breve e una descrizione sufficiente. Il titolo aiuta a cercare il tema; la descrizione conserva il contesto che altrimenti resterebbe nella memoria di chi ha formulato la richiesta."
+      },
+      {
+        "type": "h2",
+        "text": "Collegare la revisione dell’elaborato",
+        "id": "collegare-la-revisione-dell-elaborato"
+      },
+      {
+        "type": "p",
+        "text": "Numero e revisione del disegno sono parte della domanda. Una risposta riferita a una tavola superata può essere letta male quando il registro viene consultato insieme alla versione attuale. Conserva quindi il riferimento effettivamente utilizzato al momento della richiesta."
+      },
+      {
+        "type": "p",
+        "text": "Se il progetto cambia durante l’analisi, non sostituire silenziosamente l’allegato iniziale. Aggiungi la nuova versione e indica quale relazione abbia con il punto aperto. Il referente dovrà chiarire se la domanda resti pertinente o richieda una formulazione aggiornata."
+      },
+      {
+        "type": "p",
+        "text": "Questo collegamento è utile anche quando utilizzi un modello digitale. Identificativo dell’elemento, punto di vista e revisione del modello devono essere riconoscibili secondo il sistema del progetto, senza trasformare una schermata isolata in un riferimento autosufficiente."
+      },
+      {
+        "type": "h2",
+        "text": "Distinguere richiesta, risposta e decisione",
+        "id": "distinguere-richiesta-risposta-e-decisione"
+      },
+      {
+        "type": "p",
+        "text": "Una risposta può spiegare un’informazione senza costituire una decisione esecutiva o una modifica approvata. Il registro deve mantenere distinguibili questi passaggi e rimandare alle procedure previste per ciascuno. Non attribuire automaticamente a una mail un effetto che richiede altri riscontri."
+      },
+      {
+        "type": "p",
+        "text": "Usa campi separati per la risposta ricevuta e per il passaggio successivo. Se la risposta richiede un aggiornamento del documento, indica dove verrà pubblicata la revisione e chi deve verificarne la disponibilità ai soggetti interessati."
+      },
+      {
+        "type": "p",
+        "text": "Quando un chiarimento può incidere su quantità, tempi o fornitura, registra l’esigenza di valutazione con i referenti competenti. Il registro non deve calcolare o accettare autonomamente conseguenze economiche che non siano state definite nei documenti pertinenti."
+      },
+      {
+        "type": "h2",
+        "text": "Una struttura minima del registro",
+        "id": "una-struttura-minima-del-registro"
+      },
+      {
+        "type": "p",
+        "text": "Assegna un identificativo stabile a ogni punto. Aggiungi origine della richiesta, riferimento, destinatario e stato. La struttura deve permettere a un’altra persona di ricostruire il percorso senza aprire tutte le conversazioni del gruppo."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Identificativo",
+            "Codice della richiesta",
+            "Posso ritrovarla senza il titolo?"
+          ],
+          [
+            "Tema",
+            "Oggetto e luogo",
+            "Quale punto riguarda?"
+          ],
+          [
+            "Riferimento",
+            "Elaborato e revisione",
+            "Su quale base è nata?"
+          ],
+          [
+            "Domanda",
+            "Informazione da chiarire",
+            "È comprensibile al destinatario?"
+          ],
+          [
+            "Risposta",
+            "Documento o comunicazione collegati",
+            "Da dove proviene il riscontro?"
+          ],
+          [
+            "Passaggio",
+            "Verifica o aggiornamento necessario",
+            "Chi deve agire dopo?"
+          ],
+          [
+            "Stato",
+            "Condizione effettiva del punto",
+            "Che cosa manca alla chiusura?"
+          ]
         ],
-        [
-          "Tema",
-          "Oggetto e luogo",
-          "Quale punto riguarda?"
-        ],
-        [
-          "Riferimento",
-          "Elaborato e revisione",
-          "Su quale base è nata?"
-        ],
-        [
-          "Domanda",
-          "Informazione da chiarire",
-          "È comprensibile al destinatario?"
-        ],
-        [
-          "Risposta",
-          "Documento o comunicazione collegati",
-          "Da dove proviene il riscontro?"
-        ],
-        [
-          "Passaggio",
-          "Verifica o aggiornamento necessario",
-          "Chi deve agire dopo?"
-        ],
-        [
-          "Stato",
-          "Condizione effettiva del punto",
-          "Che cosa manca alla chiusura?"
+        "head": [
+          "Campo",
+          "Contenuto",
+          "Domanda di controllo"
         ]
-      ],
-      "head": [
-        "Campo",
-        "Contenuto",
-        "Domanda di controllo"
-      ]
-    },
-    {
-      "type": "p",
-      "text": "La tabella deve funzionare come indice, non come trascrizione integrale di ogni file. Conserva i documenti originali e usa riferimenti controllati, evitando copie che potrebbero essere modificate senza aggiornare il registro."
-    },
-    {
-      "type": "h2",
-      "text": "Un esempio illustrativo di chiarimento",
-      "id": "un-esempio-illustrativo-di-chiarimento"
-    },
-    {
-      "type": "p",
-      "text": "Immagina una domanda sul raccordo fra una finitura e un elemento previsto dal progetto. Il registro indica ambiente, tavola e revisione. Il destinatario chiarisce il criterio, ma comunica che il dettaglio sarà aggiornato in un elaborato successivo."
-    },
-    {
-      "type": "p",
-      "text": "In quel momento puoi registrare “risposta ricevuta, aggiornamento atteso”, anziché chiudere il punto come se la nuova tavola fosse già disponibile. Quando arriva il documento, il referente verifica la corrispondenza e definisce il passaggio previsto dal processo."
-    },
-    {
-      "type": "p",
-      "text": "L’esempio non descrive un caso reale e non stabilisce chi debba approvare una soluzione. Mostra perché ricevere un testo e rendere disponibile un’informazione utilizzabile nella fase successiva siano eventi differenti."
-    },
-    {
-      "type": "h2",
-      "text": "Gestire priorità e date con criterio",
-      "id": "gestire-priorit-e-date-con-criterio"
-    },
-    {
-      "type": "p",
-      "text": "Una data richiesta deve essere collegata all’attività che dipende dal chiarimento. Scrivere “urgente” su ogni riga rende meno utile il registro. Descrivi invece quale passaggio del programma richieda l’informazione e chi debba valutarne le conseguenze."
-    },
-    {
-      "type": "p",
-      "text": "Distingui una scadenza proposta da una confermata. Se la disponibilità della risposta cambia, aggiorna il punto e comunica il cambiamento secondo l’organizzazione del progetto. Non lasciare che una data superata continui a essere letta come un impegno attuale."
-    },
-    {
-      "type": "p",
-      "text": "La priorità può essere rivista quando cambia il programma, mantenendo una nota sul motivo. Il registro deve rappresentare la situazione condivisa, non produrre un ordine automatico indipendente dalle decisioni del cantiere."
-    },
-    {
-      "type": "h2",
-      "text": "Collegare i chiarimenti alle richieste ai fornitori",
-      "id": "collegare-i-chiarimenti-alle-richieste-ai-fornitori"
-    },
-    {
-      "type": "p",
-      "text": "Una domanda formulata durante la raccolta delle offerte può modificare la base su cui i fornitori rispondono. Se il chiarimento interessa il confronto comune, verifica come debba essere comunicato ai soggetti coinvolti, evitando informazioni diverse distribuite in conversazioni separate."
-    },
-    {
-      "type": "p",
-      "text": "La guida alla [richiesta di offerta ai fornitori edili](/articolo/richiesta-offerta-fornitori-edili-documenti/) propone un fascicolo con specifiche, allegati e revisioni. Il registro dei chiarimenti può rimandare a quel fascicolo e rendere riconoscibile quale versione sia stata effettivamente considerata."
-    },
-    {
-      "type": "p",
-      "text": "Mantieni separate eventuali alternative commerciali dalla risposta alla domanda di base. Un prodotto differente non chiude automaticamente il dubbio sul prodotto inizialmente richiesto: occorre una valutazione esplicita del nuovo perimetro."
-    },
-    {
-      "type": "h2",
-      "text": "Usare gli strumenti digitali senza perdere il metodo",
-      "id": "usare-gli-strumenti-digitali-senza-perdere-il-metodo"
-    },
-    {
-      "type": "p",
-      "text": "Il formato può essere un foglio, un sistema documentale o una piattaforma dedicata. Conta che identificativi, riferimenti e stati rimangano recuperabili. Un’applicazione complessa non risolve una domanda formulata in modo ambiguo o un allegato privo di revisione."
-    },
-    {
-      "type": "p",
-      "text": "La [documentazione buildingSMART sul BCF](https://github.com/buildingSMART/BCF-API/blob/release_3_0/README.md?plain=1) descrive uno scambio strutturato di temi, commenti e stati fra applicazioni. È un riferimento per comprendere la logica dei collegamenti; non implica che ogni piccola commessa debba adottare lo stesso strumento."
-    },
-    {
-      "type": "p",
-      "text": "Prima di scegliere un software, prova un punto completo: apertura della domanda, collegamento del documento, ricezione della risposta e gestione del passaggio successivo. Valuta se il risultato rimanga leggibile anche a chi non ha partecipato alla prova."
-    },
-    {
-      "type": "h2",
-      "text": "Chiudere e conservare il percorso",
-      "id": "chiudere-e-conservare-il-percorso"
-    },
-    {
-      "type": "p",
-      "text": "La chiusura deve corrispondere al criterio definito dal processo. Se una risposta rimanda a una revisione, verifica che il documento sia disponibile e collegato. Se richiede una decisione di un altro soggetto, mantieni visibile quel passaggio fino al riscontro pertinente."
-    },
-    {
-      "type": "p",
-      "text": "Non cancellare le domande risolte. La cronologia può spiegare perché un dettaglio o una fornitura siano cambiati rispetto alla base iniziale. Mantieni accessibile il percorso secondo le procedure del progetto, distinguendo file originali e copie annotate."
-    },
-    {
-      "type": "p",
-      "text": "Per proseguire, scegli un chiarimento reale e verifica se riesci a ricostruirlo con la struttura proposta. La sezione [cantieri](/categoria/cantieri/) raccoglie altri approfondimenti operativi da collegare alle esigenze documentali della commessa."
-    }
-  ],
-  "faqs": [
-    {
-      "q": "Una risposta ricevuta equivale sempre a una modifica approvata?",
-      "a": "No. Richiesta, risposta e decisione sono passaggi da distinguere secondo il processo del progetto. Il registro deve rimandare ai riscontri pertinenti, senza attribuire effetti automatici a una comunicazione."
-    },
-    {
-      "q": "Quale revisione devo indicare nella domanda?",
-      "a": "Indica quella effettivamente utilizzata e conserva il collegamento al documento. Se arriva una nuova versione, registra il cambiamento e verifica se il punto debba essere aggiornato."
-    },
-    {
-      "q": "Serve necessariamente una piattaforma BIM?",
-      "a": "No. Il metodo può essere organizzato con strumenti diversi. Valuta se il sistema scelto mantenga identificativi, documenti, risposte e stati leggibili durante l’intero percorso."
-    }
-  ],
-  "tags": [
-    "fornitori",
-    "acquisti",
-    "cantieri"
-  ],
-  "related": [
-    "richiesta-offerta-fornitori-edili-documenti"
-  ]
-},
-{
-  "slug": "richiesta-offerta-fornitori-edili-documenti",
-  "title": "Richiesta di offerta ai fornitori edili: i documenti per ricevere risposte confrontabili",
-  "metaTitle": "Richiesta offerta fornitori edili: guida operativa",
-  "metaDescription": "Prepara una richiesta di offerta per fornitori edili: codici, quantità, consegne, alternative e revisioni. Esempio di matrice delle risposte.",
-  "category": "Cantieri",
-  "keywords": [
-    "richiesta offerta fornitori edili"
-  ],
-  "subtitle": "Prepara una richiesta di offerta per fornitori edili: codici, quantità, consegne, alternative e revisioni. Esempio di matrice delle risposte.",
-  "excerpt": "Prepara una richiesta di offerta per fornitori edili: codici, quantità, consegne, alternative e revisioni. Esempio di matrice delle risposte.",
-  "published": "2026-11-07T08:00:00+01:00",
-  "updated": "2026-11-07T08:00:00+01:00",
-  "readingTime": 7,
-  "author": {
-    "name": "Redazione Corriere Edile",
-    "role": "Redazione",
-    "bio": "La redazione di Corriere Edile."
+      },
+      {
+        "type": "p",
+        "text": "La tabella deve funzionare come indice, non come trascrizione integrale di ogni file. Conserva i documenti originali e usa riferimenti controllati, evitando copie che potrebbero essere modificate senza aggiornare il registro."
+      },
+      {
+        "type": "h2",
+        "text": "Un esempio illustrativo di chiarimento",
+        "id": "un-esempio-illustrativo-di-chiarimento"
+      },
+      {
+        "type": "p",
+        "text": "Immagina una domanda sul raccordo fra una finitura e un elemento previsto dal progetto. Il registro indica ambiente, tavola e revisione. Il destinatario chiarisce il criterio, ma comunica che il dettaglio sarà aggiornato in un elaborato successivo."
+      },
+      {
+        "type": "p",
+        "text": "In quel momento puoi registrare “risposta ricevuta, aggiornamento atteso”, anziché chiudere il punto come se la nuova tavola fosse già disponibile. Quando arriva il documento, il referente verifica la corrispondenza e definisce il passaggio previsto dal processo."
+      },
+      {
+        "type": "p",
+        "text": "L’esempio non descrive un caso reale e non stabilisce chi debba approvare una soluzione. Mostra perché ricevere un testo e rendere disponibile un’informazione utilizzabile nella fase successiva siano eventi differenti."
+      },
+      {
+        "type": "h2",
+        "text": "Gestire priorità e date con criterio",
+        "id": "gestire-priorit-e-date-con-criterio"
+      },
+      {
+        "type": "p",
+        "text": "Una data richiesta deve essere collegata all’attività che dipende dal chiarimento. Scrivere “urgente” su ogni riga rende meno utile il registro. Descrivi invece quale passaggio del programma richieda l’informazione e chi debba valutarne le conseguenze."
+      },
+      {
+        "type": "p",
+        "text": "Distingui una scadenza proposta da una confermata. Se la disponibilità della risposta cambia, aggiorna il punto e comunica il cambiamento secondo l’organizzazione del progetto. Non lasciare che una data superata continui a essere letta come un impegno attuale."
+      },
+      {
+        "type": "p",
+        "text": "La priorità può essere rivista quando cambia il programma, mantenendo una nota sul motivo. Il registro deve rappresentare la situazione condivisa, non produrre un ordine automatico indipendente dalle decisioni del cantiere."
+      },
+      {
+        "type": "h2",
+        "text": "Collegare i chiarimenti alle richieste ai fornitori",
+        "id": "collegare-i-chiarimenti-alle-richieste-ai-fornitori"
+      },
+      {
+        "type": "p",
+        "text": "Una domanda formulata durante la raccolta delle offerte può modificare la base su cui i fornitori rispondono. Se il chiarimento interessa il confronto comune, verifica come debba essere comunicato ai soggetti coinvolti, evitando informazioni diverse distribuite in conversazioni separate."
+      },
+      {
+        "type": "p",
+        "text": "La guida alla [richiesta di offerta ai fornitori edili](/articolo/richiesta-offerta-fornitori-edili-documenti/) propone un fascicolo con specifiche, allegati e revisioni. Il registro dei chiarimenti può rimandare a quel fascicolo e rendere riconoscibile quale versione sia stata effettivamente considerata."
+      },
+      {
+        "type": "p",
+        "text": "Mantieni separate eventuali alternative commerciali dalla risposta alla domanda di base. Un prodotto differente non chiude automaticamente il dubbio sul prodotto inizialmente richiesto: occorre una valutazione esplicita del nuovo perimetro."
+      },
+      {
+        "type": "h2",
+        "text": "Usare gli strumenti digitali senza perdere il metodo",
+        "id": "usare-gli-strumenti-digitali-senza-perdere-il-metodo"
+      },
+      {
+        "type": "p",
+        "text": "Il formato può essere un foglio, un sistema documentale o una piattaforma dedicata. Conta che identificativi, riferimenti e stati rimangano recuperabili. Un’applicazione complessa non risolve una domanda formulata in modo ambiguo o un allegato privo di revisione."
+      },
+      {
+        "type": "p",
+        "text": "La [documentazione buildingSMART sul BCF](https://github.com/buildingSMART/BCF-API/blob/release_3_0/README.md?plain=1) descrive uno scambio strutturato di temi, commenti e stati fra applicazioni. È un riferimento per comprendere la logica dei collegamenti; non implica che ogni piccola commessa debba adottare lo stesso strumento."
+      },
+      {
+        "type": "p",
+        "text": "Prima di scegliere un software, prova un punto completo: apertura della domanda, collegamento del documento, ricezione della risposta e gestione del passaggio successivo. Valuta se il risultato rimanga leggibile anche a chi non ha partecipato alla prova."
+      },
+      {
+        "type": "h2",
+        "text": "Stabilire quale informazione deve produrre la richiesta",
+        "id": "stabilire-quale-informazione-deve-produrre-la-richiesta"
+      },
+      {
+        "type": "p",
+        "text": "Prima di aprire un punto nel registro, chiarisci quale informazione manchi per il passaggio successivo. Una domanda può riguardare un riferimento dell’elaborato, una relazione fra componenti oppure il modo in cui interpretare una descrizione. Il titolo deve essere breve, ma il testo deve rendere riconoscibile il dubbio. Evita richieste che riuniscano molte questioni indipendenti sotto una formula generica: una risposta parziale potrebbe poi essere letta come chiusura di tutto il punto."
+      },
+      {
+        "type": "p",
+        "text": "Collega la domanda alla base effettivamente utilizzata. Indica elaborato, revisione e luogo, secondo i riferimenti del progetto. Se allegi un’immagine, spiega quale parte aiuti a riconoscere e mantieni il collegamento al documento pertinente. La schermata può sostenere la descrizione, ma non dovrebbe diventare l’unico riferimento quando esiste un elaborato identificabile. Chi risponde deve poter capire quale informazione venga richiesta senza ricostruire da solo la provenienza dell’immagine o il significato di una sigla informale."
+      },
+      {
+        "type": "p",
+        "text": "Aggiungi un campo per il motivo operativo della domanda. Non serve attribuire automaticamente una priorità elevata; occorre sapere quale decisione o attività dipenda dal chiarimento. Il referente del processo potrà valutarne l’urgenza insieme al programma della commessa. Questo collegamento rende il registro più utilizzabile di un elenco nel quale ogni riga è definita urgente e nessuna descrive quale conseguenza debba essere esaminata prima del passaggio successivo."
+      },
+      {
+        "type": "h2",
+        "text": "Gestire una risposta che rimanda a un nuovo documento",
+        "id": "gestire-una-risposta-che-rimanda-a-un-nuovo-documento"
+      },
+      {
+        "type": "p",
+        "text": "Una risposta può chiarire il criterio e comunicare che un elaborato verrà aggiornato. In quel momento il registro deve distinguere il riscontro ricevuto dalla disponibilità della revisione pertinente. Non chiudere automaticamente il punto se il processo richiede ancora un controllo sul documento. Puoi usare uno stato descrittivo, con il riferimento della comunicazione e il passaggio atteso, mantenendo il significato condiviso fra chi aggiorna il registro e chi deve utilizzare l’informazione."
+      },
+      {
+        "type": "p",
+        "text": "Quando arriva la revisione, collegala alla domanda originaria e conserva il riferimento precedente. Il controllo deve permettere di capire se il documento ricevuto risponda effettivamente al punto aperto o introduca altre informazioni da esaminare. Non sostituire silenziosamente l’allegato iniziale: la cronologia spiega perché sia stata chiesta la verifica e quale base fosse disponibile nelle diverse fasi. Chi subentra potrà così distinguere un aggiornamento da una semplice copia del medesimo file."
+      },
+      {
+        "type": "p",
+        "text": "Se la risposta proviene da un interlocutore diverso da quello inizialmente indicato, registra il riferimento pertinente senza attribuirgli automaticamente un ruolo più ampio. Il processo del progetto definisce chi debba valutare, decidere o approvare i diversi passaggi. Il registro è un supporto alla ricostruzione e non un sistema per modificare quelle responsabilità attraverso una casella. Deve conservare ciò che è avvenuto e indicare il passaggio ancora necessario secondo i documenti e l’organizzazione previsti."
+      },
+      {
+        "type": "h2",
+        "text": "Un esempio illustrativo di richiesta suddivisa",
+        "id": "un-esempio-illustrativo-di-richiesta-suddivisa"
+      },
+      {
+        "type": "p",
+        "text": "Immagina una domanda iniziale che chieda insieme un chiarimento su una finitura e una conferma su una quantità. I due temi possono richiedere documenti o referenti differenti. Nel registro puoi separarli mantenendo un collegamento comune alla richiesta originaria. Una risposta completa sulla finitura non dovrà così far scomparire il dubbio sulla quantità. Il riepilogo potrà descrivere con precisione quali informazioni siano arrivate e quali restino ancora da verificare."
+      },
+      {
+        "type": "p",
+        "text": "Nel caso illustrativo, la risposta sulla quantità potrebbe richiedere una nuova base di confronto con il fornitore. Il registro dovrebbe rimandare al documento pertinente e alla sua revisione, senza trasformare automaticamente il chiarimento in un prezzo già concordato o in una modifica approvata. Le eventuali conseguenze devono essere valutate attraverso i passaggi previsti. Il foglio aiuta a non perderle, mantenendo separati il fatto informativo e la decisione che richiede un riscontro ulteriore."
+      },
+      {
+        "type": "p",
+        "text": "L’esempio non descrive una commessa reale e non stabilisce un flusso contrattuale universale. Mostra perché una richiesta ben formulata debba avere un compito riconoscibile. Se una riga contiene temi diversi, il numero dei punti aperti può sembrare più basso senza che il lavoro sia più semplice da gestire. La qualità del registro sta nella possibilità di seguire ciascun passaggio, non nel ridurre artificialmente le righe o chiuderle prima che le informazioni pertinenti siano disponibili."
+      },
+      {
+        "type": "h2",
+        "text": "Rendere confrontabili stati e riepiloghi",
+        "id": "rendere-confrontabili-stati-e-riepiloghi"
+      },
+      {
+        "type": "p",
+        "text": "Definisci una legenda breve degli stati utilizzati. “Risposto”, “da verificare” e “chiuso” devono avere significati comprensibili al gruppo. Se un interlocutore usa una parola per indicare una comunicazione ricevuta e un altro la legge come un’approvazione, il registro produce un’ambiguità. La legenda non deve diventare un manuale complesso: può collegare ogni stato al passaggio effettivo e al tipo di riscontro previsto dal processo."
+      },
+      {
+        "type": "p",
+        "text": "Quando prepari un riepilogo, mantieni la data della situazione e il riferimento della fonte comune. Una copia esportata per una riunione può essere utile, ma deve restare distinguibile dalla versione aggiornata successivamente. Se arrivano nuovi documenti, il registro deve poterli collegare senza creare due storie parallele del punto. Chiarisci chi mantiene la fonte di riferimento e come gli aggiornamenti diventino disponibili alle persone che devono utilizzare le informazioni."
+      },
+      {
+        "type": "p",
+        "text": "Nella lettura delle priorità, separa la quantità dei punti dal loro significato. Molte richieste semplici e una questione che richiede un passaggio importante non descrivono la stessa situazione. Il registro può conservare il collegamento con attività e decisioni, lasciando ai referenti la valutazione del programma. Un conteggio sintetico ha valore quando rimanda a questi dettagli, non quando sostituisce con un numero la comprensione del lavoro che resta effettivamente da svolgere."
+      },
+      {
+        "type": "h2",
+        "text": "Verificare il percorso prima di considerarlo concluso",
+        "id": "verificare-il-percorso-prima-di-considerarlo-concluso"
+      },
+      {
+        "type": "p",
+        "text": "Scegli un punto risolto e prova a seguirlo dalla domanda al riscontro finale. Dovrebbero essere recuperabili luogo, elaborato iniziale, risposta e documento pertinente al passaggio conclusivo. Se un riferimento manca, completa la scheda prima di usare il caso come esempio del processo. Questa prova aiuta a individuare collegamenti fragili senza richiedere necessariamente nuovi strumenti digitali o una riprogettazione completa del sistema documentale della commessa."
+      },
+      {
+        "type": "p",
+        "text": "Alla chiusura della fase, conserva anche ciò che spiega le decisioni e i limiti della verifica. Non cancellare la domanda soltanto perché non è più operativa. La cronologia può essere utile per comprendere perché un dettaglio o una proposta siano cambiati rispetto alla base iniziale. Un registro leggibile deve permettere di recuperare queste informazioni a distanza di tempo, evitando che il passaggio fra operatori dipenda soltanto dalla memoria di chi aveva partecipato alle prime conversazioni."
+      },
+      {
+        "type": "h2",
+        "text": "Chiudere e conservare il percorso",
+        "id": "chiudere-e-conservare-il-percorso"
+      },
+      {
+        "type": "p",
+        "text": "La chiusura deve corrispondere al criterio definito dal processo. Se una risposta rimanda a una revisione, verifica che il documento sia disponibile e collegato. Se richiede una decisione di un altro soggetto, mantieni visibile quel passaggio fino al riscontro pertinente."
+      },
+      {
+        "type": "p",
+        "text": "Non cancellare le domande risolte. La cronologia può spiegare perché un dettaglio o una fornitura siano cambiati rispetto alla base iniziale. Mantieni accessibile il percorso secondo le procedure del progetto, distinguendo file originali e copie annotate."
+      },
+      {
+        "type": "p",
+        "text": "Per proseguire, scegli un chiarimento reale e verifica se riesci a ricostruirlo con la struttura proposta. La sezione [cantieri](/categoria/cantieri/) raccoglie altri approfondimenti operativi da collegare alle esigenze documentali della commessa."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Una risposta ricevuta equivale sempre a una modifica approvata?",
+        "a": "No. Richiesta, risposta e decisione sono passaggi da distinguere secondo il processo del progetto. Il registro deve rimandare ai riscontri pertinenti, senza attribuire effetti automatici a una comunicazione."
+      },
+      {
+        "q": "Quale revisione devo indicare nella domanda?",
+        "a": "Indica quella effettivamente utilizzata e conserva il collegamento al documento. Se arriva una nuova versione, registra il cambiamento e verifica se il punto debba essere aggiornato."
+      },
+      {
+        "q": "Serve necessariamente una piattaforma BIM?",
+        "a": "No. Il metodo può essere organizzato con strumenti diversi. Valuta se il sistema scelto mantenga identificativi, documenti, risposte e stati leggibili durante l’intero percorso."
+      }
+    ],
+    "tags": [
+      "fornitori",
+      "acquisti",
+      "cantieri"
+    ],
+    "related": [
+      "richiesta-offerta-fornitori-edili-documenti"
+    ]
   },
-  "image": "/images/articoli/richiesta-offerta-fornitori-edili-documenti.jpg",
-  "imageAlt": "Schema illustrativo: Richiesta offerta fornitori edili: guida operativa",
-  "imageCaption": "Schema illustrativo della richiesta di offerta.",
-  "summary": [
-    "Definisci la stessa base documentale per tutti i fornitori.",
-    "Separa alternative, esclusioni e servizi di consegna.",
-    "Collega la decisione alla revisione effettivamente confermata."
-  ],
-  "body": [
-    {
-      "type": "p",
-      "text": "Una richiesta di offerta ai fornitori edili non serve soltanto a ottenere un prezzo. Deve mettere più interlocutori nelle condizioni di rispondere alla stessa domanda. Se quantità, prodotto, consegna e allegati cambiano da una mail all’altra, il confronto finale può risultare ordinato nel foglio e incoerente nella sostanza."
+  {
+    "slug": "richiesta-offerta-fornitori-edili-documenti",
+    "title": "Richiesta di offerta ai fornitori edili: i documenti per ricevere risposte confrontabili",
+    "metaTitle": "Richiesta offerta fornitori edili: guida operativa",
+    "metaDescription": "Prepara una richiesta di offerta per fornitori edili: codici, quantità, consegne, alternative e revisioni. Esempio di matrice delle risposte.",
+    "category": "Cantieri",
+    "keywords": [
+      "richiesta offerta fornitori edili"
+    ],
+    "subtitle": "Prepara una richiesta di offerta per fornitori edili: codici, quantità, consegne, alternative e revisioni. Esempio di matrice delle risposte.",
+    "excerpt": "Prepara una richiesta di offerta per fornitori edili: codici, quantità, consegne, alternative e revisioni. Esempio di matrice delle risposte.",
+    "published": "2026-11-07T08:00:00+01:00",
+    "updated": "2026-11-08",
+    "readingTime": 12,
+    "author": {
+      "name": "Redazione Corriere Edile",
+      "role": "Redazione",
+      "bio": "La redazione di Corriere Edile."
     },
-    {
-      "type": "p",
-      "text": "Questa guida propone un fascicolo minimo per raccogliere risposte leggibili. È un metodo organizzativo per l’acquisto, da adattare al progetto e alle procedure applicabili. Non sostituisce specifiche tecniche, contratti o regole di una particolare procedura di affidamento."
-    },
-    {
-      "type": "h2",
-      "text": "Definire il risultato della richiesta",
-      "id": "definire-il-risultato-della-richiesta"
-    },
-    {
-      "type": "p",
-      "text": "Prima di compilare le righe, chiarisci che cosa vuoi ottenere: una prima indicazione economica, un’offerta su specifica definita oppure il confronto fra alternative. Comunica questo stato ai destinatari. Un prezzo orientativo e una proposta completa non dovrebbero essere trattati come risposte equivalenti."
-    },
-    {
-      "type": "p",
-      "text": "Indica il referente che raccoglie i chiarimenti e il termine entro cui servono le risposte. Se una domanda modifica il perimetro, aggiorna il fascicolo comune invece di lasciare l’informazione in una conversazione privata con un solo fornitore."
-    },
-    {
-      "type": "p",
-      "text": "Il risultato atteso deve essere riconoscibile anche a chi riceve la richiesta internamente, dopo un inoltro. Inserisci oggetto, commessa e revisione nei documenti principali, evitando che il contesto dipenda soltanto dal testo della prima mail."
-    },
-    {
-      "type": "h2",
-      "text": "Identificare prodotto e prestazione richiesta",
-      "id": "identificare-prodotto-e-prestazione-richiesta"
-    },
-    {
-      "type": "p",
-      "text": "Quando il progetto prevede un prodotto specifico, riporta denominazione e codice completo. Quando la richiesta è prestazionale, collega la specifica predisposta dal tecnico e chiarisci come devono essere presentate le eventuali proposte. Non sostituire una specifica con una foto trovata online."
-    },
-    {
-      "type": "p",
-      "text": "I codici aiutano a riconoscere gli articoli. La documentazione [GS1 sul GTIN](https://gs1it.org/assistenza/standard-specifiche/gtin/) descrive un sistema di identificazione dei prodotti. Un identificativo, però, non è da solo una certificazione di qualità o di idoneità al progetto: serve comunque verificare la documentazione pertinente."
-    },
-    {
-      "type": "p",
-      "text": "Chiedi che le alternative siano separate dalla risposta di base. Devono essere riconoscibili codice, caratteristica diversa e documenti allegati. Una sostituzione non evidenziata può far sembrare più conveniente un’offerta che riguarda un prodotto differente."
-    },
-    {
-      "type": "h2",
-      "text": "Quantità e unità senza interpretazioni",
-      "id": "quantit-e-unit-senza-interpretazioni"
-    },
-    {
-      "type": "p",
-      "text": "Associa ogni quantità a un’unità di misura e a una base di calcolo. Pezzi, confezioni, metri lineari e metri quadrati non sono intercambiabili. Se un fornitore quota per confezione, chiedi che sia chiara la relazione con l’unità utilizzata nella richiesta."
-    },
-    {
-      "type": "p",
-      "text": "Distingui quantità da fornire, quantità stimate e opzioni. Se il fabbisogno non è ancora definito, dichiaralo: un numero provvisorio può essere utile per una prima valutazione, ma non deve diventare una certezza soltanto perché compare in una tabella."
-    },
-    {
-      "type": "p",
-      "text": "Inserisci una riga separata per gli elementi accessori richiesti. Non dare per scontato che un prodotto principale comprenda tutti i componenti necessari al sistema. La verifica tecnica dell’insieme resta collegata al progetto e alle indicazioni dei soggetti competenti."
-    },
-    {
-      "type": "h2",
-      "text": "Consegna, accesso e organizzazione del cantiere",
-      "id": "consegna-accesso-e-organizzazione-del-cantiere"
-    },
-    {
-      "type": "p",
-      "text": "Il luogo di consegna deve essere riconoscibile e accompagnato dalle informazioni organizzative già disponibili. Distingui il trasporto fino all’indirizzo dalle eventuali attività successive: scarico, movimentazione e collocazione non devono essere confusi in una parola generica."
-    },
-    {
-      "type": "p",
-      "text": "Comunica le finestre temporali richieste e chiedi di indicare disponibilità e condizioni. Se è prevista una consegna frazionata, descrivi le fasi senza supporre che abbia lo stesso costo e le stesse modalità di un’unica spedizione."
-    },
-    {
-      "type": "p",
-      "text": "Le condizioni di accesso vanno verificate con chi gestisce il cantiere. Non trasformare il modulo di acquisto in un’istruzione operativa improvvisata: deve rinviare all’organizzazione prevista e rendere visibili i chiarimenti ancora necessari."
-    },
-    {
-      "type": "h2",
-      "text": "Il fascicolo da inviare a tutti i fornitori",
-      "id": "il-fascicolo-da-inviare-a-tutti-i-fornitori"
-    },
-    {
-      "type": "p",
-      "text": "Prepara un elenco degli allegati con numero di revisione. Il fornitore deve poter dichiarare su quali documenti ha costruito la risposta. Se un file viene aggiornato, trasmetti un riepilogo della modifica e indica quale versione supera."
-    },
-    {
-      "type": "table",
-      "rows": [
-        [
-          "Richiesta",
-          "Oggetto, commessa e referente",
-          "Stato della richiesta chiaro"
+    "image": "/images/articoli/richiesta-offerta-fornitori-edili-documenti.jpg",
+    "imageAlt": "Schema illustrativo: Richiesta offerta fornitori edili: guida operativa",
+    "imageCaption": "Schema illustrativo della richiesta di offerta.",
+    "summary": [
+      "Definisci la stessa base documentale per tutti i fornitori.",
+      "Separa alternative, esclusioni e servizi di consegna.",
+      "Collega la decisione alla revisione effettivamente confermata."
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "Una richiesta di offerta ai fornitori edili non serve soltanto a ottenere un prezzo. Deve mettere più interlocutori nelle condizioni di rispondere alla stessa domanda. Se quantità, prodotto, consegna e allegati cambiano da una mail all’altra, il confronto finale può risultare ordinato nel foglio e incoerente nella sostanza."
+      },
+      {
+        "type": "p",
+        "text": "Questa guida propone un fascicolo minimo per raccogliere risposte leggibili. È un metodo organizzativo per l’acquisto, da adattare al progetto e alle procedure applicabili. Non sostituisce specifiche tecniche, contratti o regole di una particolare procedura di affidamento."
+      },
+      {
+        "type": "h2",
+        "text": "Definire il risultato della richiesta",
+        "id": "definire-il-risultato-della-richiesta"
+      },
+      {
+        "type": "p",
+        "text": "Prima di compilare le righe, chiarisci che cosa vuoi ottenere: una prima indicazione economica, un’offerta su specifica definita oppure il confronto fra alternative. Comunica questo stato ai destinatari. Un prezzo orientativo e una proposta completa non dovrebbero essere trattati come risposte equivalenti."
+      },
+      {
+        "type": "p",
+        "text": "Indica il referente che raccoglie i chiarimenti e il termine entro cui servono le risposte. Se una domanda modifica il perimetro, aggiorna il fascicolo comune invece di lasciare l’informazione in una conversazione privata con un solo fornitore."
+      },
+      {
+        "type": "p",
+        "text": "Il risultato atteso deve essere riconoscibile anche a chi riceve la richiesta internamente, dopo un inoltro. Inserisci oggetto, commessa e revisione nei documenti principali, evitando che il contesto dipenda soltanto dal testo della prima mail."
+      },
+      {
+        "type": "h2",
+        "text": "Identificare prodotto e prestazione richiesta",
+        "id": "identificare-prodotto-e-prestazione-richiesta"
+      },
+      {
+        "type": "p",
+        "text": "Quando il progetto prevede un prodotto specifico, riporta denominazione e codice completo. Quando la richiesta è prestazionale, collega la specifica predisposta dal tecnico e chiarisci come devono essere presentate le eventuali proposte. Non sostituire una specifica con una foto trovata online."
+      },
+      {
+        "type": "p",
+        "text": "I codici aiutano a riconoscere gli articoli. La documentazione [GS1 sul GTIN](https://gs1it.org/assistenza/standard-specifiche/gtin/) descrive un sistema di identificazione dei prodotti. Un identificativo, però, non è da solo una certificazione di qualità o di idoneità al progetto: serve comunque verificare la documentazione pertinente."
+      },
+      {
+        "type": "p",
+        "text": "Chiedi che le alternative siano separate dalla risposta di base. Devono essere riconoscibili codice, caratteristica diversa e documenti allegati. Una sostituzione non evidenziata può far sembrare più conveniente un’offerta che riguarda un prodotto differente."
+      },
+      {
+        "type": "h2",
+        "text": "Quantità e unità senza interpretazioni",
+        "id": "quantit-e-unit-senza-interpretazioni"
+      },
+      {
+        "type": "p",
+        "text": "Associa ogni quantità a un’unità di misura e a una base di calcolo. Pezzi, confezioni, metri lineari e metri quadrati non sono intercambiabili. Se un fornitore quota per confezione, chiedi che sia chiara la relazione con l’unità utilizzata nella richiesta."
+      },
+      {
+        "type": "p",
+        "text": "Distingui quantità da fornire, quantità stimate e opzioni. Se il fabbisogno non è ancora definito, dichiaralo: un numero provvisorio può essere utile per una prima valutazione, ma non deve diventare una certezza soltanto perché compare in una tabella."
+      },
+      {
+        "type": "p",
+        "text": "Inserisci una riga separata per gli elementi accessori richiesti. Non dare per scontato che un prodotto principale comprenda tutti i componenti necessari al sistema. La verifica tecnica dell’insieme resta collegata al progetto e alle indicazioni dei soggetti competenti."
+      },
+      {
+        "type": "h2",
+        "text": "Consegna, accesso e organizzazione del cantiere",
+        "id": "consegna-accesso-e-organizzazione-del-cantiere"
+      },
+      {
+        "type": "p",
+        "text": "Il luogo di consegna deve essere riconoscibile e accompagnato dalle informazioni organizzative già disponibili. Distingui il trasporto fino all’indirizzo dalle eventuali attività successive: scarico, movimentazione e collocazione non devono essere confusi in una parola generica."
+      },
+      {
+        "type": "p",
+        "text": "Comunica le finestre temporali richieste e chiedi di indicare disponibilità e condizioni. Se è prevista una consegna frazionata, descrivi le fasi senza supporre che abbia lo stesso costo e le stesse modalità di un’unica spedizione."
+      },
+      {
+        "type": "p",
+        "text": "Le condizioni di accesso vanno verificate con chi gestisce il cantiere. Non trasformare il modulo di acquisto in un’istruzione operativa improvvisata: deve rinviare all’organizzazione prevista e rendere visibili i chiarimenti ancora necessari."
+      },
+      {
+        "type": "h2",
+        "text": "Il fascicolo da inviare a tutti i fornitori",
+        "id": "il-fascicolo-da-inviare-a-tutti-i-fornitori"
+      },
+      {
+        "type": "p",
+        "text": "Prepara un elenco degli allegati con numero di revisione. Il fornitore deve poter dichiarare su quali documenti ha costruito la risposta. Se un file viene aggiornato, trasmetti un riepilogo della modifica e indica quale versione supera."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Richiesta",
+            "Oggetto, commessa e referente",
+            "Stato della richiesta chiaro"
+          ],
+          [
+            "Elenco forniture",
+            "Codici, unità e quantità",
+            "Nessuna unità ambigua"
+          ],
+          [
+            "Specifiche",
+            "Requisiti e riferimenti tecnici",
+            "Revisione riconoscibile"
+          ],
+          [
+            "Consegne",
+            "Luogo e fasi richieste",
+            "Distinzione fra servizi"
+          ],
+          [
+            "Modulo risposta",
+            "Prezzi, esclusioni e alternative",
+            "Stessa struttura per tutti"
+          ],
+          [
+            "Elenco allegati",
+            "Nome e versione dei file",
+            "Nessun documento superato"
+          ]
         ],
-        [
-          "Elenco forniture",
-          "Codici, unità e quantità",
-          "Nessuna unità ambigua"
-        ],
-        [
-          "Specifiche",
-          "Requisiti e riferimenti tecnici",
-          "Revisione riconoscibile"
-        ],
-        [
-          "Consegne",
-          "Luogo e fasi richieste",
-          "Distinzione fra servizi"
-        ],
-        [
-          "Modulo risposta",
-          "Prezzi, esclusioni e alternative",
-          "Stessa struttura per tutti"
-        ],
-        [
-          "Elenco allegati",
-          "Nome e versione dei file",
-          "Nessun documento superato"
+        "head": [
+          "Documento",
+          "Contenuto minimo",
+          "Controllo prima dell’invio"
         ]
-      ],
-      "head": [
-        "Documento",
-        "Contenuto minimo",
-        "Controllo prima dell’invio"
-      ]
-    },
-    {
-      "type": "p",
-      "text": "Non appesantire il fascicolo con file irrilevanti o contraddittori. Se una tavola contiene informazioni non pertinenti alla richiesta, chiedi al tecnico come renderne chiaro il perimetro, senza alterare autonomamente l’elaborato."
-    },
-    {
-      "type": "h2",
-      "text": "Un esempio illustrativo di risposta confrontabile",
-      "id": "un-esempio-illustrativo-di-risposta-confrontabile"
-    },
-    {
-      "type": "p",
-      "text": "Immagina una fornitura suddivisa in due fasi. Il fornitore A indica un prezzo unitario e una consegna unica; il fornitore B include due consegne ma propone un codice alternativo. Il totale più basso non permette ancora di scegliere, perché cambiano due elementi della richiesta."
-    },
-    {
-      "type": "p",
-      "text": "La matrice di confronto deve riportare queste differenze. Chiedi ad A le condizioni per la seconda consegna e a B di identificare separatamente l’alternativa. Poi ricostruisci una configurazione comune, mantenendo le proposte opzionali in una sezione distinta."
-    },
-    {
-      "type": "p",
-      "text": "L’esempio non assegna un vantaggio a un fornitore e non contiene prezzi di mercato. Mostra il passaggio da “quanto costa?” a “quale fornitura, con quali condizioni, sto confrontando?”. È questo passaggio che rende utilizzabile il lavoro di raccolta delle offerte."
-    },
-    {
-      "type": "h2",
-      "text": "Leggere esclusioni e condizioni economiche",
-      "id": "leggere-esclusioni-e-condizioni-economiche"
-    },
-    {
-      "type": "p",
-      "text": "Riporta validità dell’offerta, componenti economiche indicate e condizioni che potrebbero modificare il totale. Mantieni separate le voci secondo la struttura dei documenti ricevuti. Non sommare importi con basi diverse senza aver chiarito come sono espressi."
-    },
-    {
-      "type": "p",
-      "text": "Un’esclusione deve essere letta rispetto al fabbisogno complessivo. Se un servizio necessario non è compreso, serve capire chi lo svolgerà e quale altro documento lo copre. Non basta togliere la riga dal confronto perché non compare nell’offerta selezionata."
-    },
-    {
-      "type": "p",
-      "text": "Conserva la risposta originale e annota le rettifiche confermate. Un chiarimento telefonico può essere registrato come punto da formalizzare; non riscrivere l’offerta del fornitore come se la tua sintesi fosse già la sua proposta aggiornata."
-    },
-    {
-      "type": "h2",
-      "text": "Chiudere il confronto con una decisione ricostruibile",
-      "id": "chiudere-il-confronto-con-una-decisione-ricostruibile"
-    },
-    {
-      "type": "p",
-      "text": "La scelta deve collegare configurazione, condizioni e documenti. Prepara un riepilogo dei punti risolti e di quelli ancora aperti, indicando chi deve chiuderli prima dell’ordine. Il confronto economico non deve cancellare le verifiche tecniche necessarie."
-    },
-    {
-      "type": "p",
-      "text": "Per seguire altri aspetti organizzativi puoi consultare la sezione [cantieri](/categoria/cantieri/); per il contesto delle forniture, la sezione [mercato](/categoria/mercato/). Gli approfondimenti editoriali offrono un orientamento, mentre la decisione deve rimanere legata ai documenti della tua commessa."
-    },
-    {
-      "type": "p",
-      "text": "Dopo l’ordine, mantieni il collegamento con la richiesta iniziale. Se durante la consegna emerge una differenza, sarà possibile capire quale codice, quantità e revisione erano stati confermati. La qualità del fascicolo si vede soprattutto quando un’informazione deve essere recuperata da chi non ha seguito tutte le conversazioni."
-    }
-  ],
-  "faqs": [
-    {
-      "q": "Devo chiedere sempre lo stesso marchio a tutti?",
-      "a": "Dipende dalla specifica e dal progetto. Se sono ammesse alternative, chiedi che siano separate dalla risposta di base e corredate dai documenti necessari alla valutazione tecnica. Non considerarle equivalenti senza verifica."
-    },
-    {
-      "q": "Come tratto una quantità ancora provvisoria?",
-      "a": "Identificala come stima e indica da quale documento deriva. Chiedi di chiarire come l’offerta si riferisce a quella base, senza presentare il numero come fabbisogno già confermato."
-    },
-    {
-      "q": "Il codice prodotto basta a scegliere il fornitore?",
-      "a": "No. Aiuta a identificare l’articolo, ma restano da verificare configurazione, documenti, condizioni economiche e consegna. La scelta riguarda una fornitura completa, non soltanto una stringa di caratteri."
-    }
-  ],
-  "tags": [
-    "fornitori",
-    "acquisti",
-    "cantieri"
-  ],
-  "related": [
-    "risega-muro-significato-rilievo-ristrutturazione"
-  ]
-},
+      },
+      {
+        "type": "p",
+        "text": "Non appesantire il fascicolo con file irrilevanti o contraddittori. Se una tavola contiene informazioni non pertinenti alla richiesta, chiedi al tecnico come renderne chiaro il perimetro, senza alterare autonomamente l’elaborato."
+      },
+      {
+        "type": "h2",
+        "text": "Un esempio illustrativo di risposta confrontabile",
+        "id": "un-esempio-illustrativo-di-risposta-confrontabile"
+      },
+      {
+        "type": "p",
+        "text": "Immagina una fornitura suddivisa in due fasi. Il fornitore A indica un prezzo unitario e una consegna unica; il fornitore B include due consegne ma propone un codice alternativo. Il totale più basso non permette ancora di scegliere, perché cambiano due elementi della richiesta."
+      },
+      {
+        "type": "p",
+        "text": "La matrice di confronto deve riportare queste differenze. Chiedi ad A le condizioni per la seconda consegna e a B di identificare separatamente l’alternativa. Poi ricostruisci una configurazione comune, mantenendo le proposte opzionali in una sezione distinta."
+      },
+      {
+        "type": "p",
+        "text": "L’esempio non assegna un vantaggio a un fornitore e non contiene prezzi di mercato. Mostra il passaggio da “quanto costa?” a “quale fornitura, con quali condizioni, sto confrontando?”. È questo passaggio che rende utilizzabile il lavoro di raccolta delle offerte."
+      },
+      {
+        "type": "h2",
+        "text": "Leggere esclusioni e condizioni economiche",
+        "id": "leggere-esclusioni-e-condizioni-economiche"
+      },
+      {
+        "type": "p",
+        "text": "Riporta validità dell’offerta, componenti economiche indicate e condizioni che potrebbero modificare il totale. Mantieni separate le voci secondo la struttura dei documenti ricevuti. Non sommare importi con basi diverse senza aver chiarito come sono espressi."
+      },
+      {
+        "type": "p",
+        "text": "Un’esclusione deve essere letta rispetto al fabbisogno complessivo. Se un servizio necessario non è compreso, serve capire chi lo svolgerà e quale altro documento lo copre. Non basta togliere la riga dal confronto perché non compare nell’offerta selezionata."
+      },
+      {
+        "type": "p",
+        "text": "Conserva la risposta originale e annota le rettifiche confermate. Un chiarimento telefonico può essere registrato come punto da formalizzare; non riscrivere l’offerta del fornitore come se la tua sintesi fosse già la sua proposta aggiornata."
+      },
+      {
+        "type": "h2",
+        "text": "Preparare una base di risposta che non richieda interpretazioni",
+        "id": "preparare-una-base-di-risposta-che-non-richieda-interpretazioni"
+      },
+      {
+        "type": "p",
+        "text": "Il modulo della richiesta dovrebbe permettere al fornitore di riconoscere ciò che deve quotare e il modo in cui presentare le differenze. Indica identificativo della riga, descrizione, unità e quantità di riferimento. Se la richiesta ammette alternative, chiedi che siano riportate separatamente dalla soluzione base. La struttura non deve decidere il prodotto al posto del tecnico: deve rendere leggibile quale configurazione sia stata effettivamente considerata nella risposta."
+      },
+      {
+        "type": "p",
+        "text": "Aggiungi una colonna per le osservazioni del fornitore. Una nota può segnalare un’informazione mancante o una condizione che richiede un chiarimento prima del prezzo. Non trattarla automaticamente come un’esclusione né cancellarla quando trasferisci il dato nel foglio interno. Il confronto deve conservare il collegamento fra importo e condizioni. Altrimenti una tabella ordinata può perdere proprio l’informazione che spiega perché due offerte abbiano totali differenti."
+      },
+      {
+        "type": "p",
+        "text": "Invia una revisione riconoscibile degli allegati e chiedi di indicare quella utilizzata. Quando cambia la richiesta, prepara un riepilogo del passaggio invece di sostituire il file senza spiegazione. Il destinatario deve poter distinguere una nuova base da un’integrazione informativa. La risposta ricevuta potrà così essere collegata al documento pertinente, senza presumere che ogni fornitore abbia utilizzato automaticamente l’ultima versione presente nella tua cartella."
+      },
+      {
+        "type": "h2",
+        "text": "Trattare le alternative come proposte distinte",
+        "id": "trattare-le-alternative-come-proposte-distinte"
+      },
+      {
+        "type": "p",
+        "text": "Un’alternativa dovrebbe indicare quale elemento differisca, quale documento la descriva e quali altre parti della fornitura richiedano una verifica. Non limitarti a riportare un prezzo più basso nella stessa casella della soluzione base. Il lettore potrebbe credere che il prodotto o la prestazione siano invariati. Mantieni i due percorsi separati fino al riscontro dei soggetti competenti, che dovranno valutare la proposta rispetto alle esigenze del progetto."
+      },
+      {
+        "type": "p",
+        "text": "Se il fornitore usa un codice diverso da quello della richiesta, chiedi una descrizione del raccordo. La somiglianza del nome non dimostra l’equivalenza della configurazione. Puoi aggiungere nel foglio uno stato come “alternativa da valutare”, con il documento ricevuto e il referente del controllo. Questa classificazione evita di scartare una proposta potenzialmente utile e, allo stesso tempo, impedisce di considerarla già confrontabile senza aver chiuso il punto."
+      },
+      {
+        "type": "p",
+        "text": "Quando l’alternativa viene valutata, conserva il riscontro insieme alla versione della proposta. Se la scelta comporta un aggiornamento di altri allegati, il registro deve rimandare anche a quel passaggio. Non costruire una configurazione finale unendo liberamente il prezzo di una riga e la descrizione di un’altra. Il documento utilizzato per la decisione dovrebbe rappresentare un insieme effettivamente proposto e riconoscibile, con le questioni ancora aperte dichiarate nella sintesi."
+      },
+      {
+        "type": "h2",
+        "text": "Un esempio illustrativo di confronto per confezioni",
+        "id": "un-esempio-illustrativo-di-confronto-per-confezioni"
+      },
+      {
+        "type": "p",
+        "text": "Immagina una richiesta espressa in unità e una risposta formulata per confezioni. Prima di confrontare il prezzo, chiedi al fornitore quale quantità sia contenuta nella confezione e come la proposta si riferisca al fabbisogno indicato. Non modificare l’unità nel documento originale. Conserva il valore ricevuto e aggiungi un raccordo verificato nel foglio interno, così il calcolo può essere ricostruito senza perdere la base commerciale dell’offerta."
+      },
+      {
+        "type": "p",
+        "text": "Lo stesso controllo riguarda le consegne. Una risposta può includere un unico arrivo, mentre la richiesta prevede due fasi. Il prezzo non diventa comparabile aggiungendo una stima scelta dall’ufficio acquisti senza riscontro. Registra la differenza e chiedi le condizioni pertinenti. Potrai mantenere uno scenario interno per orientarti, purché sia etichettato come ipotesi e distinto dalla proposta aggiornata che il fornitore deve eventualmente confermare."
+      },
+      {
+        "type": "p",
+        "text": "L’esempio non contiene prezzi reali e non attribuisce un vantaggio a un interlocutore. Mostra due raccordi diversi: unità della fornitura e organizzazione della consegna. Entrambi possono incidere sul significato del totale. La matrice dovrebbe rendere visibile quale chiarimento sia stato richiesto, quale risposta sia arrivata e quale configurazione venga infine utilizzata nel confronto, evitando una somma di aggiustamenti interni che nessun documento commerciale rappresenta."
+      },
+      {
+        "type": "h2",
+        "text": "Collegare la disponibilità al programma della commessa",
+        "id": "collegare-la-disponibilit-al-programma-della-commessa"
+      },
+      {
+        "type": "p",
+        "text": "Chiedi come siano espresse disponibilità e condizioni della consegna nella proposta ricevuta. Una data indicativa, un termine subordinato a un passaggio e una previsione da confermare non devono essere trascritti come informazioni equivalenti. Mantieni la formulazione pertinente e il riferimento della risposta. Il gruppo che segue il programma potrà valutare il dato con i vincoli della commessa, senza attribuire alla tabella un significato che il fornitore non ha espresso."
+      },
+      {
+        "type": "p",
+        "text": "Se il fabbisogno cambia, aggiorna quantità e fasi nel documento comune. Una variazione comunicata a un solo interlocutore può produrre risposte non omogenee anche quando i codici dei prodotti rimangono identici. Chiedi ai referenti quali aspetti debbano essere nuovamente verificati e conserva il passaggio tra le revisioni. Il confronto economico deve rimanere collegato al programma considerato, non soltanto al primo elenco di materiali preparato per la ricerca dei fornitori."
+      },
+      {
+        "type": "p",
+        "text": "Per le attività accessorie, indica dove sia trattata ciascuna prestazione necessaria all’organizzazione della fornitura. Trasporto, scarico e movimentazioni successive non vanno riuniti in una parola generica se le offerte li descrivono in modi differenti. La valutazione deve essere coordinata con chi gestisce il cantiere. Il modulo di acquisto raccoglie riferimenti e chiarimenti, senza sostituire le procedure e le decisioni operative che appartengono ai soggetti competenti."
+      },
+      {
+        "type": "h2",
+        "text": "Preparare un riepilogo della scelta",
+        "id": "preparare-un-riepilogo-della-scelta"
+      },
+      {
+        "type": "p",
+        "text": "La sintesi finale dovrebbe indicare configurazione, quantità di riferimento, condizioni pertinenti e documenti utilizzati. Aggiungi le differenze che hanno sostenuto la decisione, senza trasformare una valutazione interna in una caratteristica oggettiva del fornitore. Se un’informazione resta da confermare prima dell’ordine, mantienila visibile con il relativo referente. La scelta deve poter essere ricostruita anche da una persona che non abbia partecipato alle conversazioni iniziali."
+      },
+      {
+        "type": "p",
+        "text": "Conserva infine la relazione fra richiesta, risposta e ordine secondo il sistema documentale della commessa. Questo permette di capire quale base sia stata utilizzata quando, alla consegna, emerge una domanda su codice, quantità o versione. Il fascicolo non elimina ogni possibile differenza, ma rende più preciso il confronto con chi può fornire il riscontro. Un acquisto ben documentato continua quindi a essere utile anche dopo la selezione dell’offerta."
+      },
+      {
+        "type": "h2",
+        "text": "Conservare anche le risposte non selezionate",
+        "id": "conservare-anche-le-risposte-non-selezionate"
+      },
+      {
+        "type": "p",
+        "text": "Il confronto può essere ricostruito più facilmente se rimangono disponibili le versioni effettivamente esaminate, secondo il sistema documentale dell’organizzazione. Non è necessario mantenere più copie non controllate dello stesso file: serve un riferimento chiaro alla proposta e ai chiarimenti ricevuti. Se una decisione viene riesaminata, il gruppo potrà capire quali condizioni fossero note e quali informazioni siano arrivate dopo. La sintesi della scelta deve quindi rimandare ai documenti, invece di sostituirli con un giudizio generico sulla convenienza di un interlocutore."
+      },
+      {
+        "type": "h2",
+        "text": "Chiudere il confronto con una decisione ricostruibile",
+        "id": "chiudere-il-confronto-con-una-decisione-ricostruibile"
+      },
+      {
+        "type": "p",
+        "text": "La scelta deve collegare configurazione, condizioni e documenti. Prepara un riepilogo dei punti risolti e di quelli ancora aperti, indicando chi deve chiuderli prima dell’ordine. Il confronto economico non deve cancellare le verifiche tecniche necessarie."
+      },
+      {
+        "type": "p",
+        "text": "Per seguire altri aspetti organizzativi puoi consultare la sezione [cantieri](/categoria/cantieri/); per il contesto delle forniture, la sezione [mercato](/categoria/mercato/). Gli approfondimenti editoriali offrono un orientamento, mentre la decisione deve rimanere legata ai documenti della tua commessa."
+      },
+      {
+        "type": "p",
+        "text": "Dopo l’ordine, mantieni il collegamento con la richiesta iniziale. Se durante la consegna emerge una differenza, sarà possibile capire quale codice, quantità e revisione erano stati confermati. La qualità del fascicolo si vede soprattutto quando un’informazione deve essere recuperata da chi non ha seguito tutte le conversazioni."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Devo chiedere sempre lo stesso marchio a tutti?",
+        "a": "Dipende dalla specifica e dal progetto. Se sono ammesse alternative, chiedi che siano separate dalla risposta di base e corredate dai documenti necessari alla valutazione tecnica. Non considerarle equivalenti senza verifica."
+      },
+      {
+        "q": "Come tratto una quantità ancora provvisoria?",
+        "a": "Identificala come stima e indica da quale documento deriva. Chiedi di chiarire come l’offerta si riferisce a quella base, senza presentare il numero come fabbisogno già confermato."
+      },
+      {
+        "q": "Il codice prodotto basta a scegliere il fornitore?",
+        "a": "No. Aiuta a identificare l’articolo, ma restano da verificare configurazione, documenti, condizioni economiche e consegna. La scelta riguarda una fornitura completa, non soltanto una stringa di caratteri."
+      }
+    ],
+    "tags": [
+      "fornitori",
+      "acquisti",
+      "cantieri"
+    ],
+    "related": [
+      "risega-muro-significato-rilievo-ristrutturazione"
+    ]
+  },
   {
     "slug": "risega-muro-significato-rilievo-ristrutturazione",
     "category": "Cantieri",

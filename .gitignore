@@ -30,3 +30,4 @@ out
 next-env.d.ts
 .datetest
 /editorial/drafts/
+.editorial-length-report.json
