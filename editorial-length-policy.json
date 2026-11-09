@@ -3,6 +3,7 @@
   "enforcePublishedOnOrAfter": "2026-11-07",
   "requiredSlugs": [
     "richiesta-offerta-fornitori-edili-documenti",
-    "registro-chiarimenti-progetto-edile"
+    "registro-chiarimenti-progetto-edile",
+    "cantiere-digitale-droni-sensori-monitoraggio"
   ]
 }

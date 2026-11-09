@@ -120,6 +120,18 @@ export default async function CategoryPage({
           </p>
         </header>
 
+        {category.slug === "cantieri" && (
+          <section aria-labelledby="percorso-cantiere-digitale" className="mb-8 rounded-xl border border-border bg-muted/40 p-6">
+            <h2 id="percorso-cantiere-digitale" className="font-serif text-2xl font-bold">Dal dato alla decisione in cantiere</h2>
+            <p className="mt-3 leading-relaxed">Prima di scegliere strumenti, chiarisci quali informazioni servono e chi deve verificarle. Queste guide collegano raccolta dei dati, richieste di chiarimento e confronto delle forniture, mantenendo riconoscibili riferimenti e responsabilità.</p>
+            <ul className="mt-4 list-disc space-y-2 pl-5">
+              <li><Link className="underline" href="/articolo/cantiere-digitale-droni-sensori-monitoraggio/">Cantiere digitale: impostare una prova con dati, droni e sensori</Link></li>
+              <li><Link className="underline" href="/articolo/registro-chiarimenti-progetto-edile/">Registro dei chiarimenti: collegare domande, revisioni e risposte</Link></li>
+              <li><Link className="underline" href="/articolo/richiesta-offerta-fornitori-edili-documenti/">Richiesta di offerta: rendere confrontabili documenti e risposte</Link></li>
+            </ul>
+          </section>
+        )}
+
         {articles.length > 0 ? (
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {articles.map((a, i) => (
