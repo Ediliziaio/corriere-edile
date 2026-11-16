@@ -247,6 +247,45 @@ export const editorialNative: FullArticle[] = [
       "id": "scheda-scaricabile-per-preparare-il-portfolio"
     },
     {
+      "type": "table",
+      "caption": "Le informazioni da raccogliere prima del testo pubblico",
+      "head": [
+        "Campo",
+        "Riferimento utile"
+      ],
+      "rows": [
+        [
+          "Esigenza",
+          "La domanda che il caso aiuta a comprendere"
+        ],
+        [
+          "Perimetro",
+          "Le attività effettivamente affidate all’impresa"
+        ],
+        [
+          "Vincolo",
+          "La condizione che ha richiesto un confronto"
+        ],
+        [
+          "Riscontro",
+          "Il documento o il referente che sostiene il fatto"
+        ],
+        [
+          "Immagine",
+          "La fase rappresentata e la verifica di pubblicazione"
+        ],
+        [
+          "Revisione",
+          "La persona incaricata del controllo e la data"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "text": "Una scheda progetto è utile quando rende distinguibili il lavoro svolto, i riscontri disponibili e ciò che richiede ancora una verifica.",
+      "author": "Nota redazionale"
+    },
+    {
       "type": "p",
       "text": "Puoi usare la [scheda progetto per il portfolio](/risorse/scheda-portfolio-lavori-impresa-edile.csv) come traccia di raccolta prima di scrivere la pagina. Il file CSV si apre in un foglio di calcolo e lascia vuoti i campi da compilare: non contiene esperienze attribuite a imprese reali, risultati precostituiti o testi da pubblicare senza verifica."
     },
