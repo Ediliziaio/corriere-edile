@@ -83,12 +83,12 @@ export const ARTICLES_11_20: FullArticle[] = [
     category: "Mercato",
     title: "Le migliori imprese di costruzioni in Italia nel 2026: classifica e analisi del settore",
     metaTitle: "Imprese di costruzioni 2026: fatturati, backlog e strategie",
-    metaDescription: "Classifica 2026 delle migliori imprese di costruzioni italiane: fatturati, commesse e strategie di Webuild, Pizzarotti, CMB, ICMQ e altri grandi gruppi.",
+    metaDescription: "Classifica 2026 delle migliori imprese di costruzioni italiane: fatturati, commesse e strategie di Webuild, Pizzarotti, CMB, Gruppo ICM e altri grandi gruppi.",
     keywords: ["migliori imprese costruzioni italia", "classifica costruttori italiani 2026", "webuild fatturato", "grandi imprese edili", "mercato costruzioni 2026"],
     subtitle: "Webuild conferma la leadership spinta dalle grandi opere, ma il tessuto di cooperative e imprese general contractor regge il mercato: fatturati, backlog e strategie dei principali gruppi italiani.",
-    excerpt: "Dalla leadership di Webuild al modello cooperativo di CMB, passando per Pizzarotti, ICMQ e Rizzani de Eccher: la classifica 2026 dei costruttori italiani con fatturati, commesse e scenari.",
+    excerpt: "Dalla leadership di Webuild al modello cooperativo di CMB, passando per Pizzarotti, Gruppo ICM e Rizzani de Eccher: la classifica 2026 dei costruttori italiani con fatturati, commesse e scenari.",
     published: "2026-07-04T08:00:00+02:00",
-    updated: "2026-07-05T10:20:00+02:00",
+    updated: "2026-11-16",
     readingTime: 12,
     author: {
       name: "Chiara Bonomi",
@@ -101,7 +101,7 @@ export const ARTICLES_11_20: FullArticle[] = [
     summary: [
       "[Webuild](https://www.webuildgroup.com) si conferma il primo gruppo italiano con un fatturato 2025 attorno agli 11-12 miliardi di euro e un backlog record trainato da ferrovie e idroelettrico.",
       "Il top 10 dei costruttori italiani muove complessivamente oltre 25 miliardi di euro, con margini in miglioramento grazie alla disciplina selettiva sulle commesse.",
-      "[Pizzarotti](https://www.pizzarotti.it), [Itinera](https://www.itinera-spa.it), [CMB](https://www.cmb.it) e [ICMQ](https://www.icmq.it) presidiano rispettivamente grandi opere, infrastrutture, edilizia residenziale cooperativa e opere speciali.",
+      "[Pizzarotti](https://www.pizzarotti.it), [Itinera](https://www.itinera-spa.it), [CMB](https://www.cmb.it) e [Gruppo ICM](https://www.gruppoicm.com/it/profilo) presidiano rispettivamente grandi opere, infrastrutture, edilizia residenziale cooperativa e opere speciali. Il riferimento al Gruppo ICM è stato corretto il 16 novembre 2026: ICMQ è un’organizzazione distinta, attiva nella certificazione. Per confrontare dimensioni e fatturati vanno verificati esercizio e perimetro nelle fonti dei singoli gruppi.",
       "Il 2026 si annuncia come l'anno di picco degli investimenti PNRR in infrastrutture, con oltre 60 miliardi ancora da rendicontare entro giugno.",
       "Internazionalizzazione e transizione energetica sono i due assi strategici comuni: il 40% del backlog dei maggiori gruppi è ormai all'estero."
     ],
@@ -114,7 +114,7 @@ export const ARTICLES_11_20: FullArticle[] = [
         ["2", "Impresa Pizzarotti & C.", "2,8-3,2 mld €", "Infrastrutture, ospedali, PPP"],
         ["3", "Itinera (Gruppo ASTM)", "2,2-2,6 mld €", "Strade, autostrade, opere EPC estere"],
         ["4", "CMB di Carpi", "1,4-1,7 mld €", "Edilizia residenziale e terziaria, cooperativa"],
-        ["5", "ICMQ", "1,2-1,5 mld €", "Opere speciali, fondazioni, ripresa estero"],
+        ["5", "Gruppo ICM", "Verificare nel bilancio del periodo", "Opere speciali, fondazioni, ripresa estero"],
         ["6", "Rizzani de Eccher", "1,0-1,3 mld €", "Fondazioni speciali, opere marittime"],
         ["7", "Salcef Group", "1,0-1,2 mld €", "Infrastrutture ferroviarie, elettrificazione"],
         ["8", "Trevi Group", "0,7-0,9 mld €", "Ingegneria del sottosuolo, fondazioni"],
@@ -129,7 +129,7 @@ export const ARTICLES_11_20: FullArticle[] = [
       { type: "p", text: "L'analisi dei margini racconta un settore risanato: l'EBITDA margin medio dei primi dieci gruppi è tornato nell'area del 7-9%, contro il 4-5% del decennio scorso. Tre fattori spiegano il miglioramento: la selezione delle commesse (si rinuncia a gare al ribasso), la revisione dei prezzi negli appalti pubblici introdotta dal Codice dei contratti, e il peso crescente di contratti EPC e project financing dove l'impresa controlla progettazione e rischi. Sul fronte patrimoniale resta però la fragilità delle imprese medio-piccole, che rappresentano il 95% del tessuto produttivo: per loro il 2026 porta il caro-crediti verso le stazioni appaltanti e la stretta sulle fideiussioni, tema su cui ANCE ha chiesto al Governo interventi urgenti." },
       { type: "h2", id: "estero", text: "Internazionalizzazione e grandi opere: dove guardano i gruppi" },
       { type: "list", items: [
-        "Medio Oriente: Arabia Saudita ed Emirati assorbono commesse miliardarie in ferrovie, stadi e opere idrauliche (Webuild, ICMQ, Pizzarotti presenti)",
+        "Medio Oriente: Arabia Saudita ed Emirati assorbono commesse miliardarie in ferrovie, stadi e opere idrauliche (Webuild, Gruppo ICM, Pizzarotti presenti)",
         "Australia e Nord America: il ponte sullo Stretto ha rilanciato l'immagine dell'ingegneria italiana, con ricadute sui bandi internazionali",
         "Ferroviario ad alta velocità: [Salcef](https://www.salcef.com) e RFI aprono cantieri su Palermo-Catania, Salerno-Reggio Calabria e linee transalpine",
         "Transizione energetica: opere idroelettriche, bacini di pompaggio e connessioni per le rinnovabili sono la nuova frontiera del backlog",
