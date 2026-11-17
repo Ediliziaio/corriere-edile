@@ -1,339 +1,617 @@
 import type { FullArticle } from "./types";
 export const editorialNative: FullArticle[] = [
-{
-  "slug": "portfolio-lavori-impresa-edile-2027",
-  "title": "Portfolio lavori dell’impresa edile: come raccontare un progetto nel 2027",
-  "metaTitle": "Portfolio impresa edile: scheda progetto",
-  "metaDescription": "Organizza il portfolio lavori della tua impresa edile per il 2027: perimetro, fotografie, riscontri e scheda progetto compilabile.",
-  "category": "Mercato",
-  "keywords": [
-    "portfolio lavori impresa edile",
-    "scheda progetto impresa edile"
-  ],
-  "subtitle": "Organizza il portfolio lavori della tua impresa edile per il 2027: perimetro, fotografie, riscontri e scheda progetto compilabile.",
-  "excerpt": "Organizza il portfolio lavori della tua impresa edile per il 2027: perimetro, fotografie, riscontri e scheda progetto compilabile.",
-  "published": "2026-11-16",
-  "updated": "2026-11-16",
-  "readingTime": 13,
-  "author": {
-    "name": "Redazione Corriere Edile",
-    "role": "Redazione",
-    "bio": "La redazione di Corriere Edile."
-  },
-  "image": "/images/articoli/portfolio-lavori-impresa-edile-2027.jpg",
-  "imageAlt": "Schema illustrativo: esigenza, perimetro, riscontri e racconto del progetto.",
-  "imageCaption": "Schema editoriale della raccolta dei dati per il portfolio.",
-  "summary": [
-    "Definisci ruolo e perimetro effettivo dell’incarico.",
-    "Collega fotografie e affermazioni a riscontri verificabili.",
-    "Usa la scheda CSV prima della revisione e della pubblicazione."
-  ],
-  "body": [
-    {
-      "type": "p",
-      "text": "Il portfolio lavori di un’impresa edile dovrebbe aiutare un potenziale cliente a capire quali interventi sai affrontare e come organizzi il lavoro. Una galleria di fotografie può mostrare un risultato, ma spesso lascia senza risposta le domande che precedono una richiesta: qual era il problema, quali vincoli avevate, che cosa comprendeva l’incarico e quali passaggi avete seguito?"
+  {
+    "slug": "tavole-progetto-revisioni-quote-sopralluogo",
+    "title": "Tavole di progetto: revisioni, quote e documenti per il sopralluogo",
+    "metaTitle": "Tavole di progetto: quote e sopralluogo",
+    "metaDescription": "Leggi piante, sezioni, dettagli e quote per preparare il sopralluogo. Domande al tecnico, riferimenti alle revisioni e una scheda CSV da compilare.",
+    "category": "Progetti",
+    "keywords": [
+      "tavole di progetto",
+      "quote progetto",
+      "preparare sopralluogo"
+    ],
+    "subtitle": "Una guida alla lettura per organizzare il confronto con il tecnico.",
+    "excerpt": "Leggi piante, sezioni, dettagli e quote per preparare il sopralluogo. Domande al tecnico, riferimenti alle revisioni e una scheda CSV da compilare.",
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "readingTime": 12,
+    "author": {
+      "name": "Redazione Corriere Edile",
+      "role": "Redazione",
+      "bio": "La redazione di Corriere Edile."
     },
-    {
-      "type": "p",
-      "text": "Questa guida propone una scheda progetto da preparare per il piano editoriale 2027. L’anno indica il periodo di utilizzo, non una previsione sul mercato o sugli algoritmi. Gli esempi sono illustrativi; non raccontano clienti o risultati della redazione. Il metodo serve a documentare esperienze reali senza trasformarle in promesse valide per ogni cantiere."
-    },
-    {
-      "type": "h2",
-      "text": "Scegli il lavoro in base alla domanda del lettore",
-      "id": "scegli-il-lavoro-in-base-alla-domanda-del-lettore"
-    },
-    {
-      "type": "p",
-      "text": "Prima di cercare le immagini più belle, scegli quale esigenza vuoi chiarire. Una ristrutturazione in un appartamento abitato può spiegare l’organizzazione degli ambienti; un intervento su un edificio con accessi limitati può mostrare come sono state raccolte le informazioni prima del programma operativo. La domanda orienta la selezione dei documenti."
-    },
-    {
-      "type": "p",
-      "text": "Scrivi una frase che descriva il lettore: proprietario, amministratore, responsabile di un’attività oppure professionista che cerca un esecutore. Non serve pubblicarla, ma deve guidare il racconto. Un amministratore potrebbe voler comprendere comunicazioni e coordinamento; un privato potrebbe chiedersi soprattutto come viene spiegato il perimetro dell’offerta e come si affrontano le decisioni ancora aperte."
-    },
-    {
-      "type": "p",
-      "text": "Scegli quindi un lavoro per cui hai riferimenti sufficienti e titolo a pubblicare il materiale. Un progetto molto complesso ma documentato male può essere meno utile di un intervento ordinario raccontato con precisione. La credibilità deriva dalla possibilità di collegare una descrizione a riscontri coerenti, non dalla dimensione dichiarata della commessa o dal numero delle fotografie."
-    },
-    {
-      "type": "h2",
-      "text": "Definisci il perimetro dell’incarico",
-      "id": "definisci-il-perimetro-dell-incarico"
-    },
-    {
-      "type": "p",
-      "text": "La prima scheda interna dovrebbe indicare tipologia di edificio, intervento affidato, periodo e ruolo dell’impresa. Distingui progettazione, esecuzione e attività svolte da altri soggetti quando la distinzione è rilevante. Evita formulazioni che attribuiscano all’impresa tutte le scelte del progetto solo perché il lavoro appare nella sua galleria."
-    },
-    {
-      "type": "p",
-      "text": "Descrivi anche quello che il caso non permette di dimostrare. Una fotografia della finitura non prova automaticamente la prestazione dell’intero edificio; un intervento completato non dimostra che ogni situazione simile possa essere affrontata con la stessa procedura. Se un risultato richiede misure o documenti tecnici, verifica che siano disponibili e riferiti al caso prima di citarlo."
-    },
-    {
-      "type": "p",
-      "text": "Un perimetro chiaro permette al lettore di capire la pertinenza dell’esperienza. Aiuta anche chi risponde alle richieste a non dover correggere aspettative create dal sito. Per organizzare le domande rimaste aperte puoi usare il metodo descritto nella guida al [registro dei chiarimenti di progetto](/articolo/registro-chiarimenti-progetto-edile/)."
-    },
-    {
-      "type": "h2",
-      "text": "Raccogli una cronologia essenziale",
-      "id": "raccogli-una-cronologia-essenziale"
-    },
-    {
-      "type": "p",
-      "text": "Dividi il racconto in situazione iniziale, verifiche, scelte, esecuzione e consegna. Non occorre trasformarlo nel diario completo del cantiere. Cerca i passaggi che spiegano perché il lavoro ha assunto quella forma e quali informazioni hanno permesso di procedere. Se una data non è ricostruibile, usa una descrizione del periodo senza inventare una precisione inesistente."
-    },
-    {
-      "type": "p",
-      "text": "Per ogni passaggio conserva un riferimento interno: verbale, versione del disegno, fotografia o comunicazione pertinente. Il sito non deve esporre l’intero archivio, ma chi prepara il testo deve poter controllare le affermazioni. Un racconto ricostruito soltanto a memoria rischia di mescolare decisioni iniziali e modifiche arrivate durante l’esecuzione."
-    },
-    {
-      "type": "p",
-      "text": "La cronologia è utile anche per scegliere le immagini. Una serie ordinata mostra il rapporto fra problema e intervento; una raccolta senza contesto può confondere lavorazioni appartenenti a momenti diversi. Prima di pubblicare verifica che le fotografie non presentino una fase provvisoria come se fosse il risultato finale consegnato al cliente."
-    },
-    {
-      "type": "h2",
-      "text": "Separa il problema iniziale dalla diagnosi tecnica",
-      "id": "separa-il-problema-iniziale-dalla-diagnosi-tecnica"
-    },
-    {
-      "type": "p",
-      "text": "Nel testo puoi spiegare che il cliente cercava più spazio, una diversa distribuzione o la sostituzione di elementi esistenti. Questa descrizione non equivale alla diagnosi delle cause tecniche di un difetto. Quando riporti valutazioni specialistiche, mantieni il riferimento al soggetto e ai documenti competenti, senza estendere la conclusione oltre il caso esaminato."
-    },
-    {
-      "type": "p",
-      "text": "Evita formule assolute come “abbiamo eliminato per sempre il problema” se non hai elementi adeguati per sostenerle. Puoi invece descrivere ciò che è stato richiesto, ciò che è stato verificato e ciò che l’incarico ha previsto. Una spiegazione circoscritta è più utile a chi deve capire se la tua esperienza somiglia alla propria esigenza."
-    },
-    {
-      "type": "p",
-      "text": "Se alcuni dettagli non possono essere divulgati, limita il racconto a ciò che puoi documentare pubblicamente. Non riempire lo spazio con numeri o risultati generici. Puoi spiegare il processo di raccolta delle informazioni, il coordinamento dei passaggi o le condizioni che hanno richiesto un confronto, senza esporre dati riservati del progetto."
-    },
-    {
-      "type": "h2",
-      "text": "Organizza fotografie e didascalie",
-      "id": "organizza-fotografie-e-didascalie"
-    },
-    {
-      "type": "p",
-      "text": "Per ogni immagine annota fase, ambiente, oggetto visibile e autorizzazione pertinente. La didascalia dovrebbe spiegare un dettaglio che il lettore può riconoscere. “Lavoro eseguito con la massima qualità” non chiarisce che cosa osservare; “ambiente prima della rimozione degli elementi previsti dall’incarico” colloca invece la fotografia nella sequenza del caso."
-    },
-    {
-      "type": "p",
-      "text": "Se mostri un prima e dopo, usa punti di vista confrontabili quando li hai realmente disponibili. Non modificare artificialmente lo stato iniziale per rendere il confronto più spettacolare. Eventuali render, schemi o immagini illustrative devono essere riconoscibili come tali e non confusi con una fotografia del lavoro eseguito."
-    },
-    {
-      "type": "p",
-      "text": "Controlla persone, targhe, documenti e dettagli che possono identificare il cliente. La pubblicazione richiede una gestione appropriata dei diritti e delle autorizzazioni, da verificare nel contesto concreto. La scheda editoriale può contenere il riferimento alla verifica svolta, senza diventare essa stessa un modello universale di liberatoria o sostituire una valutazione competente."
-    },
-    {
-      "type": "h2",
-      "text": "Spiega una decisione con il suo vincolo",
-      "id": "spiega-una-decisione-con-il-suo-vincolo"
-    },
-    {
-      "type": "p",
-      "text": "Il centro della scheda progetto può essere una decisione comprensibile. Descrivi quale informazione era disponibile, quale vincolo contava e che cosa è stato concordato. Non occorre contrapporre alternative in modo artificiale: il valore del racconto è mostrare il collegamento fra situazione e scelta, rispettando il ruolo dei soggetti coinvolti."
-    },
-    {
-      "type": "p",
-      "text": "Per esempio, in un caso illustrativo un’attività aperta al pubblico chiede di mantenere utilizzabile una parte dei locali. La scheda potrebbe spiegare come è stata raccolta questa esigenza e quali passaggi organizzativi sono stati condivisi. Non dovrebbe trasformare il caso in una promessa di esecuzione senza interferenze per qualsiasi edificio o attività."
-    },
-    {
-      "type": "p",
-      "text": "Se la scelta è cambiata, racconta la revisione quando aiuta a comprendere il lavoro. Mantieni distinguibili ipotesi iniziale e decisione successiva. Una modifica spiegata con chiarezza può essere più informativa di una narrazione perfetta che elimina ogni dubbio, soprattutto per chi sta preparando il proprio primo confronto con un’impresa."
-    },
-    {
-      "type": "h2",
-      "text": "Rendi leggibile il risultato senza inventare indicatori",
-      "id": "rendi-leggibile-il-risultato-senza-inventare-indicatori"
-    },
-    {
-      "type": "p",
-      "text": "Distingui risultato visibile, documentazione consegnata e valutazioni tecniche. Puoi raccontare l’organizzazione degli spazi o le lavorazioni comprese, ma non dedurre da una fotografia consumi, durata futura o prestazioni certificate. Quando citi un numero, indica che cosa misura, a quale configurazione si riferisce e quale documento lo sostiene."
-    },
-    {
-      "type": "p",
-      "text": "Se vuoi parlare di tempi, chiarisci il perimetro osservato. La durata di una singola lavorazione non coincide con quella dell’intervento complessivo, che può comprendere verifiche, approvvigionamenti e passaggi successivi. Un dato reale ma privato del suo contesto può creare un’aspettativa sbagliata quanto un numero inventato."
-    },
-    {
-      "type": "p",
-      "text": "Puoi anche scegliere un risultato qualitativo circoscritto: richiesta iniziale affrontata, passaggi documentali completati o decisioni chiarite con il committente. Non tutti i progetti hanno bisogno di una percentuale per diventare utili. La scheda deve permettere di capire il lavoro, non cercare una misura spettacolare da aggiungere al titolo."
-    },
-    {
-      "type": "h2",
-      "text": "Costruisci una scheda riutilizzabile",
-      "id": "costruisci-una-scheda-riutilizzabile"
-    },
-    {
-      "type": "p",
-      "text": "Prepara un modello con titolo, esigenza, perimetro, vincoli, passaggi, immagini e contatto pertinente. Per ogni sezione indica il referente interno che può verificare i fatti. Lascia uno spazio per le informazioni mancanti: sono un promemoria da chiudere, non un invito al redattore a completare il racconto con supposizioni."
-    },
-    {
-      "type": "p",
-      "text": "La scheda deve essere breve abbastanza da essere compilata dopo un lavoro e ricca abbastanza da sostenere una pagina autonoma. Puoi tenere separati un documento di raccolta e il testo pubblico. Nel primo conservi riferimenti e verifiche; nel secondo selezioni ciò che aiuta il lettore a comprendere il caso senza scaricargli addosso l’intero archivio."
-    },
-    {
-      "type": "p",
-      "text": "Prima di adottare il modello su molti cantieri, provalo con un progetto. Chiedi a un collega che non lo ha seguito di leggerlo e ricostruire il perimetro. Le sue domande mostrano dove mancano passaggi, dove il linguaggio è troppo interno e quali dettagli richiedono una didascalia oppure un chiarimento prima della pubblicazione."
-    },
-    {
-      "type": "h2",
-      "text": "Esempio illustrativo di una scheda progetto",
-      "id": "esempio-illustrativo-di-una-scheda-progetto"
-    },
-    {
-      "type": "p",
-      "text": "Immagina una piccola impresa incaricata di rinnovare alcuni ambienti di un appartamento che rimane utilizzato. La scheda identifica l’esigenza del committente, le parti comprese nell’incarico e le informazioni raccolte sugli accessi. Le immagini vengono selezionate per mostrare la successione delle aree coinvolte, senza rendere riconoscibili persone e documenti personali."
-    },
-    {
-      "type": "p",
-      "text": "Un passaggio del racconto descrive come sia stato chiarito il rapporto fra una lavorazione prevista e una finitura da conservare. Il testo spiega quali riferimenti sono stati confrontati e quale decisione è stata concordata; non descrive la procedura operativa come una soluzione tecnica replicabile senza verifica. La competenza del caso emerge dal modo in cui è stata affrontata la domanda."
-    },
-    {
-      "type": "p",
-      "text": "La chiusura indica ciò che il progetto permette di osservare e propone al lettore di preparare una descrizione del proprio intervento. Nessun importo o tempo viene presentato come applicabile automaticamente a un altro appartamento. Questa impostazione permette di raccontare un’esperienza interessante senza attribuire al portfolio il ruolo di un preventivo o di una consulenza tecnica a distanza."
-    },
-    {
-      "type": "h2",
-      "text": "Pubblica una pagina per un’esperienza distinta",
-      "id": "pubblica-una-pagina-per-un-esperienza-distinta"
-    },
-    {
-      "type": "p",
-      "text": "Ogni pagina dovrebbe sviluppare un caso riconoscibile. Evita di creare molte versioni dello stesso testo cambiando soltanto comune e titolo. Se diversi lavori mostrano il medesimo passaggio, puoi raccoglierli in una pagina tematica oppure scegliere quello documentato meglio, invece di moltiplicare pagine con poco contenuto originale."
-    },
-    {
-      "type": "p",
-      "text": "Il titolo deve anticipare il tema: tipo di intervento e vincolo principale, quando puoi descriverli. La descrizione del risultato deve corrispondere al corpo della pagina. Google raccomanda di creare [contenuti utili per le persone](https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=it): il portfolio dovrebbe aiutare a capire un’esperienza, senza promettere una posizione nei risultati di ricerca."
-    },
-    {
-      "type": "p",
-      "text": "Conserva un indirizzo stabile quando aggiorni le informazioni. Se aggiungi fotografie o chiarimenti sostanziali, annota la revisione reale; non cambiare la data solo per far sembrare nuovo un lavoro già pubblicato. Una pagina mantenuta bene permette anche a chi la riceve tramite un vecchio collegamento di ritrovare un racconto coerente."
-    },
-    {
-      "type": "h2",
-      "text": "Collega il progetto ai servizi pertinenti",
-      "id": "collega-il-progetto-ai-servizi-pertinenti"
-    },
-    {
-      "type": "p",
-      "text": "Il portfolio deve avere un percorso di ingresso: elenco lavori, pagina servizio o approfondimento collegato. La semplice presenza di un URL nella sitemap non sostituisce la navigazione per il lettore. Inserisci collegamenti con testi comprensibili, spiegando quale approfondimento troverà chi decide di aprirli."
-    },
-    {
-      "type": "p",
-      "text": "Nel progetto puoi rimandare a una guida che chiarisce un passaggio documentale o un criterio di confronto. La guida sulla [richiesta di offerta ai fornitori edili](/articolo/richiesta-offerta-fornitori-edili-documenti/) offre un esempio di come mantenere riconoscibili oggetto, riferimenti e chiarimenti. Scegli il collegamento quando aiuta a capire il caso, senza aggiungere un elenco indistinto di pagine."
-    },
-    {
-      "type": "p",
-      "text": "Controlla il percorso anche dal telefono. Titolo, fotografie, didascalie e invito al contatto devono rimanere leggibili. Le immagini dovrebbero avere dimensioni adeguate e un testo alternativo pertinente, evitando di ripetere in ogni descrizione una serie di parole commerciali che non spiega il contenuto visibile della fotografia."
-    },
-    {
-      "type": "h2",
-      "text": "Trasforma il caso in un primo confronto utile",
-      "id": "trasforma-il-caso-in-un-primo-confronto-utile"
-    },
-    {
-      "type": "p",
-      "text": "Alla fine della pagina proponi al lettore un passaggio proporzionato: descrivere l’intervento, indicare la zona e spiegare quale esigenza vuole approfondire. Non far credere che il caso pubblicato permetta di conoscere già il prezzo o la fattibilità del suo progetto. La scheda serve ad aprire una conversazione più informata."
-    },
-    {
-      "type": "p",
-      "text": "Assegna un referente alle richieste che arrivano dai lavori pubblicati. Se una persona cita una pagina, registra il riferimento: può aiutare chi risponde a comprendere perché l’ha scelta e quali aspettative si è formato. Le domande raccolte possono indicare un dettaglio da spiegare meglio nella scheda o un nuovo contenuto davvero distinto da preparare."
-    },
-    {
-      "type": "p",
-      "text": "Per il piano 2027 puoi iniziare da pochi casi completi, con una revisione periodica del materiale. Verifica quali pagine vengono lette e quali domande generano, senza attribuire ogni vendita a un solo contenuto. Il primo obiettivo del portfolio è rendere comprensibile l’esperienza dell’impresa; la misurazione commerciale richiede informazioni ulteriori e un processo coerente."
-    },
-    {
-      "type": "h2",
-      "text": "Scheda scaricabile per preparare il portfolio",
-      "id": "scheda-scaricabile-per-preparare-il-portfolio"
-    },
-    {
-      "type": "table",
-      "caption": "Le informazioni da raccogliere prima del testo pubblico",
-      "head": [
-        "Campo",
-        "Riferimento utile"
-      ],
-      "rows": [
-        [
-          "Esigenza",
-          "La domanda che il caso aiuta a comprendere"
+    "image": "/images/articoli/tavole-progetto-revisioni-quote-sopralluogo.jpg",
+    "imageAlt": "Scena illustrativa generata con IA: pianta, sezione e dettaglio astratti su un tavolo di studio",
+    "imageCaption": "La copertina originale generata con intelligenza artificiale raffigura disegni astratti illustrativi. Non rappresenta un progetto esecutivo, un rilievo o documenti utilizzabili per realizzare opere.",
+    "summary": [
+      "Identifica tavola, scopo e revisione prima di leggere il disegno.",
+      "Collega piante, sezioni, dettagli e quote alla domanda da porre.",
+      "Usa la scheda per distinguere osservazioni e verifiche professionali."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "id": "leggere-le-tavole-per-preparare-domande-migliori",
+        "text": "Leggere le tavole per preparare domande migliori"
+      },
+      {
+        "type": "p",
+        "text": "Prima di un sopralluogo, leggere le tavole di progetto significa orientarsi fra documento, rappresentazione e domande ancora aperte. Occorre identificare la versione, distinguere pianta, sezione e dettaglio e capire a che cosa si riferiscano le quote. Le informazioni raccolte aiutano il confronto con il tecnico; non autorizzano a eseguire opere o a confermare misure e caratteristiche senza le verifiche pertinenti."
+      },
+      {
+        "type": "p",
+        "text": "Chi commissiona un lavoro spesso riceve un insieme di PDF e immagini senza un percorso di lettura. La difficoltà non è soltanto capire i simboli: è sapere quale foglio risponda alla domanda che si sta ponendo. Una pianta può aiutare a individuare un ambiente, ma non mostrare ciò che serve per comprendere un raccordo verticale. Il primo risultato utile è quindi una piccola mappa dei documenti disponibili e del loro scopo."
+      },
+      {
+        "type": "quote",
+        "text": "Una domanda utile collega ciò che vuoi capire al documento e al punto dell’immobile cui si riferisce.",
+        "author": "Nota della redazione"
+      },
+      {
+        "type": "p",
+        "text": "Questa guida propone una preparazione documentale al sopralluogo. Non insegna a certificare lo stato dell'immobile, non attribuisce valore autorizzativo a un disegno e non sostituisce il rilievo professionale. È pensata per chi deve discutere un intervento con progettista e impresa e vuole evitare domande prive di riferimento, screenshot incompleti o misure ricavate a caso dallo schermo del telefono."
+      },
+      {
+        "type": "h2",
+        "id": "cominciare-dal-cartiglio-e-dall-identita-del-documento",
+        "text": "Cominciare dal cartiglio e dall'identità del documento"
+      },
+      {
+        "type": "p",
+        "text": "Prima di osservare l'organizzazione degli ambienti cerca le informazioni che identificano il foglio: titolo, codice, autore o soggetto emittente, data e revisione quando presenti. Trascrivile nella scheda di sopralluogo senza inventare ciò che manca. Il nome del file può essere abbreviato o poco chiaro; il documento deve poter essere richiamato in una domanda precisa, soprattutto se esistono più tavole con un contenuto visivamente simile."
+      },
+      {
+        "type": "p",
+        "text": "Chiedi al tecnico quale elaborato sia pertinente all'incontro e quale scopo abbia. Una tavola preliminare, un rilievo e un documento di progetto non sono automaticamente intercambiabili. Questa guida non assegna categorie formali ai file: invita a chiedere a chi li ha prodotti come debbano essere interpretati. La risposta è particolarmente utile quando il committente dispone di documenti provenienti da periodi o interlocutori differenti."
+      },
+      {
+        "type": "p",
+        "text": "Non dedurre il valore del documento dalla qualità grafica. Un'immagine molto curata può servire a discutere una soluzione estetica, mentre una tavola sobria può contenere riferimenti essenziali per il sopralluogo. Mantieni separati scopo dichiarato e impressione visiva. Se possiedi soltanto una fotografia parziale, procurati il foglio completo tramite l'interlocutore appropriato: note e riferimenti esclusi dall'inquadratura possono cambiare il significato di quello che stai osservando."
+      },
+      {
+        "type": "h2",
+        "id": "distinguere-la-pianta-dalla-sezione",
+        "text": "Distinguere la pianta dalla sezione"
+      },
+      {
+        "type": "p",
+        "text": "La pianta aiuta a orientarsi nella disposizione orizzontale degli spazi rappresentati, mentre la sezione consente di osservare relazioni in un taglio verticale indicato dal disegno. Per preparare il sopralluogo cerca i richiami che collegano le rappresentazioni e chiedi al tecnico come leggerli. Non è necessario decifrare ogni simbolo: è utile riconoscere quale tavola serva per parlare di un particolare ambiente, passaggio o collegamento fra livelli."
+      },
+      {
+        "type": "p",
+        "text": "Se la domanda riguarda una soglia, un'altezza o un incontro fra elementi, la sola pianta potrebbe non contenere l'informazione sufficiente. Segna il punto e domanda se esista una sezione o un dettaglio pertinente. Non completare mentalmente il disegno usando una fotografia trovata online. Due soluzioni visivamente simili possono avere contesti diversi e il sopralluogo serve anche a comprendere quali informazioni debbano essere verificate nell'immobile specifico."
+      },
+      {
+        "type": "p",
+        "text": "Una preparazione semplice consiste nell'associare a ogni domanda il tipo di informazione cercata: posizione, relazione verticale, finitura o raccordo. Questa classificazione non è una diagnosi tecnica. Aiuta a non chiedere a un solo foglio di spiegare tutto e rende più facile per il professionista indicare il riferimento corretto. Il confronto diventa più produttivo quando la domanda identifica il problema anziché proporre una soluzione prematura."
+      },
+      {
+        "type": "h2",
+        "id": "capire-che-cosa-mostra-un-dettaglio",
+        "text": "Capire che cosa mostra un dettaglio"
+      },
+      {
+        "type": "p",
+        "text": "Un dettaglio può ingrandire un incontro fra componenti o rappresentare una soluzione specifica. Prima di usarlo per discutere il lavoro chiedi a quale punto del progetto si riferisca e con quali altre tavole debba essere letto. Un ingrandimento estratto dal contesto può essere comprensibile graficamente ma non pertinente all'ambiente di cui state parlando. Registra il riferimento di richiamo presente nella documentazione, quando disponibile."
+      },
+      {
+        "type": "p",
+        "text": "Non trattare il dettaglio come una fotografia di ciò che esiste. Può rappresentare una soluzione prevista, un tema da coordinare o un'altra condizione che deve essere spiegata dal progettista. Durante la preparazione annota quindi la domanda: stiamo osservando lo stato rilevato, una proposta oppure un particolare da definire? Lascia che sia il soggetto competente a chiarire il valore della rappresentazione e le verifiche necessarie."
+      },
+      {
+        "type": "p",
+        "text": "Anche materiali e spessori eventualmente riportati richiedono il collegamento alla documentazione pertinente. Non acquistare un componente perché sembra coincidere con una campitura nel disegno. Per una richiesta a un fornitore serve un perimetro leggibile, come spiega la guida ai [documenti per una richiesta di offerta](https://www.corrieredile.it/articolo/richiesta-offerta-fornitori-edili-documenti/). Prima del sopralluogo l'obiettivo è riconoscere gli elementi da chiarire, non completare da soli la specifica di acquisto."
+      },
+      {
+        "type": "h2",
+        "id": "leggere-le-quote-con-il-loro-riferimento",
+        "text": "Leggere le quote con il loro riferimento"
+      },
+      {
+        "type": "p",
+        "text": "Quando osservi una quota, cerca gli elementi fra i quali è indicata e l'unità dichiarata nel documento. Non assumere che ogni numero descriva lo spazio libero o la dimensione finale che interessa al committente. Se il riferimento non è chiaro, trascrivi la quota insieme al punto del disegno e formula una domanda. Copiare soltanto il numero elimina proprio il contesto che permette al tecnico di spiegare che cosa rappresenti."
+      },
+      {
+        "type": "p",
+        "text": "Per esempio, se vuoi capire il passaggio disponibile per un arredo, non trasformare una misura letta nella tavola in una garanzia di ingombro utile. L'esempio è soltanto illustrativo: la risposta richiede identificare la rappresentazione, gli elementi di riferimento e le verifiche pertinenti. Porta al sopralluogo la domanda sull'uso previsto e la documentazione dell'oggetto, se disponibile, lasciando al professionista la verifica delle relazioni con lo spazio reale."
+      },
+      {
+        "type": "p",
+        "text": "Evita di prendere misure da screenshot ridimensionati, stampe adattate alla pagina o immagini inserite in una chat. La presenza di una scala sul foglio non conferma che la copia visualizzata conservi le condizioni necessarie a una misura grafica. Chiedi il riferimento corretto e come debba essere verificata la dimensione. Una domanda esplicita sul dato mancante è più affidabile di un numero ottenuto con il righello su una copia alterata."
+      },
+      {
+        "type": "h2",
+        "id": "individuare-le-revisioni-senza-interpretare-ogni-segno",
+        "text": "Individuare le revisioni senza interpretare ogni segno"
+      },
+      {
+        "type": "p",
+        "text": "Se sono presenti revisione, data o annotazioni di modifica, usale per identificare il documento e chiedere quale contenuto sia pertinente al sopralluogo. Non presumere che l'ultima email contenga automaticamente l'elaborato da utilizzare per ogni domanda. Il professionista può indicare quali fogli siano collegati al tema dell'incontro e spiegare il significato dei richiami presenti, mantenendo distinguibili le versioni senza chiedere al committente di ricostruire l'intera storia progettuale."
+      },
+      {
+        "type": "p",
+        "text": "La [documentazione ufficiale Autodesk sulle revisioni in Revit](https://help.autodesk.com/cloudhelp/2025/ITA/Revit-DocumentPresent/files/GUID-0F2A9A13-0A88-4D18-9DF7-C0296DE0FFE4.htm) mostra un esempio di strumenti che registrano modifiche mediante nubi, etichette e abachi. È il funzionamento di un ambiente software specifico, non una regola universale per tutti gli elaborati. Il richiamo aiuta a capire perché un segno grafico richieda il contesto del documento e la spiegazione di chi lo gestisce."
+      },
+      {
+        "type": "p",
+        "text": "Prima dell'incontro basta annotare codice, revisione disponibile e domanda da porre. Non occorre trasformare questa preparazione in un processo di distribuzione delle copie di cantiere. Qui l'obiettivo è leggere il foglio corretto per orientare la conversazione sul posto, evitando che il committente confronti una soluzione preliminare con una fotografia recente senza sapere se la differenza sia intenzionale, superata oppure ancora da esaminare."
+      },
+      {
+        "type": "h2",
+        "id": "separare-osservazioni-documenti-e-ipotesi",
+        "text": "Separare osservazioni, documenti e ipotesi"
+      },
+      {
+        "type": "p",
+        "text": "Prepara tre campi distinti. Nel primo annota ciò che osservi senza diagnosi, nel secondo il riferimento documentale disponibile, nel terzo la domanda. Per esempio: vedo un dislivello fra due superfici; nel file ricevuto il raccordo non è chiaro; quale documento o verifica serve per comprenderlo? Questa struttura evita di trasformare una prima impressione in una conclusione tecnica o in una soluzione già decisa prima di ascoltare il professionista."
+      },
+      {
+        "type": "p",
+        "text": "Se una misura deriva da un tuo appunto preliminare, dichiaralo. Non presentarla come rilievo verificato e non usarla per far partire un ordine o una lavorazione. Anche il confronto fra fotografie richiede cautela: prospettiva, inquadratura e momento dello scatto possono nascondere elementi rilevanti. Il materiale raccolto serve a indicare dove guardare e quali domande porre, mentre le verifiche appropriate restano affidate a chi ha il ruolo e le competenze necessarie."
+      },
+      {
+        "type": "p",
+        "text": "La guida sul [registro dei chiarimenti di progetto](https://www.corrieredile.it/articolo/registro-chiarimenti-progetto-edile/) può aiutare a conservare le risposte ricevute. Per il sopralluogo basta scegliere pochi temi precisi e associarli ai fogli pertinenti. Una lista lunghissima senza riferimenti rischia di occupare il tempo dell'incontro nella ricostruzione del contesto; una domanda circoscritta permette invece di capire quali informazioni siano già disponibili e quali vadano approfondite."
+      },
+      {
+        "type": "h2",
+        "id": "collegare-le-fotografie-ai-punti-da-discutere",
+        "text": "Collegare le fotografie ai punti da discutere"
+      },
+      {
+        "type": "p",
+        "text": "Una fotografia utile al confronto dovrebbe avere un riferimento all'ambiente e alla domanda. Puoi usare un codice semplice corrispondente alla scheda, evitando annotazioni che nascondono parti dell'immagine. Conserva l'originale e, se necessario, una copia con il punto evidenziato. Non inserire persone o informazioni private non necessarie; condividi il materiale con chi partecipa alla verifica, secondo il contesto e le autorizzazioni pertinenti."
+      },
+      {
+        "type": "p",
+        "text": "Fai riconoscere il contesto prima del particolare. Una foto ravvicinata di una superficie può essere difficile da collocare senza uno scatto d'insieme e un riferimento al locale. Non occorre produrre un dossier fotografico professionale per preparare una domanda, ma occorre permettere al destinatario di capire di che cosa stai parlando. Se la zona non è accessibile, segnala il limite senza effettuare aperture o azioni pericolose per ottenere un'immagine migliore."
+      },
+      {
+        "type": "p",
+        "text": "Le fotografie possono inoltre documentare un campione o una preferenza estetica, mantenendoli distinti dalle condizioni dell'immobile. Un'immagine ispirazionale comunica una direzione, non dimostra che la soluzione sia realizzabile nello stesso modo. Porta al sopralluogo entrambe le informazioni: cosa desideri ottenere e cosa vuoi verificare. Il tecnico potrà spiegare quali aspetti richiedano un progetto, un approfondimento o una scelta diversa."
+      },
+      {
+        "type": "h2",
+        "id": "preparare-la-sequenza-dell-incontro",
+        "text": "Preparare la sequenza dell'incontro"
+      },
+      {
+        "type": "p",
+        "text": "Organizza le domande per ambiente o percorso, in modo che possano essere affrontate mentre vi trovate davanti al punto interessato. Per ogni argomento tieni pronti tavola, fotografia e domanda. Non serve risolvere tutto nello stesso momento: se manca un documento, registra il prossimo passaggio e il soggetto che lo fornirà. Il valore del sopralluogo sta anche nel riconoscere i limiti delle informazioni disponibili."
+      },
+      {
+        "type": "p",
+        "text": "Se partecipano impresa e progettista, mantieni distinguibili le domande sulla fattibilità, quelle sulla fornitura e quelle sul risultato desiderato. La risposta commerciale di un fornitore non sostituisce una verifica tecnica; una preferenza estetica del committente non costituisce una specifica completa. Collegando i temi alle persone appropriate si riducono le risposte equivoche e diventa più facile capire quali decisioni possano essere prese e quali richiedano ulteriori dati."
+      },
+      {
+        "type": "p",
+        "text": "All'inizio chiarisci lo scopo dell'incontro: comprendere le condizioni, raccogliere informazioni per un'offerta oppure discutere una soluzione. Non attribuire al sopralluogo un esito diverso da quello effettivamente svolto. Una visita preliminare può lasciare temi aperti; registrarli correttamente è parte del lavoro, non un difetto da nascondere. La scheda dovrebbe aiutare il committente a ricordare quali domande abbiano ricevuto risposta e quali attendano un approfondimento."
+      },
+      {
+        "type": "h2",
+        "id": "gestire-una-differenza-fra-disegno-e-osservazione",
+        "text": "Gestire una differenza fra disegno e osservazione"
+      },
+      {
+        "type": "p",
+        "text": "Se noti una differenza, indica il punto e chiedi al tecnico di valutarla. Non qualificare subito la situazione come errore, irregolarità o difetto. Occorre comprendere lo scopo del disegno, la sua data e la condizione osservata. Il committente può formulare la domanda in modo neutro: questo elemento sembra diverso da come lo leggo nella tavola; quale riferimento dobbiamo utilizzare e quali verifiche servono?"
+      },
+      {
+        "type": "p",
+        "text": "Registra la risposta con il documento pertinente e distingui una spiegazione preliminare da un approfondimento concluso. Se viene richiesto un nuovo rilievo o un altro elaborato, non chiudere il tema con una spunta generica. Scrivi quale informazione manca e come verrà ottenuta. Questo metodo mantiene leggibile la preparazione delle decisioni senza pretendere che un confronto visivo risolva questioni tecniche, documentali o amministrative."
+      },
+      {
+        "type": "h2",
+        "id": "portare-le-esigenze-d-uso-insieme-ai-disegni",
+        "text": "Portare le esigenze d'uso insieme ai disegni"
+      },
+      {
+        "type": "p",
+        "text": "Un sopralluogo può chiarire meglio le priorità se il committente descrive come intende utilizzare gli spazi. Annota le esigenze concrete: spostarsi fra ambienti, posizionare un arredo già scelto, accedere a un vano o coordinare una finitura. Collega l'esigenza al punto della tavola senza trasformarla in una misura già verificata. Un oggetto particolare può avere una scheda del produttore da sottoporre al tecnico insieme alla domanda sullo spazio disponibile."
+      },
+      {
+        "type": "p",
+        "text": "Evita di riunire in una sola richiesta desiderio estetico, vincolo funzionale e soluzione costruttiva. Spiegare il risultato atteso lascia al professionista la possibilità di valutare alternative pertinenti. Alla fine della conversazione verifica di aver compreso quali aspetti siano stati chiariti e quali richiedano un approfondimento. La preparazione documentale serve proprio a rendere più precisa questa distinzione, così che una preferenza non venga ricordata in seguito come una decisione tecnica già conclusa."
+      },
+      {
+        "type": "h2",
+        "id": "una-scheda-per-arrivare-al-sopralluogo-preparati",
+        "text": "Una scheda per arrivare al sopralluogo preparati"
+      },
+      {
+        "type": "p",
+        "text": "La [scheda di lettura delle tavole per il sopralluogo](https://www.corrieredile.it/downloads/tavole-progetto-revisioni-quote-sopralluogo.csv) comprende campi per ambiente, documento, revisione, tipo di rappresentazione, quota da chiarire, foto e domanda. È un modello organizzativo vuoto, non un elaborato tecnico. Usa riferimenti brevi che permettano di trovare gli allegati e lascia distinguibili osservazioni personali, documenti disponibili e risposte del professionista."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Ambiente o punto",
+            "Da compilare con il documento o con la domanda pertinente"
+          ],
+          [
+            "Tavola e titolo",
+            "Da compilare con il documento o con la domanda pertinente"
+          ],
+          [
+            "Revisione disponibile",
+            "Da compilare con il documento o con la domanda pertinente"
+          ],
+          [
+            "Tipo di rappresentazione",
+            "Da compilare con il documento o con la domanda pertinente"
+          ]
         ],
-        [
-          "Perimetro",
-          "Le attività effettivamente affidate all’impresa"
-        ],
-        [
-          "Vincolo",
-          "La condizione che ha richiesto un confronto"
-        ],
-        [
-          "Riscontro",
-          "Il documento o il referente che sostiene il fatto"
-        ],
-        [
-          "Immagine",
-          "La fase rappresentata e la verifica di pubblicazione"
-        ],
-        [
-          "Revisione",
-          "La persona incaricata del controllo e la data"
+        "head": [
+          "Informazione",
+          "Riferimento da raccogliere"
         ]
-      ]
+      },
+      {
+        "type": "p",
+        "text": "Al termine dell'incontro conserva la scheda con i riferimenti aggiornati e i prossimi passaggi concordati. Il risultato utile è una lettura più consapevole: sai quale foglio riguarda la domanda, quale informazione richiede verifica e a chi chiedere il chiarimento. Non occorre diventare progettisti per prepararsi bene; occorre dare alle domande un contesto documentale e riconoscere il confine fra orientamento del committente e valutazione professionale."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Posso misurare una stanza da uno screenshot della tavola?",
+        "a": "Non usare una copia ridimensionata per confermare dimensioni. Chiedi il documento pertinente e come debba essere verificato il dato necessario."
+      },
+      {
+        "q": "Una differenza fra disegno e fotografia prova un errore?",
+        "a": "Non da sola. Occorre comprendere scopo, data e rappresentazione dell’elaborato e far valutare la condizione dal soggetto competente."
+      },
+      {
+        "q": "A cosa serve la scheda per il sopralluogo?",
+        "a": "Collega ambiente, tavola, revisione, fotografia e domanda. È un modello organizzativo, non un rilievo o un documento per eseguire opere."
+      }
+    ],
+    "tags": [
+      "progetto",
+      "sopralluogo",
+      "documentazione"
+    ],
+    "related": [
+      "registro-chiarimenti-progetto-edile",
+      "richiesta-offerta-fornitori-edili-documenti",
+      "portfolio-lavori-impresa-edile-2027"
+    ]
+  },
+  {
+    "slug": "portfolio-lavori-impresa-edile-2027",
+    "title": "Portfolio lavori dell’impresa edile: come raccontare un progetto nel 2027",
+    "metaTitle": "Portfolio impresa edile: scheda progetto",
+    "metaDescription": "Organizza il portfolio lavori della tua impresa edile per il 2027: perimetro, fotografie, riscontri e scheda progetto compilabile.",
+    "category": "Mercato",
+    "keywords": [
+      "portfolio lavori impresa edile",
+      "scheda progetto impresa edile"
+    ],
+    "subtitle": "Organizza il portfolio lavori della tua impresa edile per il 2027: perimetro, fotografie, riscontri e scheda progetto compilabile.",
+    "excerpt": "Organizza il portfolio lavori della tua impresa edile per il 2027: perimetro, fotografie, riscontri e scheda progetto compilabile.",
+    "published": "2026-11-16",
+    "updated": "2026-11-16",
+    "readingTime": 13,
+    "author": {
+      "name": "Redazione Corriere Edile",
+      "role": "Redazione",
+      "bio": "La redazione di Corriere Edile."
     },
-    {
-      "type": "quote",
-      "text": "Una scheda progetto è utile quando rende distinguibili il lavoro svolto, i riscontri disponibili e ciò che richiede ancora una verifica.",
-      "author": "Nota redazionale"
-    },
-    {
-      "type": "p",
-      "text": "Puoi usare la [scheda progetto per il portfolio](/risorse/scheda-portfolio-lavori-impresa-edile.csv) come traccia di raccolta prima di scrivere la pagina. Il file CSV si apre in un foglio di calcolo e lascia vuoti i campi da compilare: non contiene esperienze attribuite a imprese reali, risultati precostituiti o testi da pubblicare senza verifica."
-    },
-    {
-      "type": "p",
-      "text": "Compila prima esigenza e perimetro, poi collega ogni affermazione al suo riscontro. Se vuoi scrivere che una condizione ha richiesto un confronto, indica quale documento o interlocutore permetta di ricostruire il passaggio. Se il riferimento non è disponibile, registra la lacuna e formula una domanda al referente invece di completare la frase con un’ipotesi."
-    },
-    {
-      "type": "p",
-      "text": "Nella colonna delle immagini descrivi la fase, il dettaglio che vuoi spiegare e la verifica da svolgere prima della pubblicazione. Non serve inserire nel foglio copie di documenti personali o interi archivi fotografici: puoi usare riferimenti interni appropriati e condividere soltanto ciò che è necessario alla revisione. Il testo pubblico dovrà selezionare il materiale pertinente al lettore."
-    },
-    {
-      "type": "p",
-      "text": "Fai leggere la scheda a chi conosce il lavoro e a chi prepara i contenuti. Il primo può controllare i fatti; il secondo può individuare i passaggi poco comprensibili. Mantieni riconoscibili entrambe le verifiche e la versione del testo cui si riferiscono. Una revisione grafica non equivale automaticamente al controllo delle affermazioni tecniche."
-    },
-    {
-      "type": "p",
-      "text": "Dopo la pubblicazione conserva la scheda con il collegamento alla pagina. Potrai aggiornare un’informazione o rispondere a una domanda senza ricostruire ogni volta il caso. Se trasformi il progetto in un video o in una presentazione, riusa i fatti verificati e adatta il formato, evitando di aggiungere risultati non presenti nel materiale originario."
-    }
-  ],
-  "faqs": [
-    {
-      "q": "Quante fotografie servono per una scheda progetto?",
-      "a": "Non c’è un numero universale. Scegli quelle che spiegano situazione, passaggi e risultato, con didascalie utili. Una serie breve e coerente è preferibile a molte immagini quasi uguali che non aggiungono informazioni al caso."
-    },
-    {
-      "q": "Posso usare un render insieme alle fotografie?",
-      "a": "Sì, se hai titolo a pubblicarlo e lo distingui chiaramente dalle immagini del lavoro eseguito. Specifica il suo ruolo nel racconto, evitando che il lettore confonda una proposta progettuale con uno stato realizzato."
-    },
-    {
-      "q": "Devo pubblicare il nome del cliente?",
-      "a": "Non è necessario per rendere utile il caso. Valuta quali informazioni puoi condividere e le autorizzazioni pertinenti. Spesso tipologia di intervento, vincoli e immagini appropriate permettono di spiegare l’esperienza senza esporre dati personali non necessari."
-    },
-    {
-      "q": "Il portfolio garantisce nuove richieste da Google?",
-      "a": "No. Può migliorare la comprensione dell’esperienza e offrire contenuti distinti, ma visibilità, indicizzazione e contatti dipendono da più fattori. Mantieni verificabili i fatti e misura il percorso con dati coerenti, senza promettere un risultato automatico."
-    }
-  ],
-  "tags": [
-    "imprese",
-    "marketing",
-    "documentazione"
-  ],
-  "related": [
-    "registro-chiarimenti-progetto-edile",
-    "richiesta-offerta-fornitori-edili-documenti"
-  ]
-},
+    "image": "/images/articoli/portfolio-lavori-impresa-edile-2027.jpg",
+    "imageAlt": "Schema illustrativo: esigenza, perimetro, riscontri e racconto del progetto.",
+    "imageCaption": "Schema editoriale della raccolta dei dati per il portfolio.",
+    "summary": [
+      "Definisci ruolo e perimetro effettivo dell’incarico.",
+      "Collega fotografie e affermazioni a riscontri verificabili.",
+      "Usa la scheda CSV prima della revisione e della pubblicazione."
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "Il portfolio lavori di un’impresa edile dovrebbe aiutare un potenziale cliente a capire quali interventi sai affrontare e come organizzi il lavoro. Una galleria di fotografie può mostrare un risultato, ma spesso lascia senza risposta le domande che precedono una richiesta: qual era il problema, quali vincoli avevate, che cosa comprendeva l’incarico e quali passaggi avete seguito?"
+      },
+      {
+        "type": "p",
+        "text": "Questa guida propone una scheda progetto da preparare per il piano editoriale 2027. L’anno indica il periodo di utilizzo, non una previsione sul mercato o sugli algoritmi. Gli esempi sono illustrativi; non raccontano clienti o risultati della redazione. Il metodo serve a documentare esperienze reali senza trasformarle in promesse valide per ogni cantiere."
+      },
+      {
+        "type": "h2",
+        "text": "Scegli il lavoro in base alla domanda del lettore",
+        "id": "scegli-il-lavoro-in-base-alla-domanda-del-lettore"
+      },
+      {
+        "type": "p",
+        "text": "Prima di cercare le immagini più belle, scegli quale esigenza vuoi chiarire. Una ristrutturazione in un appartamento abitato può spiegare l’organizzazione degli ambienti; un intervento su un edificio con accessi limitati può mostrare come sono state raccolte le informazioni prima del programma operativo. La domanda orienta la selezione dei documenti."
+      },
+      {
+        "type": "p",
+        "text": "Scrivi una frase che descriva il lettore: proprietario, amministratore, responsabile di un’attività oppure professionista che cerca un esecutore. Non serve pubblicarla, ma deve guidare il racconto. Un amministratore potrebbe voler comprendere comunicazioni e coordinamento; un privato potrebbe chiedersi soprattutto come viene spiegato il perimetro dell’offerta e come si affrontano le decisioni ancora aperte."
+      },
+      {
+        "type": "p",
+        "text": "Scegli quindi un lavoro per cui hai riferimenti sufficienti e titolo a pubblicare il materiale. Un progetto molto complesso ma documentato male può essere meno utile di un intervento ordinario raccontato con precisione. La credibilità deriva dalla possibilità di collegare una descrizione a riscontri coerenti, non dalla dimensione dichiarata della commessa o dal numero delle fotografie."
+      },
+      {
+        "type": "h2",
+        "text": "Definisci il perimetro dell’incarico",
+        "id": "definisci-il-perimetro-dell-incarico"
+      },
+      {
+        "type": "p",
+        "text": "La prima scheda interna dovrebbe indicare tipologia di edificio, intervento affidato, periodo e ruolo dell’impresa. Distingui progettazione, esecuzione e attività svolte da altri soggetti quando la distinzione è rilevante. Evita formulazioni che attribuiscano all’impresa tutte le scelte del progetto solo perché il lavoro appare nella sua galleria."
+      },
+      {
+        "type": "p",
+        "text": "Descrivi anche quello che il caso non permette di dimostrare. Una fotografia della finitura non prova automaticamente la prestazione dell’intero edificio; un intervento completato non dimostra che ogni situazione simile possa essere affrontata con la stessa procedura. Se un risultato richiede misure o documenti tecnici, verifica che siano disponibili e riferiti al caso prima di citarlo."
+      },
+      {
+        "type": "p",
+        "text": "Un perimetro chiaro permette al lettore di capire la pertinenza dell’esperienza. Aiuta anche chi risponde alle richieste a non dover correggere aspettative create dal sito. Per organizzare le domande rimaste aperte puoi usare il metodo descritto nella guida al [registro dei chiarimenti di progetto](/articolo/registro-chiarimenti-progetto-edile/)."
+      },
+      {
+        "type": "h2",
+        "text": "Raccogli una cronologia essenziale",
+        "id": "raccogli-una-cronologia-essenziale"
+      },
+      {
+        "type": "p",
+        "text": "Dividi il racconto in situazione iniziale, verifiche, scelte, esecuzione e consegna. Non occorre trasformarlo nel diario completo del cantiere. Cerca i passaggi che spiegano perché il lavoro ha assunto quella forma e quali informazioni hanno permesso di procedere. Se una data non è ricostruibile, usa una descrizione del periodo senza inventare una precisione inesistente."
+      },
+      {
+        "type": "p",
+        "text": "Per ogni passaggio conserva un riferimento interno: verbale, versione del disegno, fotografia o comunicazione pertinente. Il sito non deve esporre l’intero archivio, ma chi prepara il testo deve poter controllare le affermazioni. Un racconto ricostruito soltanto a memoria rischia di mescolare decisioni iniziali e modifiche arrivate durante l’esecuzione."
+      },
+      {
+        "type": "p",
+        "text": "La cronologia è utile anche per scegliere le immagini. Una serie ordinata mostra il rapporto fra problema e intervento; una raccolta senza contesto può confondere lavorazioni appartenenti a momenti diversi. Prima di pubblicare verifica che le fotografie non presentino una fase provvisoria come se fosse il risultato finale consegnato al cliente."
+      },
+      {
+        "type": "h2",
+        "text": "Separa il problema iniziale dalla diagnosi tecnica",
+        "id": "separa-il-problema-iniziale-dalla-diagnosi-tecnica"
+      },
+      {
+        "type": "p",
+        "text": "Nel testo puoi spiegare che il cliente cercava più spazio, una diversa distribuzione o la sostituzione di elementi esistenti. Questa descrizione non equivale alla diagnosi delle cause tecniche di un difetto. Quando riporti valutazioni specialistiche, mantieni il riferimento al soggetto e ai documenti competenti, senza estendere la conclusione oltre il caso esaminato."
+      },
+      {
+        "type": "p",
+        "text": "Evita formule assolute come “abbiamo eliminato per sempre il problema” se non hai elementi adeguati per sostenerle. Puoi invece descrivere ciò che è stato richiesto, ciò che è stato verificato e ciò che l’incarico ha previsto. Una spiegazione circoscritta è più utile a chi deve capire se la tua esperienza somiglia alla propria esigenza."
+      },
+      {
+        "type": "p",
+        "text": "Se alcuni dettagli non possono essere divulgati, limita il racconto a ciò che puoi documentare pubblicamente. Non riempire lo spazio con numeri o risultati generici. Puoi spiegare il processo di raccolta delle informazioni, il coordinamento dei passaggi o le condizioni che hanno richiesto un confronto, senza esporre dati riservati del progetto."
+      },
+      {
+        "type": "h2",
+        "text": "Organizza fotografie e didascalie",
+        "id": "organizza-fotografie-e-didascalie"
+      },
+      {
+        "type": "p",
+        "text": "Per ogni immagine annota fase, ambiente, oggetto visibile e autorizzazione pertinente. La didascalia dovrebbe spiegare un dettaglio che il lettore può riconoscere. “Lavoro eseguito con la massima qualità” non chiarisce che cosa osservare; “ambiente prima della rimozione degli elementi previsti dall’incarico” colloca invece la fotografia nella sequenza del caso."
+      },
+      {
+        "type": "p",
+        "text": "Se mostri un prima e dopo, usa punti di vista confrontabili quando li hai realmente disponibili. Non modificare artificialmente lo stato iniziale per rendere il confronto più spettacolare. Eventuali render, schemi o immagini illustrative devono essere riconoscibili come tali e non confusi con una fotografia del lavoro eseguito."
+      },
+      {
+        "type": "p",
+        "text": "Controlla persone, targhe, documenti e dettagli che possono identificare il cliente. La pubblicazione richiede una gestione appropriata dei diritti e delle autorizzazioni, da verificare nel contesto concreto. La scheda editoriale può contenere il riferimento alla verifica svolta, senza diventare essa stessa un modello universale di liberatoria o sostituire una valutazione competente."
+      },
+      {
+        "type": "h2",
+        "text": "Spiega una decisione con il suo vincolo",
+        "id": "spiega-una-decisione-con-il-suo-vincolo"
+      },
+      {
+        "type": "p",
+        "text": "Il centro della scheda progetto può essere una decisione comprensibile. Descrivi quale informazione era disponibile, quale vincolo contava e che cosa è stato concordato. Non occorre contrapporre alternative in modo artificiale: il valore del racconto è mostrare il collegamento fra situazione e scelta, rispettando il ruolo dei soggetti coinvolti."
+      },
+      {
+        "type": "p",
+        "text": "Per esempio, in un caso illustrativo un’attività aperta al pubblico chiede di mantenere utilizzabile una parte dei locali. La scheda potrebbe spiegare come è stata raccolta questa esigenza e quali passaggi organizzativi sono stati condivisi. Non dovrebbe trasformare il caso in una promessa di esecuzione senza interferenze per qualsiasi edificio o attività."
+      },
+      {
+        "type": "p",
+        "text": "Se la scelta è cambiata, racconta la revisione quando aiuta a comprendere il lavoro. Mantieni distinguibili ipotesi iniziale e decisione successiva. Una modifica spiegata con chiarezza può essere più informativa di una narrazione perfetta che elimina ogni dubbio, soprattutto per chi sta preparando il proprio primo confronto con un’impresa."
+      },
+      {
+        "type": "h2",
+        "text": "Rendi leggibile il risultato senza inventare indicatori",
+        "id": "rendi-leggibile-il-risultato-senza-inventare-indicatori"
+      },
+      {
+        "type": "p",
+        "text": "Distingui risultato visibile, documentazione consegnata e valutazioni tecniche. Puoi raccontare l’organizzazione degli spazi o le lavorazioni comprese, ma non dedurre da una fotografia consumi, durata futura o prestazioni certificate. Quando citi un numero, indica che cosa misura, a quale configurazione si riferisce e quale documento lo sostiene."
+      },
+      {
+        "type": "p",
+        "text": "Se vuoi parlare di tempi, chiarisci il perimetro osservato. La durata di una singola lavorazione non coincide con quella dell’intervento complessivo, che può comprendere verifiche, approvvigionamenti e passaggi successivi. Un dato reale ma privato del suo contesto può creare un’aspettativa sbagliata quanto un numero inventato."
+      },
+      {
+        "type": "p",
+        "text": "Puoi anche scegliere un risultato qualitativo circoscritto: richiesta iniziale affrontata, passaggi documentali completati o decisioni chiarite con il committente. Non tutti i progetti hanno bisogno di una percentuale per diventare utili. La scheda deve permettere di capire il lavoro, non cercare una misura spettacolare da aggiungere al titolo."
+      },
+      {
+        "type": "h2",
+        "text": "Costruisci una scheda riutilizzabile",
+        "id": "costruisci-una-scheda-riutilizzabile"
+      },
+      {
+        "type": "p",
+        "text": "Prepara un modello con titolo, esigenza, perimetro, vincoli, passaggi, immagini e contatto pertinente. Per ogni sezione indica il referente interno che può verificare i fatti. Lascia uno spazio per le informazioni mancanti: sono un promemoria da chiudere, non un invito al redattore a completare il racconto con supposizioni."
+      },
+      {
+        "type": "p",
+        "text": "La scheda deve essere breve abbastanza da essere compilata dopo un lavoro e ricca abbastanza da sostenere una pagina autonoma. Puoi tenere separati un documento di raccolta e il testo pubblico. Nel primo conservi riferimenti e verifiche; nel secondo selezioni ciò che aiuta il lettore a comprendere il caso senza scaricargli addosso l’intero archivio."
+      },
+      {
+        "type": "p",
+        "text": "Prima di adottare il modello su molti cantieri, provalo con un progetto. Chiedi a un collega che non lo ha seguito di leggerlo e ricostruire il perimetro. Le sue domande mostrano dove mancano passaggi, dove il linguaggio è troppo interno e quali dettagli richiedono una didascalia oppure un chiarimento prima della pubblicazione."
+      },
+      {
+        "type": "h2",
+        "text": "Esempio illustrativo di una scheda progetto",
+        "id": "esempio-illustrativo-di-una-scheda-progetto"
+      },
+      {
+        "type": "p",
+        "text": "Immagina una piccola impresa incaricata di rinnovare alcuni ambienti di un appartamento che rimane utilizzato. La scheda identifica l’esigenza del committente, le parti comprese nell’incarico e le informazioni raccolte sugli accessi. Le immagini vengono selezionate per mostrare la successione delle aree coinvolte, senza rendere riconoscibili persone e documenti personali."
+      },
+      {
+        "type": "p",
+        "text": "Un passaggio del racconto descrive come sia stato chiarito il rapporto fra una lavorazione prevista e una finitura da conservare. Il testo spiega quali riferimenti sono stati confrontati e quale decisione è stata concordata; non descrive la procedura operativa come una soluzione tecnica replicabile senza verifica. La competenza del caso emerge dal modo in cui è stata affrontata la domanda."
+      },
+      {
+        "type": "p",
+        "text": "La chiusura indica ciò che il progetto permette di osservare e propone al lettore di preparare una descrizione del proprio intervento. Nessun importo o tempo viene presentato come applicabile automaticamente a un altro appartamento. Questa impostazione permette di raccontare un’esperienza interessante senza attribuire al portfolio il ruolo di un preventivo o di una consulenza tecnica a distanza."
+      },
+      {
+        "type": "h2",
+        "text": "Pubblica una pagina per un’esperienza distinta",
+        "id": "pubblica-una-pagina-per-un-esperienza-distinta"
+      },
+      {
+        "type": "p",
+        "text": "Ogni pagina dovrebbe sviluppare un caso riconoscibile. Evita di creare molte versioni dello stesso testo cambiando soltanto comune e titolo. Se diversi lavori mostrano il medesimo passaggio, puoi raccoglierli in una pagina tematica oppure scegliere quello documentato meglio, invece di moltiplicare pagine con poco contenuto originale."
+      },
+      {
+        "type": "p",
+        "text": "Il titolo deve anticipare il tema: tipo di intervento e vincolo principale, quando puoi descriverli. La descrizione del risultato deve corrispondere al corpo della pagina. Google raccomanda di creare [contenuti utili per le persone](https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=it): il portfolio dovrebbe aiutare a capire un’esperienza, senza promettere una posizione nei risultati di ricerca."
+      },
+      {
+        "type": "p",
+        "text": "Conserva un indirizzo stabile quando aggiorni le informazioni. Se aggiungi fotografie o chiarimenti sostanziali, annota la revisione reale; non cambiare la data solo per far sembrare nuovo un lavoro già pubblicato. Una pagina mantenuta bene permette anche a chi la riceve tramite un vecchio collegamento di ritrovare un racconto coerente."
+      },
+      {
+        "type": "h2",
+        "text": "Collega il progetto ai servizi pertinenti",
+        "id": "collega-il-progetto-ai-servizi-pertinenti"
+      },
+      {
+        "type": "p",
+        "text": "Il portfolio deve avere un percorso di ingresso: elenco lavori, pagina servizio o approfondimento collegato. La semplice presenza di un URL nella sitemap non sostituisce la navigazione per il lettore. Inserisci collegamenti con testi comprensibili, spiegando quale approfondimento troverà chi decide di aprirli."
+      },
+      {
+        "type": "p",
+        "text": "Nel progetto puoi rimandare a una guida che chiarisce un passaggio documentale o un criterio di confronto. La guida sulla [richiesta di offerta ai fornitori edili](/articolo/richiesta-offerta-fornitori-edili-documenti/) offre un esempio di come mantenere riconoscibili oggetto, riferimenti e chiarimenti. Scegli il collegamento quando aiuta a capire il caso, senza aggiungere un elenco indistinto di pagine."
+      },
+      {
+        "type": "p",
+        "text": "Controlla il percorso anche dal telefono. Titolo, fotografie, didascalie e invito al contatto devono rimanere leggibili. Le immagini dovrebbero avere dimensioni adeguate e un testo alternativo pertinente, evitando di ripetere in ogni descrizione una serie di parole commerciali che non spiega il contenuto visibile della fotografia."
+      },
+      {
+        "type": "h2",
+        "text": "Trasforma il caso in un primo confronto utile",
+        "id": "trasforma-il-caso-in-un-primo-confronto-utile"
+      },
+      {
+        "type": "p",
+        "text": "Alla fine della pagina proponi al lettore un passaggio proporzionato: descrivere l’intervento, indicare la zona e spiegare quale esigenza vuole approfondire. Non far credere che il caso pubblicato permetta di conoscere già il prezzo o la fattibilità del suo progetto. La scheda serve ad aprire una conversazione più informata."
+      },
+      {
+        "type": "p",
+        "text": "Assegna un referente alle richieste che arrivano dai lavori pubblicati. Se una persona cita una pagina, registra il riferimento: può aiutare chi risponde a comprendere perché l’ha scelta e quali aspettative si è formato. Le domande raccolte possono indicare un dettaglio da spiegare meglio nella scheda o un nuovo contenuto davvero distinto da preparare."
+      },
+      {
+        "type": "p",
+        "text": "Per il piano 2027 puoi iniziare da pochi casi completi, con una revisione periodica del materiale. Verifica quali pagine vengono lette e quali domande generano, senza attribuire ogni vendita a un solo contenuto. Il primo obiettivo del portfolio è rendere comprensibile l’esperienza dell’impresa; la misurazione commerciale richiede informazioni ulteriori e un processo coerente."
+      },
+      {
+        "type": "h2",
+        "text": "Scheda scaricabile per preparare il portfolio",
+        "id": "scheda-scaricabile-per-preparare-il-portfolio"
+      },
+      {
+        "type": "table",
+        "caption": "Le informazioni da raccogliere prima del testo pubblico",
+        "head": [
+          "Campo",
+          "Riferimento utile"
+        ],
+        "rows": [
+          [
+            "Esigenza",
+            "La domanda che il caso aiuta a comprendere"
+          ],
+          [
+            "Perimetro",
+            "Le attività effettivamente affidate all’impresa"
+          ],
+          [
+            "Vincolo",
+            "La condizione che ha richiesto un confronto"
+          ],
+          [
+            "Riscontro",
+            "Il documento o il referente che sostiene il fatto"
+          ],
+          [
+            "Immagine",
+            "La fase rappresentata e la verifica di pubblicazione"
+          ],
+          [
+            "Revisione",
+            "La persona incaricata del controllo e la data"
+          ]
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Una scheda progetto è utile quando rende distinguibili il lavoro svolto, i riscontri disponibili e ciò che richiede ancora una verifica.",
+        "author": "Nota redazionale"
+      },
+      {
+        "type": "p",
+        "text": "Puoi usare la [scheda progetto per il portfolio](/risorse/scheda-portfolio-lavori-impresa-edile.csv) come traccia di raccolta prima di scrivere la pagina. Il file CSV si apre in un foglio di calcolo e lascia vuoti i campi da compilare: non contiene esperienze attribuite a imprese reali, risultati precostituiti o testi da pubblicare senza verifica."
+      },
+      {
+        "type": "p",
+        "text": "Compila prima esigenza e perimetro, poi collega ogni affermazione al suo riscontro. Se vuoi scrivere che una condizione ha richiesto un confronto, indica quale documento o interlocutore permetta di ricostruire il passaggio. Se il riferimento non è disponibile, registra la lacuna e formula una domanda al referente invece di completare la frase con un’ipotesi."
+      },
+      {
+        "type": "p",
+        "text": "Nella colonna delle immagini descrivi la fase, il dettaglio che vuoi spiegare e la verifica da svolgere prima della pubblicazione. Non serve inserire nel foglio copie di documenti personali o interi archivi fotografici: puoi usare riferimenti interni appropriati e condividere soltanto ciò che è necessario alla revisione. Il testo pubblico dovrà selezionare il materiale pertinente al lettore."
+      },
+      {
+        "type": "p",
+        "text": "Fai leggere la scheda a chi conosce il lavoro e a chi prepara i contenuti. Il primo può controllare i fatti; il secondo può individuare i passaggi poco comprensibili. Mantieni riconoscibili entrambe le verifiche e la versione del testo cui si riferiscono. Una revisione grafica non equivale automaticamente al controllo delle affermazioni tecniche."
+      },
+      {
+        "type": "p",
+        "text": "Dopo la pubblicazione conserva la scheda con il collegamento alla pagina. Potrai aggiornare un’informazione o rispondere a una domanda senza ricostruire ogni volta il caso. Se trasformi il progetto in un video o in una presentazione, riusa i fatti verificati e adatta il formato, evitando di aggiungere risultati non presenti nel materiale originario."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Quante fotografie servono per una scheda progetto?",
+        "a": "Non c’è un numero universale. Scegli quelle che spiegano situazione, passaggi e risultato, con didascalie utili. Una serie breve e coerente è preferibile a molte immagini quasi uguali che non aggiungono informazioni al caso."
+      },
+      {
+        "q": "Posso usare un render insieme alle fotografie?",
+        "a": "Sì, se hai titolo a pubblicarlo e lo distingui chiaramente dalle immagini del lavoro eseguito. Specifica il suo ruolo nel racconto, evitando che il lettore confonda una proposta progettuale con uno stato realizzato."
+      },
+      {
+        "q": "Devo pubblicare il nome del cliente?",
+        "a": "Non è necessario per rendere utile il caso. Valuta quali informazioni puoi condividere e le autorizzazioni pertinenti. Spesso tipologia di intervento, vincoli e immagini appropriate permettono di spiegare l’esperienza senza esporre dati personali non necessari."
+      },
+      {
+        "q": "Il portfolio garantisce nuove richieste da Google?",
+        "a": "No. Può migliorare la comprensione dell’esperienza e offrire contenuti distinti, ma visibilità, indicizzazione e contatti dipendono da più fattori. Mantieni verificabili i fatti e misura il percorso con dati coerenti, senza promettere un risultato automatico."
+      }
+    ],
+    "tags": [
+      "imprese",
+      "marketing",
+      "documentazione"
+    ],
+    "related": [
+      "registro-chiarimenti-progetto-edile",
+      "richiesta-offerta-fornitori-edili-documenti"
+    ]
+  },
   {
     "slug": "registro-chiarimenti-progetto-edile",
     "title": "Registro dei chiarimenti di progetto: tenere insieme domande, revisioni e risposte",
