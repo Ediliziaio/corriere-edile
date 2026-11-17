@@ -1,4 +1,3 @@
-import { PriorityPaths } from "@/components/PriorityPaths";
 import Link from "next/link";
 import { HelpCircle } from "lucide-react";
 import AdSlot from "@/components/AdSlot";
@@ -71,9 +70,6 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: jsonLd([FAQ_JSONLD, homeItemList(latest)]) }}
       />
-
-
-      <PriorityPaths />
       {/* ============ HERO: In Evidenza ============ */}
       <section aria-labelledby="in-evidenza" className="mx-auto max-w-7xl px-4 pt-6">
         <h1 id="in-evidenza" className="sr-only">
