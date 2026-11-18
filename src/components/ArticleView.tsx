@@ -331,7 +331,7 @@ export default function ArticleView({ article }: { article: FullArticle }) {
             {/* Immagine principale con figcaption/credit — semantica <figure>, WebP + fallback */}
             <figure className="mt-6">
               <picture>
-                <source srcSet={webpSrc(article.image)} type="image/webp" />
+                {webpSrc(article.image) && <source srcSet={webpSrc(article.image)} type="image/webp" />}
                 <img
                   src={article.image}
                   alt={article.imageAlt}

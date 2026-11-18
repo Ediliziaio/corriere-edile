@@ -80,7 +80,7 @@ export default function Home() {
           <article className="group relative overflow-hidden rounded-lg lg:col-span-2">
             <Link href={articleUrl(featured.slug)} aria-label={featured.title}>
               <picture>
-                <source srcSet={webpSrc(featured.image)} type="image/webp" />
+                {webpSrc(featured.image) && <source srcSet={webpSrc(featured.image)} type="image/webp" />}
                 <img
                   src={featured.image}
                   alt={featured.imageAlt}

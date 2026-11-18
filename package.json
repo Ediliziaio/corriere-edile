@@ -4,6 +4,7 @@
   "version": "2.0.0",
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/generate-image-manifest.mjs",
     "build": "next build && node scripts/check-editorial-length.mjs .next/server/app",
     "start": "next start",
     "indexnow": "node scripts/indexnow.mjs"

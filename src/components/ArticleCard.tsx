@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { Clock } from "lucide-react";
 import type { FullArticle } from "@/data/fullArticles";
+import webpImages from "@/data/webp-images.json";
+
+const availableWebpImages = new Set(webpImages);
 
 export function formatDateIT(iso: string) {
   return new Intl.DateTimeFormat("it-IT", { day: "numeric", month: "long", year: "numeric" }).format(
@@ -33,9 +36,10 @@ export function articleUrl(slug: string) {
   return `/articolo/${slug}`;
 }
 
-/** Path WebP corrispondente a una cover JPG (generata da scripts) */
+/** Usa WebP soltanto quando il file è presente; altrimenti resta il JPEG originale. */
 export function webpSrc(jpgPath: string) {
-  return jpgPath.replace(/\.jpg$/, ".webp");
+  const candidate = jpgPath.replace(/\.jpg$/, ".webp");
+  return availableWebpImages.has(candidate) ? candidate : undefined;
 }
 
 /** Card articolo standard per le griglie news */
@@ -46,7 +50,7 @@ export default function ArticleCard({ article, priority = false }: { article: Fu
       <Link href={url} className="block overflow-hidden" tabIndex={-1} aria-hidden="true">
         {/* <picture>: WebP con fallback JPG per compatibilità */}
         <picture>
-          <source srcSet={webpSrc(article.image)} type="image/webp" />
+          {webpSrc(article.image) && <source srcSet={webpSrc(article.image)} type="image/webp" />}
           <img
             src={article.image}
             alt={article.imageAlt}
