@@ -1472,8 +1472,8 @@ export const editorialNative: FullArticle[] = [
     "keywords": [
       "Renova Solution: coordinare accessi e decisioni nei lavori di casa"
     ],
-    "subtitle": "Contenuto sponsorizzato · Renova Solution. Abitazione occupata, consegne e scelte da confermare: come impostare la richiesta per conoscere i servizi Renova Solution.",
-    "excerpt": "Contenuto sponsorizzato · Renova Solution. Abitazione occupata, consegne e scelte da confermare: come impostare la richiesta per conoscere i servizi Renova Solution.",
+    "subtitle": "Abitazione occupata, consegne e scelte da confermare: come impostare la richiesta per conoscere i servizi Renova Solution.",
+    "excerpt": "Abitazione occupata, consegne e scelte da confermare: come impostare la richiesta per conoscere i servizi Renova Solution.",
     "published": "2026-10-22T07:18:01Z",
     "updated": "2026-10-22T08:54:30Z",
     "readingTime": 5,
@@ -1489,10 +1489,6 @@ export const editorialNative: FullArticle[] = [
       "Un progetto di rinnovo deve incontrare la vita della casa. Comunicare vincoli e disponibilità prima dei lavori rende più chiara la discussione sul cantiere."
     ],
     "body": [
-      {
-        "type": "p",
-        "text": "**Contenuto sponsorizzato · Renova Solution**. Articolo pubblicitario realizzato per presentare i servizi dell’azienda."
-      },
       {
         "type": "p",
         "text": "Un progetto di rinnovo deve incontrare la vita della casa. Comunicare vincoli e disponibilità prima dei lavori rende più chiara la discussione sul cantiere."
@@ -1608,7 +1604,7 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "p",
-        "text": "[Conosci i servizi Renova Solution nel Nordest](https://www.renovasolution.it/ \"sponsored\")"
+        "text": "[Richiedi informazioni a Renova Solution](https://www.renovasolution.it/contatti \"sponsored\")"
       },
       {
         "type": "h2",
@@ -1655,8 +1651,8 @@ export const editorialNative: FullArticle[] = [
     "keywords": [
       "Innovasol: inserire la climatizzazione nel progetto di ristrutturazione"
     ],
-    "subtitle": "Contenuto sponsorizzato · Innovasol. Finiture, arredi e passaggi da confermare: come coordinare la richiesta di climatizzazione con i lavori previsti nell’immobile.",
-    "excerpt": "Contenuto sponsorizzato · Innovasol. Finiture, arredi e passaggi da confermare: come coordinare la richiesta di climatizzazione con i lavori previsti nell’immobile.",
+    "subtitle": "Finiture, arredi e passaggi da confermare: come coordinare la richiesta di climatizzazione con i lavori previsti nell’immobile.",
+    "excerpt": "Finiture, arredi e passaggi da confermare: come coordinare la richiesta di climatizzazione con i lavori previsti nell’immobile.",
     "published": "2026-10-22T07:18:01Z",
     "updated": "2026-10-22T08:54:30Z",
     "readingTime": 4,
@@ -1672,10 +1668,6 @@ export const editorialNative: FullArticle[] = [
       "Quando il cantiere è ancora in progetto, le informazioni sugli ambienti aiutano a discutere anche gli impianti. Il confronto va aperto prima delle scelte definitive sulle finiture."
     ],
     "body": [
-      {
-        "type": "p",
-        "text": "**Contenuto sponsorizzato · Innovasol**. Articolo pubblicitario realizzato per presentare i servizi dell’azienda."
-      },
       {
         "type": "p",
         "text": "Quando il cantiere è ancora in progetto, le informazioni sugli ambienti aiutano a discutere anche gli impianti. Il confronto va aperto prima delle scelte definitive sulle finiture."
@@ -1787,7 +1779,7 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "p",
-        "text": "[Approfondisci la climatizzazione con Innovasol](https://innovasol.it/impianti-climatizzazione-sicilia/ \"sponsored\")"
+        "text": "[Richiedi informazioni a Innovasol](https://innovasol.it/contatti/ \"sponsored\")"
       },
       {
         "type": "h2",
@@ -1834,8 +1826,8 @@ export const editorialNative: FullArticle[] = [
     "keywords": [
       "Green Energy Group: progettare la ricarica pensando all’immobile"
     ],
-    "subtitle": "Contenuto sponsorizzato · Green Energy Group. Posizione del veicolo, uso del parcheggio e documenti disponibili: le informazioni per conoscere la proposta di ricarica Green Energy Group.",
-    "excerpt": "Contenuto sponsorizzato · Green Energy Group. Posizione del veicolo, uso del parcheggio e documenti disponibili: le informazioni per conoscere la proposta di ricarica Green Energy Group.",
+    "subtitle": "Posizione del veicolo, uso del parcheggio e documenti disponibili: le informazioni per conoscere la proposta di ricarica Green Energy Group.",
+    "excerpt": "Posizione del veicolo, uso del parcheggio e documenti disponibili: le informazioni per conoscere la proposta di ricarica Green Energy Group.",
     "published": "2026-10-22T07:18:01Z",
     "updated": "2026-10-22T08:54:30Z",
     "readingTime": 4,
@@ -1851,10 +1843,6 @@ export const editorialNative: FullArticle[] = [
       "Il punto di ricarica va valutato nel luogo in cui sarà utilizzato. Le abitudini del veicolo e le condizioni dell’immobile aiutano a impostare la richiesta."
     ],
     "body": [
-      {
-        "type": "p",
-        "text": "**Contenuto sponsorizzato · Green Energy Group**. Articolo pubblicitario realizzato per presentare i servizi dell’azienda."
-      },
       {
         "type": "p",
         "text": "Il punto di ricarica va valutato nel luogo in cui sarà utilizzato. Le abitudini del veicolo e le condizioni dell’immobile aiutano a impostare la richiesta."
@@ -1966,7 +1954,7 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "p",
-        "text": "[Conosci le soluzioni di ricarica Green Energy Group](https://greenenergygroup.it/colonnine-di-ricarica/ \"sponsored\")"
+        "text": "[Richiedi informazioni a Green Energy Group](https://greenenergygroup.it/contatti/ \"sponsored\")"
       },
       {
         "type": "h2",
