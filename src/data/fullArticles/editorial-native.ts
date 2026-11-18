@@ -839,7 +839,7 @@ export const editorialNative: FullArticle[] = [
     "subtitle": "Una guida alla lettura per organizzare il confronto con il tecnico.",
     "excerpt": "Leggi piante, sezioni, dettagli e quote per preparare il sopralluogo. Domande al tecnico, riferimenti alle revisioni e una scheda CSV da compilare.",
     "published": "2026-11-17",
-    "updated": "2026-11-17",
+    "updated": "2026-11-18",
     "readingTime": 12,
     "author": {
       "name": "Redazione Corriere Edile",
@@ -909,7 +909,7 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "p",
-        "text": "Una preparazione semplice consiste nell'associare a ogni domanda il tipo di informazione cercata: posizione, relazione verticale, finitura o raccordo. Questa classificazione non è una diagnosi tecnica. Aiuta a non chiedere a un solo foglio di spiegare tutto e rende più facile per il professionista indicare il riferimento corretto. Il confronto diventa più produttivo quando la domanda identifica il problema anziché proporre una soluzione prematura."
+        "text": "Una preparazione semplice consiste nell'associare a ogni domanda il tipo di informazione cercata: posizione, relazione verticale, finitura o raccordo. Questa classificazione non è una diagnosi tecnica. Aiuta a non chiedere a un solo foglio di spiegare tutto e rende più facile per il professionista indicare il riferimento corretto. Il confronto diventa più produttivo quando la domanda identifica il problema anziché proporre una soluzione prematura. Un esempio concreto è la [risega del muro](/articolo/risega-muro-significato-rilievo-ristrutturazione/): descrivi il cambio di spessore e individua il punto sulla tavola prima di discuterne la funzione."
       },
       {
         "type": "h2",
@@ -1116,7 +1116,7 @@ export const editorialNative: FullArticle[] = [
     "subtitle": "Organizza il portfolio lavori della tua impresa edile per il 2027: perimetro, fotografie, riscontri e scheda progetto compilabile.",
     "excerpt": "Organizza il portfolio lavori della tua impresa edile per il 2027: perimetro, fotografie, riscontri e scheda progetto compilabile.",
     "published": "2026-11-16",
-    "updated": "2026-11-16",
+    "updated": "2026-11-18",
     "readingTime": 13,
     "author": {
       "name": "Redazione Corriere Edile",
@@ -1151,7 +1151,7 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "p",
-        "text": "Scrivi una frase che descriva il lettore: proprietario, amministratore, responsabile di un’attività oppure professionista che cerca un esecutore. Non serve pubblicarla, ma deve guidare il racconto. Un amministratore potrebbe voler comprendere comunicazioni e coordinamento; un privato potrebbe chiedersi soprattutto come viene spiegato il perimetro dell’offerta e come si affrontano le decisioni ancora aperte."
+        "text": "Scrivi una frase che descriva il lettore: proprietario, amministratore, responsabile di un’attività oppure professionista che cerca un esecutore. Non serve pubblicarla, ma deve guidare il racconto. Un amministratore potrebbe voler comprendere comunicazioni e coordinamento; un privato potrebbe chiedersi soprattutto come viene spiegato il perimetro dell’offerta e come si affrontano le decisioni ancora aperte. Per il rapporto con committenti e studi che selezionano gli esecutori, la guida agli [appalti privati](/articolo/appalti-privati-intercettare-commesse/) affronta invece la ricerca degli interlocutori e delle opportunità."
       },
       {
         "type": "p",
@@ -1449,7 +1449,7 @@ export const editorialNative: FullArticle[] = [
     "subtitle": "Organizza i chiarimenti di progetto con riferimenti, revisioni, risposte e punti aperti. Un registro per rendere ricostruibili i passaggi.",
     "excerpt": "Organizza i chiarimenti di progetto con riferimenti, revisioni, risposte e punti aperti. Un registro per rendere ricostruibili i passaggi.",
     "published": "2026-11-08",
-    "updated": "2026-11-08",
+    "updated": "2026-11-18",
     "readingTime": 12,
     "author": {
       "name": "Redazione Corriere Edile",
@@ -1522,7 +1522,7 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "p",
-        "text": "Quando un chiarimento può incidere su quantità, tempi o fornitura, registra l’esigenza di valutazione con i referenti competenti. Il registro non deve calcolare o accettare autonomamente conseguenze economiche che non siano state definite nei documenti pertinenti."
+        "text": "Quando un chiarimento può incidere su quantità, tempi o fornitura, registra l’esigenza di valutazione con i referenti competenti. Il registro non deve calcolare o accettare autonomamente conseguenze economiche che non siano state definite nei documenti pertinenti. Se il tema diventa una modifica dei lavori, approfondisci separatamente [varianti in corso d’opera e documentazione dell’appalto privato](/articolo/varianti-corso-opera-riserve/)."
       },
       {
         "type": "h2",
@@ -1784,7 +1784,7 @@ export const editorialNative: FullArticle[] = [
     "subtitle": "Prepara una richiesta di offerta per fornitori edili: codici, quantità, consegne, alternative e revisioni. Esempio di matrice delle risposte.",
     "excerpt": "Prepara una richiesta di offerta per fornitori edili: codici, quantità, consegne, alternative e revisioni. Esempio di matrice delle risposte.",
     "published": "2026-11-07T08:00:00+01:00",
-    "updated": "2026-11-08",
+    "updated": "2026-11-18",
     "readingTime": 12,
     "author": {
       "name": "Redazione Corriere Edile",
@@ -1832,7 +1832,7 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "p",
-        "text": "Quando il progetto prevede un prodotto specifico, riporta denominazione e codice completo. Quando la richiesta è prestazionale, collega la specifica predisposta dal tecnico e chiarisci come devono essere presentate le eventuali proposte. Non sostituire una specifica con una foto trovata online."
+        "text": "Quando il progetto prevede un prodotto specifico, riporta denominazione e codice completo. Quando la richiesta è prestazionale, collega la specifica predisposta dal tecnico e chiarisci come devono essere presentate le eventuali proposte. Non sostituire una specifica con una foto trovata online. Per capire quali informazioni cercare nei documenti di prodotto, approfondisci la lettura di [marcatura CE e Dichiarazione di Prestazione](/articolo/marcatura-ce-prodotti-costruzione-dop/)."
       },
       {
         "type": "p",
@@ -2106,7 +2106,7 @@ export const editorialNative: FullArticle[] = [
     "subtitle": "Come riconoscere nel rilievo un cambio di spessore della muratura, documentarlo e portarlo al tecnico prima di progettare finiture o interventi.",
     "excerpt": "Come riconoscere nel rilievo un cambio di spessore della muratura, documentarlo e portarlo al tecnico prima di progettare finiture o interventi.",
     "published": "2026-10-22T07:18:01Z",
-    "updated": "2026-10-22T08:54:30Z",
+    "updated": "2026-11-18",
     "readingTime": 5,
     "author": {
       "name": "Redazione Corriere Edile",
@@ -2199,7 +2199,7 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "p",
-        "text": "Nel preventivo, separa le verifiche dalle opere. Una proposta leggibile dovrebbe indicare quali informazioni sono già disponibili e quali lavorazioni dipendono dall'esito degli accertamenti. Se emergono elementi non visibili, concorda prima come verranno autorizzate le modifiche, mantenendo una versione aggiornata di disegni e costi."
+        "text": "Nel preventivo, separa le verifiche dalle opere. Una proposta leggibile dovrebbe indicare quali informazioni sono già disponibili e quali lavorazioni dipendono dall'esito degli accertamenti. Se emergono elementi non visibili, concorda prima come verranno autorizzate le modifiche, mantenendo una versione aggiornata di disegni e costi. La guida alle [tavole di progetto, quote e revisioni](/articolo/tavole-progetto-revisioni-quote-sopralluogo/) aiuta a collegare la domanda al disegno; quella alle [varianti in corso d’opera](/articolo/varianti-corso-opera-riserve/) approfondisce i documenti delle modifiche nell’appalto privato."
       },
       {
         "type": "h2",

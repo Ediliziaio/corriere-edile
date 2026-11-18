@@ -28,7 +28,7 @@ import {
   type Block,
   type FullArticle,
 } from "@/data/fullArticles";
-import ArticleCard, { webpSrc } from "@/components/ArticleCard";
+import ArticleCard, { articleUrl, webpSrc } from "@/components/ArticleCard";
 
 const fmt = (iso: string) =>
   new Intl.DateTimeFormat("it-IT", {
@@ -68,7 +68,7 @@ function ArticleBody({ blocks, promo }: { blocks: Block[]; promo?: { slug: strin
           >
             <p className="text-xs font-bold uppercase tracking-widest text-gold-600">Leggi anche</p>
             <Link
-              href={`/articolo/${promo.slug}`}
+              href={articleUrl(promo.slug)}
               className="mt-1.5 block font-serif text-lg font-bold leading-snug text-navy-800 hover:text-gold-600 hover:underline"
             >
               {promo.title}
@@ -511,7 +511,7 @@ export default function ArticleView({ article }: { article: FullArticle }) {
             <nav aria-label="Navigazione tra articoli" className="mt-10 grid gap-4 border-t-2 border-navy pt-6 sm:grid-cols-2">
               {prevArticle ? (
                 <Link
-                  href={`/articolo/${prevArticle.slug}`}
+                  href={articleUrl(prevArticle.slug)}
                   className="group flex flex-col rounded-lg border border-border bg-white p-4 hover:border-gold-500"
                 >
                   <span className="flex items-center gap-1 text-xs font-bold uppercase tracking-wide text-muted-foreground">
@@ -526,7 +526,7 @@ export default function ArticleView({ article }: { article: FullArticle }) {
               )}
               {nextArticle ? (
                 <Link
-                  href={`/articolo/${nextArticle.slug}`}
+                  href={articleUrl(nextArticle.slug)}
                   className="group flex flex-col rounded-lg border border-border bg-white p-4 text-right hover:border-gold-500"
                 >
                   <span className="flex items-center justify-end gap-1 text-xs font-bold uppercase tracking-wide text-muted-foreground">

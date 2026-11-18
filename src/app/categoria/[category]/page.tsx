@@ -5,7 +5,7 @@ import { ChevronRight } from "lucide-react";
 import ArticleCard, { articleUrl } from "@/components/ArticleCard";
 import { SITE, jsonLd, absUrl } from "@/lib/site";
 import { getArticlesByCategory } from "@/data/fullArticles";
-import { CATEGORY_LIST, getCategoryBySlug } from "@/lib/categories";
+import { CATEGORY_LIST, categoryUrl, getCategoryBySlug } from "@/lib/categories";
 
 /**
  * Pagina categoria — hub editoriale per il crawl flow:
@@ -29,10 +29,10 @@ export async function generateMetadata({
   return {
     title: category.name,
     description: category.description,
-    alternates: { canonical: `/categoria/${category.slug}` },
+    alternates: { canonical: categoryUrl(category.slug) },
     openGraph: {
       type: "website",
-      url: absUrl(`/categoria/${category.slug}`),
+      url: absUrl(categoryUrl(category.slug)),
       title: `${category.name} | Corriere Edile`,
       description: category.description,
       images: [
@@ -64,7 +64,7 @@ export default async function CategoryPage({
 
   const articles = getArticlesByCategory(category.name);
   // Con trailing slash: identico al rel=canonical emesso dai metadata
-  const canonical = absUrl(`/categoria/${category.slug}`);
+  const canonical = absUrl(categoryUrl(category.slug));
 
   // CollectionPage + ItemList: la griglia diventa eleggibile per caroselli/sitelinks in SERP
   const jsonLdBlocks = [
@@ -119,6 +119,25 @@ export default async function CategoryPage({
             {articles.length} {articles.length === 1 ? "articolo" : "articoli"} in questa sezione
           </p>
         </header>
+
+        {category.slug === "normativa" && (
+          <section aria-labelledby="percorso-documenti" className="mb-8 border-b border-border pb-6">
+            <h2 id="percorso-documenti" className="font-serif text-2xl font-bold text-navy-900">Dal rilievo ai documenti di cantiere</h2>
+            <p className="mt-3 max-w-3xl leading-relaxed text-muted-foreground">Le domande cambiano durante un lavoro: che cosa c’è nell’immobile, quali prodotti sono previsti e come registrare una modifica. Scegli il punto da chiarire e porta i riferimenti al tecnico o all’interlocutore competente.</p>
+            <ol className="mt-4 list-decimal space-y-3 pl-5 text-sm leading-relaxed">
+              <li><strong>Leggere l’esistente.</strong> La guida alla <Link href={articleUrl("risega-muro-significato-rilievo-ristrutturazione")} className="underline">risega del muro</Link> aiuta a descrivere un cambio di spessore; quella alle <Link href={articleUrl("tavole-progetto-revisioni-quote-sopralluogo")} className="underline">tavole di progetto</Link> collega la domanda a piante, sezioni e revisioni.</li>
+              <li><strong>Confrontare i prodotti.</strong> Parti da <Link href={articleUrl("marcatura-ce-prodotti-costruzione-dop")} className="underline">marcatura CE e Dichiarazione di Prestazione</Link>, poi collega i documenti alla <Link href={articleUrl("richiesta-offerta-fornitori-edili-documenti")} className="underline">richiesta di offerta al fornitore</Link>.</li>
+              <li><strong>Seguire le modifiche.</strong> Distingui i punti ancora aperti nel <Link href={articleUrl("registro-chiarimenti-progetto-edile")} className="underline">registro dei chiarimenti</Link> e approfondisci la documentazione delle <Link href={articleUrl("varianti-corso-opera-riserve")} className="underline">varianti in corso d’opera nell’appalto privato</Link>.</li>
+            </ol>
+          </section>
+        )}
+
+        {category.slug === "mercato" && (
+          <section aria-labelledby="percorso-commesse" className="mb-8 border-b border-border pb-6">
+            <h2 id="percorso-commesse" className="font-serif text-2xl font-bold text-navy-900">Dalla ricerca di una commessa alla presentazione dell’impresa</h2>
+            <p className="mt-3 max-w-3xl leading-relaxed text-muted-foreground">La guida agli <Link href={articleUrl("appalti-privati-intercettare-commesse")} className="underline">appalti privati</Link> affronta la ricerca delle opportunità e degli interlocutori. Il <Link href={articleUrl("portfolio-lavori-impresa-edile-2027")} className="underline">portfolio dei lavori</Link> serve invece a presentare esperienze documentate. Quando il confronto entra nel merito di una fornitura, prepara una <Link href={articleUrl("richiesta-offerta-fornitori-edili-documenti")} className="underline">richiesta di offerta con un perimetro chiaro</Link>.</p>
+          </section>
+        )}
 
         {category.slug === "cantieri" && (
           <section aria-labelledby="percorso-cantiere-digitale" className="mb-8 rounded-xl border border-border bg-muted/40 p-6">

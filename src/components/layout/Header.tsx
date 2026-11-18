@@ -41,7 +41,7 @@ export default function Header({ buildDate }: { buildDate: string }) {
     e.preventDefault();
     const q = query.trim();
     if (q) {
-      router.push(`/cerca?q=${encodeURIComponent(q)}`);
+      router.push(`/cerca/?q=${encodeURIComponent(q)}`);
       setMenuOpen(false);
     }
   };

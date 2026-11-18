@@ -63,7 +63,7 @@ export const CATEGORY_LIST: CategoryInfo[] = [
 
 export function categoryUrl(nameOrSlug: string): string {
   const c = CATEGORY_LIST.find((c) => c.name === nameOrSlug || c.slug === nameOrSlug);
-  return `/categoria/${c ? c.slug : nameOrSlug}`;
+  return `/categoria/${c ? c.slug : nameOrSlug}/`;
 }
 
 export function getCategoryBySlug(slug: string): CategoryInfo | undefined {

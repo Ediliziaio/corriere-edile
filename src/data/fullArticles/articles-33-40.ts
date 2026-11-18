@@ -22,7 +22,7 @@ export const ARTICLES_33_40: FullArticle[] = [
     excerpt:
       "Cos'è la Dichiarazione di Prestazione, come si legge, quali sistemi di verifica esistono e quali documenti l'impresa deve conservare in cantiere per non rispondere in proprio.",
     published: "2026-09-01T14:00:00+02:00",
-    updated: "2026-09-01T14:00:00+02:00",
+    updated: "2026-11-18T21:00:00+01:00",
     readingTime: 12,
     author: {
       name: "Federico Salvetti",
@@ -170,7 +170,7 @@ export const ARTICLES_33_40: FullArticle[] = [
       },
       {
         type: "p",
-        text: "Raccogliere questi documenti alla consegna costa pochi minuti. Ricostruirli due anni dopo, con un fornitore cambiato e un lotto esaurito, spesso è impossibile: ed è esattamente il momento in cui servono.",
+        text: "Raccogliere questi documenti alla consegna costa pochi minuti. Ricostruirli due anni dopo, con un fornitore cambiato e un lotto esaurito, spesso è impossibile: ed è esattamente il momento in cui servono. Prima dell’acquisto, collega gli allegati alla [richiesta di offerta al fornitore](/articolo/richiesta-offerta-fornitori-edili-documenti/), così le risposte restano riferite allo stesso prodotto e alla stessa revisione della richiesta.",
       },
       {
         type: "h2",
@@ -461,7 +461,7 @@ export const ARTICLES_33_40: FullArticle[] = [
     subtitle: "Gare private, capitolati e grandi commesse: i segnali che anticipano un appalto e come le imprese li intercettano prima dei concorrenti.",
     excerpt: "Gare private, capitolati e grandi commesse: i segnali che anticipano un appalto e come le imprese li intercettano prima dei concorrenti.",
     published: "2026-09-14T14:00:00+02:00",
-    updated: "2026-09-14T14:00:00+02:00",
+    updated: "2026-11-18T21:00:00+01:00",
     readingTime: 6,
     author: {
       name: "Redazione Corriere Edile",
@@ -622,7 +622,7 @@ export const ARTICLES_33_40: FullArticle[] = [
       },
       {
         type: "p",
-        text: "Bastano poche ore a trimestre: aggiornare l’elenco delle aziende in target per ATECO e area; verificare permessi di costruire e varianti urbanistiche dei comuni del bacino; controllare gli annunci di lavoro ripetuti sui siti produttivi; censire le scadenze normative con termine entro 24 mesi; rivedere la mappa dei decisori delle prime venti aziende; aggiornare il dossier delle referenze per comparto."
+        text: "Bastano poche ore a trimestre: aggiornare l’elenco delle aziende in target per ATECO e area; verificare permessi di costruire e varianti urbanistiche dei comuni del bacino; controllare gli annunci di lavoro ripetuti sui siti produttivi; censire le scadenze normative con termine entro 24 mesi; rivedere la mappa dei decisori delle prime venti aziende; aggiornare il dossier delle referenze per comparto. Per preparare il dossier, usa una [scheda dei lavori realizzati](/articolo/portfolio-lavori-impresa-edile-2027/) che distingua perimetro dell’incarico, ruolo dell’impresa e documenti disponibili."
       },
       {
         type: "p",
@@ -668,7 +668,7 @@ export const ARTICLES_33_40: FullArticle[] = [
     subtitle: "Ordini di servizio, riserve e maggiori oneri: come si documentano le varianti in corso d’opera perché l’impresa venga pagata anche in giudizio.",
     excerpt: "Ordini di servizio, riserve e maggiori oneri: come si documentano le varianti in corso d’opera perché l’impresa venga pagata anche in giudizio.",
     published: "2026-09-15T10:00:00+02:00",
-    updated: "2026-09-15T10:00:00+02:00",
+    updated: "2026-11-18T21:00:00+01:00",
     readingTime: 6,
     author: {
       name: "Avv. Armando Rossi",
@@ -733,7 +733,7 @@ export const ARTICLES_33_40: FullArticle[] = [
       },
       {
         type: "p",
-        text: "Ogni modifica deve lasciare una traccia scritta, datata, controfirmata."
+        text: "Ogni modifica deve lasciare una traccia scritta, datata, controfirmata. Per ritrovare il punto interessato, annota il codice e la revisione delle [tavole di progetto](/articolo/tavole-progetto-revisioni-quote-sopralluogo/). Tieni inoltre distinguibili domande aperte e risposte nel [registro dei chiarimenti](/articolo/registro-chiarimenti-progetto-edile/)."
       },
       {
         type: "table",

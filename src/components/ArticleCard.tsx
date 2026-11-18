@@ -33,7 +33,7 @@ export function ArticleMeta({ date, readingTime, light = false }: { date: string
 }
 
 export function articleUrl(slug: string) {
-  return `/articolo/${slug}`;
+  return `/articolo/${slug}/`;
 }
 
 /** Usa WebP soltanto quando il file è presente; altrimenti resta il JPEG originale. */

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import ArticleView from "@/components/ArticleView";
+import { articleUrl } from "@/components/ArticleCard";
 import { SITE, jsonLd, absUrl } from "@/lib/site";
 import { getAuthorByName, authorUrl, authorId } from "@/lib/authors";
 import { categoryUrl } from "@/lib/categories";
@@ -21,7 +22,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const article = getArticleBySlug(slug);
   if (!article) return { title: "Articolo non trovato" };
-  const url = `/articolo/${article.slug}`;
+  const url = articleUrl(article.slug);
   return {
     title: article.metaTitle,
     description: article.metaDescription,
@@ -59,7 +60,7 @@ export default async function ArticlePage({
 
   const authorProfile = getAuthorByName(article.author.name);
   // Sempre con trailing slash: deve combaciare esattamente con il rel=canonical
-  const url = absUrl(`/articolo/${article.slug}`);
+  const url = absUrl(articleUrl(article.slug));
   const imageAbs = `${SITE.url}${article.image}`;
 
   /*
