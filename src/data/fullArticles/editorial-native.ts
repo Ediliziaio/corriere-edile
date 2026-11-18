@@ -33,7 +33,7 @@ export const editorialNative: FullArticle[] = [
     "body": [
       {
         "type": "p",
-        "text": "Dimora Torino si occupa di ristrutturazione di abitazioni, progettazione degli spazi e interior design a Torino. Il servizio comprende il sopralluogo, il confronto sulle esigenze e lo sviluppo del progetto, con un referente per il percorso di ristrutturazione. Il riferimento dell’azienda è in via Monfalcone 55/A."
+        "text": "Dimora Torino si occupa di ristrutturazione di abitazioni, progettazione degli spazi e interior design a Torino. Il servizio comprende il sopralluogo, il confronto sulle esigenze e lo sviluppo del progetto, con un referente per il percorso di ristrutturazione. Lo studio si trova in via Monfalcone 55/A."
       },
       {
         "type": "p",
@@ -41,7 +41,7 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "p",
-        "text": "Dimora Torino permette di affrontare insieme la disposizione degli ambienti e le scelte degli interni. Il punto di partenza può essere una casa da rinnovare completamente oppure un intervento limitato ad alcuni spazi. Le indicazioni seguenti aiutano a raccontare le proprie esigenze e a comprendere il progetto; gli esempi sono ipotetici e non descrivono lavori specifici dell’azienda."
+        "text": "Dimora Torino affronta insieme la disposizione degli ambienti e le scelte degli interni. Il punto di partenza può essere una casa da rinnovare completamente oppure un intervento su alcuni spazi. Una cucina più funzionale, un soggiorno con posto per lavorare o una zona notte meglio organizzata diventano richieste concrete da sviluppare nel progetto."
       },
       {
         "type": "h2",
@@ -75,7 +75,7 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "p",
-        "text": "La pagina [Servizi di Dimora Torino](https://dimoratorino.it/servizi/) presenta le attività di ristrutturazione e progettazione. Per il primo incontro è utile indicare se si dispone già di un progetto oppure se si cerca supporto fin dall’inizio. Questa informazione aiuta a riconoscere il punto da cui partire e a collegare il confronto alle necessità effettive dell’abitazione."
+        "text": "Con i [servizi di ristrutturazione e progettazione di Dimora Torino](https://dimoratorino.it/servizi/) si può affrontare il rinnovo fin dalla prima idea. Nel contatto iniziale indica se disponi già di un progetto oppure se cerchi supporto per definire la distribuzione: cambia il lavoro da sviluppare e il tipo di informazioni da raccogliere durante il sopralluogo."
       },
       {
         "type": "h2",
@@ -220,7 +220,7 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "p",
-        "text": "Dimora Torino presenta un percorso che comprende progetto e rappresentazione delle soluzioni. Disegni e immagini di progetto possono aiutare a confrontare le alternative, purché vengano letti in rapporto alle scelte effettive. È utile osservare arredi, passaggi e funzioni, oltre all’atmosfera generale della rappresentazione, per comprendere come cambierebbe l’uso della casa."
+        "text": "Dimora Torino sviluppa il progetto e la rappresentazione delle soluzioni. Disegni e immagini aiutano a confrontare le alternative: oltre all’atmosfera generale, osserva arredi, passaggi e funzioni. Una disposizione diventa più facile da valutare quando puoi riconoscere dove si svolgeranno le attività quotidiane e quali mobili troveranno posto nei diversi ambienti."
       },
       {
         "type": "p",
@@ -254,7 +254,7 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "p",
-        "text": "Dimora Torino ha il proprio riferimento in via Monfalcone 55/A, 10136 Torino. Si può telefonare al 379 190 4721 oppure scrivere a info@dimoratorino.it. Il [sito ufficiale](https://dimoratorino.it/) raccoglie informazioni sui servizi e sui progetti, utili per conoscere l’attività prima del primo confronto sull’abitazione."
+        "text": "Per il progetto degli spazi puoi contattare Dimora Torino in via Monfalcone 55/A, 10136 Torino, al 379 190 4721 o a info@dimoratorino.it. Gli esempi e i [progetti dell’azienda](https://dimoratorino.it/progetti/) permettono di conoscere il suo lavoro nella ristrutturazione e negli interni, prima di presentare le esigenze della tua abitazione."
       },
       {
         "type": "p",
@@ -319,7 +319,7 @@ export const editorialNative: FullArticle[] = [
     "body": [
       {
         "type": "p",
-        "text": "Ser-Style vende e installa porte interne, portoncini e porte blindate. Gli uffici e l’esposizione sono in via Como 5 a Olgiate Molgora, in provincia di Lecco. La proposta comprende consulenza e rilievi, per collegare il prodotto al vano in cui verrà inserito e agli ambienti della casa che si vogliono rinnovare."
+        "text": "Ser-Style vende e installa porte interne, portoncini e porte blindate. Gli uffici e l’esposizione sono in via Como 5 a Olgiate Molgora, in provincia di Lecco. Consulenza e rilievi aiutano a scegliere il prodotto in base al passaggio da rinnovare, alle misure del vano e agli ambienti della casa."
       },
       {
         "type": "p",
@@ -327,7 +327,7 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "p",
-        "text": "Nella [pagina Porte di Ser-Style](https://ser-style.it/prodotti/porte/) sono presentate le principali categorie disponibili. Gli esempi di questo articolo aiutano a ragionare sull’utilizzo degli ambienti e sono ipotetici, senza attribuire all’azienda progetti o risultati non documentati. Le configurazioni effettive dipendono dai prodotti selezionati e dalle condizioni dell’immobile in cui devono essere installati."
+        "text": "La gamma di [porte Ser-Style](https://ser-style.it/prodotti/porte/) comprende modelli interni a battente, scorrevoli e filo muro, porte blindate e portoncini. Le differenze si vedono nel movimento, nelle finiture e nel rapporto con le pareti. Per confrontarle in esposizione è utile partire dalle aperture da sostituire e dai mobili che resteranno nella stanza."
       },
       {
         "type": "h2",
@@ -564,8 +564,9 @@ export const editorialNative: FullArticle[] = [
     "category": "Prodotti & Materiali",
     "keywords": [
       "Best Infissi",
-      "Prodotti & Materiali",
-      "Bologna"
+      "porte interne",
+      "porte blindate",
+      "inferriate"
     ],
     "subtitle": "Porte interne, porte blindate e inferriate Best Infissi: funzioni, finiture, passaggi e installazione per la casa.",
     "excerpt": "Porte interne, porte blindate e inferriate Best Infissi: funzioni, finiture, passaggi e installazione per la casa.",
@@ -596,7 +597,7 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "p",
-        "text": "La gamma di Best Infissi consente di partire da un singolo ingresso oppure da un progetto con più porte. Questo articolo si concentra sui criteri d’uso e sugli abbinamenti, per aiutare a individuare una richiesta concreta. Le situazioni descritte sono esempi ipotetici; le caratteristiche dei prodotti vanno riferite ai modelli effettivamente proposti dall’azienda."
+        "text": "Con Best Infissi puoi affrontare la sostituzione di un solo ingresso oppure la scelta di più porte della stessa abitazione. Colori, pannelli e maniglie vanno osservati accanto a pavimenti e pareti che resteranno. Anche il movimento dell’anta conta: una scelta riuscita lascia comodi i passaggi e rende più semplice usare gli ambienti ogni giorno."
       },
       {
         "type": "h2",
@@ -609,7 +610,7 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "p",
-        "text": "Il [sito ufficiale di Best Infissi](https://bestinfissi.it/) presenta porte interne e blindate insieme alle inferriate. Per iniziare il confronto è utile raccontare quale elemento si desidera sostituire e che cosa non soddisfa nell’uso attuale. Una porta che urta contro un mobile richiede un ragionamento diverso da un ingresso di cui si vuole cambiare la configurazione."
+        "text": "Best Infissi fornisce [porte interne, porte blindate e inferriate](https://bestinfissi.it/). Per iniziare il confronto, racconta quale elemento vuoi sostituire e che cosa desideri migliorare. Una porta che urta contro un mobile richiede una valutazione diversa da un ingresso di cui vuoi cambiare finitura, componenti o configurazione."
       },
       {
         "type": "p",
@@ -819,8 +820,8 @@ export const editorialNative: FullArticle[] = [
     ],
     "tags": [
       "Best Infissi",
-      "Prodotti & Materiali",
-      "Bologna"
+      "Porte interne",
+      "Porte blindate"
     ],
     "related": []
   },
@@ -2290,17 +2291,20 @@ export const editorialNative: FullArticle[] = [
   {
     "slug": "renova-solution-coordinare-accessi-e-decisioni-nei-lavori-di-casa",
     "category": "Cantieri",
-    "title": "Renova Solution: coordinare accessi e decisioni nei lavori di casa",
-    "metaTitle": "Renova Solution: organizzare i lavori in casa",
-    "metaDescription": "Abitazione occupata, consegne e scelte da confermare: come impostare la richiesta per conoscere i servizi Renova Solution.",
+    "title": "Renova Solution: ristrutturazioni e coordinamento dei lavori in casa",
+    "metaTitle": "Renova Solution: ristrutturazioni in Friuli e Veneto",
+    "metaDescription": "Renova Solution segue ristrutturazioni in Friuli Venezia Giulia e Veneto. Ambienti, materiali e organizzazione dei lavori in una casa abitata.",
     "keywords": [
-      "Renova Solution: coordinare accessi e decisioni nei lavori di casa"
+      "Renova Solution",
+      "ristrutturazioni casa",
+      "Friuli Venezia Giulia",
+      "Veneto"
     ],
-    "subtitle": "Abitazione occupata, consegne e scelte da confermare: come impostare la richiesta per conoscere i servizi Renova Solution.",
-    "excerpt": "Abitazione occupata, consegne e scelte da confermare: come impostare la richiesta per conoscere i servizi Renova Solution.",
+    "subtitle": "Renova Solution segue ristrutturazioni in Friuli Venezia Giulia e Veneto. Ambienti, materiali e organizzazione dei lavori in una casa abitata.",
+    "excerpt": "Renova Solution segue ristrutturazioni in Friuli Venezia Giulia e Veneto. Ambienti, materiali e organizzazione dei lavori in una casa abitata.",
     "published": "2026-10-22T07:18:01Z",
-    "updated": "2026-10-22T08:54:30Z",
-    "readingTime": 5,
+    "updated": "2026-11-18",
+    "readingTime": 4,
     "author": {
       "name": "Redazione Corriere Edile",
       "role": "Redazione",
@@ -2315,11 +2319,11 @@ export const editorialNative: FullArticle[] = [
     "body": [
       {
         "type": "p",
-        "text": "Un progetto di rinnovo deve incontrare la vita della casa. Comunicare vincoli e disponibilità prima dei lavori rende più chiara la discussione sul cantiere."
+        "text": "Renova Solution si occupa di ristrutturazioni in Friuli Venezia Giulia e Veneto. Gli interventi possono comprendere bagni, cucine, infissi e impianti: il progetto definisce quali lavori eseguire e come coordinarli. Per il proprietario significa poter discutere insieme le esigenze della casa, le scelte dei materiali e il programma del cantiere."
       },
       {
         "type": "p",
-        "text": "Rinnovare l'abitazione mentre la famiglia continua a utilizzarla richiede attenzione anche a ciò che non compare nei cataloghi: accessi, spazi occupabili e decisioni da prendere per tempo. Renova Solution presenta servizi per la casa in Veneto e Friuli Venezia Giulia. Per conoscere l'offerta, è utile portare al confronto questi vincoli insieme agli obiettivi dell'intervento."
+        "text": "Quando la famiglia continua a vivere nell’abitazione, il rinnovo richiede un’organizzazione pratica. Accessi, stanze da mantenere disponibili e orari sono informazioni da portare al sopralluogo, insieme alle modifiche desiderate. Da questo confronto si passa alla definizione delle lavorazioni e delle condizioni del preventivo."
       },
       {
         "type": "h2",
@@ -2423,6 +2427,15 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "h2",
+        "id": "servizio-azienda",
+        "text": "Ristrutturazioni pensate per la casa da rinnovare"
+      },
+      {
+        "type": "p",
+        "text": "Per rinnovare un bagno o una cucina, parti dalle difficoltà che incontri oggi: spazi poco comodi, finiture da sostituire o impianti da rivedere. Se desideri intervenire anche sulle finestre, porta fotografie delle aperture e indica quali elementi vuoi conservare. Nel confronto con Renova Solution puoi collegare queste esigenze al progetto di ristrutturazione, chiarendo quali attività debbano essere eseguite insieme e quali possano avere una fase distinta. Prima di iniziare, il preventivo dovrebbe rendere riconoscibili materiali, lavorazioni e responsabilità: una base concreta per seguire l’intervento e approvare eventuali modifiche."
+      },
+      {
+        "type": "h2",
         "id": "informazioni-azienda",
         "text": "Informazioni e contatti"
       },
@@ -2469,16 +2482,19 @@ export const editorialNative: FullArticle[] = [
   {
     "slug": "innovasol-inserire-la-climatizzazione-nel-progetto-di-ristrutturazione",
     "category": "Progetti",
-    "title": "Innovasol: inserire la climatizzazione nel progetto di ristrutturazione",
-    "metaTitle": "Innovasol: climatizzazione nella ristrutturazione",
-    "metaDescription": "Finiture, arredi e passaggi da confermare: come coordinare la richiesta di climatizzazione con i lavori previsti nell’immobile.",
+    "title": "Innovasol: climatizzazione per la casa durante la ristrutturazione",
+    "metaTitle": "Innovasol: climatizzazione per la casa in Sicilia",
+    "metaDescription": "Innovasol progetta e installa impianti di climatizzazione in Sicilia. Come collegare la scelta agli ambienti e ai lavori di ristrutturazione.",
     "keywords": [
-      "Innovasol: inserire la climatizzazione nel progetto di ristrutturazione"
+      "Innovasol",
+      "climatizzazione Sicilia",
+      "climatizzazione ristrutturazione",
+      "impianti per la casa"
     ],
-    "subtitle": "Finiture, arredi e passaggi da confermare: come coordinare la richiesta di climatizzazione con i lavori previsti nell’immobile.",
-    "excerpt": "Finiture, arredi e passaggi da confermare: come coordinare la richiesta di climatizzazione con i lavori previsti nell’immobile.",
+    "subtitle": "Innovasol progetta e installa impianti di climatizzazione in Sicilia. Come collegare la scelta agli ambienti e ai lavori di ristrutturazione.",
+    "excerpt": "Innovasol progetta e installa impianti di climatizzazione in Sicilia. Come collegare la scelta agli ambienti e ai lavori di ristrutturazione.",
     "published": "2026-10-22T07:18:01Z",
-    "updated": "2026-10-22T08:54:30Z",
+    "updated": "2026-11-18",
     "readingTime": 4,
     "author": {
       "name": "Redazione Corriere Edile",
@@ -2494,11 +2510,11 @@ export const editorialNative: FullArticle[] = [
     "body": [
       {
         "type": "p",
-        "text": "Quando il cantiere è ancora in progetto, le informazioni sugli ambienti aiutano a discutere anche gli impianti. Il confronto va aperto prima delle scelte definitive sulle finiture."
+        "text": "Innovasol progetta e installa impianti di climatizzazione in Sicilia. Durante una ristrutturazione, la scelta del sistema può essere coordinata con la nuova disposizione delle stanze, gli arredi e le finiture. Il servizio permette di affrontare il comfort degli ambienti partendo dalle caratteristiche dell’immobile e dall’uso che ne faranno le persone."
       },
       {
         "type": "p",
-        "text": "La climatizzazione non è soltanto la selezione di un apparecchio. In una ristrutturazione entra nel confronto su spazi, passaggi e tempi di esecuzione. Innovasol presenta un servizio dedicato alla climatizzazione in Sicilia: un punto da cui avviare la valutazione se stai ridefinendo gli ambienti della casa."
+        "text": "Se la casa deve essere rinnovata, conviene discutere la climatizzazione mentre il progetto degli ambienti è ancora aperto. La posizione dei componenti, gli spazi necessari e il collegamento con le lavorazioni edili possono così essere esaminati prima di completare pareti e soffitti. Una planimetria aggiornata rende questo confronto più concreto."
       },
       {
         "type": "h2",
@@ -2598,6 +2614,15 @@ export const editorialNative: FullArticle[] = [
       },
       {
         "type": "h2",
+        "id": "servizio-azienda",
+        "text": "Un impianto inserito nel progetto della casa"
+      },
+      {
+        "type": "p",
+        "text": "Una camera utilizzata di notte e uno studio occupato durante il giorno richiedono di raccontare esigenze differenti. Nel primo incontro con Innovasol puoi indicare quali ambienti vuoi climatizzare, in quali periodi e con quali preferenze nell’uso dei comandi. Se stai cambiando la distribuzione delle stanze, mostra anche ciò che è già stato deciso e ciò che può ancora cambiare. In questo modo apparecchi e opere accessorie vengono discussi insieme al progetto, con una proposta riferita alla casa effettiva. Il sopralluogo serve poi a valutare le condizioni che una fotografia o una pianta da sole non mostrano."
+      },
+      {
+        "type": "h2",
         "id": "informazioni-azienda",
         "text": "Informazioni e contatti"
       },
@@ -2644,16 +2669,19 @@ export const editorialNative: FullArticle[] = [
   {
     "slug": "green-energy-group-progettare-la-ricarica-pensando-allimmobile",
     "category": "Prodotti & Materiali",
-    "title": "Green Energy Group: progettare la ricarica pensando all’immobile",
-    "metaTitle": "Green Energy Group: ricarica elettrica nell’immobile",
-    "metaDescription": "Posizione del veicolo, uso del parcheggio e documenti disponibili: le informazioni per conoscere la proposta di ricarica Green Energy Group.",
+    "title": "Green Energy Group: colonnine di ricarica per casa e azienda",
+    "metaTitle": "Green Energy Group: colonnine di ricarica per veicoli",
+    "metaDescription": "Green Energy Group propone colonnine per veicoli elettrici. Parcheggio, impianto e orari di utilizzo aiutano a scegliere la ricarica per casa e azienda.",
     "keywords": [
-      "Green Energy Group: progettare la ricarica pensando all’immobile"
+      "Green Energy Group",
+      "colonnine di ricarica",
+      "ricarica veicoli elettrici",
+      "fotovoltaico e ricarica"
     ],
-    "subtitle": "Posizione del veicolo, uso del parcheggio e documenti disponibili: le informazioni per conoscere la proposta di ricarica Green Energy Group.",
-    "excerpt": "Posizione del veicolo, uso del parcheggio e documenti disponibili: le informazioni per conoscere la proposta di ricarica Green Energy Group.",
+    "subtitle": "Green Energy Group propone colonnine per veicoli elettrici. Parcheggio, impianto e orari di utilizzo aiutano a scegliere la ricarica per casa e azienda.",
+    "excerpt": "Green Energy Group propone colonnine per veicoli elettrici. Parcheggio, impianto e orari di utilizzo aiutano a scegliere la ricarica per casa e azienda.",
     "published": "2026-10-22T07:18:01Z",
-    "updated": "2026-10-22T08:54:30Z",
+    "updated": "2026-11-18",
     "readingTime": 4,
     "author": {
       "name": "Redazione Corriere Edile",
@@ -2669,11 +2697,11 @@ export const editorialNative: FullArticle[] = [
     "body": [
       {
         "type": "p",
-        "text": "Il punto di ricarica va valutato nel luogo in cui sarà utilizzato. Le abitudini del veicolo e le condizioni dell’immobile aiutano a impostare la richiesta."
+        "text": "Green Energy Group propone colonnine di ricarica per veicoli elettrici, da valutare per la casa e per gli spazi aziendali. La scelta riguarda sia il dispositivo sia il parcheggio in cui sarà utilizzato: contano il veicolo, il tempo di sosta e il rapporto con gli altri consumi dell’edificio."
       },
       {
         "type": "p",
-        "text": "Prima di scegliere una colonnina, conviene descrivere dove e come viene parcheggiato il veicolo. Un posto privato, un'autorimessa condivisa e un'area dell'attività pongono domande differenti. Green Energy Group presenta sul proprio sito soluzioni di ricarica per veicoli elettrici, da approfondire attraverso un confronto riferito all'immobile."
+        "text": "Un posto privato, un’autorimessa condivisa e l’area di un’attività hanno usi diversi. Per definire il progetto è utile descrivere chi utilizzerà la ricarica e quando il veicolo sarà presente. La verifica dell’impianto e delle condizioni del luogo permette poi di individuare una configurazione adatta, invece di scegliere soltanto una potenza di catalogo."
       },
       {
         "type": "h2",
@@ -2770,6 +2798,15 @@ export const editorialNative: FullArticle[] = [
       {
         "type": "p",
         "text": "Prima di approvare, domanda come verrà avviata o gestita la ricarica nella configurazione proposta e chi potrà utilizzare le funzioni previste. Se sono presenti servizi digitali, chiarisci le modalità di consegna degli accessi autorizzati. Conserva identificativi e istruzioni con i riferimenti per l'assistenza. La semplicità non consiste soltanto nel collegare il mezzo: consiste nel poter capire il comportamento del sistema e formulare una richiesta precisa quando qualcosa richiede un chiarimento."
+      },
+      {
+        "type": "h2",
+        "id": "servizio-azienda",
+        "text": "Ricarica e fotovoltaico nello stesso progetto"
+      },
+      {
+        "type": "p",
+        "text": "Se nell’immobile è già presente un impianto fotovoltaico, segnala questa informazione nel primo contatto con Green Energy Group. La ricarica può essere discussa insieme alla produzione e agli altri utilizzi elettrici, mantenendo chiari gli orari in cui il mezzo resta parcheggiato. Anche senza fotovoltaico, il punto di partenza rimane l’uso reale: un’auto che rientra la sera, un mezzo aziendale fermo durante il giorno o più utilizzatori della stessa area pongono domande diverse. La proposta deve spiegare come verrà utilizzato il sistema, quali funzioni comprende e quali verifiche sono necessarie prima dell’installazione."
       },
       {
         "type": "h2",
