@@ -1,5 +1,52 @@
 [
   {
+    "title": "Dimora Torino: progettazione e distribuzione degli spazi di casa",
+    "description": "Dimora Torino: progettazione degli spazi e interior design per collegare soggiorno, cucina, lavoro e contenimento alle abitudini di casa.",
+    "path": "/articolo/dimora-torino-progetto-spazi-casa/",
+    "section": "native",
+    "slug": "dimora-torino-progetto-spazi-casa",
+    "publishedAt": "2026-11-18",
+    "image": "/images/articoli/dimora-torino-progetto-spazi-casa.jpg",
+    "sponsor": "Dimora Torino",
+    "sourceURLs": [
+      "https://dimoratorino.it/",
+      "https://dimoratorino.it/servizi/",
+      "https://dimoratorino.it/progetti/",
+      "https://dimoratorino.it/contatti/"
+    ],
+    "category": "Progetti"
+  },
+  {
+    "title": "Ser-Style: porte interne, portoncini e porte blindate",
+    "description": "Porte Ser-Style: battenti, scorrevoli e filo muro, portoncini e blindate. Scelta, rilievi e installazione a Lecco e in Brianza.",
+    "path": "/articolo/ser-style-porte-interne-blindate/",
+    "section": "native",
+    "slug": "ser-style-porte-interne-blindate",
+    "publishedAt": "2026-11-18",
+    "image": "/images/articoli/ser-style-porte-interne-blindate.jpg",
+    "sponsor": "Ser-Style",
+    "sourceURLs": [
+      "https://ser-style.it/prodotti/porte/",
+      "https://ser-style.it/contatti/"
+    ],
+    "category": "Prodotti & Materiali"
+  },
+  {
+    "title": "Best Infissi: porte interne, porte blindate e protezioni per la casa",
+    "description": "Porte interne, porte blindate e inferriate Best Infissi: funzioni, finiture, passaggi e installazione per la casa.",
+    "path": "/articolo/best-infissi-porte-blindate-protezioni/",
+    "section": "native",
+    "slug": "best-infissi-porte-blindate-protezioni",
+    "publishedAt": "2026-11-18",
+    "image": "/images/articoli/best-infissi-porte-blindate-protezioni.jpg",
+    "sponsor": "Best Infissi",
+    "sourceURLs": [
+      "https://bestinfissi.it/",
+      "https://bestinfissi.it/chi-siamo/"
+    ],
+    "category": "Prodotti & Materiali"
+  },
+  {
     "title": "Risega del muro: cos’è e cosa verificare prima dei lavori",
     "description": "Come riconoscere nel rilievo un cambio di spessore della muratura, documentarlo e portarlo al tecnico prima di progettare finiture o interventi.",
     "path": "/articolo/risega-muro-significato-rilievo-ristrutturazione/",
