@@ -106,7 +106,7 @@ export default function CookieBanner() {
                 <p className="font-serif text-lg font-bold">Questo sito usa i cookie</p>
                 <p className="mt-1 text-sm leading-relaxed text-navy-100">
                   Usiamo cookie tecnici necessari al funzionamento e, con il tuo consenso, cookie
-                  analitici e di marketing per migliorare contenuti e pubblicità. Leggi la{" "}
+                  analitici di Google Analytics per capire come vengono letti i contenuti. Leggi la{" "}
                   <Link href="/cookie-policy" className="font-semibold text-gold-500 underline hover:text-gold-600">
                     Cookie Policy
                   </Link>
@@ -131,7 +131,7 @@ export default function CookieBanner() {
               </button>
               <button
                 type="button"
-                onClick={() => close({ analytics: true, marketing: true })}
+                onClick={() => close({ analytics: true, marketing: false })}
                 className="rounded-md bg-gold-500 px-4 py-2.5 text-sm font-bold text-navy-900 hover:bg-gold-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
               >
                 Accetta tutti
@@ -168,12 +168,6 @@ export default function CookieBanner() {
                 checked={analytics}
                 onChange={setAnalytics}
               />
-              <ConsentToggle
-                label="Marketing e pubblicità"
-                description="Personalizzazione degli annunci negli slot pubblicitari e misurazione delle campagne."
-                checked={marketing}
-                onChange={setMarketing}
-              />
             </div>
             <div className="mt-5 flex flex-col gap-2 sm:flex-row sm:justify-end">
               <button
@@ -185,7 +179,7 @@ export default function CookieBanner() {
               </button>
               <button
                 type="button"
-                onClick={() => close({ analytics, marketing })}
+                onClick={() => close({ analytics, marketing: false })}
                 className="rounded-md bg-gold-500 px-4 py-2.5 text-sm font-bold text-navy-900 hover:bg-gold-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
               >
                 Salva preferenze

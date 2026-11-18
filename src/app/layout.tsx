@@ -6,6 +6,7 @@ import Header from "@/components/layout/Header";
 import { italianDate } from "@/lib/dateIt";
 import Footer from "@/components/layout/Footer";
 import CookieBanner from "@/components/CookieBanner";
+import { SiteAnalytics } from "@/components/SiteAnalytics";
 import ScrollToTop from "@/components/ScrollToTop";
 import SalvaCampagna from "@/components/SalvaCampagna";
 
@@ -90,6 +91,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
         {/* Banner consenso cookie GDPR — globale, persistito in localStorage */}
         <CookieBanner />
+        <SiteAnalytics />
       </body>
     </html>
   );

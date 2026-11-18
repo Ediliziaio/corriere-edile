@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import LegalPage, { LegalSection, PlaceholderNote } from "@/components/legal/LegalPage";
+import LegalPage, { LegalSection } from "@/components/legal/LegalPage";
 import ManageCookiesButton from "@/components/ManageCookiesButton";
+import { TRACKING_ATTIVO } from "@/lib/consent";
 
 export const metadata: Metadata = {
   title: "Cookie Policy",
@@ -13,16 +14,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
 };
 
-/*
-  La tabella deve elencare cio' che il sito installa DAVVERO.
-  Oggi l'unico dato memorizzato e' la preferenza di consenso in localStorage:
-  nessun Google Analytics, nessun pixel, nessun ad server. Dichiarare cookie
-  inesistenti non e' un dettaglio: un'informativa deve descrivere i trattamenti
-  effettivi, e un elenco con la parola "placeholder" accanto ai nomi dice al
-  lettore che la pagina non e' finita.
-  Quando si attiva analytics o pubblicita': portare TRACKING_ATTIVO a true in
-  src/lib/consent.ts e aggiungere qui le categorie con nomi e durate reali.
-*/
+// La tabella segue la configurazione pubblicata: nessun servizio è dichiarato attivo prima della verifica.
 const COOKIE_TABLE = [
   {
     category: "Tecnici / necessari",
@@ -31,20 +23,24 @@ const COOKIE_TABLE = [
     examples: [
       {
         name: "ce-cookie-consent",
-        duration: "12 mesi",
+        duration: "Fino alla cancellazione o all’aggiornamento delle preferenze",
         note: "Salva l'eventuale scelta espressa sulle preferenze (localStorage, nessun dato personale)",
       },
     ],
   },
+  ...(TRACKING_ATTIVO ? [{
+    category: "Statistiche — solo con consenso",
+    purpose: "Google Analytics 4, caricato tramite Google Tag Manager dopo l’accettazione dei cookie analitici, misura le pagine visitate e l’utilizzo del sito.",
+    examples: [
+      { name: "_ga", duration: "2 anni (durata predefinita Google)", note: "Distingue i browser per le statistiche di navigazione." },
+      { name: "_ga_<identificativo>", duration: "2 anni (durata predefinita Google)", note: "Conserva le informazioni della sessione di Analytics." },
+    ],
+  }] : []),
 ];
 
 export default function CookiePolicy() {
   return (
-    <LegalPage title="Cookie Policy" updated="21 luglio 2026">
-      <PlaceholderNote>
-        i nomi dei cookie di terze parti (analytics, advertising) sono dimostrativi: l'elenco va
-        allineato agli strumenti effettivamente installati prima della pubblicazione.
-      </PlaceholderNote>
+    <LegalPage title="Cookie Policy" updated={TRACKING_ATTIVO ? "18 novembre 2026" : "21 luglio 2026"}>
 
       <LegalSection id="cosa-sono" title="1. Cosa sono i cookie">
         <p>
@@ -88,18 +84,15 @@ export default function CookiePolicy() {
       </LegalSection>
 
       <LegalSection id="non-attivi" title="3. Cookie analitici e di profilazione">
-        <p>
-          <strong>Questo sito non utilizza attualmente cookie analitici né di profilazione.</strong>{" "}
-          Non sono installati strumenti di statistica (come Google Analytics), pixel di
-          tracciamento o ad server di terze parti. Non viene quindi richiesto alcun consenso,
-          perché non ci sono trattamenti che lo richiedano.
-        </p>
-        <p>
-          Nel momento in cui dovessimo attivare strumenti di misurazione o pubblicità, questa
-          pagina verrà aggiornata con nomi, finalità e durata di ciascun cookie{" "}
-          <em>prima</em> della loro installazione, e comparirà il banner per esprimere o negare
-          il consenso.
-        </p>
+        {TRACKING_ATTIVO ? (
+          <>
+            <p>Con il tuo consenso utilizziamo Google Analytics 4 tramite Google Tag Manager per misurare le visite alle pagine del sito. Prima dell’accettazione non vengono caricati i tag Google. Non vengono introdotti pixel pubblicitari o strumenti di profilazione.</p>
+            <p>Puoi rifiutare i cookie analitici o revocare la scelta da «Gestisci cookie». La revoca interrompe la misurazione e ricarica la pagina per rimuovere gli script già caricati. Il sito resta utilizzabile con i soli cookie necessari.</p>
+            <p>Le durate indicate sono quelle predefinite descritte nella <a href="https://support.google.com/analytics/answer/11397207?hl=it" target="_blank" rel="noopener noreferrer" className="underline">documentazione Google sui cookie di Analytics</a>; il browser può limitarle ulteriormente.</p>
+          </>
+        ) : (
+          <p>Questo sito non utilizza attualmente cookie analitici o di profilazione. Gli strumenti di misurazione vengono attivati soltanto dopo la verifica della configurazione e l’aggiornamento del banner.</p>
+        )}
       </LegalSection>
 
       <LegalSection id="gestione-consenso" title="4. Come gestire o revocare il consenso">

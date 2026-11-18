@@ -1,3 +1,5 @@
+import { SITE_ANALYTICS_CONFIG } from "./analytics-config";
+
 /**
  * Consenso cookie — store localStorage GDPR-style.
  *
@@ -28,10 +30,10 @@ export interface CookieConsent {
  * Portare a true nel momento in cui si attiva analytics o pubblicita':
  * banner, pannello preferenze e tabella della cookie policy tornano attivi.
  */
-export const TRACKING_ATTIVO = false;
+export const TRACKING_ATTIVO = SITE_ANALYTICS_CONFIG.enabled;
 
 export const CONSENT_KEY = "ce-cookie-consent";
-export const POLICY_VERSION = "1.0-2026-07";
+export const POLICY_VERSION = "2.0-2026-11-analytics";
 /** Evento window per riaprire il pannello preferenze (footer, cookie policy) */
 export const REOPEN_CONSENT_EVENT = "ce:reopen-cookie-consent";
 
@@ -40,6 +42,7 @@ export function getConsent(): CookieConsent | null {
     const raw = localStorage.getItem(CONSENT_KEY);
     if (!raw) return null;
     const parsed = JSON.parse(raw) as CookieConsent;
+    if (parsed.policyVersion !== POLICY_VERSION) return null;
     if (typeof parsed.analytics !== "boolean" || typeof parsed.marketing !== "boolean") return null;
     return parsed;
   } catch {
@@ -60,6 +63,7 @@ export function saveConsent(prefs: { analytics: boolean; marketing: boolean }): 
   } catch {
     /* storage non disponibile: il banner verrà riproposto */
   }
+  window.dispatchEvent(new CustomEvent("ce:consent-change", { detail: consent }));
   return consent;
 }
 
