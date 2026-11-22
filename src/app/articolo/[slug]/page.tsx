@@ -98,7 +98,14 @@ export default async function ArticlePage({
         verificabile invece che su una stringa di testo. Requisito di fatto
         per i contenuti YMYL (fisco, detrazioni, normativa).
       */
-      author: authorProfile
+      author: /^Redazione\b/.test(article.author.name)
+        ? {
+            "@type": "Organization",
+            "@id": `${SITE.url}/#organization`,
+            name: article.author.name,
+            url: SITE.url,
+          }
+        : authorProfile
         ? {
             "@type": "Person",
             "@id": authorId(authorProfile.slug),

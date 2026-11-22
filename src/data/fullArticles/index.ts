@@ -1,3 +1,4 @@
+import { condono2027 } from "./condono-2027";
 import { editorialNative } from "./editorial-native";
 /**
  * Indice dati articoli completi — Corriere Edile
@@ -15,6 +16,7 @@ export * from "./types";
 
 /** Tutti gli articoli, dal più recente al più vecchio (per `published`). */
 export const ALL_ARTICLES: FullArticle[] = [
+  ...condono2027,
   ...editorialNative,
   ...ARTICLES_01_10,
   ...ARTICLES_11_20,
