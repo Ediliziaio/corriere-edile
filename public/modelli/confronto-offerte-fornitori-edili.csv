@@ -1,0 +1,3 @@
+﻿Tipo dati;Fornitore;ID riga richiesta;Codice proposto;Quantita richiesta in pezzi;Pezzi per confezione;Confezioni offerte;Pezzi offerti;Prezzo per confezione EUR;Costo materiale EUR;Trasporto EUR;Scarico EUR;Totale voci note EUR;Pezzi oltre fabbisogno;Disponibilita;Riferimento offerta;Esclusioni e chiarimenti;Stato confronto
+ESEMPIO FITTIZIO;A;R01;PRODOTTO A - configurazione da verificare;100;10;10;100;80;800;50;DA CHIARIRE;850;0;DA CONFERMARE;DA COMPILARE;Scarico e condizioni da verificare;NON CONCLUSO
+ESEMPIO FITTIZIO;B;R01;PRODOTTO A - configurazione da verificare;100;12;9;108;90;810;0;DA CHIARIRE;810;8;DA CONFERMARE;DA COMPILARE;Scarico e condizioni da verificare;NON CONCLUSO

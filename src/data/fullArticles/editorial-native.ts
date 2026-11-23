@@ -1775,8 +1775,8 @@ export const editorialNative: FullArticle[] = [
   {
     "slug": "richiesta-offerta-fornitori-edili-documenti",
     "title": "Richiesta di offerta ai fornitori edili: i documenti per ricevere risposte confrontabili",
-    "metaTitle": "Richiesta offerta fornitori edili: guida operativa",
-    "metaDescription": "Prepara una richiesta di offerta per fornitori edili: codici, quantità, consegne, alternative e revisioni. Esempio di matrice delle risposte.",
+    "metaTitle": "Richiesta offerta fornitori edili: modelli CSV e guida",
+    "metaDescription": "Scarica due modelli CSV per richiedere e confrontare offerte ai fornitori edili: quantità, confezioni, consegne, esclusioni e chiarimenti.",
     "category": "Cantieri",
     "keywords": [
       "richiesta offerta fornitori edili"
@@ -1784,8 +1784,8 @@ export const editorialNative: FullArticle[] = [
     "subtitle": "Prepara una richiesta di offerta per fornitori edili: codici, quantità, consegne, alternative e revisioni. Esempio di matrice delle risposte.",
     "excerpt": "Prepara una richiesta di offerta per fornitori edili: codici, quantità, consegne, alternative e revisioni. Esempio di matrice delle risposte.",
     "published": "2026-11-07T08:00:00+01:00",
-    "updated": "2026-11-18",
-    "readingTime": 12,
+    "updated": "2026-11-23",
+    "readingTime": 15,
     "author": {
       "name": "Redazione Corriere Edile",
       "role": "Redazione",
@@ -1795,6 +1795,7 @@ export const editorialNative: FullArticle[] = [
     "imageAlt": "Schema illustrativo: Richiesta offerta fornitori edili: guida operativa",
     "imageCaption": "Schema illustrativo della richiesta di offerta.",
     "summary": [
+      "Due modelli CSV gratuiti: prepara le righe della richiesta e confronta le risposte mantenendo visibili quantità, consegne ed esclusioni.",
       "Definisci la stessa base documentale per tutti i fornitori.",
       "Separa alternative, esclusioni e servizi di consegna.",
       "Collega la decisione alla revisione effettivamente confermata."
@@ -1807,6 +1808,114 @@ export const editorialNative: FullArticle[] = [
       {
         "type": "p",
         "text": "Questa guida propone un fascicolo minimo per raccogliere risposte leggibili. È un metodo organizzativo per l’acquisto, da adattare al progetto e alle procedure applicabili. Non sostituisce specifiche tecniche, contratti o regole di una particolare procedura di affidamento."
+      },
+      {
+        "type": "h2",
+        "text": "Due modelli CSV da compilare per la tua richiesta",
+        "id": "modelli-csv-richiesta-offerta"
+      },
+      {
+        "type": "p",
+        "text": "Puoi partire dal [modello di richiesta di offerta ai fornitori edili in CSV](/modelli/richiesta-offerta-fornitori-edili.csv) e dal [foglio di confronto delle offerte in CSV](/modelli/confronto-offerte-fornitori-edili.csv). Sono file originali di Corriere Edile, disponibili senza registrazione: aprili in Excel, LibreOffice o Google Sheets e salva una copia per la commessa. I valori di esempio servono a spiegare i campi; sostituiscili prima di inviare il documento. Il foglio non contiene macro, formule nascoste o collegamenti a servizi esterni."
+      },
+      {
+        "type": "p",
+        "text": "Il primo file contiene una riga di fornitura da completare: identificativo della richiesta, revisione, commessa, prodotto richiesto, documento tecnico di riferimento, quantità, unità, luogo e fasi di consegna. Le colonne finali raccolgono gli allegati, le esclusioni da chiarire e le alternative ammesse. Se servono più prodotti, duplica la riga e assegna a ciascuno un identificativo stabile: R01, R02 e così via. Non usare lo stesso codice per materiali o configurazioni diversi."
+      },
+      {
+        "type": "p",
+        "text": "Il secondo file conserva la risposta di ogni fornitore accanto alla riga della richiesta. Separa la quantità richiesta da quella effettivamente offerta, il prezzo della confezione dal numero di confezioni e il costo dei materiali da trasporto e scarico. Gli importi nel file sono numeri fittizi: non rappresentano listini o offerte reali. Non sono presenti formule automatiche; i calcoli dell’esempio sono mostrati nella tabella qui sotto, così puoi verificarli e adattarli prima di costruire il tuo confronto."
+      },
+      {
+        "type": "h2",
+        "text": "Esempio numerico: cento pezzi, confezioni diverse",
+        "id": "esempio-cento-pezzi-confezioni"
+      },
+      {
+        "type": "p",
+        "text": "Considera un fabbisogno illustrativo di 100 pezzi dello stesso prodotto e della stessa configurazione, già verificati dai referenti della commessa. Il fornitore A propone confezioni da 10 pezzi a 80 euro; il fornitore B confezioni da 12 pezzi a 90 euro. Tutti gli importi dell’esempio sono espressi sulla stessa base di confronto. Prima di applicare questo metodo a proposte reali, chiarisci sempre unità di vendita, componenti comprese e base economica dei prezzi."
+      },
+      {
+        "type": "table",
+        "caption": "Esempio illustrativo: importi fittizi, non prezzi di mercato.",
+        "head": [
+          "Voce",
+          "Fornitore A",
+          "Fornitore B"
+        ],
+        "rows": [
+          [
+            "Fabbisogno",
+            "100 pezzi",
+            "100 pezzi"
+          ],
+          [
+            "Contenuto della confezione",
+            "10 pezzi",
+            "12 pezzi"
+          ],
+          [
+            "Confezioni necessarie",
+            "10",
+            "9"
+          ],
+          [
+            "Pezzi acquistati",
+            "100",
+            "108"
+          ],
+          [
+            "Prezzo della confezione",
+            "80 euro",
+            "90 euro"
+          ],
+          [
+            "Costo del materiale",
+            "10 × 80 = 800 euro",
+            "9 × 90 = 810 euro"
+          ],
+          [
+            "Trasporto indicato",
+            "50 euro",
+            "0 euro"
+          ],
+          [
+            "Totale delle voci note",
+            "850 euro",
+            "810 euro"
+          ],
+          [
+            "Differenza da valutare",
+            "Nessun pezzo in più",
+            "8 pezzi oltre il fabbisogno"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Per A servono dieci confezioni: 100 diviso 10. Per B il rapporto è 100 diviso 12, cioè 8,33 confezioni; se il fornitore vende soltanto confezioni intere, ne occorrono nove. Il calcolo produce 108 pezzi, non 100. Non ridurre il totale di B a un costo teorico per cento pezzi senza verificare che quella quantità sia realmente acquistabile alle condizioni ricevute. Mantieni visibili l’eccedenza e il vincolo di confezionamento."
+      },
+      {
+        "type": "p",
+        "text": "Il totale delle voci note è più basso per B, ma questo non basta per scegliere. Nell’esempio lo scarico non è valorizzato: va chiarito, non trattato come gratuito. Verifica inoltre disponibilità, consegne e documenti della configurazione proposta. Se una condizione manca, indica “da chiarire” nello stato del confronto. La tabella diventa confrontabile quando le differenze rilevanti sono state esplicitate, non quando ogni cella contiene un numero."
+      },
+      {
+        "type": "h2",
+        "text": "Un testo semplice per accompagnare il file",
+        "id": "email-richiesta-offerta-esempio"
+      },
+      {
+        "type": "quote",
+        "text": "Oggetto: richiesta di offerta [codice richiesta] – [commessa] – revisione [numero]. Vi chiediamo di compilare le righe del file allegato indicando prodotto e codice proposto, quantità e unità di vendita, prezzo, validità della proposta e condizioni di consegna. Segnalate separatamente trasporto, scarico, esclusioni e alternative. La risposta dovrà riferirsi agli allegati elencati nella richiesta. Per chiarimenti scrivete a [referente] entro [data]. Indicate il vostro numero di offerta e la revisione nella risposta.",
+        "author": "Esempio da adattare alla propria richiesta"
+      },
+      {
+        "type": "p",
+        "text": "Prima dell’invio sostituisci tutti i segnaposto, allega i documenti effettivamente richiamati e controlla i destinatari. Il messaggio deve corrispondere al contenuto del file: se cambi quantità, tempi o allegati, aumenta la revisione e comunica la stessa modifica agli interlocutori coinvolti. La mail raccoglie una proposta; non va confusa con un ordine o con l’accettazione delle condizioni del fornitore. Mantieni distinto il passaggio con cui l’organizzazione autorizza l’acquisto."
+      },
+      {
+        "type": "p",
+        "text": "Quando arrivano le risposte, conserva i documenti originali e compila una riga per ciascuna combinazione di fornitore e prodotto. Registra la data del chiarimento e il riferimento del documento aggiornato. Per ogni punto aperto indica un responsabile del riscontro: ad esempio il referente tecnico per una variante e l’ufficio acquisti per le condizioni commerciali. Al termine, salva il confronto insieme alla richiesta utilizzata, così chi segue la consegna può ricostruire da quale configurazione nasce la scelta."
       },
       {
         "type": "h2",
@@ -2072,6 +2181,10 @@ export const editorialNative: FullArticle[] = [
       }
     ],
     "faqs": [
+      {
+        "q": "Dove posso scaricare un modello di richiesta di offerta ai fornitori edili?",
+        "a": "In questa guida trovi due file CSV gratuiti e senza registrazione: uno per preparare la richiesta, l’altro per confrontare le offerte. Si aprono in Excel, LibreOffice e Google Sheets. Contengono campi da completare e valori illustrativi da sostituire."
+      },
       {
         "q": "Devo chiedere sempre lo stesso marchio a tutti?",
         "a": "Dipende dalla specifica e dal progetto. Se sono ammesse alternative, chiedi che siano separate dalla risposta di base e corredate dai documenti necessari alla valutazione tecnica. Non considerarle equivalenti senza verifica."
