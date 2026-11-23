@@ -273,73 +273,287 @@ export const ARTICLES_01_10: FullArticle[] = [
     related: ["prezzi-materiali-costruzione-2026", "migliori-imprese-costruzioni-italia-2026", "rigenerazione-urbana-2026-progetti"]
   },
   {
-    slug: "prezzi-materiali-costruzione-2026",
-    category: "Mercato",
-    title: "Prezzi dei materiali da costruzione nel 2026: andamento di cemento, acciaio, laterizi e legno",
-    metaTitle: "Prezzi materiali 2026: difendere il margine di commessa",
-    metaDescription: "Prezzi dei materiali da costruzione nel 2026: cemento, acciaio, laterizi, legno e isolanti. Andamento, previsioni e strategie di acquisto per le imprese.",
-    keywords: ["prezzi materiali da costruzione 2026", "prezzo cemento 2026", "prezzo acciaio edilizia", "costo materiali edili", "andamento prezzi costruzioni"],
-    subtitle: "Dopo gli shock del 2021-2022 i listini si sono stabilizzati su livelli più alti: ecco l'andamento reale dei principali materiali e le strategie per difendere i margini di cantiere",
-    excerpt: "Cemento in crescita del 3-4%, acciaio stabile, legno in calo fisiologico: la fotografia dei prezzi dei materiali da costruzione nel 2026 e le strategie di acquisto per le imprese.",
-    published: "2026-07-10T08:15:00+02:00",
-    updated: "2026-07-10T08:15:00+02:00",
-    readingTime: 10,
-    author: {
-      name: "Chiara Bonomi",
-      role: "Redattrice Mercato & Imprese",
-      bio: "Si occupa di analisi di mercato, congiuntura delle costruzioni e dinamiche delle imprese edili. Collabora con centri studi e associazioni di categoria per l'interpretazione dei dati di settore."
-    },
-    image: "/images/articoli/prezzi-materiali-costruzione-2026.jpg",
-    imageAlt: "Deposito di materiali da costruzione con cemento, acciaio e laterizi in un cantiere edile",
-    imageCaption: "I prezzi dei materiali nel 2026 sono stabilizzati ma restano su livelli strutturalmente superiori al periodo pre-pandemia.",
-    summary: [
-      "Nel 2026 i prezzi dei materiali da costruzione crescono in media del 2-3% annuo, dopo gli shock del 2021-2022 che avevano portato aumenti cumulati superiori al 30%.",
-      "Cemento e calcestruzzo: +3-4% annuo, con prezzi del cemento sfuso tra 120 e 150 €/t, spinti da costi energetici e cottura del clinker.",
-      "Acciaio da cemento armato: quotazioni stabili tra 620 e 720 €/t, con volatilità legata ai mercati internazionali e al costo dei rottami.",
-      "Laterizi, legno e isolanti: laterizi +2-3%, legno da costruzione in calo del 5-8% rispetto ai picchi, isolanti stabili con pressioni su EPS e lana minerale.",
-      "Le imprese difendono i margini con acquisti programmati, clausole di revisione prezzi nei contratti e qualificazione dei fornitori."
-    ],
-    body: [
-      { type: "p", text: "Il 2026 segna il terzo anno di normalizzazione dei prezzi dei materiali da costruzione dopo la tempesta del 2021-2022, quando gli indici [ISTAT](https://www.istat.it) avevano registrato aumenti annui superiori al 20% per alcune famiglie di prodotti. La stabilizzazione è però relativa: i listini si sono fermati su livelli strutturalmente più alti del 25-35% rispetto al 2019 e continuano a crescere a ritmi del 2-3% annuo. Per le imprese edili la partita si è spostata dall'emergenza alla gestione: chi sa comprare bene, oggi, protegge i margini più di chi sa solo vendere." },
-      { type: "h2", id: "cemento-calcestruzzo", text: "Come stanno andando cemento e calcestruzzo?" },
-      { type: "p", text: "Il cemento resta il materiale con la dinamica più tesa. La produzione del clinker è energivora e i costi di cottura, pur scesi dai picchi del 2022, restano elevati; a questo si aggiunge il costo crescente dei permessi di emissione ETS, che pesa in modo strutturale sui cementifici europei. I prezzi del cemento sfuso si collocano nel 2026 tra 120 e 150 euro a tonnellata a seconda di tipologia e zona, con aumenti annui del 3-4%. Il calcestruzzo preconfezionato segue di riflesso, con listini tra 130 e 170 euro al metro cubo per le classi più comuni, esclusi pompaggi e trasporti lunghi. Le associazioni dei produttori segnalano anche una progressiva riconfigurazione dell'offerta verso cementi a minor contenuto di clinker, spinta dalla sostenibilità e dai CAM." },
-      { type: "table", caption: "Prezzi indicativi dei principali materiali da costruzione, 2026 (fonti: elaborazioni su listini e indici ISTAT)", head: ["Materiale", "Prezzo indicativo 2026", "Variazione annua", "Driver principali"], rows: [
-        ["Cemento sfuso", "120 - 150 €/t", "+3% / +4%", "Energia, ETS, clinker"],
-        ["Calcestruzzo preconfezionato", "130 - 170 €/mc", "+3%", "Cemento, trasporti"],
-        ["Acciaio da c.a. (barre)", "620 - 720 €/t", "0% / +2%", "Rottami, mercati internazionali"],
-        ["Laterizi (blocchi)", "0,40 - 0,70 €/pz", "+2% / +3%", "Gas, logistica"],
-        ["Legno strutturale (X-lam)", "450 - 650 €/mc", "-5% / -8%", "Offerta, domanda in calo"],
-        ["Isolanti (EPS, lana)", "25 - 45 €/mq (sp. 10 cm)", "0% / +3%", "Petrolio, energia"]
-      ] },
-      { type: "h2", id: "acciaio-metalli", text: "Acciaio e metalli: stabilità o nuova volatilità?" },
-      { type: "p", text: "L'acciaio da cemento armato vive una fase di relativa calma: le quotazioni delle barre e delle reti elettrosaldate oscillano tra 620 e 720 euro a tonnellata, con variazioni contenute su base annua. La volatilità non è però sparita: il prezzo dipende dai rottami ferrosi, dai costi energetici dei forni elettrici e dalle dinamiche dei mercati internazionali, dove le politiche commerciali e i dazi possono cambiare gli equilibri in poche settimane. Diverso il discorso per i metalli non ferrosi: il rame, cruciale per impianti elettrici e pompe di calore, resta su livelli storicamente elevati per la domanda mondiale di elettrificazione, con prezzi del cavo che incidono sensibilmente sui costi impiantistici." },
-      { type: "h2", id: "legno-laterizi", text: "Legno, laterizi e isolanti: i segnali dal mercato" },
-      { type: "p", text: "Il legno da costruzione è la famiglia che ha corretto di più: dopo i raddoppi del 2021, i prezzi di segati, pannelli e strutture in X-lam sono scesi del 5-8% rispetto ai massimi, anche per il rallentamento della domanda residenziale. Resta un mercato sensibile all'offerta europea e ai trasporti. I laterizi crescono invece in modo ordinato, +2-3% annuo, trascinati da gas e logistica; il consolidamento dei produttori italiani ha ridotto la concorrenza di prezzo. Sull'isolamento la domanda legata a ecobonus e cappotti termici mantiene tesi i listini di EPS e lana minerale, con punte stagionali nei mesi di piena attività cantieristica." },
-      { type: "quote", text: "La gestione degli approvvigionamenti è diventata una funzione strategica: le imprese che hanno introdotto acquisti programmati, scorte tampone sui materiali critici e clausole di revisione nei contratti hanno difeso i margini anche negli anni più difficili.", author: "geom. Daniele Ferri, responsabile acquisti di un gruppo costruttore del Nord Italia" },
-      { type: "h2", id: "strategie-acquisto", text: "Quali strategie di acquisto adottare?" },
-      { type: "p", text: "L'esperienza del triennio 2023-2026 ha insegnato al settore alcune pratiche ormai consolidate. La prima è la programmazione: bloccare i prezzi sui volumi annuali con i fornitori storici costa qualche punto in più ma elimina il rischio di rinegoziazione a cantiere aperto. La seconda è la contrattualistica: le clausole di revisione prezzi, obbligatorie negli appalti pubblici oltre determinate soglie, vanno replicate nei contratti privati, indicizzandole agli indici ISTAT dei materiali. La terza è la diversificazione: qualificare almeno due fornitori per ogni famiglia critica evita ricatti logistici nei picchi di domanda." },
-      { type: "list", items: [
-        "Monitorare mensilmente gli indici ISTAT dei prezzi alla produzione e i listini delle [Camere di Commercio](https://www.camcom.it) per i materiali critici del proprio portafoglio lavori.",
-        "Inserire nei contratti privati clausole di revisione indicizzate, simmetriche e trasparenti per il committente.",
-        "Negoziare accordi quadro annuali su cemento, acciaio e isolanti con consegne programmate.",
-        "Valutare scorte tampone solo per materiali non deperibili e a rotazione certa, per non immobilizzare capitale.",
-        "Qualificare fornitori alternativi su ciascuna famiglia critica e testarli su commesse piccole.",
-        "Integrare nel computo metrico un fondo rischi prezzi del 2-4% sui lavori con durata superiore ai 12 mesi."
-      ] },
-      { type: "h2", id: "previsioni-2027", text: "Cosa aspettarsi per il 2027?" },
-      { type: "p", text: "Gli scenari per il 2027 indicano una prosecuzione della crescita moderata: le pressioni strutturali (decarbonizzazione dei cementifici, costi ETS, domanda mondiale di rame e acciai speciali) impediscono un ritorno ai livelli pre-2020, ma non si profilano shock paragonabili a quelli del 2022. Le variabili da monitorare sono tre: il prezzo dell'energia, le politiche commerciali internazionali sui metalli e l'andamento della domanda europea di costruzioni, che influenza la capacità dei produttori di trasferire i costi a valle." },
-      { type: "h2", id: "conclusioni", text: "Conclusioni: il prezzo si gestisce, non si subisce" },
-      { type: "p", text: "Nel 2026 il prezzo dei materiali non è più un'emergenza ma una variabile gestionale. Le imprese che hanno professionalizzato la funzione acquisti, che usano la revisione prezzi come strumento contrattuale standard e che pianificano gli approvvigionamenti sul lungo periodo trasformano un rischio in vantaggio competitivo. In un mercato dove i margini si giocano su pochi punti percentuali, comprare bene vale quanto costruire bene." }
-    ],
-    faqs: [
-      { q: "I prezzi dei materiali da costruzione scenderanno nel 2026?", a: "No, gli scenari indicano una crescita moderata del 2-3% annuo. I prezzi si sono stabilizzati dopo gli shock del 2021-2022, ma restano strutturalmente più alti del 25-35% rispetto al 2019 per effetto di energia, costi ambientali e logistica." },
-      { q: "Quanto costa il calcestruzzo al metro cubo nel 2026?", a: "Per le classi più comuni (C25/30) il prezzo si colloca indicativamente tra 130 e 170 euro al metro cubo, esclusi pompaggio, additivi speciali e trasporti oltre la distanza standard. Le quotazioni variano sensibilmente per zona e volume." },
-      { q: "Come funziona la revisione prezzi nei contratti privati?", a: "Non è obbligatoria ma è consigliabile: le parti possono inserire una clausola che aggiorna i corrispettivi in base alla variazione degli indici ISTAT dei materiali oltre una soglia concordata, tipicamente il 5%. La formula deve essere trasparente e simmetrica." },
-      { q: "Quali materiali sono più a rischio di aumenti nel 2026-2027?", a: "Cemento e calcestruzzo per i costi energetici e i permessi di emissione, rame e cavi elettrici per la domanda mondiale di elettrificazione, e isolanti nei periodi di picco della domanda legata agli incentivi per la riqualificazione energetica." }
-    ],
-    tags: ["prezzi materiali", "mercato costruzioni", "cemento", "acciaio", "approvvigionamenti"],
-    related: ["mercato-costruzioni-2026-previsioni", "case-prefabbricate-legno-2026", "ristrutturare-casa-2026-costi-guida"]
+  "slug": "prezzi-materiali-costruzione-2026",
+  "title": "Prezzi materiali edili 2026: confrontare offerte e consegne",
+  "published": "2026-07-10T08:15:00+02:00",
+  "image": "/images/articoli/prezzi-materiali-costruzione-2026.jpg",
+  "category": "Mercato",
+  "metaTitle": "Prezzi materiali edili 2026: confrontare offerte e consegne",
+  "metaDescription": "Confronta prezzi, confezioni, sfridi, accessori e trasporto dei materiali edili. Esempio numerico e modello CSV, con ipotesi e costi inclusi.",
+  "keywords": [
+    "prezzi materiali edili 2026",
+    "confronto offerte materiali"
+  ],
+  "subtitle": "Confronta prezzi, confezioni, sfridi, accessori e trasporto dei materiali edili. Esempio numerico e modello CSV, con ipotesi e costi inclusi.",
+  "excerpt": "Confronta prezzi, confezioni, sfridi, accessori e trasporto dei materiali edili. Esempio numerico e modello CSV, con ipotesi e costi inclusi.",
+  "updated": "2026-11-23T20:45:52+01:00",
+  "readingTime": 11,
+  "author": {
+    "name": "Redazione Corriere Edile",
+    "role": "Redazione",
+    "bio": "La redazione di Corriere Edile segue mercato, forniture e organizzazione del lavoro nelle costruzioni."
   },
+  "imageAlt": "Materiali e forniture per un cantiere edile",
+  "imageCaption": "",
+  "summary": [
+    "Un prezzo al metro quadrato può sembrare più conveniente e produrre una fornitura più costosa. Succede quando cambiano lo spessore, il numero di confezioni, gli accessori, il trasporto o le condizioni di scarico. Per leggere i prezzi dei materiali da costruzione nel 2026 serve quindi un confronto riferito allo stesso prodotto e allo stesso cantiere. Una media nazionale non può sostituire una richiesta completa e una quotazione con data e validità riconoscibili.",
+    "Esempi originali con ipotesi esplicite e un modello CSV disponibile senza registrazione."
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Un prezzo al metro quadrato può sembrare più conveniente e produrre una fornitura più costosa. Succede quando cambiano lo spessore, il numero di confezioni, gli accessori, il trasporto o le condizioni di scarico. Per leggere i prezzi dei materiali da costruzione nel 2026 serve quindi un confronto riferito allo stesso prodotto e allo stesso cantiere. Una media nazionale non può sostituire una richiesta completa e una quotazione con data e validità riconoscibili."
+    },
+    {
+      "type": "p",
+      "text": "Questa guida spiega come costruire quel confronto. Non pubblica un listino di mercato e non attribuisce ai materiali prezzi correnti non verificati. Le cifre dei casi sono inventate a scopo didattico: puoi sostituirle con le offerte effettivamente ricevute. Il risultato utile è un costo leggibile, accompagnato dalle ipotesi che lo hanno prodotto, anziché un numero apparentemente preciso ma difficile da controllare."
+    },
+    {
+      "type": "h2",
+      "text": "Indice statistico, prezzario e offerta rispondono a domande diverse",
+      "id": "indice-statistico-prezzario-e-offerta-rispondono-a-domande-diverse"
+    },
+    {
+      "type": "p",
+      "text": "L'indice del costo di costruzione di un fabbricato residenziale di ISTAT misura la variazione nel tempo dei costi diretti riferiti a una tipologia di edificio. È uno strumento per leggere un andamento, non il prezzo al quale il tuo rivenditore venderà un pannello domani. La [scheda metodologica ISTAT](https://www.istat.it/scheda-qualita/indici-dei-costi-di-costruzione-di-un-fabbricato-residenziale/) chiarisce oggetto e caratteristiche dell'indicatore. Prima di citarne un valore controlla periodo, base e stato del dato."
+    },
+    {
+      "type": "p",
+      "text": "Un prezzario, invece, contiene voci descritte secondo un proprio perimetro e una specifica edizione. La voce può riguardare una fornitura o una lavorazione composta: non presumere che includa sempre posa, sfridi e accessori. Leggi descrizione, unità e avvertenze del documento che stai usando. Per l'impiego in un determinato incarico occorre inoltre verificare con il progettista quale riferimento sia pertinente."
+    },
+    {
+      "type": "p",
+      "text": "L'offerta del fornitore riguarda prodotti, quantità e condizioni di una singola richiesta. Può scadere, prevedere un minimo d'ordine o cambiare con la destinazione. Mettere sullo stesso foglio indice, prezzario e offerta senza distinguere le loro funzioni crea errori. Usa l'indice per il contesto, il riferimento tecnico per la stima e l'offerta per conoscere le condizioni proposte per quell'acquisto."
+    },
+    {
+      "type": "h2",
+      "text": "Definisci prima il materiale da confrontare",
+      "id": "definisci-prima-il-materiale-da-confrontare"
+    },
+    {
+      "type": "p",
+      "text": "Scrivi famiglia, codice quando disponibile, dimensioni, spessore, finitura e prestazioni richieste dal progetto. Se chiedi un isolante, la sola parola «pannello» non permette un confronto tecnico. Se chiedi una piastrella, formato, superficie, destinazione e assortimento possono modificare la fornitura. La scelta dei requisiti appartiene a chi ha la competenza per definirli; il foglio economico deve riportarli senza sostituirli con descrizioni più generiche."
+    },
+    {
+      "type": "p",
+      "text": "Allega la revisione corretta dei documenti. Un fornitore che risponde a un disegno precedente potrebbe quotare quantità o dettagli diversi. Nella richiesta indica il nome dell'allegato e la sua data; nella risposta verifica che sia stato considerato. Quando viene proposta un'alternativa, chiedi che sia separata e accompagnata dalla documentazione pertinente. Un'alternativa più economica diventa confrontabile soltanto dopo aver chiarito in quali aspetti cambia."
+    },
+    {
+      "type": "p",
+      "text": "Per preparare il fascicolo puoi usare la guida alla [richiesta di offerta ai fornitori edili](/articolo/richiesta-offerta-fornitori-edili-documenti/). Qui l'attenzione è sul passaggio successivo: trasformare risposte già complete in un confronto economico coerente. Saltare la definizione del prodotto rende inutile anche un foglio di calcolo molto dettagliato."
+    },
+    {
+      "type": "h2",
+      "text": "Porta tutte le offerte alla stessa unità di misura",
+      "id": "porta-tutte-le-offerte-alla-stessa-unita-di-misura"
+    },
+    {
+      "type": "p",
+      "text": "Una confezione può contenere più metri quadrati, pezzi o chilogrammi. Registra prima il contenuto dichiarato e poi il prezzo riferito all'unità utile. Se una confezione ipotetica copre 2,4 metri quadrati e costa 36 euro, il prezzo equivalente è 15 euro al metro quadrato. Questo rapporto non cambia le condizioni di vendita: se servono confezioni intere, l'importo pagato dipende dal numero di confezioni ordinate."
+    },
+    {
+      "type": "p",
+      "text": "Non convertire quantità senza conoscere il dato tecnico necessario. Per passare da volume a peso serve una densità pertinente; per passare da pezzi a superficie servono le dimensioni e il criterio di misura. Non utilizzare il peso di un prodotto simile per ricostruire quello mancante. Segna la riga come non confrontabile e chiedi il chiarimento. Un risultato ottenuto con un'ipotesi nascosta è più pericoloso di una cella ancora vuota."
+    },
+    {
+      "type": "p",
+      "text": "Mantieni visibili unità originaria e unità di confronto. Chi rilegge il foglio deve poter risalire al listino o alla risposta ricevuta. Se correggi un errore di conversione, conserva anche la versione precedente e annota la modifica. Questa piccola disciplina evita che un numero cambi durante la trattativa senza che nessuno sappia spiegare il motivo."
+    },
+    {
+      "type": "h2",
+      "text": "Distingui quantità di progetto, sfrido e quantità ordinata",
+      "id": "distingui-quantita-di-progetto-sfrido-e-quantita-ordinata"
+    },
+    {
+      "type": "p",
+      "text": "La quantità da acquistare non coincide sempre con quella netta prevista. Tagli, geometrie, confezioni e riserve concordate possono aumentare l'ordine. La percentuale di sfrido deve derivare dalla lavorazione e dal piano di posa, non da una regola universale applicata a qualsiasi materiale. Chiedi chi ha definito quella quantità e quale margine è già stato considerato, così non aggiungi due volte la stessa maggiorazione."
+    },
+    {
+      "type": "p",
+      "text": "Per un ordine a confezioni intere usa una sequenza leggibile: quantità netta, maggiorazione motivata, quantità teorica e arrotondamento. Conserva il numero di confezioni e la superficie effettivamente acquistata. Se due prodotti hanno confezioni diverse, possono generare eccedenze differenti anche con lo stesso prezzo unitario. Il costo delle confezioni residue fa parte dell'acquisto, salvo accordi espliciti che ne consentano il reso."
+    },
+    {
+      "type": "h2",
+      "text": "Caso numerico: due offerte per una superficie di 96 metri quadrati",
+      "id": "caso-numerico-due-offerte-per-una-superficie-di-96-metri-quadrati"
+    },
+    {
+      "type": "p",
+      "text": "Immaginiamo di dover acquistare un materiale per 96 metri quadrati netti e di aver concordato, solo per questo esempio, una maggiorazione dell'8%. La quantità teorica diventa 103,68 metri quadrati. Non è una raccomandazione sullo sfrido: un intervento reale richiede il proprio calcolo. Supponiamo inoltre che i prodotti A e B siano stati considerati tecnicamente confrontabili dal responsabile della scelta."
+    },
+    {
+      "type": "p",
+      "text": "L'offerta A indica confezioni da 2,4 metri quadrati a 36 euro ciascuna. Servono 44 confezioni, che corrispondono a 105,6 metri quadrati; il materiale costa 1.584 euro. L'offerta B indica confezioni da 2 metri quadrati a 29 euro: servono 52 confezioni, pari a 104 metri quadrati, per 1.508 euro. Il prezzo unitario di B è più basso: 14,50 contro 15 euro al metro quadrato."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Voce illustrativa, IVA esclusa",
+        "Offerta A",
+        "Offerta B"
+      ],
+      "rows": [
+        [
+          "Confezioni intere",
+          "44",
+          "52"
+        ],
+        [
+          "Superficie acquistata",
+          "105,6 m²",
+          "104 m²"
+        ],
+        [
+          "Materiale",
+          "1.584 €",
+          "1.508 €"
+        ],
+        [
+          "Trasporto e scarico quotati",
+          "90 €",
+          "220 €"
+        ],
+        [
+          "Accessori previsti nella richiesta",
+          "140 €",
+          "160 €"
+        ],
+        [
+          "Totale delle voci confrontate",
+          "1.814 €",
+          "1.888 €"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Con queste ipotesi A costa complessivamente 74 euro in meno. Rapportando il totale alla superficie netta, otteniamo circa 18,90 e 19,67 euro al metro quadrato. Il denominatore è 96, non la superficie acquistata: stiamo leggendo il costo necessario per coprire il fabbisogno netto. Non stiamo calcolando il prezzo della lavorazione finita, perché posa, altre forniture e ulteriori oneri non sono inclusi nell'esempio."
+    },
+    {
+      "type": "p",
+      "text": "Se lo scarico di B fosse già disponibile attraverso un altro accordo, il confronto andrebbe rifatto. Se A prevedesse un accessorio diverso, servirebbe prima un chiarimento tecnico. Il foglio non assegna un vincitore assoluto: rende visibile come cambia il risultato quando cambiano le condizioni. Conservare le ipotesi vale più di evidenziare soltanto il totale più basso."
+    },
+    {
+      "type": "h2",
+      "text": "Trasporto e scarico vanno descritti con il cantiere davanti",
+      "id": "trasporto-e-scarico-vanno-descritti-con-il-cantiere-davanti"
+    },
+    {
+      "type": "p",
+      "text": "«Consegna inclusa» può non spiegare dove termina il servizio. Chiedi punto di arrivo, mezzo previsto, possibilità di scarico, eventuale attesa e numero di consegne compreso. Un indirizzo in centro, un accesso stretto o una fascia oraria limitata possono richiedere un'organizzazione diversa. Verifica gli elementi con chi gestisce il cantiere e con il fornitore prima di considerarli risolti."
+    },
+    {
+      "type": "p",
+      "text": "Registra separatamente gli eventuali servizi aggiuntivi: movimentazione interna, sollevamento, imballaggi o riconsegna. Non inserirli automaticamente in ogni ordine, ma non considerarli gratuiti se nessuno li ha quotati. La domanda utile è «chi porta il materiale dal punto di scarico al luogo di impiego?». Una risposta precisa permette di coordinare persone e attrezzature senza scoprire il problema quando il mezzo è già arrivato."
+    },
+    {
+      "type": "h2",
+      "text": "Accessori e compatibilità possono cambiare il confronto",
+      "id": "accessori-e-compatibilita-possono-cambiare-il-confronto"
+    },
+    {
+      "type": "p",
+      "text": "Alcuni materiali devono essere valutati insieme ai componenti previsti per il loro impiego. Profili, fissaggi, sigillanti o elementi di raccordo non sono intercambiabili soltanto perché hanno una funzione simile. Chiedi al responsabile tecnico quali accessori appartengano al sistema richiesto e verifica che la quotazione li identifichi. Evita di completare il carrello con prodotti scelti esclusivamente per ridurre il totale."
+    },
+    {
+      "type": "p",
+      "text": "Se un fornitore presenta un pacchetto completo e un altro il solo componente principale, chiedi una scomposizione comune. Il foglio deve mostrare che cosa è incluso, escluso o ancora da confermare. Una casella «non quotato» non vale zero euro. Finché manca una voce necessaria, il totale è parziale e va indicato come tale anche quando lo condividi con il committente."
+    },
+    {
+      "type": "h2",
+      "text": "IVA, sconti e condizioni di pagamento devono restare separati",
+      "id": "iva-sconti-e-condizioni-di-pagamento-devono-restare-separati"
+    },
+    {
+      "type": "p",
+      "text": "Confronta inizialmente importi con lo stesso trattamento fiscale e segnala se sono al netto o al lordo dell'IVA. L'aliquota pertinente dipende dalla fornitura e dal contesto: non ricavarla da un esempio online. Fai verificare il caso da chi segue gli aspetti amministrativi. Un totale netto non è confrontabile direttamente con un totale lordo, anche se i due documenti usano entrambi la parola «finale»."
+    },
+    {
+      "type": "p",
+      "text": "Scrivi se uno sconto è già applicato o subordinato a una condizione. Pagamento anticipato, ordine minimo e acquisto di altre voci possono modificare il costo effettivo. Non trasformare queste condizioni in uno sconto certo prima di aver deciso se puoi rispettarle. Mantieni distinta anche la validità del prezzo dalla disponibilità: una quotazione valida non dimostra da sola che il materiale sia riservato per il tuo cantiere."
+    },
+    {
+      "type": "p",
+      "text": "Per gli indici usati in accordi o aggiornamenti contrattuali, verifica formula, serie e periodo con il professionista incaricato. La [nota metodologica ISTAT sui prezzi delle costruzioni](https://www.istat.it/wp-content/uploads/2024/03/NotaInformativa_PPC_28-marzo_2024.pdf) aiuta a riconoscere la famiglia statistica citata. Non applicare una variazione percentuale trovata in una notizia a un contratto che prevede criteri differenti."
+    },
+    {
+      "type": "h2",
+      "text": "Tempi, lotti e resi: il prezzo deve arrivare in cantiere",
+      "id": "tempi-lotti-e-resi-il-prezzo-deve-arrivare-in-cantiere"
+    },
+    {
+      "type": "p",
+      "text": "Chiedi una data o una finestra di consegna riferita alla quantità richiesta. «Disponibile» può riguardare una parte dell'ordine o una sede diversa. Registra ciò che è stato confermato e ciò che richiede ancora una verifica. Se la posa dipende da un lotto omogeneo, concorda anche come riconoscerlo sui documenti e sugli imballaggi. Questo passaggio è particolarmente utile per finiture che verranno osservate insieme."
+    },
+    {
+      "type": "p",
+      "text": "Le condizioni di reso devono essere esplicite prima dell'acquisto. Non presumere che confezioni avanzate, prodotti su ordinazione o imballaggi aperti siano restituiti alle stesse condizioni. Inserisci nel confronto eventuali costi documentati e lascia separata la quantità che vuoi conservare per manutenzioni future. Una riserva deliberata è diversa da un'eccedenza prodotta da un errore di calcolo."
+    },
+    {
+      "type": "h2",
+      "text": "Come aggiornare un confronto senza perdere le versioni",
+      "id": "come-aggiornare-un-confronto-senza-perdere-le-versioni"
+    },
+    {
+      "type": "p",
+      "text": "Assegna a ogni richiesta un riferimento e una revisione. Quando cambia la quantità o la specifica, registra la data e chiedi una conferma aggiornata ai fornitori coinvolti. Confrontare una nuova offerta con una vecchia risposta rimasta invariata può far apparire conveniente chi non ha ancora considerato il cambiamento. È un errore di perimetro, prima ancora che di prezzo."
+    },
+    {
+      "type": "p",
+      "text": "Conserva il documento originale insieme al foglio di confronto. Nel riepilogo usa una colonna per i chiarimenti e una per il documento che li prova. Se una risposta arriva per telefono, chiedi una conferma scritta dei punti che influenzano l'ordine. Chi autorizza l'acquisto deve poter leggere inclusioni, importi e condizioni senza cercare informazioni in conversazioni separate."
+    },
+    {
+      "type": "h2",
+      "text": "Un controllo finale prima dell'ordine",
+      "id": "un-controllo-finale-prima-dell-ordine"
+    },
+    {
+      "type": "p",
+      "text": "Prima di confermare ripercorri il confronto con chi utilizzerà il materiale. Controlla codice, quantità, destinazione, accessori, data e modalità di consegna. Chiedi se la lavorazione prevista è ancora la stessa e se sono intervenute revisioni del progetto. Questa rilettura serve a intercettare un ordine formalmente corretto ma ormai riferito a un'esigenza cambiata."
+    },
+    {
+      "type": "p",
+      "text": "Un controllo utile riguarda anche le righe lasciate fuori dal totale: una consegna aggiuntiva da quotare, un accessorio atteso o una movimentazione ancora da organizzare. Finché restano aperte, comunica il totale come provvisorio e indica la prossima verifica. Dopo la conferma archivia la versione approvata separatamente dalle bozze. Quando arriveranno fattura e documento di trasporto, il riferimento dell'ordine permetterà di controllare quantità e condizioni senza ricostruire tutto il percorso."
+    },
+    {
+      "type": "h2",
+      "text": "Ricezione: confronta ciò che arriva con ciò che hai ordinato",
+      "id": "ricezione-confronta-cio-che-arriva-con-cio-che-hai-ordinato"
+    },
+    {
+      "type": "p",
+      "text": "Il confronto non termina quando viene scelto il fornitore. All'arrivo controlla, con chi segue la ricezione, che riferimenti, quantità e documenti corrispondano all'ordine. Se noti differenze, descrivile e gestiscile secondo gli accordi e le procedure pertinenti. Non utilizzare automaticamente un prodotto diverso soltanto perché sembra simile a quello atteso. La verifica tecnica di un'alternativa resta necessaria anche quando il materiale è già in cantiere."
+    },
+    {
+      "type": "p",
+      "text": "Collega eventuali consegne parziali alle quantità residue. Un ordine con più arrivi può sembrare completo se ogni documento viene letto separatamente. Una colonna «ricevuto» e una «da ricevere» permettono invece di coordinare le lavorazioni successive. Conserva anche il riferimento delle righe sostituite o annullate, così il controllo amministrativo non interpreta come duplicato un documento che appartiene a una revisione concordata."
+    },
+    {
+      "type": "h2",
+      "text": "Modello scaricabile e metodo di lettura",
+      "id": "modello-scaricabile-e-metodo-di-lettura"
+    },
+    {
+      "type": "p",
+      "text": "Il [foglio CSV per confrontare materiali, confezioni e consegna](/modelli/confronto-materiali-consegna.csv) contiene i dati dell'esempio e righe da completare. È un modello originale di Corriere Edile: non contiene quotazioni commerciali, macro o formule eseguibili. Le colonne mostrano valori intermedi e risultato, così puoi verificare il calcolo con un foglio di lavoro o una calcolatrice prima di inserire dati reali."
+    },
+    {
+      "type": "p",
+      "text": "Usalo in due passaggi. Prima controlla l'equivalenza tecnica con il responsabile competente; poi confronta le voci economiche complete. Se cambia una premessa, aggiorna il risultato e annota il motivo. Il prezzo utile per decidere è quello che puoi ricostruire: prodotto identificato, quantità motivata, costi inclusi, condizioni leggibili e una conferma riferita al tuo cantiere."
+    }
+  ],
+  "faqs": [],
+  "tags": [
+    "Imprese",
+    "Organizzazione",
+    "Forniture"
+  ],
+  "related": [
+    "richiesta-offerta-fornitori-edili-documenti",
+    "registro-chiarimenti-progetto-edile",
+    "appalti-privati-intercettare-commesse"
+  ]
+},
   {
     slug: "sicurezza-cantieri-2026-nuove-regole",
     category: "Cantieri",

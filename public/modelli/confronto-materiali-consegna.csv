@@ -1,0 +1,17 @@
+﻿Esempio illustrativo Corriere Edile;"Prezzi inventati; IVA esclusa; posa esclusa";Nessuna quotazione di mercato
+Voce;Unità;A;B;Nota
+Quantità netta;m²;96;96;Stessa richiesta
+Maggiorazione ipotizzata;%;8;8;Non è una percentuale consigliata
+Quantità teorica;m²;103,68;103,68;96 x 1,08
+Contenuto confezione;m²;2,4;2;Dato ipotizzato
+Confezioni intere;numero;44;52;Arrotondamento per eccesso
+Superficie acquistata;m²;105,6;104;Confezioni x contenuto
+Prezzo confezione;EUR;36;29;Dato ipotizzato
+Materiale;EUR;1584;1508;Confezioni x prezzo
+Trasporto e scarico;EUR;90;220;Dato ipotizzato
+Accessori;EUR;140;160;Dato ipotizzato
+Totale voci confrontate;EUR;1814;1888;Non è il costo della lavorazione finita
+Costo per superficie netta;EUR/m²;18,895833;19,666667;Totale diviso 96
+Validità offerta;;;;Da compilare con dati reali
+Consegna confermata;;;;Da verificare
+Voci non quotate;;;;Non equivalgono a costo zero

@@ -449,212 +449,290 @@ export const ARTICLES_33_40: FullArticle[] = [
     ],
   },
   {
-    slug: "appalti-privati-intercettare-commesse",
-    category: "Mercato",
-    title: "Appalti privati e grandi commesse: come intercettare il capitolato prima della concorrenza",
-    metaTitle: "Appalti privati: intercettare le commesse prima",
-    metaDescription: "Gare private, capitolati e grandi commesse: i segnali che anticipano un appalto e come le imprese li intercettano prima dei concorrenti.",
-    keywords: [
-      "acquisire commesse appalti privati",
-      "generazione vendite B2B"
-    ],
-    subtitle: "Gare private, capitolati e grandi commesse: i segnali che anticipano un appalto e come le imprese li intercettano prima dei concorrenti.",
-    excerpt: "Gare private, capitolati e grandi commesse: i segnali che anticipano un appalto e come le imprese li intercettano prima dei concorrenti.",
-    published: "2026-09-14T14:00:00+02:00",
-    updated: "2026-11-18T21:00:00+01:00",
-    readingTime: 6,
-    author: {
-      name: "Redazione Corriere Edile",
-      role: "Redazione",
-      bio: "La redazione di Corriere Edile segue normativa, mercato e organizzazione del lavoro per imprese edili, impiantisti e professionisti."
-    },
-    image: "/images/articoli/appalti-privati-intercettare-commesse.jpg",
-    imageAlt: "Appalti privati e grandi commesse: come intercettare il capitolato prima della concorrenza",
-    imageCaption: "",
-    summary: [],
-    body: [
-      {
-        type: "p",
-        text: "Un appalto privato è un contratto di lavori affidato da un committente privato senza obbligo di gara pubblica. Non c’è un bando, non c’è una pubblicazione, non c’è un termine che tutti possono leggere. L’invito parte verso una lista chiusa di imprese, definita mesi prima da chi redige il capitolato. Per questo acquisire commesse negli appalti privati non è un problema di prezzo, ma di tempismo e di accesso. Quando la richiesta d’offerta arriva in azienda, la partita è già impostata da qualcun altro."
-      },
-      {
-        type: "h2",
-        text: "Come nasce davvero una commessa privata: le cinque fasi prima del bando",
-        id: "come-nasce-davvero-una-commessa-privata-le-cinque-fasi-prima"
-      },
-      {
-        type: "p",
-        text: "Le gare private in edilizia e impiantistica seguono un percorso ricorrente."
-      },
-      {
-        type: "p",
-        text: "**Fase 1 — Decisione di investimento.** La proprietà approva la spesa: nuovo stabilimento, ampliamento di un polo logistico, revamping di una linea. Il budget esiste, il progetto no."
-      },
-      {
-        type: "p",
-        text: "**Fase 2 — Fattibilità e incarico esterno.** Entra uno studio di progettazione o un general contractor: superfici, layout, tempi, vincoli urbanistici."
-      },
-      {
-        type: "p",
-        text: "**Fase 3 — Redazione del capitolato e vendor list.** È la fase decisiva: chi scrive le specifiche stabilisce di fatto quali fornitori possono soddisfarle. In parallelo si costruisce la lista degli invitati."
-      },
-      {
-        type: "p",
-        text: "**Fase 4 — Richiesta d’offerta.** Va a un numero chiuso di imprese, spesso da tre a sei."
-      },
-      {
-        type: "p",
-        text: "**Fase 5 — Negoziazione e affidamento.** Varianti, tempi, garanzie, penali."
-      },
-      {
-        type: "p",
-        text: "La differenza con il pubblico è netta. Il [Codice dei contratti pubblici](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36) (d.lgs. 36/2023) limita all’articolo 13 il proprio ambito ai contratti affidati da stazioni appaltanti ed enti concedenti: un committente privato che costruisce con capitale proprio non pubblica nulla, non motiva l’esclusione di un concorrente e non risponde alla vigilanza di [ANAC](https://www.anticorruzione.it/contratti-pubblici). Nessun accesso agli atti, nessun ricorso: la trasparenza che nel pubblico è obbligo, nel privato è cortesia."
-      },
-      {
-        type: "p",
-        text: "Il mercato spinge nella stessa direzione: l’[Osservatorio congiunturale ANCE](https://ance.it/2026/01/osservatorio-congiunturale-sullindustria-delle-costruzioni-2026/) di gennaio 2026 indica per il 2025 una flessione degli investimenti in costruzioni dell’1,1%, con il non residenziale privato sostanzialmente fermo (+0,5%) e la crescita concentrata sulle opere pubbliche. Le commesse private rilevanti sono poche e su ciascuna si concentrano più concorrenti."
-      },
-      {
-        type: "h2",
-        text: "I sei segnali che anticipano un appalto di 12-18 mesi",
-        id: "i-sei-segnali-che-anticipano-un-appalto-di-12-18-mesi"
-      },
-      {
-        type: "p",
-        text: "Un trigger event è un fatto aziendale osservabile che segnala un fabbisogno futuro. Non è un’intenzione dichiarata, è un evento già avvenuto che rende probabile un investimento. Un’azienda che acquista un capannone non ha ancora emesso un capitolato, ma lo emetterà."
-      },
-      {
-        type: "table",
-        head: [
-          "Segnale",
-          "Dove si legge",
-          "Anticipo sul capitolato"
-        ],
-        rows: [
-          [
-            "Nuovo stabilimento o acquisto immobile",
-            "Visure camerali, permessi di costruire, delibere urbanistiche",
-            "12-18 mesi"
-          ],
-          [
-            "Aumento dell’organico",
-            "Annunci di lavoro ripetuti sullo stesso sito",
-            "9-15 mesi"
-          ],
-          [
-            "Scadenza normativa (antincendio, sismica, emissioni)",
-            "Testi di legge con termine noto e proroghe",
-            "12-24 mesi"
-          ],
-          [
-            "Sostituzione impianti a fine vita",
-            "Anno di installazione, ammortamenti in chiusura",
-            "6-12 mesi"
-          ],
-          [
-            "Apertura di nuove sedi o filiali",
-            "Variazioni al registro imprese, comunicati aziendali",
-            "6-12 mesi"
-          ],
-          [
-            "Fondi o finanziamenti ottenuti",
-            "Graduatorie regionali e bandi",
-            "9-18 mesi"
-          ]
-        ]
-      },
-      {
-        type: "p",
-        text: "Intercettare capitolati significa lavorare su questa tabella, non sulle richieste d’offerta in arrivo. È il terreno in cui le tecniche di generazione vendite B2B si applicano all’edilizia industriale: si parte da un profilo di cliente ideale (ICP) costruito su parametri verificabili — codice ATECO, fatturato, addetti, area geografica, impianti in uso — e si monitorano gli eventi societari di quel perimetro. È la logica su cui lavora, per esempio, [il sistema IPA messo a punto da Clientium](https://clientium.it/sistema-ipa/), articolato in tre fasi: Identificazione, la costruzione della lista di aziende in target e dei decisori interni; Personalizzazione, messaggi scritti sul singolo destinatario a partire dal trigger event rilevato; Acquisizione, sequenze di contatto su più canali con pre-qualifica prima dell’incontro. Il prospecting B2B, cioè l’attività di ricerca e primo contatto sui potenziali committenti, si appoggia anche agli intent data: tracce digitali, come le visite a pagine tecniche o i download di schede prodotto, che segnalano un interesse attivo prima che diventi richiesta formale. Secondo i dati diffusi dall’agenzia, le campagne costruite su un segmento verticale registrano tassi di risposta del 5-6%, contro l’1,1% delle campagne generiche."
-      },
-      {
-        type: "p",
-        text: "[Arnold Koci](https://www.arnoldkoci.com), founder di [Clientium](https://www.clientium.it) e autore de La macchina degli appuntamenti, lo riassume così: «Il capitolato è la fine della storia, non l’inizio. Quando esce, chi lo ha scritto ha già due o tre nomi in testa. Il momento giusto per farsi conoscere è sei mesi prima, quando in azienda hanno appena deciso di spendere e non hanno ancora deciso con chi»."
-      },
-      {
-        type: "h2",
-        text: "Chi decide davvero: la mappa dei tre o quattro ruoli coinvolti",
-        id: "chi-decide-davvero-la-mappa-dei-tre-o-quattro-ruoli-coinvolt"
-      },
-      {
-        type: "p",
-        text: "In un acquisto complesso non decide una persona sola. I decision maker ricorrenti sono quattro, con pesi diversi lungo le cinque fasi."
-      },
-      {
-        type: "list",
-        items: [
-          "**Proprietà o direzione generale.** Decide se e quanto investire; pesa nelle fasi 1 e 5. Ragiona su ritorno e continuità produttiva.",
-          "**Direzione tecnica o facility.** Scrive i requisiti e segnala i vincoli di esercizio; pesa nelle fasi 2 e 3. È il ruolo più sottovalutato.",
-          "**Ufficio acquisti.** Gestisce la vendor list, i criteri di qualifica formali — fatturato minimo, certificazioni, referenze su lavori analoghi — e la trattativa. Pesa nelle fasi 3 e 4.",
-          "**Direzione lavori o progettista esterno.** Spesso propone materialmente i nomi da invitare: non è dipendente del committente, ma orienta la short list."
-        ]
-      },
-      {
-        type: "p",
-        text: "«Se parli solo con l’ufficio acquisti stai lavorando al buio», osserva Koci. «Non sai cosa ha in testa la proprietà e non sai cosa ha già scritto il progettista. Per ogni azienda vanno mappati tre o quattro nomi, e vanno sentiti tutti»."
-      },
-      {
-        type: "h2",
-        text: "Dalla segnalazione al tavolo: generazione vendite B2B per entrare prima che il capitolato sia chiuso",
-        id: "dalla-segnalazione-al-tavolo-generazione-vendite-b2b-per-ent"
-      },
-      {
-        type: "p",
-        text: "Individuato il segnale, l’obiettivo non è vendere: è essere consultati mentre si scrivono le specifiche. Funziona il contatto che porta una competenza utile in quella fase: un’analisi dei tempi di posa, un confronto tra soluzioni impiantistiche, una referenza su un intervento analogo."
-      },
-      {
-        type: "p",
-        text: "L’outreach multicanale — email, LinkedIn, telefono, visita — serve perché i quattro ruoli si raggiungono su canali diversi: la direzione tecnica risponde a un contenuto tecnico, l’ufficio acquisti a una referenza. Ogni contatto va registrato in una pipeline di vendita che tracci la fase della commessa, non solo lo stato della trattativa. I general contractor, poi, tengono elenchi permanenti di fornitori qualificati: entrarci fuori gara è più efficace che presentarsi a gara aperta."
-      },
-      {
-        type: "h2",
-        text: "Gli errori di tempismo che escludono l’impresa dalla short list",
-        id: "gli-errori-di-tempismo-che-escludono-limpresa-dalla-short-li"
-      },
-      {
-        type: "p",
-        text: "Il primo errore è presidiare solo le richieste d’offerta ricevute: significa competere sul prezzo dentro una lista già formata. Il secondo è il contatto unico, una mail all’ufficio acquisti senza copertura degli altri ruoli. Il terzo è arrivare a specifiche già chiuse, tarate su un altro fornitore. Il quarto è non aggiornare le referenze: chi non documenta lavori analoghi recenti viene scartato sui criteri di qualifica prima della valutazione tecnica. Il quinto è trattare il general contractor come cliente occasionale anziché come canale stabile."
-      },
-      {
-        type: "h2",
-        text: "Checklist operativa: cosa presidiare ogni trimestre per acquisire commesse negli appalti privati",
-        id: "checklist-operativa-cosa-presidiare-ogni-trimestre-per-acqui"
-      },
-      {
-        type: "p",
-        text: "Bastano poche ore a trimestre: aggiornare l’elenco delle aziende in target per ATECO e area; verificare permessi di costruire e varianti urbanistiche dei comuni del bacino; controllare gli annunci di lavoro ripetuti sui siti produttivi; censire le scadenze normative con termine entro 24 mesi; rivedere la mappa dei decisori delle prime venti aziende; aggiornare il dossier delle referenze per comparto. Per preparare il dossier, usa una [scheda dei lavori realizzati](/articolo/portfolio-lavori-impresa-edile-2027/) che distingua perimetro dell’incarico, ruolo dell’impresa e documenti disponibili."
-      },
-      {
-        type: "p",
-        text: "Acquisire commesse negli appalti privati resta un lavoro di accesso, non di sconto. Chi legge i segnali con dodici mesi di anticipo arriva al tavolo quando le specifiche sono ancora scrivibili. Chi aspetta il capitolato arriva quando restano solo il prezzo e i tempi."
-      }
-    ],
-    faqs: [
-      {
-        q: "Che cos’è un trigger event commerciale?",
-        a: "È un fatto aziendale già avvenuto e verificabile che rende probabile un acquisto successivo: un nuovo insediamento, un aumento dell’organico, una scadenza normativa, un finanziamento ottenuto. Non è una previsione. Serve a stabilire quando contattare un’azienda, prima che il fabbisogno diventi richiesta d’offerta."
-      },
-      {
-        q: "La generazione vendite B2B funziona anche per le imprese di costruzioni?",
-        a: "Sì, a patto di adattarne i tempi. Nel B2B industriale il ciclo dura mesi e i decisori sono più d’uno. Le tecniche restano quelle: profilazione del cliente ideale, monitoraggio dei segnali, contatto personalizzato su più canali, qualifica prima dell’incontro. Cambia l’orizzonte, non il metodo."
-      },
-      {
-        q: "Negli appalti privati si applica il Codice dei contratti pubblici?",
-        a: "No. Il Codice disciplina gli affidamenti di stazioni appaltanti ed enti concedenti. Un committente privato che investe capitale proprio sceglie liberamente chi invitare, non pubblica esiti e non risponde al giudice amministrativo. Le regole sono quelle scritte nella lettera d’invito."
-      }
-    ],
-    tags: [
-      "acquisire commesse appalti privati",
-      "generazione vendite B2B",
-      "appalti privati",
-      "capitolato"
-    ],
-    related: [
-      "mercato-costruzioni-2026-previsioni",
-      "migliori-imprese-costruzioni-italia-2026",
-      "bim-obbligatorio-2026-appalti"
-    ]
+  "slug": "appalti-privati-intercettare-commesse",
+  "title": "Appalti privati: trovare e valutare le commesse edili",
+  "published": "2026-09-14T14:00:00+02:00",
+  "image": "/images/articoli/appalti-privati-intercettare-commesse.jpg",
+  "category": "Mercato",
+  "metaTitle": "Appalti privati: trovare e valutare le commesse edili",
+  "metaDescription": "Come valutare una commessa privata prima del preventivo: domande, sopralluogo, referenze e scheda CSV per decidere quando preparare un’offerta.",
+  "keywords": [
+    "appalti privati edilizia",
+    "valutare commesse edili"
+  ],
+  "subtitle": "Come valutare una commessa privata prima del preventivo: domande, sopralluogo, referenze e scheda CSV per decidere quando preparare un’offerta.",
+  "excerpt": "Come valutare una commessa privata prima del preventivo: domande, sopralluogo, referenze e scheda CSV per decidere quando preparare un’offerta.",
+  "updated": "2026-11-23T20:45:52+01:00",
+  "readingTime": 12,
+  "author": {
+    "name": "Redazione Corriere Edile",
+    "role": "Redazione",
+    "bio": "La redazione di Corriere Edile segue mercato, forniture e organizzazione del lavoro nelle costruzioni."
   },
+  "imageAlt": "Preparazione delle informazioni per una commessa edile",
+  "imageCaption": "",
+  "summary": [
+    "Un'impresa può ricevere molte richieste e acquisire poche commesse sostenibili. Il problema spesso nasce prima del prezzo: manca una descrizione condivisa del lavoro, non è chiaro chi decide oppure la data richiesta non è compatibile con le squadre disponibili. Cercare appalti privati significa quindi riconoscere opportunità concrete, presentare esperienze pertinenti e capire quando conviene investire tempo in un'offerta. Questa guida propone un metodo di organizzazione commerciale, con un caso inventato e una scheda utilizzabile in azienda.",
+    "Esempi originali con ipotesi esplicite e un modello CSV disponibile senza registrazione."
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Un'impresa può ricevere molte richieste e acquisire poche commesse sostenibili. Il problema spesso nasce prima del prezzo: manca una descrizione condivisa del lavoro, non è chiaro chi decide oppure la data richiesta non è compatibile con le squadre disponibili. Cercare appalti privati significa quindi riconoscere opportunità concrete, presentare esperienze pertinenti e capire quando conviene investire tempo in un'offerta. Questa guida propone un metodo di organizzazione commerciale, con un caso inventato e una scheda utilizzabile in azienda."
+    },
+    {
+      "type": "p",
+      "text": "Il metodo riguarda il rapporto operativo tra impresa e potenziale committente. Per stabilire quali regole si applicano a un affidamento particolare, soprattutto in presenza di soggetti, finanziamenti o obblighi pubblici, occorre una verifica specifica. La parola «privato» nella richiesta non basta a risolvere ogni questione contrattuale. Qui il punto di partenza è più semplice: raccogliere le informazioni necessarie prima di promettere prezzo, tempi e disponibilità."
+    },
+    {
+      "type": "h2",
+      "text": "Prima domanda: quale lavoro sappiamo eseguire bene?",
+      "id": "prima-domanda-quale-lavoro-sappiamo-eseguire-bene"
+    },
+    {
+      "type": "p",
+      "text": "Un elenco di aziende della provincia non è ancora un mercato da affrontare. Parti dalle lavorazioni per cui hai persone, attrezzature e referenze documentabili. Un'impresa organizzata per ristrutturare appartamenti abitati potrebbe non essere pronta per lavorare in uno stabilimento durante una fermata produttiva. Cambiano accessi, coordinamento, continuità delle attività e conseguenze di un ritardo. Scrivi queste differenze prima di cercare nuovi contatti."
+    },
+    {
+      "type": "p",
+      "text": "Prepara una pagina interna con tre esempi di intervento adatto e tre situazioni che richiedono una valutazione ulteriore. Per ogni esempio indica area servita, dimensione gestibile, lavorazioni incluse, eventuali partner e settimane nelle quali puoi avviare il cantiere. Non serve pubblicare una fascia di fatturato o inventare specializzazioni. Serve permettere a chi risponde al telefono di capire quando coinvolgere subito il responsabile tecnico."
+    },
+    {
+      "type": "p",
+      "text": "La disponibilità deve avere una data. «Possiamo farlo» è diverso da «possiamo iniziare dopo il rilascio del progetto esecutivo, con una squadra dedicata nella finestra concordata». Quando l'interlocutore conosce il tuo perimetro, può chiederti un confronto pertinente. Quando trova soltanto «edilizia a 360 gradi», deve ricostruire da solo cosa sai fare e con quali limiti."
+    },
+    {
+      "type": "h2",
+      "text": "Dove trovare opportunità senza scambiare un segnale per una commessa",
+      "id": "dove-trovare-opportunita-senza-scambiare-un-segnale-per-una-commessa"
+    },
+    {
+      "type": "p",
+      "text": "Le occasioni possono arrivare da clienti esistenti, studi tecnici, amministratori, fornitori e imprese con lavorazioni complementari. Anche una notizia pubblicata dalla proprietà può segnalare un progetto da approfondire. Tuttavia l'annuncio di una nuova sede non dimostra che esistano già budget approvato, capitolato e affidamento aperto. Registra il fatto osservato separatamente dalla tua ipotesi commerciale."
+    },
+    {
+      "type": "p",
+      "text": "Un registro utile contiene fonte, data, intervento ipotizzato, informazione mancante e prossimo passo. Per esempio: «Comunicato della società: trasferimento previsto; da verificare se i lavori siano già affidati». È una nota migliore di «nuovo cantiere certo». Evita di attribuire intenzioni a chi non le ha espresse e ti impedisce di riempire le previsioni di vendita con opportunità mai confermate."
+    },
+    {
+      "type": "p",
+      "text": "Privilegia canali nei quali il contatto e la richiesta siano pertinenti: presentazioni concordate, incontri di settore, moduli dedicati ai fornitori o comunicazioni sollecitate dal committente. Prima di usare dati personali e campagne commerciali, fai verificare modalità e presupposti applicabili. Una banca dati più grande non compensa un messaggio fuori contesto. La qualità del contatto si vede dalla possibilità di discutere un bisogno reale, non dal numero di indirizzi raccolti."
+    },
+    {
+      "type": "h2",
+      "text": "Le otto informazioni da raccogliere al primo confronto",
+      "id": "le-otto-informazioni-da-raccogliere-al-primo-confronto"
+    },
+    {
+      "type": "p",
+      "text": "La prima conversazione deve ridurre l'incertezza. Chiedi dove si trova l'immobile e come viene utilizzato, quale risultato si vuole ottenere, quali elaborati sono disponibili e chi segue il progetto. Chiarisci inoltre la data desiderata, l'eventuale limite economico dichiarato, il processo di selezione e la persona che approverà l'offerta. Se una risposta manca, scrivi «da acquisire»: lasciare un campo vuoto è meglio che trasformare una supposizione in un dato."
+    },
+    {
+      "type": "p",
+      "text": "Non tutti gli interlocutori devono conoscere subito ogni dettaglio. Un amministratore può dover raccogliere una decisione dei proprietari; uno studio può essere ancora alla fattibilità; il responsabile di un'attività può conoscere bene il problema ma non le lavorazioni necessarie. In questi casi proponi il passaggio successivo adatto: raccolta documenti, sopralluogo o confronto con il progettista. Inviare immediatamente un prezzo può anticipare una decisione ancora priva di oggetto."
+    },
+    {
+      "type": "p",
+      "text": "Annota anche ciò che il committente considera irrinunciabile. «Finire entro agosto» può significare riaprire un negozio, liberare un appartamento o coordinarsi con un trasloco. La motivazione permette di valutare alternative praticabili. Se non puoi garantire la finestra richiesta, dichiaralo presto: una data irrealistica non diventa sostenibile perché compare in un preventivo ben impaginato."
+    },
+    {
+      "type": "h2",
+      "text": "Una matrice semplice per decidere se preparare l'offerta",
+      "id": "una-matrice-semplice-per-decidere-se-preparare-l-offerta"
+    },
+    {
+      "type": "p",
+      "text": "Valuta cinque aspetti: coerenza con le tue competenze, chiarezza del lavoro, accesso alle informazioni, compatibilità delle risorse e processo di decisione. Per ciascuno usa tre stati: verificato, incompleto, incompatibile. Questa classificazione è una proposta organizzativa della redazione, non un modello statistico che prevede la probabilità di aggiudicazione. Serve a rendere esplicito il motivo della scelta."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Aspetto",
+        "Domanda operativa",
+        "Prova da conservare"
+      ],
+      "rows": [
+        [
+          "Competenze",
+          "Abbiamo eseguito lavorazioni comparabili?",
+          "Scheda di una referenza pertinente"
+        ],
+        [
+          "Perimetro",
+          "Possiamo descrivere inclusioni ed esclusioni?",
+          "Elaborati e verbale del confronto"
+        ],
+        [
+          "Informazioni",
+          "Possiamo visitare e porre domande?",
+          "Appuntamento e referente tecnico"
+        ],
+        [
+          "Risorse",
+          "Squadre e forniture sono compatibili con la finestra?",
+          "Verifica interna delle disponibilità"
+        ],
+        [
+          "Decisione",
+          "Chi approva e con quali passaggi?",
+          "Processo confermato dall'interlocutore"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Un'informazione incompleta richiede una domanda; un'incompatibilità richiede una scelta. Non sommare punteggi per nascondere un problema decisivo. Quattro aspetti positivi non compensano una scadenza impossibile o una lavorazione che non puoi assumere. Puoi proporre un lotto diverso, una collaborazione definita oppure rinunciare. La rinuncia motivata libera capacità per richieste che hanno maggiori possibilità di diventare lavori eseguibili."
+    },
+    {
+      "type": "h2",
+      "text": "Caso illustrativo: rinnovare un ufficio durante l'attività",
+      "id": "caso-illustrativo-rinnovare-un-ufficio-durante-l-attivita"
+    },
+    {
+      "type": "p",
+      "text": "Immaginiamo una piccola impresa invitata a presentare un'offerta per un ufficio di 180 metri quadrati. La richiesta iniziale comprende nuove divisioni, finiture e adeguamenti impiantistici, con locali parzialmente occupati. Sono dati inventati per spiegare il metodo: non rappresentano un cantiere seguito dalla redazione e non definiscono prezzi medi. Prima del computo emergono tre questioni: aree disponibili, fasi di lavoro e responsabilità degli elaborati impiantistici."
+    },
+    {
+      "type": "p",
+      "text": "L'impresa propone un sopralluogo con il referente dell'ufficio e il progettista. Durante l'incontro si scopre che una sala deve restare accessibile e che il percorso per movimentare i materiali attraversa uno spazio comune. Questi elementi entrano nel verbale. La data di avvio resta condizionata alla conferma delle fasi e all'acquisizione delle informazioni mancanti. Non viene presentata come già garantita."
+    },
+    {
+      "type": "p",
+      "text": "Il responsabile commerciale stima, soltanto per pianificare il lavoro interno, otto ore di analisi tecnica a 45 euro l'ora e quattro ore di preparazione commerciale a 35 euro l'ora. Il costo interno ipotizzato è 360 più 140, quindi 500 euro. Se il confronto richiedesse altre dieci ore tecniche, arriverebbe a 950 euro. Sono costi organizzativi dell'esempio, non tariffe consigliate: mostrano perché conviene chiarire l'opportunità prima di impegnare altre risorse."
+    },
+    {
+      "type": "p",
+      "text": "La decisione finale non dipende dal costo già sostenuto. Se il committente conferma informazioni e passaggi, l'impresa completa l'offerta; se chiede una consegna incompatibile con l'operatività dell'ufficio, riformula le fasi o si ferma. Continuare solo perché sono già state spese alcune ore aggiunge costo a un'opportunità che potrebbe restare impraticabile."
+    },
+    {
+      "type": "h2",
+      "text": "Il sopralluogo deve produrre un documento utilizzabile",
+      "id": "il-sopralluogo-deve-produrre-un-documento-utilizzabile"
+    },
+    {
+      "type": "p",
+      "text": "Un sopralluogo efficace lascia una traccia leggibile: data, presenti, aree visitate, documenti ricevuti, vincoli osservati e questioni aperte. Collega ogni fotografia a un ambiente e chiedi le autorizzazioni necessarie prima di utilizzarla altrove. Una cartella con cinquanta immagini prive di riferimenti aiuta poco chi dovrà preparare l'offerta senza essere stato sul posto."
+    },
+    {
+      "type": "p",
+      "text": "Se un componente non è visibile o un impianto non è stato verificato, riportalo chiaramente. La nota «passaggio da verificare dopo accesso al vano» è più utile di una soluzione descritta come certa. Stabilisci chi risponderà, entro quale data e attraverso quale elaborato. Il verbale non sostituisce un progetto né una valutazione professionale, ma impedisce che una domanda dimenticata diventi una promessa implicita."
+    },
+    {
+      "type": "p",
+      "text": "Per organizzare versioni e risposte puoi usare la guida al [registro dei chiarimenti di progetto](/articolo/registro-chiarimenti-progetto-edile/). Il collegamento serve soprattutto quando più persone inviano informazioni in momenti diversi. La richiesta iniziale, la risposta e il suo effetto sull'offerta devono restare riconoscibili, anche dopo una telefonata o un cambiamento di interlocutore."
+    },
+    {
+      "type": "h2",
+      "text": "Come presentare le referenze che contano per quel committente",
+      "id": "come-presentare-le-referenze-che-contano-per-quel-committente"
+    },
+    {
+      "type": "p",
+      "text": "Se il lavoro riguarda un'attività aperta al pubblico, mostra come hai organizzato un intervento analogo soltanto se puoi documentarlo. Descrivi contesto, perimetro eseguito, vincoli e risultato effettivamente verificabile. Se non hai una referenza identica, spiega quali competenze sono trasferibili e quali aspetti richiedono una collaborazione. Non attribuirti l'intero intervento quando hai svolto un singolo lotto."
+    },
+    {
+      "type": "p",
+      "text": "Una buona presentazione può essere composta da tre schede brevi invece che da un catalogo indistinto. Per ogni scheda indica il tuo ruolo, le lavorazioni e gli elementi che il potenziale cliente può confrontare con il proprio caso. Fotografie e nomi dei clienti richiedono il corretto titolo d'uso. La guida al [portfolio di un'impresa edile](/articolo/portfolio-lavori-impresa-edile-2027/) approfondisce come raccogliere queste informazioni senza trasformare ogni lavoro in una dichiarazione generica di eccellenza."
+    },
+    {
+      "type": "h2",
+      "text": "L'offerta deve rendere visibili le condizioni della promessa",
+      "id": "l-offerta-deve-rendere-visibili-le-condizioni-della-promessa"
+    },
+    {
+      "type": "p",
+      "text": "Descrivi oggetto, documenti considerati, lavorazioni incluse, esclusioni, eventuali alternative e validità della proposta. Specifica le condizioni dalle quali dipendono tempi e disponibilità: conferma delle misure, approvazione dei materiali, accesso ai locali, elaborati necessari. Se un elemento resta da definire, indica come verrà gestito invece di nasconderlo in una formula generica."
+    },
+    {
+      "type": "p",
+      "text": "Presenta le alternative separatamente. Un'offerta base e una variante di finitura devono poter essere confrontate senza ricostruire quali voci cambiano. Anche le quantità richiedono un riferimento: stima preliminare, computo ricevuto o rilievo eseguito. Prima di formulare condizioni contrattuali, garanzie o clausole economiche, confrontati con i professionisti che seguono l'impresa. Un modello commerciale non risolve da solo la disciplina del singolo contratto."
+    },
+    {
+      "type": "p",
+      "text": "Quando servono quotazioni dei fornitori, invia una richiesta coerente con il perimetro discusso. La guida ai [documenti per una richiesta di offerta](/articolo/richiesta-offerta-fornitori-edili-documenti/) contiene modelli dedicati. Chiedere ai fornitori tre prodotti differenti e scegliere quello con il totale più basso può generare una proposta apparentemente competitiva ma priva delle prestazioni o degli accessori attesi."
+    },
+    {
+      "type": "h2",
+      "text": "Seguire una trattativa senza inviare solleciti indistinti",
+      "id": "seguire-una-trattativa-senza-inviare-solleciti-indistinti"
+    },
+    {
+      "type": "p",
+      "text": "Dopo l'invio concorda un momento per raccogliere domande. Il seguito utile riguarda un contenuto: «Avete verificato la sequenza delle fasi?» oppure «Possiamo chiarire la differenza fra le due finiture?». Se nessuno risponde, annota l'esito senza aggiornare automaticamente la previsione di incasso. Un'offerta trasmessa non è una commessa acquisita e una risposta positiva non equivale a un ordine completo."
+    },
+    {
+      "type": "p",
+      "text": "Tieni separate le fasi: richiesta ricevuta, informazioni raccolte, offerta inviata, chiarimenti, decisione e affidamento. Per passare alla fase successiva usa un evento osservabile. Questa regola rende leggibile il lavoro anche quando cambia chi gestisce il contatto. La persona che subentra deve trovare l'ultima versione dell'offerta e il prossimo impegno concordato, non una sequenza di messaggi da interpretare."
+    },
+    {
+      "type": "h2",
+      "text": "Misurare il processo con numeri che aiutano a decidere",
+      "id": "misurare-il-processo-con-numeri-che-aiutano-a-decidere"
+    },
+    {
+      "type": "p",
+      "text": "Conta quante richieste diventano offerte complete, quante vengono sospese per documenti mancanti e quante vengono escluse per incompatibilità. Registra inoltre il tempo impiegato a prepararle e le motivazioni comunicate dopo la decisione. Questi dati aiutano a migliorare la selezione. Non dedurre automaticamente che un'offerta persa abbia un prezzo sbagliato: potrebbe essere cambiato il progetto o potrebbe non esserci stata una decisione."
+    },
+    {
+      "type": "p",
+      "text": "Una revisione mensile può partire da cinque casi, riletti con chi ha preparato gli elaborati e chi organizza i cantieri. Cerca passaggi correggibili: una domanda posta troppo tardi, una referenza non pertinente, una data promessa prima della verifica interna. Cambia una cosa alla volta e osserva il risultato nelle richieste successive. Il valore del metodo sta nella qualità delle decisioni e nella possibilità di spiegare perché un'opportunità è stata accettata, rinviata o scartata."
+    },
+    {
+      "type": "h2",
+      "text": "Scarica la scheda di qualificazione e usala nella prossima richiesta",
+      "id": "scarica-la-scheda-di-qualificazione-e-usala-nella-prossima-richiesta"
+    },
+    {
+      "type": "p",
+      "text": "Il [modello CSV per qualificare una commessa privata](/modelli/qualificazione-commessa-privata.csv) raccoglie oggetto, fonte, interlocutori, vincoli, documenti e passaggio successivo. È una scheda originale di Corriere Edile, senza registrazione, macro o dati personali precompilati. Aprila con un foglio di calcolo e duplicala per ogni opportunità. I campi non compilati devono restare riconoscibili come informazioni ancora da acquisire."
+    },
+    {
+      "type": "p",
+      "text": "Prima di chiudere la prima valutazione controlla tre cose: puoi descrivere il lavoro con parole condivise dal committente, sai quale informazione manca e hai un prossimo passo realistico. Se una risposta è negativa, risolvi quel punto prima di promettere un'offerta definitiva. In questo modo la ricerca di nuovi appalti diventa una sequenza di verifiche concrete, collegata alla capacità effettiva dell'impresa di eseguire bene ciò che propone."
+    },
+    {
+      "type": "h2",
+      "text": "Quando un'opportunità va sospesa invece di essere inseguita",
+      "id": "quando-un-opportunita-va-sospesa-invece-di-essere-inseguita"
+    },
+    {
+      "type": "p",
+      "text": "La sospensione è utile quando il bisogno esiste ma manca un passaggio indispensabile. Per esempio, il committente deve ancora scegliere fra due progetti oppure attendere un chiarimento su un locale. Registra la condizione di riapertura: «riprendere dopo la conferma della distribuzione», con referente e appuntamento concordato. Evita di lasciare l'offerta nel gruppo delle decisioni imminenti se nessuno può ancora approvarla."
+    },
+    {
+      "type": "p",
+      "text": "Quando il confronto riparte, rileggi i presupposti. Quantità, date e disponibilità potrebbero essere cambiati durante l'attesa. Prima di confermare la vecchia proposta, controlla che descriva ancora il lavoro richiesto. Anche i documenti dei fornitori possono avere una validità differente. Questo passaggio evita di trasformare una cortesia commerciale in una conferma riferita a condizioni ormai superate."
+    },
+    {
+      "type": "p",
+      "text": "Se l'opportunità viene chiusa, conserva una motivazione concreta e proporzionata alle informazioni ricevute. «Progetto rinviato dal cliente» è diverso da «offerta persa per prezzo». Se il motivo non è noto, scrivi che non è stato comunicato. Dati incompleti ma onesti permettono analisi migliori di conclusioni inventate per riempire un report. Alla revisione successiva potrai decidere quali contatti abbiano un motivo reale per essere ricontattati."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Per partecipare a un appalto privato basta inviare un preventivo?",
+      "a": "Dipende dal processo scelto dal committente. Prima chiedi quali documenti, sopralluoghi e passaggi siano richiesti. Un'offerta inviata senza conoscere perimetro e modalità di selezione può risultare incompleta o impossibile da confrontare con le altre."
+    },
+    {
+      "q": "Conviene preparare tutte le offerte che arrivano?",
+      "a": "Conviene prima verificare competenze, informazioni e disponibilità. Se manca un dato decisivo, chiedilo; se il lavoro è incompatibile con le risorse, proponi un perimetro diverso o rinuncia. Il numero di preventivi prodotti, da solo, non misura la qualità commerciale."
+    },
+    {
+      "q": "Quanto anticipo serve per trovare una commessa?",
+      "a": "Non esiste un intervallo valido per ogni intervento. Progetto, decisioni del committente, forniture e autorizzazioni hanno tempi diversi. Registra le date effettivamente comunicate e aggiorna il prossimo passo quando emerge un'informazione nuova."
+    }
+  ],
+  "tags": [
+    "Imprese",
+    "Organizzazione",
+    "Forniture"
+  ],
+  "related": [
+    "portfolio-lavori-impresa-edile-2027",
+    "registro-chiarimenti-progetto-edile",
+    "richiesta-offerta-fornitori-edili-documenti"
+  ]
+},
   {
     slug: "varianti-corso-opera-riserve",
     category: "Normativa",
