@@ -274,19 +274,20 @@ export const ARTICLES_01_10: FullArticle[] = [
   },
   {
   "slug": "prezzi-materiali-costruzione-2026",
-  "title": "Prezzi materiali edili 2026: confrontare offerte e consegne",
+  "title": "Materiali edili per il 2027: confrontare prezzi e consegne",
   "published": "2026-07-10T08:15:00+02:00",
-  "image": "/images/articoli/prezzi-materiali-costruzione-2026.jpg",
+  "image": "/images/articoli/materiali-edili-2027-confronto.jpg",
   "category": "Mercato",
-  "metaTitle": "Prezzi materiali edili 2026: confrontare offerte e consegne",
-  "metaDescription": "Confronta prezzi, confezioni, sfridi, accessori e trasporto dei materiali edili. Esempio numerico e modello CSV, con ipotesi e costi inclusi.",
+  "metaTitle": "Materiali edili 2027: confrontare prezzi e consegne",
+  "metaDescription": "Programma gli acquisti edili del 2027: confronta confezioni, accessori e trasporto con offerte datate. Esempio numerico e modello CSV.",
   "keywords": [
-    "prezzi materiali edili 2026",
-    "confronto offerte materiali"
+    "materiali edili 2027",
+    "confronto prezzi materiali",
+    "acquisti cantiere 2027"
   ],
-  "subtitle": "Confronta prezzi, confezioni, sfridi, accessori e trasporto dei materiali edili. Esempio numerico e modello CSV, con ipotesi e costi inclusi.",
-  "excerpt": "Confronta prezzi, confezioni, sfridi, accessori e trasporto dei materiali edili. Esempio numerico e modello CSV, con ipotesi e costi inclusi.",
-  "updated": "2026-11-23T20:45:52+01:00",
+  "subtitle": "Programma gli acquisti edili del 2027: confronta confezioni, accessori e trasporto con offerte datate. Esempio numerico e modello CSV.",
+  "excerpt": "Programma gli acquisti edili del 2027: confronta confezioni, accessori e trasporto con offerte datate. Esempio numerico e modello CSV.",
+  "updated": "2026-11-24T07:36:40+01:00",
   "readingTime": 11,
   "author": {
     "name": "Redazione Corriere Edile",
@@ -296,13 +297,13 @@ export const ARTICLES_01_10: FullArticle[] = [
   "imageAlt": "Materiali e forniture per un cantiere edile",
   "imageCaption": "",
   "summary": [
-    "Un prezzo al metro quadrato può sembrare più conveniente e produrre una fornitura più costosa. Succede quando cambiano lo spessore, il numero di confezioni, gli accessori, il trasporto o le condizioni di scarico. Per leggere i prezzi dei materiali da costruzione nel 2026 serve quindi un confronto riferito allo stesso prodotto e allo stesso cantiere. Una media nazionale non può sostituire una richiesta completa e una quotazione con data e validità riconoscibili.",
+    "Un prezzo al metro quadrato può sembrare più conveniente e produrre una fornitura più costosa. Succede quando cambiano lo spessore, il numero di confezioni, gli accessori, il trasporto o le condizioni di scarico. Per programmare gli acquisti di materiali da costruzione del 2027 serve quindi un confronto riferito allo stesso prodotto e allo stesso cantiere. Una media nazionale non può sostituire una richiesta completa e una quotazione con data e validità riconoscibili.",
     "Esempi originali con ipotesi esplicite e un modello CSV disponibile senza registrazione."
   ],
   "body": [
     {
       "type": "p",
-      "text": "Un prezzo al metro quadrato può sembrare più conveniente e produrre una fornitura più costosa. Succede quando cambiano lo spessore, il numero di confezioni, gli accessori, il trasporto o le condizioni di scarico. Per leggere i prezzi dei materiali da costruzione nel 2026 serve quindi un confronto riferito allo stesso prodotto e allo stesso cantiere. Una media nazionale non può sostituire una richiesta completa e una quotazione con data e validità riconoscibili."
+      "text": "Un prezzo al metro quadrato può sembrare più conveniente e produrre una fornitura più costosa. Succede quando cambiano lo spessore, il numero di confezioni, gli accessori, il trasporto o le condizioni di scarico. Per programmare gli acquisti di materiali da costruzione del 2027 serve quindi un confronto riferito allo stesso prodotto e allo stesso cantiere. Una media nazionale non può sostituire una richiesta completa e una quotazione con data e validità riconoscibili."
     },
     {
       "type": "p",

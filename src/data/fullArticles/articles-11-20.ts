@@ -3,20 +3,20 @@ import type { FullArticle } from "./types";
 export const ARTICLES_11_20: FullArticle[] = [
   {
   "slug": "ristrutturare-casa-2026-costi-guida",
-  "title": "Ristrutturare casa: costi, preventivi e budget da verificare",
+  "title": "Ristrutturare casa nel 2027: preventivi e budget",
   "published": "2026-07-02T08:30:00+02:00",
-  "image": "/images/articoli/ristrutturare-casa-2026-costi-guida.jpg",
+  "image": "/images/articoli/ristrutturazione-casa-2027-preventivi.jpg",
   "category": "Progetti",
-  "metaTitle": "Ristrutturare casa: costi, preventivi e budget da verificare",
-  "metaDescription": "Come confrontare i preventivi di ristrutturazione: opere, esclusioni, forniture, tempi e revisioni. Caso numerico e modello CSV del budget.",
+  "metaTitle": "Ristrutturare casa nel 2027: preventivi e budget",
+  "metaDescription": "Prepara la ristrutturazione del 2027: confronta opere, esclusioni, forniture e tempi. Esempio numerico e modello CSV per il budget.",
   "keywords": [
-    "ristrutturare casa",
-    "preventivo ristrutturazione",
-    "budget lavori casa"
+    "ristrutturare casa 2027",
+    "preventivi ristrutturazione",
+    "budget lavori 2027"
   ],
-  "subtitle": "Come confrontare i preventivi di ristrutturazione: opere, esclusioni, forniture, tempi e revisioni. Caso numerico e modello CSV del budget.",
-  "excerpt": "Come confrontare i preventivi di ristrutturazione: opere, esclusioni, forniture, tempi e revisioni. Caso numerico e modello CSV del budget.",
-  "updated": "2026-11-24T07:22:30+01:00",
+  "subtitle": "Prepara la ristrutturazione del 2027: confronta opere, esclusioni, forniture e tempi. Esempio numerico e modello CSV per il budget.",
+  "excerpt": "Prepara la ristrutturazione del 2027: confronta opere, esclusioni, forniture e tempi. Esempio numerico e modello CSV per il budget.",
+  "updated": "2026-11-24T07:36:40+01:00",
   "readingTime": 11,
   "author": {
     "name": "Redazione Corriere Edile",
@@ -26,17 +26,17 @@ export const ARTICLES_11_20: FullArticle[] = [
   "imageAlt": "Intervento di ristrutturazione di un appartamento",
   "imageCaption": "",
   "summary": [
-    "Il costo di una ristrutturazione dipende da ciò che viene davvero eseguito, dalle condizioni dell'immobile e dalle scelte ancora aperte. Per confrontare due preventivi non basta dividere il totale per la superficie dell'appartamento. Prima bisogna capire quali lavorazioni, forniture e servizi comprendano, a quali documenti si riferiscano e quali spese rimangano fuori. Un prezzo al metro quadrato è leggibile soltanto quando il suo perimetro è chiaro.",
-    "Esempi originali con ipotesi esplicite e un modello CSV disponibile senza registrazione."
+    "Se stai programmando una ristrutturazione per il 2027, prepara il confronto prima di scegliere le forniture.",
+    "Esempi con ipotesi esplicite e modello CSV del budget di ristrutturazione."
   ],
   "body": [
     {
       "type": "p",
-      "text": "Il costo di una ristrutturazione dipende da ciò che viene davvero eseguito, dalle condizioni dell'immobile e dalle scelte ancora aperte. Per confrontare due preventivi non basta dividere il totale per la superficie dell'appartamento. Prima bisogna capire quali lavorazioni, forniture e servizi comprendano, a quali documenti si riferiscano e quali spese rimangano fuori. Un prezzo al metro quadrato è leggibile soltanto quando il suo perimetro è chiaro."
+      "text": "Se stai programmando una ristrutturazione per il 2027, prepara il confronto prima di scegliere le forniture. Il costo di una ristrutturazione dipende da ciò che viene davvero eseguito, dalle condizioni dell'immobile e dalle scelte ancora aperte. Per confrontare due preventivi non basta dividere il totale per la superficie dell'appartamento. Prima bisogna capire quali lavorazioni, forniture e servizi comprendano, a quali documenti si riferiscano e quali spese rimangano fuori. Un prezzo al metro quadrato è leggibile soltanto quando il suo perimetro è chiaro."
     },
     {
       "type": "p",
-      "text": "Questa guida spiega come costruire un quadro economico prima dei lavori, confrontare le offerte e aggiornarlo quando il progetto cambia. Le cifre dell'esempio sono inventate per mostrare il metodo: non sono prezzi medi del 2026, tariffe professionali o quotazioni commerciali. Puoi sostituirle con importi ricevuti per il tuo intervento, conservando documenti, date e condizioni che li rendono verificabili."
+      "text": "Questa guida spiega come costruire un quadro economico prima dei lavori, confrontare le offerte e aggiornarlo quando il progetto cambia. Le cifre dell'esempio sono inventate per mostrare il metodo: non sono un listino dei prezzi per il 2027, tariffe professionali o quotazioni commerciali. Puoi sostituirle con importi ricevuti per il tuo intervento, conservando documenti, date e condizioni che li rendono verificabili."
     },
     {
       "type": "h2",
