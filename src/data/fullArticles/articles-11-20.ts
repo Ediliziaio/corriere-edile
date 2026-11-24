@@ -2,82 +2,295 @@ import type { FullArticle } from "./types";
 
 export const ARTICLES_11_20: FullArticle[] = [
   {
-    slug: "ristrutturare-casa-2026-costi-guida",
-    category: "Progetti",
-    title: "Ristrutturare casa nel 2026: costi al metro quadro, tempi e errori da evitare",
-    metaTitle: "Ristrutturazione 2026: prezzi al mq per il preventivo",
-    metaDescription: "Ristrutturare casa nel 2026: costi reali al metro quadro, tempi di cantiere, bonus ed errori da evitare. La guida completa con tabelle aggiornate.",
-    keywords: ["ristrutturare casa 2026", "costi ristrutturazione al mq", "ristrutturazione chiavi in mano", "bonus ristrutturazioni 2026", "tempi ristrutturazione appartamento"],
-    subtitle: "Dai 900 ai 1.400 euro al metro quadro per una ristrutturazione completa: cosa incide davvero sul preventivo, come cambiano i tempi con il costo dei materiali e quali incentivi restano validi nel 2026.",
-    excerpt: "Costi al mq aggiornati al 2026, tempi realistici di cantiere, voci che gonfiano il preventivo ed errori che costano migliaia di euro: la guida operativa per chi deve ristrutturare casa.",
-    published: "2026-07-02T08:30:00+02:00",
-    updated: "2026-07-02T17:45:00+02:00",
-    readingTime: 11,
-    author: {
-      name: "Sara Colombo",
-      role: "Redattrice Cantieri & Progetti",
-      bio: "Ingegnere edile, segue da oltre dieci anni cantieri residenziali e pratiche urbanistiche. Per Corriere Edile cura le guide operative su ristrutturazioni, direzione lavori e gestione del cantiere."
-    },
-    image: "/images/articoli/ristrutturare-casa-2026-costi-guida.jpg",
-    imageAlt: "Cantiere di ristrutturazione di un appartamento nel 2026 con operaio al lavoro su nuove partizioni in cartongesso",
-    imageCaption: "Una ristrutturazione completa nel 2026 richiede in media 3-6 mesi di cantiere e un budget tra 900 e 1.400 €/mq.",
-    summary: [
-      "Una ristrutturazione completa nel 2026 costa in media tra 900 e 1.400 €/mq; con finiture di pregio e impianti nuovi si può arrivare a 1.600 €/mq.",
-      "Il rifacimento del bagno resta la voce più pesante: tra 5.000 e 12.000 euro per un locale di 4-6 mq, impianto idraulico incluso.",
-      "Per un appartamento di 100 mq servono 3-6 mesi di cantiere, più 30-60 giorni tra preventivi, pratiche (CILA o SCIA) e approvvigionamento dei materiali.",
-      "Nel 2026 restano il Bonus ristrutturazioni al 50% (36% per le seconde case) fino a 96.000 euro, il Bonus mobili e il 75% per l'abbattimento delle barriere architettoniche.",
-      "Gli errori più costosi: partire senza capitolato dettagliato, scegliere solo il preventivo più basso e non accantonare un fondo imprevisti del 10-15%."
-    ],
-    body: [
-      { type: "h2", id: "quanto-costa", text: "Quanto costa ristrutturare casa nel 2026?" },
-      { type: "p", text: "La domanda che ogni committente pone per prima ha una risposta che dipende da tre variabili: profondità dell'intervento, città in cui si trova l'immobile e livello delle finiture. Dopo il biennio di stabilizzazione dei prezzi dei materiali, le nostre rilevazioni sui computi metrici pubblicati dalle principali piattaforme di preventivazione e dai listini DEI indicano per il 2026 una forchetta tra 900 e 1.400 euro al metro quadro per una ristrutturazione completa di un appartamento, con punte di 1.500-1.700 €/mq nelle grandi città del Nord quando si scelgono finiture medio-alte. Una ristrutturazione leggera, limitata a pavimenti, pitture e piccoli adattamenti, resta invece tra 450 e 700 €/mq." },
-      { type: "p", text: "Va ricordato che il costo al metro quadro è una media: bagni e cucine concentrano il 40-50% del budget pur rappresentando meno di un quinto della superficie. Per questo due appartamenti identici possono avere preventivi molto diversi se in uno si rifanno due bagni e nell'altro nessuno. La geografia pesa ancora: tra Milano e un capoluogo del Sud la stessa lavorazione può variare del 25-35%, sia per il costo della manodopera sia per la disponibilità di imprese, che nel 2026 resta il vero collo di bottiglia del settore secondo i dati [ANCE](https://www.ance.it)." },
-      { type: "table", caption: "Costi indicativi di ristrutturazione nel 2026 (fonte: elaborazione Corriere Edile su listini DEI e preventivi reali)", head: ["Intervento", "Costo indicativo 2026", "Note"], rows: [
-        ["Ristrutturazione leggera (pavimenti, pitture)", "450-700 €/mq", "Senza impianti né opere murarie"],
-        ["Ristrutturazione completa", "900-1.400 €/mq", "Impianti, infissi, bagni, opere murarie"],
-        ["Chiavi in mano, finiture medio-alte", "1.200-1.600 €/mq", "Progetto e direzione lavori inclusi"],
-        ["Rifacimento bagno completo (4-6 mq)", "5.000-12.000 € a corpo", "Demolizione, impianti, sanitari, rivestimenti"],
-        ["Impianto elettrico nuovo", "60-90 €/mq", "Con certificazione DM 37/08"],
-        ["Impianto idrico-sanitario nuovo", "70-110 €/mq", "In funzione del numero di bagni"],
-        ["Sostituzione infissi", "400-800 €/mq di serramento", "PVC o alluminio a taglio termico"]
-      ] },
-      { type: "h2", id: "voci-costo", text: "Quali voci pesano di più sul preventivo?" },
-      { type: "p", text: "Analizzando decine di computi metrici, la struttura tipica di un preventivo di ristrutturazione completa si ripartisce così: circa il 30% per gli impianti (elettrico, idrico, riscaldamento), il 20-25% per opere murarie e cartongessi, il 15-20% per pavimenti e rivestimenti, il 10-15% per bagni e sanitari, il resto tra infissi, pitture, trasporti e smaltimento. Sopra il 5% di spese generali e il 10-13% di utile d'impresa. Conoscere questa anatomia serve a capire dove si può trattare e dove no: sugli impianti il risparmio miope si paga caro in collaudi e manutenzione, mentre su pavimenti e rivestimenti il margine di scelta è amplissimo." },
-      { type: "list", items: [
-        "Impianti (elettrico, idrico, termico): 28-32% del budget — mai scendere sotto i materiali certificati",
-        "Opere murarie, tracce, cartongessi e massetti: 20-25% — qui si concentrano gli imprevisti nelle case datate",
-        "Pavimenti e rivestimenti: 15-20% — la voce con il maggior margine di scelta estetica ed economica",
-        "Bagni e sanitari: 10-15% — attenzione ai costi nascosti di scarichi e ventilazione",
-        "Infissi e serramenti: 8-12% — incidono anche su efficienza energetica e detrazioni",
-        "Spese tecniche (progetto, pratiche, direzione lavori, collaudi): 8-12% — obbligatorie per le detrazioni"
-      ] },
-      { type: "h2", id: "tempi", text: "Quanto tempo serve per una ristrutturazione completa?" },
-      { type: "p", text: "Per un appartamento di 80-100 mq con ristrutturazione integrale il cantiere medio dura oggi tra i 3 e i 6 mesi. A questi vanno sommati i tempi preliminari, spesso sottovalutati: 3-4 settimane per raccogliere e confrontare i preventivi, 2-4 settimane per la redazione del progetto e il deposito della CILA (o della SCIA se si spostano tramezzi portanti o si modificano i prospetti), 4-8 settimane per l'approvvigionamento di serramenti e materiali su ordinazione. Chi inizia a luglio con il preventivo difficilmente entra in casa prima di gennaio. Le deroghe più frequenti ai cronoprogrammi riguardano i serramenti, con consegne che nel 2026 oscillano ancora tra le 6 e le 10 settimane, e i ritrovamenti imprevisti in demolizione: tubazioni degradate, umidità di risalita, solai da consolidare." },
-      { type: "quote", text: "Il cronoprogramma realistico è la prima forma di tutela del cliente. Quando un'impresa promette un appartamento completo in sessanta giorni, o sta lavorando in economia o non ha fatto il sopralluogo: in entrambi i casi il conto arriva dopo, sotto forma di varianti e riserve.", author: "ing. Paolo Ghirardi, direttore tecnico di un'impresa di ristrutturazioni milanese" },
-      { type: "h2", id: "bonus-2026", text: "Quali bonus si possono usare nel 2026?" },
-      { type: "p", text: "Il panorama incentivante 2026 è più lineare rispetto agli anni del Superbonus ma resta generoso per la prima casa. Il Bonus ristrutturazioni (art. 16-bis del TUIR) riconosce la detrazione del 50% fino a 96.000 euro di spesa per l'abitazione principale e del 36% per le altre unità immobiliari, ripartita in dieci quote annuali. Si aggiungono il Bonus mobili ed elettrodomestici (50% fino a 5.000 euro, solo se collegato a un intervento di ristrutturazione) e la detrazione del 75% per l'eliminazione delle barriere architettoniche. Per gli interventi di efficienza energetica — cappotto, serramenti, caldaie a condensazione, pompe di calore — resta l'Ecobonus con aliquote tra il 36% e il 50%. Condizione imprescindibile: titolo abilitativo corretto (CILA con indicazione dei lavori agevolabili), pagamenti con bonifico parlante e conservazione di fatture e concessioni per dieci anni." },
-      { type: "h2", id: "errori", text: "Quali sono gli errori da evitare in cantiere?" },
-      { type: "list", items: [
-        "Partire senza capitolato: un preventivo di dieci righe è una lite annunciata; servono voci di computo metrico dettagliate",
-        "Scegliere solo sul prezzo: un preventivo 20% sotto la media nasconde esclusioni, materiali scadenti o manodopera irregolare",
-        "Dimenticare il fondo imprevisti: il 10-15% del budget va accantonato per ciò che emergerà in demolizione",
-        "Pagare senza SAL: i pagamenti devono seguire gli stati di avanzamento lavori firmati, mai anticipi superiori al 20-30%",
-        "Non verificare DURC e posizione assicurativa dell'impresa: espone il committente a responsabilità solidali",
-        "Modificare il progetto a cantiere aperto: ogni variante in corso d'opera costa il 30-50% in più che in fase di progetto",
-        "Trascurare la pratica edilizia: lavori senza CILA perdono le detrazioni e rischiano l'accertamento di abusivismo"
-      ] },
-      { type: "h2", id: "conclusioni", text: "Conclusioni: la pianificazione è la vera detrazione" },
-      { type: "p", text: "Ristrutturare casa nel 2026 resta un investimento importante ma sostenibile se affrontato con metodo: budget realistico tra 900 e 1.400 €/mq, cronoprogramma di 4-6 mesi, impresa selezionata su referenze e regolarità contributiva, capitolato dettagliato e fondo imprevisti. Le detrazioni fiscali premiano chi documenta tutto correttamente fin dal titolo abilitativo. Il consiglio operativo finale è uno solo: investire le prime 1.500-3.000 euro in un progetto serio e in un computo metrico professionale è il modo più efficace per proteggere i successivi 100.000." }
-    ],
-    faqs: [
-      { q: "Serve la CILA per ristrutturare casa nel 2026?", a: "Sì, nella maggior parte dei casi. La CILA è obbligatoria per manutenzioni straordinarie che non toccano le parti strutturali (spostamento tramezzi, rifacimento impianti, nuovi bagni) ed è indispensabile per accedere alle detrazioni fiscali. Per lavori leggeri come pitture e pavimenti basta la comunicazione all'amministratore in condominio." },
-      { q: "Quanto costa rifare completamente un bagno nel 2026?", a: "Tra 5.000 e 12.000 euro per un bagno di 4-6 mq, comprensivi di demolizione, nuovo impianto idraulico, sanitari, rivestimenti e manodopera. La forchetta dipende da posizione degli scarichi, qualità di sanitari e rivestimenti, e città in cui si trova l'immobile." },
-      { q: "Meglio un'impresa unica o artigiani separati?", a: "Per ristrutturazioni complete conviene quasi sempre l'impresa unica con contratto d'appalto: coordina le lavorazioni, risponde dei difetti e semplifica la gestione fiscale. Gli artigiani separati possono far risparmiare il 10-15% ma richiedono al committente un coordinamento che, se manca, genera ritardi e rimpalli di responsabilità." },
-      { q: "Come si pagano i lavori per non perdere le detrazioni?", a: "Esclusivamente con bonifico bancario o postale parlante, cioè con causale che richiama l'art. 16-bis del TUIR, codice fiscale del beneficiario e partita IVA dell'impresa. La ritenuta d'acconto dell'8% viene applicata automaticamente dalla banca. Contanti, assegni e bonifici ordinari fanno decadere il beneficio." }
-    ],
-    tags: ["ristrutturazioni", "costi", "cantiere", "bonus fiscali", "progettazione"],
-    related: ["bonus-edilizi-2026-guida-completa", "prezzi-materiali-costruzione-2026", "cappotto-termico-2026-costi-materiali"]
+  "slug": "ristrutturare-casa-2026-costi-guida",
+  "title": "Ristrutturare casa: costi, preventivi e budget da verificare",
+  "published": "2026-07-02T08:30:00+02:00",
+  "image": "/images/articoli/ristrutturare-casa-2026-costi-guida.jpg",
+  "category": "Progetti",
+  "metaTitle": "Ristrutturare casa: costi, preventivi e budget da verificare",
+  "metaDescription": "Come confrontare i preventivi di ristrutturazione: opere, esclusioni, forniture, tempi e revisioni. Caso numerico e modello CSV del budget.",
+  "keywords": [
+    "ristrutturare casa",
+    "preventivo ristrutturazione",
+    "budget lavori casa"
+  ],
+  "subtitle": "Come confrontare i preventivi di ristrutturazione: opere, esclusioni, forniture, tempi e revisioni. Caso numerico e modello CSV del budget.",
+  "excerpt": "Come confrontare i preventivi di ristrutturazione: opere, esclusioni, forniture, tempi e revisioni. Caso numerico e modello CSV del budget.",
+  "updated": "2026-11-24T07:22:30+01:00",
+  "readingTime": 11,
+  "author": {
+    "name": "Redazione Corriere Edile",
+    "role": "Redazione",
+    "bio": "La redazione di Corriere Edile segue mercato, forniture e organizzazione del lavoro nelle costruzioni."
   },
+  "imageAlt": "Intervento di ristrutturazione di un appartamento",
+  "imageCaption": "",
+  "summary": [
+    "Il costo di una ristrutturazione dipende da ciò che viene davvero eseguito, dalle condizioni dell'immobile e dalle scelte ancora aperte. Per confrontare due preventivi non basta dividere il totale per la superficie dell'appartamento. Prima bisogna capire quali lavorazioni, forniture e servizi comprendano, a quali documenti si riferiscano e quali spese rimangano fuori. Un prezzo al metro quadrato è leggibile soltanto quando il suo perimetro è chiaro.",
+    "Esempi originali con ipotesi esplicite e un modello CSV disponibile senza registrazione."
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Il costo di una ristrutturazione dipende da ciò che viene davvero eseguito, dalle condizioni dell'immobile e dalle scelte ancora aperte. Per confrontare due preventivi non basta dividere il totale per la superficie dell'appartamento. Prima bisogna capire quali lavorazioni, forniture e servizi comprendano, a quali documenti si riferiscano e quali spese rimangano fuori. Un prezzo al metro quadrato è leggibile soltanto quando il suo perimetro è chiaro."
+    },
+    {
+      "type": "p",
+      "text": "Questa guida spiega come costruire un quadro economico prima dei lavori, confrontare le offerte e aggiornarlo quando il progetto cambia. Le cifre dell'esempio sono inventate per mostrare il metodo: non sono prezzi medi del 2026, tariffe professionali o quotazioni commerciali. Puoi sostituirle con importi ricevuti per il tuo intervento, conservando documenti, date e condizioni che li rendono verificabili."
+    },
+    {
+      "type": "h2",
+      "text": "Parti dal risultato richiesto, stanza per stanza",
+      "id": "parti-dal-risultato-richiesto-stanza-per-stanza"
+    },
+    {
+      "type": "p",
+      "text": "Scrivi quali ambienti vuoi modificare e per quale motivo. Rifare le finiture di una stanza è diverso da cambiarne distribuzione e impianti. Indica anche cosa vuoi conservare: pavimenti, porte, arredi fissi, apparecchi e parti già rinnovate. Un elenco di esclusioni condiviso può evitare che un'impresa immagini una demolizione completa mentre il proprietario si aspetta un intervento più limitato."
+    },
+    {
+      "type": "p",
+      "text": "Per ogni ambiente prepara quattro colonne: situazione attuale, risultato desiderato, decisione già presa e informazione da verificare. «Nuovo bagno» è troppo generico; «mantenere la distribuzione, sostituire rivestimenti e apparecchi, verificare gli impianti» è una richiesta dalla quale partire. La verifica tecnica potrà modificarla, ma il confronto iniziale sarà più concreto di una raccolta di immagini prive di priorità."
+    },
+    {
+      "type": "p",
+      "text": "Se l'immobile resterà abitato, comunicalo subito. Accessi, protezioni, disponibilità degli ambienti e continuità dei servizi devono entrare nella valutazione. Non usare una stima preparata per un appartamento vuoto come se descrivesse automaticamente un lavoro per fasi con persone presenti. Le due organizzazioni possono richiedere attività diverse, da concordare con chi gestirà il cantiere."
+    },
+    {
+      "type": "h2",
+      "text": "Raccogli i documenti prima di chiedere un totale",
+      "id": "raccogli-i-documenti-prima-di-chiedere-un-totale"
+    },
+    {
+      "type": "p",
+      "text": "Metti a disposizione elaborati disponibili, rilievi, documenti degli impianti e informazioni sui lavori precedenti. Chiedi al professionista incaricato quali verifiche e pratiche siano necessarie per il caso concreto. Una planimetria commerciale non dimostra da sola che ogni elemento rappresenti la situazione verificata dell'immobile. Il preventivo deve riferirsi a documenti riconoscibili, con data e revisione."
+    },
+    {
+      "type": "p",
+      "text": "Se manca un'informazione, distinguine l'effetto. Una finitura non ancora scelta può richiedere un importo provvisorio; un elemento tecnico non verificato può impedire di definire una lavorazione. Non sono lo stesso tipo di incertezza. Chiedi quale approfondimento serva, chi lo eseguirà e quale parte dell'offerta potrà cambiare dopo la risposta. Questo permette di decidere senza fingere che tutto sia già risolto."
+    },
+    {
+      "type": "p",
+      "text": "Per organizzare le versioni puoi usare la guida ai [documenti di progetto e alle revisioni](/articolo/tavole-progetto-revisioni-quote-sopralluogo/). Ogni impresa dovrebbe ricevere lo stesso pacchetto aggiornato. Confrontare risposte prodotte su elaborati diversi rende il prezzo meno significativo, anche quando i preventivi hanno descrizioni simili e lo stesso numero di pagine."
+    },
+    {
+      "type": "h2",
+      "text": "Dividi il quadro economico in gruppi leggibili",
+      "id": "dividi-il-quadro-economico-in-gruppi-leggibili"
+    },
+    {
+      "type": "p",
+      "text": "Separa lavori dell'impresa, forniture acquistate direttamente, prestazioni professionali e altre spese documentate. All'interno dei lavori puoi distinguere rimozioni, opere edili, impianti, finiture e attività accessorie. Non è una suddivisione obbligatoria per ogni contratto: è un modo per leggere il tuo budget e capire quali voci siano già comprese nel totale ricevuto."
+    },
+    {
+      "type": "p",
+      "text": "Evita di sommare due volte la stessa fornitura. Se i sanitari sono compresi nell'offerta dell'impresa e anche in una lista di acquisti personali, il budget può apparire più alto del necessario. Se invece sono esclusi da entrambi, il totale sarà incompleto. Per ogni voce indica un solo responsabile dell'acquisto e un riferimento che permetta di verificarne l'inclusione."
+    },
+    {
+      "type": "p",
+      "text": "Una colonna dedicata allo stato aiuta a distinguere importi confermati, stime provvisorie e voci ancora da quotare. «Da quotare» non vale zero. Finché manca un importo necessario, presenta il totale come parziale. Questo vale anche quando condividi la prima stima con la famiglia, una banca o un amministratore: chi legge deve sapere quale parte della spesa sia stata effettivamente considerata."
+    },
+    {
+      "type": "h2",
+      "text": "Perché il costo al metro quadrato può ingannare",
+      "id": "perche-il-costo-al-metro-quadrato-puo-ingannare"
+    },
+    {
+      "type": "p",
+      "text": "Supponiamo che due offerte riguardino lo stesso appartamento, ma una comprenda le forniture dei rivestimenti e l'altra soltanto la posa. Dividere entrambi i totali per la stessa superficie non risolve la differenza. Ottieni due rapporti aritmetici corretti, riferiti però a oggetti differenti. Prima rendi omogenei i servizi, poi usa l'indicatore come riepilogo, non come prova della convenienza."
+    },
+    {
+      "type": "p",
+      "text": "Anche il denominatore deve essere dichiarato. Superficie calpestabile, commerciale o di una singola lavorazione non sono intercambiabili. Scrivi quale misura hai usato e da quale documento provenga. Un prezzo riferito alla pittura delle pareti non può essere confrontato con uno riferito al pavimento dell'intero appartamento soltanto perché entrambi sono espressi in euro al metro quadrato."
+    },
+    {
+      "type": "h2",
+      "text": "Esempio: ricostruire due offerte prima di scegliere",
+      "id": "esempio-ricostruire-due-offerte-prima-di-scegliere"
+    },
+    {
+      "type": "p",
+      "text": "Immaginiamo un appartamento di 80 metri quadrati e un intervento definito con lo stesso progetto per entrambe le imprese. L'offerta A indica 48.000 euro e comprende alcune forniture; l'offerta B indica 44.000 euro ma le esclude. Supponiamo che quelle forniture abbiano una quotazione separata di 5.500 euro. Tutti gli importi dell'esercizio sono al netto dell'IVA e riguardano soltanto le voci indicate."
+    },
+    {
+      "type": "p",
+      "text": "Il confronto iniziale suggerirebbe una differenza di 4.000 euro a favore di B. Dopo aver aggiunto la fornitura esclusa, il perimetro confrontabile diventa 48.000 contro 49.500 euro. Se altre condizioni sono effettivamente equivalenti, A risulta inferiore di 1.500 euro sulle voci considerate. Non abbiamo ancora stabilito quale impresa scegliere: abbiamo corretto un confronto incompleto."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Voce illustrativa",
+        "Offerta A",
+        "Offerta B"
+      ],
+      "rows": [
+        [
+          "Totale iniziale dell'impresa",
+          "48.000 €",
+          "44.000 €"
+        ],
+        [
+          "Forniture escluse da aggiungere",
+          "0 €",
+          "5.500 €"
+        ],
+        [
+          "Totale sul perimetro confrontato",
+          "48.000 €",
+          "49.500 €"
+        ],
+        [
+          "Rapporto con 80 m²",
+          "600 €/m²",
+          "618,75 €/m²"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "I rapporti della tabella non sono fasce di mercato. Mancano inoltre le eventuali voci esterne al confronto, come prestazioni professionali o altri acquisti del proprietario. Il valore dell'esempio è poter ricostruire ogni passaggio. Se una fornitura cambia, aggiorna la riga interessata senza trasformare l'intero budget in un nuovo totale privo di spiegazioni."
+    },
+    {
+      "type": "h2",
+      "text": "Quantità e criteri di misura devono essere riconoscibili",
+      "id": "quantita-e-criteri-di-misura-devono-essere-riconoscibili"
+    },
+    {
+      "type": "p",
+      "text": "Per le lavorazioni a misura chiedi quali quantità siano state considerate e come saranno verificate. Se l'offerta usa importi a corpo, chiedi una descrizione sufficiente del perimetro assunto. La scelta della forma economica non elimina la necessità di capire cosa venga eseguito. Per gli effetti contrattuali delle condizioni proposte è opportuno confrontarsi con i professionisti che seguono l'intervento."
+    },
+    {
+      "type": "p",
+      "text": "Una quantità preliminare può essere appropriata nella prima fase, purché sia indicata come tale. Quando viene aggiornato il rilievo, controlla quali righe cambino. Evita di lasciare una vecchia quantità accanto al nuovo disegno. Nel registro conserva il riferimento della revisione e la ragione dell'aggiornamento, così una differenza economica non verrà attribuita genericamente a un aumento dei prezzi."
+    },
+    {
+      "type": "p",
+      "text": "Per le forniture a confezioni o con accessori usa anche il confronto dei [prezzi dei materiali e delle consegne](/articolo/prezzi-materiali-costruzione-2026/). Quantità netta, eccedenze motivate e arrotondamenti possono produrre importi diversi. La scelta deve rimanere collegata alla specifica tecnica: non sostituire un materiale con uno diverso soltanto per far coincidere una riga economica."
+    },
+    {
+      "type": "h2",
+      "text": "Materiali da scegliere: usa importi provvisori dichiarati",
+      "id": "materiali-da-scegliere-usa-importi-provvisori-dichiarati"
+    },
+    {
+      "type": "p",
+      "text": "Se una finitura non è stata selezionata, chiedi come venga rappresentata nel budget. Puoi tenere una voce provvisoria riconoscibile e aggiornarla quando esiste una quotazione pertinente. Indica se comprende solo la fornitura o anche accessori e posa. Non descrivere un prodotto come incluso senza averne definito almeno il perimetro necessario al confronto."
+    },
+    {
+      "type": "p",
+      "text": "Conserva campioni, codici e conferme delle scelte secondo le modalità concordate. Quando il proprietario cambia un materiale, chiedi quali effetti abbia su disponibilità, lavorazione e tempi. Una variazione estetica non è sempre indipendente dal resto. Il foglio economico dovrebbe mostrare differenza rispetto alla scelta precedente, documento approvato e conseguenze ancora da verificare."
+    },
+    {
+      "type": "h2",
+      "text": "Programma dei lavori: dipendenze prima dei giorni promessi",
+      "id": "programma-dei-lavori-dipendenze-prima-dei-giorni-promessi"
+    },
+    {
+      "type": "p",
+      "text": "Chiedi quali condizioni debbano essere soddisfatte per avviare e completare le fasi. Conferma del progetto, accessi, forniture e verifiche possono essere passaggi necessari. Non sommare soltanto i giorni di presenza delle squadre: un periodo di attesa tra lavorazioni può incidere sul calendario senza corrispondere a una giornata di attività continua."
+    },
+    {
+      "type": "p",
+      "text": "Per ogni fase registra inizio previsto, condizione di avvio, referente e attività successiva. Un programma preliminare deve essere aggiornato dopo le decisioni che lo modificano. Se scegli un prodotto con una consegna differente, chiedi quali lavorazioni possano proseguire e quali debbano attendere. Evita di trasformare la prima data discussa in una garanzia indipendente dalle condizioni dell'intervento."
+    },
+    {
+      "type": "h2",
+      "text": "Imprevisti e modifiche sono categorie diverse",
+      "id": "imprevisti-e-modifiche-sono-categorie-diverse"
+    },
+    {
+      "type": "p",
+      "text": "Un elemento scoperto durante una rimozione è diverso da una nuova richiesta del proprietario. Registra separatamente ciò che non era verificabile e ciò che è stato deciso dopo. In entrambi i casi servono descrizione, valutazione dell'effetto e approvazione secondo gli accordi. La parola «extra» non spiega da sola il motivo, la quantità o il costo di una variazione."
+    },
+    {
+      "type": "p",
+      "text": "Se prevedi una riserva economica, descrivine funzione e modalità d'uso con chi segue il progetto. Non esiste una percentuale universale che renda sicura qualsiasi ristrutturazione. La riserva non deve nascondere voci note ma non ancora quotate. Mantieni separati gli importi necessari già identificati e un margine destinato a circostanze non ancora definite."
+    },
+    {
+      "type": "h2",
+      "text": "Pagamenti e consegne: collega le scadenze a riferimenti chiari",
+      "id": "pagamenti-e-consegne-collega-le-scadenze-a-riferimenti-chiari"
+    },
+    {
+      "type": "p",
+      "text": "Leggi le condizioni economiche insieme al programma e alle forniture. Anticipi, scadenze e stati di avanzamento devono essere comprensibili nel contratto e nei documenti pertinenti. La pianificazione delle uscite è distinta dal costo totale: due offerte uguali possono richiedere disponibilità finanziarie in momenti diversi. Per valutarne gli effetti, fatti assistere dalle figure che seguono gli aspetti contrattuali e amministrativi."
+    },
+    {
+      "type": "p",
+      "text": "Nel foglio puoi registrare importo previsto, data o evento di riferimento e documento collegato. Non segnare come pagata una voce solo perché è stata richiesta né come completata una lavorazione solo perché esiste una fattura. Questi stati descrivono fatti differenti. La loro distinzione aiuta a leggere il quadro senza sostituire le verifiche tecniche e amministrative necessarie."
+    },
+    {
+      "type": "h2",
+      "text": "Come aggiornare il budget durante il cantiere",
+      "id": "come-aggiornare-il-budget-durante-il-cantiere"
+    },
+    {
+      "type": "p",
+      "text": "Conserva una versione iniziale approvata e un registro delle variazioni. Ogni modifica deve indicare voce interessata, differenza economica, motivo e conferma. Il nuovo totale deve essere ricostruibile a partire dal precedente. Una tabella che viene sovrascritta continuamente senza traccia rende difficile capire se l'aumento dipenda da una scelta, da una quantità aggiornata o da un'attività aggiuntiva."
+    },
+    {
+      "type": "p",
+      "text": "Rileggi il quadro quando si chiude una fase significativa, non soltanto alla fine. Controlla quali importi siano diventati definitivi e quali restino condizionati. Se una scelta viene rinviata, annota la data entro cui servirà per non interferire con il programma. Il budget è più utile quando accompagna le decisioni, invece di diventare una ricostruzione tardiva della spesa."
+    },
+    {
+      "type": "h2",
+      "text": "La scheda scaricabile per confrontare le offerte",
+      "id": "la-scheda-scaricabile-per-confrontare-le-offerte"
+    },
+    {
+      "type": "p",
+      "text": "Il [modello CSV del budget di ristrutturazione](/modelli/budget-ristrutturazione-confronto.csv) contiene l'esempio della guida e campi per inclusioni, esclusioni, quantità, revisioni e importi da verificare. È uno strumento originale di Corriere Edile, disponibile senza registrazione. Non contiene prezzi correnti, formule eseguibili o un contratto precompilato. Usalo per preparare domande e rendere leggibili le informazioni ricevute."
+    },
+    {
+      "type": "p",
+      "text": "Per il contesto statistico dei costi puoi consultare la [scheda ISTAT sul costo di costruzione residenziale](https://www.istat.it/scheda-qualita/indici-dei-costi-di-costruzione-di-un-fabbricato-residenziale/). Un indice descrive un andamento e non sostituisce la stima del tuo appartamento. La decisione richiede lavori identificati, documenti coerenti e condizioni di offerta riferite al caso reale. Sono questi elementi a dare significato al totale e al suo eventuale rapporto con la superficie."
+    },
+    {
+      "type": "h2",
+      "text": "Tre decisioni da prendere prima di chiedere una revisione",
+      "id": "tre-decisioni-da-prendere-prima-di-chiedere-una-revisione"
+    },
+    {
+      "type": "p",
+      "text": "Quando il totale supera il budget disponibile, parti dalle priorità definite stanza per stanza. Chiedi quali alternative possano essere valutate mantenendo i requisiti del progetto. Non eliminare informalmente verifiche o attività necessarie per ridurre una somma. Una revisione sensata modifica un perimetro identificato e deve essere riletta dalle figure competenti prima di essere confermata."
+    },
+    {
+      "type": "p",
+      "text": "La prima decisione riguarda ciò che può essere rinviato senza rendere incoerenti le opere già previste. Il rinvio di una finitura può avere effetti diversi dal rinvio di un impianto che richiede lavorazioni sulle stesse parti. Chiedi se il lavoro futuro comporterà nuove aperture, protezioni o ripristini. Il risparmio iniziale va letto insieme a queste conseguenze, senza inventare un costo futuro certo."
+    },
+    {
+      "type": "p",
+      "text": "La seconda decisione riguarda le alternative di fornitura. Se una scelta viene sostituita, indica prodotto precedente, prodotto proposto e differenza documentata. Fai verificare compatibilità e attività connesse prima di riportare il risparmio nel riepilogo. La terza riguarda l'organizzazione: modificare le fasi può aiutare alcune esigenze, ma deve essere discusso con chi esegue e coordina il lavoro."
+    },
+    {
+      "type": "p",
+      "text": "Conserva infine una lista delle decisioni che rimangono al proprietario, con una data concordata per ciascuna. Un budget può essere tecnicamente ben costruito e restare inutilizzabile se una scelta necessaria arriva troppo tardi. Il quadro economico e il programma devono quindi comunicare fra loro: la voce provvisoria deve avere un passaggio di definizione, e la conferma deve tornare a chi prepara ordine e lavorazioni."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Quanto costa ristrutturare una casa di 80 metri quadrati?",
+      "a": "La superficie non basta per determinare l'importo. Servono stato dell'immobile, lavorazioni, impianti, finiture e condizioni operative. L'esempio della guida riguarda soltanto un confronto aritmetico inventato e non indica una fascia di prezzo per una casa reale."
+    },
+    {
+      "q": "Il preventivo più basso è sempre il più conveniente?",
+      "a": "Prima verifica che le offerte comprendano lo stesso perimetro. Forniture, opere e servizi esclusi possono cambiare il totale. Dopo il confronto economico restano da valutare proposta tecnica, organizzazione, documenti e condizioni contrattuali."
+    },
+    {
+      "q": "Come si gestiscono le variazioni durante i lavori?",
+      "a": "Conserva una versione iniziale e registra ogni modifica con motivo, importo, riferimento e approvazione secondo gli accordi. Mantieni distinte nuove scelte e condizioni emerse durante il cantiere. Il totale aggiornato deve poter essere ricostruito."
+    }
+  ],
+  "tags": [
+    "Imprese",
+    "Organizzazione",
+    "Forniture"
+  ],
+  "related": [
+    "prezzi-materiali-costruzione-2026",
+    "tavole-progetto-revisioni-quote-sopralluogo",
+    "registro-chiarimenti-progetto-edile"
+  ]
+},
   {
     slug: "migliori-imprese-costruzioni-italia-2026",
     category: "Mercato",
