@@ -1,3 +1,4 @@
+import { applyEditorialRevisions } from "./revisions-20261127";
 import { condono2027 } from "./condono-2027";
 import { editorialNative } from "./editorial-native";
 /**
@@ -23,7 +24,7 @@ export const ALL_ARTICLES: FullArticle[] = [
   ...ARTICLES_21_26,
   ...ARTICLES_27_32,
   ...ARTICLES_33_40,
-].sort((a, b) => new Date(b.published).getTime() - new Date(a.published).getTime());
+].map(applyEditorialRevisions).sort((a, b) => new Date(b.published).getTime() - new Date(a.published).getTime());
 
 /** Articolo in evidenza: il più recente in assoluto. */
 export const FEATURED_ARTICLE: FullArticle = ALL_ARTICLES[0];
